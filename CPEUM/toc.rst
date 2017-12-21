@@ -839,3 +839,12 @@ DECRETO por el que se adiciona un tercer párrafo al Artículo 4o. de la
 Constitución Política de los Estados Unidos Mexicanos.
 
 .. include:: T091.rst
+
+Artículos Transitorios de Decretos de Reforma (92)
+--------------------------------------------------
+
+DECRETO por el que se adiciona con una fracción VIII el artículo 3o. de
+la Constitución Política de los Estados Unidos Mexicanos y cambia el
+número de la última fracción del mismo artículo.
+
+.. include:: T092.rst
