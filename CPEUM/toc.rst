@@ -848,3 +848,11 @@ la Constitución Política de los Estados Unidos Mexicanos y cambia el
 número de la última fracción del mismo artículo.
 
 .. include:: T092.rst
+
+Artículos Transitorios de Decretos de Reforma (93)
+--------------------------------------------------
+
+DECRETO por el que se reforma el Artículo 78 de la Constitución Política
+de los Estados Unidos Mexicanos.
+
+.. include:: T093.rst
