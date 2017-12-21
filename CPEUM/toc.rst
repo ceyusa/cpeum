@@ -864,3 +864,11 @@ DECRETO por el que se reforman los Artículos 29, 90 y 92 de la
 Constitución Política de los Estados Unidos Mexicanos.
 
 .. include:: T094.rst
+
+Artículos Transitorios de Decretos de Reforma (95)
+--------------------------------------------------
+
+DECRETO por el que se reforma la Fracción VIII del Artículo 117 de la
+Constitución Política de los Estados Unidos Mexicanos.
+
+.. include:: T095.rst
