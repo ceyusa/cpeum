@@ -889,3 +889,11 @@ adiciona los artículos 28 y 123, apartado B, de la Constitución Política
 de los Estados Unidos Mexicanos.
 
 .. include:: T097.rst
+
+Artículos Transitorios de Decretos de Reforma (98)
+--------------------------------------------------
+
+DECRETO por el que se reforma el párrafo segundo de la fracción IV del
+artículo 74 de la Constitución Política de los Estados Unidos Mexicanos.
+
+.. include:: T098.rst
