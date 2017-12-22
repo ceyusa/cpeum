@@ -897,3 +897,13 @@ DECRETO por el que se reforma el párrafo segundo de la fracción IV del
 artículo 74 de la Constitución Política de los Estados Unidos Mexicanos.
 
 .. include:: T098.rst
+
+Artículos Transitorios de Decretos de Reforma (99)
+--------------------------------------------------
+
+DECRETO de reformas y adiciones al Título Cuarto que comprende los
+artículos del 108 al 114; así como los artículos 22, 73 fracción VI base
+4a., 74 fracción V, 76 fracción VII, 94, 97, 127 y 134 de la
+Constitución Política de los Estados Unidos Mexicanos.
+
+.. include:: T099.rst
