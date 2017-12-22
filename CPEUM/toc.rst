@@ -872,3 +872,11 @@ DECRETO por el que se reforma la Fracción VIII del Artículo 117 de la
 Constitución Política de los Estados Unidos Mexicanos.
 
 .. include:: T095.rst
+
+Artículos Transitorios de Decretos de Reforma (96)
+--------------------------------------------------
+
+DECRETO por el que se reforma el Primer Párrafo del Artículo 60 de la
+Constitución Política de los Estado Unidos Mexicanos.
+
+.. include:: T096.rst
