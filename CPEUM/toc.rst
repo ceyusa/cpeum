@@ -880,3 +880,12 @@ DECRETO por el que se reforma el Primer Párrafo del Artículo 60 de la
 Constitución Política de los Estado Unidos Mexicanos.
 
 .. include:: T096.rst
+
+Artículos Transitorios de Decretos de Reforma (97)
+--------------------------------------------------
+
+DECRETO que modifica el artículo 73 en sus fracciones X y XVIII, y
+adiciona los artículos 28 y 123, apartado B, de la Constitución Política
+de los Estados Unidos Mexicanos.
+
+.. include:: T097.rst
