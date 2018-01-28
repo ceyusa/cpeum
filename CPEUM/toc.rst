@@ -923,3 +923,12 @@ DECRETO por el que se reforma el Artículo 21 de la Constitución Política
 de los Estados Unidos Mexicanos.
 
 .. include:: T101.rst
+
+Artículos Transitorios de Decretos de Reforma (102)
+---------------------------------------------------
+
+DECRETO que reforma y adiciona los artículos 16, 25, 26, 27, fracciones
+XIX y XX; 28, 73, fracciones XXIX-D; XXIX-E; y XXIX-F de la Constitución
+Política de los Estados Unidos Mexicanos.
+
+.. include:: T102.rst
