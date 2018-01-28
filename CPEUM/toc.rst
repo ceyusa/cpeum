@@ -932,3 +932,11 @@ XIX y XX; 28, 73, fracciones XXIX-D; XXIX-E; y XXIX-F de la Constitución
 Política de los Estados Unidos Mexicanos.
 
 .. include:: T102.rst
+
+Artículos Transitorios de Decretos de Reforma (103)
+---------------------------------------------------
+
+DECRETO por el que se reforma y adiciona el artículo 115 de la
+Constitución Política de los Estados Unidos Mexicanos.
+
+.. include:: T103.rst
