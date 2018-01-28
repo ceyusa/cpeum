@@ -907,3 +907,11 @@ artículos del 108 al 114; así como los artículos 22, 73 fracción VI base
 Constitución Política de los Estados Unidos Mexicanos.
 
 .. include:: T099.rst
+
+Artículos Transitorios de Decretos de Reforma (100)
+---------------------------------------------------
+
+DECRETO por el que se adiciona con un párrafo penúltimo el artículo
+4o. de la Constitución Política de los Estados Unidos Mexicanos.
+
+.. include:: T100.rst
