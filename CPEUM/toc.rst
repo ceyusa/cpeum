@@ -915,3 +915,11 @@ DECRETO por el que se adiciona con un párrafo penúltimo el artículo
 4o. de la Constitución Política de los Estados Unidos Mexicanos.
 
 .. include:: T100.rst
+
+Artículos Transitorios de Decretos de Reforma (101)
+---------------------------------------------------
+
+DECRETO por el que se reforma el Artículo 21 de la Constitución Política
+de los Estados Unidos Mexicanos.
+
+.. include:: T101.rst
