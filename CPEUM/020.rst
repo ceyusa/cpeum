@@ -3,20 +3,33 @@
 En todo juicio del orden criminal tendrá el acusado las siguientes
 garantías:
 
-I. Inmediatamente que lo solicite será puesto en libertad bajo fianza
-   que fijará el juez tomando en cuenta sus circunstancias personales y
-   la gravedad del delito que se le impute, siempre que dicho delito
-   merezca ser castigado con pena cuyo término medio aritmético no sea
-   mayor de cinco años de prisión, y sin más requisito que poner la suma
-   de dinero respectiva, a disposición de la autoridad u otorgar caución
-   hipotecaria o personal bastante para asegurarla, bajo las
-   responsabilidad del juez en su aceptación.
+I. Inmediatamente que lo solicite será puesto en libertad provisional
+   bajo caución, que fijará el Juzgador, tomando en cuenta sus
+   circunstancias personales y la gravedad del delito que se le impute,
+   siempre que dicho delito, incluyendo sus modalidades, merezca ser
+   sancionado con pena cuyo término medio aritmético no sea mayor de
+   cinco años de prisión, sin más requisito que poner la suma de dinero
+   respectiva, a disposición de la autoridad judicial, u otorgar otra
+   caución bastante para asegurarla, bajo la responsabilidad del
+   Juzgador en su aceptación.
 
-   En ningún caso la fianza o caución será mayor de $250,000.00, a no
-   ser que se trate de un delito que represente para su autor un
-   beneficio económico o cause a la víctima un daño patrimonial, pues en
-   estos casos la garantía será, cuando menos, tres veces mayor al
-   beneficio obtenido o al daño ocasionado.
+   La caución no excederá de la cantidad equivalente a la percepción
+   durante dos años del salario mínimo general vigente en el lugar en
+   que se cometió el delito. Sin embargo, la Autoridad Judicial, en
+   virtud de la especial gravedad del delito, las particulares
+   circunstancias personales del imputado o de la víctima, mediante
+   resolución motivada, podrá incrementar el monto de la caución hasta
+   la cantidad equivalente a la percepción durante cuatro años del
+   salario mínimo vigente en el lugar en que se cometió el delito.
+
+   Si el delito es intencional y representa para su autor un beneficio
+   económico o causa a la víctima daño y perjuicio patrimonial, la
+   garantía será cuando menos tres veces mayor al beneficio obtenido o a
+   los daños y perjuicios patrimoniales causados.
+
+   Si el delito es preterintencional o imprudencial, bastará que se
+   garantice la reparación de los daños y perjuicios patrimoniales, y se
+   estará a lo dispuesto en los dos párrafos anteriores.
 
 II. No podrá ser compelido a declarar en su contra, por lo cual queda
     rigurosamente prohibida toda incomunicación o cualquier otro medio

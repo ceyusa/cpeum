@@ -948,3 +948,11 @@ DECRETO por el que se reforma el artículo 4o. de la Constitución
 Política de los Estados Unidos Mexicanos.
 
 .. include:: T104.rst
+
+Artículos Transitorios de Decretos de Reforma (105)
+---------------------------------------------------
+
+DECRETO por el que se reforma la fracción I del Artículo 20 de la
+Constitución Política de los Estados Unidos Mexicanos.
+
+.. include:: T105.rst
