@@ -1,6 +1,6 @@
 **Artículo 107**
 
-Todas las controversias de que habla el artículo 103 se sujetarán a los
+Todas las controversias de que habla el Artículo 103 se sujetarán a los
 procedimientos y formas del orden jurídico que determine la ley, de
 acuerdo con las bases siguientes:
 
@@ -12,32 +12,29 @@ II. La sentencia será siempre tal, que sólo se ocupe de individuos
     especial sobre el que verse la queja, sin hacer una declaración
     general respecto de la ley o acto que la motivare.
 
-    Podrá suplirse la deficiencia de la queja, cuando el acto reclamado
-    se funde en leyes declaradas inconstitucionales por la
-    jurisprudencia de la Suprema Corte de Justicia.
+    En el juicio de amparo deberá suplirse la deficiencia de la queja de
+    acuerdo con lo que disponga la Ley Reglamentaria de los Artículos
+    103 y 107 de esta Constitución.
 
-    Podrá suplirse la deficiencia de la queja en los juicios de amparo
-    contra actos que afecten derechos de menores o incapaces, de acuerdo
-    con los que disponga la Ley Reglamentaria de los artículos 103 y 107
-    de esta Constitución.
+    Cuando se reclamen actos que tengan o puedan tener como consecuencia
+    privar de la propiedad o de la posesión y disfrute de sus tierras,
+    aguas, pastos y montes a los ejidos o a los núcleos de población que
+    de hecho o por derecho guarden el estado comunal, o a los
+    ejidatarios o comuneros, deberán recabarse de oficio todas aquellas
+    pruebas que puedan beneficiar a las entidades o individuos
+    mencionados y acordarse las diligencias que se estimen necesarias
+    para precisar sus derechos agrarios, así como la naturaleza y
+    efectos de los actos reclamados.
 
-    Podrá también suplirse la deficiencia de la queja en materia penal y
-    la de la parte obrera en materia de trabajo, cuando se encuentre que
-    ha habido, en contra del agraviado, una violación, manifiesta de la
-    ley que lo ha dejado sin defensa, y en materia penal, además, cuando
-    se le haya juzgado por una ley que no exactamente aplicable al caso.
-
-    En los juicios de amparo en que se reclamen actos que tengan o
-    puedan tener como consecuencia privar de la propiedad o de la
-    posesión y disfrute de sus tierras, aguas, pastos y montes a los
-    ejidos y a los núcleos de población que de hecho o por derecho
-    guarden el estado comunal, o a los ejidatarios o comuneros, deberá
-    suplirse la deficiencia de la queja de acuerdo con lo que disponga
-    la Ley Reglamentaria de los artículos 103 y 107 de esta
-    Constitución, y no procederán, en ningún caso, la caducidad de la
-    instancia ni el sobreseimiento por inactividad procesal. Tampoco
-    será procedente el desistimiento cuando se afecten derechos de los
-    ejidos o núcleos de población comunal;
+    En los juicios a que se refiere el párrafo anterior no procederán,
+    en perjuicio de los núcleos ejidales o comunales, o de los
+    ejidatarios o comuneros, el sobreseimiento por inactividad procesal
+    ni la caducidad de la instancia, pero uno y otra sí podrán
+    decretarse en su beneficio. Cuando se reclamen actos que afecten los
+    derechos colectivos del núcleo tampoco procederán el desistimiento
+    ni el consentimiento expreso de los propios actos, salvo que el
+    primero sea acordado por la Asamblea General o el segundo emane de
+    ésta.
 
 III. Cuando se reclamen actos de tribunales judiciales administrativos o
      del trabajo, el amparo sólo procederá en los casos siguientes:

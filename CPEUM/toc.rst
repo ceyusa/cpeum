@@ -972,3 +972,11 @@ DECRETO por el que se reforman los Artículos 65, 66 y 69 de la
 Constitución Política de los Estados Unidos Mexicanos.
 
 .. include:: T107.rst
+
+Artículos Transitorios de Decretos de Reforma (108)
+---------------------------------------------------
+
+DECRETO por el que se reforman los Artículos 106 y 107, Fracción II de
+la Constitución Política de los Estados Unidos Mexicanos.
+
+.. include:: T108.rst
