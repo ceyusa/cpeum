@@ -940,3 +940,11 @@ DECRETO por el que se reforma y adiciona el artículo 115 de la
 Constitución Política de los Estados Unidos Mexicanos.
 
 .. include:: T103.rst
+
+Artículos Transitorios de Decretos de Reforma (104)
+---------------------------------------------------
+
+DECRETO por el que se reforma el artículo 4o. de la Constitución
+Política de los Estados Unidos Mexicanos.
+
+.. include:: T104.rst
