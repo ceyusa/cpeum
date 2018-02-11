@@ -964,3 +964,11 @@ DECRETO por el que se adiciona el Artículo 79 de la Constitución
 Política de los Estados Unidos Mexicanos.
 
 .. include:: T106.rst
+
+Artículos Transitorios de Decretos de Reforma (107)
+---------------------------------------------------
+
+DECRETO por el que se reforman los Artículos 65, 66 y 69 de la
+Constitución Política de los Estados Unidos Mexicanos.
+
+.. include:: T107.rst
