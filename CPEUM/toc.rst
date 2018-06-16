@@ -990,3 +990,11 @@ Décimo Octavo Transitorio de la Constitución Política de los Estados
 Unidos Mexicanos.
 
 .. include:: T109.rst
+
+Artículos Transitorios de Decretos de Reforma (110)
+---------------------------------------------------
+
+DECRETO por el que se reforma la fracción VI del inciso A) del Artículo
+123 de la Constitución General de la República.
+
+.. include:: T110.rst
