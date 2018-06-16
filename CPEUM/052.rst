@@ -2,7 +2,6 @@
 
 La Cámara de Diputados estará integrada por 300 diputados electos según
 el principio de votación mayoritaria relativa, mediante el sistema de
-distritos electorales uninominales y hasta 100 diputados que serán
-electos según el principio de representación proporcional, mediante el
-sistema de listas regionales, votadas en circunscripciones
-plurinominales.
+distritos electorales uninominales, y 200 diputados que serán electos
+según el principio de representación proporcional, mediante el Sistema
+de Listas Regionales, votadas en circunscripcionales plurinominales.

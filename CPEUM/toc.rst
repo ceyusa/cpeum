@@ -980,3 +980,13 @@ DECRETO por el que se reforman los Artículos 106 y 107, Fracción II de
 la Constitución Política de los Estados Unidos Mexicanos.
 
 .. include:: T108.rst
+
+Artículos Transitorios de Decretos de Reforma (109)
+---------------------------------------------------
+
+DECRETO por el que se reforman los Artículos 52; 53, Segundo Párrafo;
+54, Primer Párrafo y Fracciones II, III y IV; 56; 60; 77, Fracción IV y
+Décimo Octavo Transitorio de la Constitución Política de los Estados
+Unidos Mexicanos.
+
+.. include:: T109.rst
