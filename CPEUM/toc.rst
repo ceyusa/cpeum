@@ -1006,3 +1006,11 @@ DECRETO por el que se reforman los Artículo 17, 46, 115, y 116 de la
 Constitución Política de los Estados Unidos Mexicanos.
 
 .. include:: T111.rst
+
+Artículos Transitorios de Decretos de Reforma (112)
+---------------------------------------------------
+
+DECRETO por el que se reforma el párrafo sexto de la fracción IV del
+Artículo 74 de la Constitución General de la República.
+
+.. include:: T112.rst
