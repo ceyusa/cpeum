@@ -1048,3 +1048,12 @@ Décimo Noveno Transitorio a la Constitución Política de los Estados
 Unidos Mexicanos.
 
 .. include:: T115.rst
+
+Artículos Transitorios de Decretos de Reforma (116)
+---------------------------------------------------
+
+DECRETO por el que se reforma el párrafo tercero del artículo 27; y se
+adiciona una fracción XXIX-G al artículo 73 de la Constitución Política
+de los Estados Unidos Mexicanos.
+
+.. include:: T116.rst
