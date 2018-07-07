@@ -1029,3 +1029,13 @@ fracción IX del artículo 107 de la Constitución Política de los Estados
 Unidos Mexicanos.
 
 .. include:: T113.rst
+
+Artículos Transitorios de Decretos de Reforma (114)
+---------------------------------------------------
+
+DECRETO por el que se reforman los artículos 73 fracción VI, 79 fracción
+V, 89 fracciones II y XVII, 110 primer párrafo, 111 primer párrafo y
+127; y se deroga la fracción Vi del artículo 74 de la Constitución
+Política de los Estados Unidos Mexicanos.
+
+.. include:: T114.rst

@@ -5,13 +5,13 @@ Las facultades y obligaciones del Presidente son las siguientes:
 I. Promulgar y ejecutar las leyes que expida el Congreso de la Unión,
    proveyendo en la esfera administrativa a su exacta observancia.
 
-II. Nombrar y remover libremente a los secretarios del Despacho, al
-    Procurador General de la República, al Gobernador del Distrito
-    Federal, al Procurador General de Justicia del Distrito Federal,
-    remover a los agentes diplomáticos y empleados superiores de
-    Hacienda y nombrar y remover libremente a los demás empleados de la
-    Unión, cuyo nombramiento o remoción no estén determinados de otro
-    modo en la Constitución o en las leyes.
+II. Nombrar y remover libremente a los Secretarios del despacho, al
+    Procurador General de la República, al titular del órgano u órganos
+    por el que se ejerza el gobierno en el Distrito Federal, remover a
+    los agentes diplomáticos y empleados superiores de Hacienda y
+    nombrar y remover libremente a los demás empleados de la Unión, cuyo
+    nombramiento o remoción no esté determinado de otro modo en la
+    Constitución o en las leyes;
 
 III. Nombrar los ministros, agentes diplomáticos y cónsules generales,
      con aprobación del Senado.
@@ -61,8 +61,8 @@ XVI. Cuando la Cámara de Senadores no esté en sesiones, el Presidente de
      fracciones III y IV, con aprobación de la Comisión Permanente.
 
 XVII. Nombrar magistrados del Tribunal Superior de Justicia del Distrito
-      Federal y someter los nombramientos a la aprobación de la Cámara
-      de Diputados, o de la Comisión Permanente, en su caso;
+      Federal y someter los nombramientos a la aprobación de la Asamblea
+      de Representantes del Distrito Federal;
 
 XVIII. Nombrar Ministros de la Suprema Corte de Justicia y someter los
        nombramientos, las licencias y las renuncias de ellos, a la
