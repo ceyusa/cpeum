@@ -1039,3 +1039,12 @@ V, 89 fracciones II y XVII, 110 primer párrafo, 111 primer párrafo y
 Política de los Estados Unidos Mexicanos.
 
 .. include:: T114.rst
+
+Artículos Transitorios de Decretos de Reforma (115)
+---------------------------------------------------
+
+DECRETO por el que se reforma el artículo 78; y se adiciona el artículo
+Décimo Noveno Transitorio a la Constitución Política de los Estados
+Unidos Mexicanos.
+
+.. include:: T115.rst
