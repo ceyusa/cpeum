@@ -1014,3 +1014,18 @@ DECRETO por el que se reforma el párrafo sexto de la fracción IV del
 Artículo 74 de la Constitución General de la República.
 
 .. include:: T112.rst
+
+Artículos Transitorios de Decretos de Reforma (113)
+---------------------------------------------------
+
+DECRETO por el que ese adicionan la fracción XXIX-H al artículo 73, la
+fracción I-B al artículo 104 y un párrafo final a la fracción V del
+artículo 107; se reforma el artículo 94, los párrafos primero y segundo
+del artículo 97, el artículo 101, el inciso a) de la fracción III, el
+primer párrafo y el inciso b) de la fracción V y las fracciones VI, VIII
+y XI del artículo 107; y se derogan los párrafos segundo, tercero y
+cuarto de la fracción I del artículo 104 y el segundo párrafo de la
+fracción IX del artículo 107 de la Constitución Política de los Estados
+Unidos Mexicanos.
+
+.. include:: T113.rst

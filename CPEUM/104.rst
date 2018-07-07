@@ -11,26 +11,22 @@ I. De todas las controversias del orden civil o criminal que se susciten
    sentencias de primera instancia podrán ser apelables para ante el
    superior inmediato del juez que conozca del asunto en primer grado.
 
-   Las leyes federales podrán instituir tribunales de lo
-   contencioso-administrativo dotados de plena autonomía para dictar sus
-   fallos, que tengan a su cargo dirimir las controversias que se
-   susciten entre la Administración Pública Federal o del Distrito
-   Federal, y los particulares, estableciendo las normas para su
-   organización, su funcionamiento, el procedimiento y los recursos
-   contra sus resoluciones.
-
-   Procederá el recurso de revisión ante la Suprema Corte de Justicia
-   contra las resoluciones definitivas de dichos tribunales
-   administrativos, sólo en los casos que señalen las leyes federales, y
-   siempre que esas resoluciones hayan sido dictadas como consecuencia
-   de un recurso interpuesto dentro de la jurisdicción
-   contencioso-administrativa.
-
    La revisión se sujetará a los trámites que la Ley Reglamentaria de
    los artículos 103 y 107 de esta Constitución fije para la revisión en
    amparo indirecto, y la resolución que en ella dicte la Suprema Corte
    de Justicia, quedará sujeta a las normas que regulan la ejecutoriedad
    y cumplimento de las sentencia de amparo;
+
+I. **B**. De los recursos de revisión que se interpongan contra las
+   resoluciones definitivas de los tribunales de lo contencioso
+   administrativo a que se refiere la fracción XXIX-H del artículo 73 de
+   esta Constitución, sólo en los casos que señalen las leyes. Las
+   revisiones, de las cuales conocerán los tribunales colegiados de
+   circuito, se sujetarán a los trámites que la ley reglamentaria de los
+   Artículos 103 y 107 de esta Constitución fije para la revisión en
+   ampara indirecto, y en contra de las resoluciones que en ella dicten
+   los tribunales colegiados de circuito no procederá juicio o recurso
+   alguno;
 
 II.  De todas las controversias que versen sobre derecho marítimo;
 

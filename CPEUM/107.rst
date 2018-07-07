@@ -39,18 +39,18 @@ II. La sentencia será siempre tal, que sólo se ocupe de individuos
 III. Cuando se reclamen actos de tribunales judiciales administrativos o
      del trabajo, el amparo sólo procederá en los casos siguientes:
 
-     a. Contra sentencias definitivas o laudos respecto de los cuales no
-        proceda ningún recurso ordinario por el que puedan ser
-        modificados o reformados, ya sea que la violación se cometa en
-        ellos, o que, cometida durante el procedimiento afecte a las
-        defensas del quejoso, trascendiendo el resultado del fallo;
-        siempre que en materia civil haya sido impugnada la violación en
-        el curso del procedimiento mediante el recurso ordinario
-        establecido por la ley e invocada como agravio en la segunda
-        instancia, si se cometió en la primera. Estos requisitos no
-        serán exigibles en el amparo contra sentencia dictadas en
-        controversias sobre acción del estado civil o que afecten al
-        orden y a la estabilidad de la familia.
+     a. Contra sentencia definitivas o laudos y resoluciones que pongan
+        fin al juicio, respecto de las cuales no proceda ningún recurso
+        ordinario por el que puedan ser modificados o reformados, ya sea
+        que la violación se cometa o ello o que, cometida durante el
+        procedimiento, afecta a la defensas del quejoso, trascendiendo
+        al resultado del fallo; siempre que en materia civil haya sido
+        impugnada la violación en el curso del procedimiento mediante el
+        recurso ordinario establecido por la ley e invocada como agrario
+        en la segunda instancia, si se cometió en la primera. Estos
+        requisitos no serán exigibles en el amparo contra sentencias
+        dictadas en controversias sobre acciones del estado civil o que
+        afecten al orden y a las estabilidad de la familia;
 
      b. Contra actos en juicio cuya ejecución de imposible reparación,
         fuera de juicio o después de concluido, una vez agotados los
@@ -66,22 +66,22 @@ IV. En materia administrativa el amparo procede, además, contra
     Reglamentaria del Juicio de Amparo requiera como condición para
     decretar esa suspensión;
 
-V. El amparo contra sentencias definitivas o laudos, sea que la
-   violación se cometa durante el procedimiento o en la sentencia misma,
-   se promoverá directamente ante la Suprema Corte de Justicia o ante el
-   Tribunal Colegiado de Circuito que corresponda, conforme a
-   Distribución de competencias que establezcan la Ley Orgánica del
-   Poder Judicial de la Federación o la Ley Reglamentaria de los
-   artículos 103 y 107 de esta Constitución, en los casos siguientes:
+V. El amparo contra sentencias definitivas o laudos y resoluciones que
+   pongan fin juicio, o sea que la violación se cometa durante el
+   procedimiento o en la sentencia misma promoverá ante el tribunal
+   colegiado de circuito que corresponda, conforme a la distribución de
+   competencias que establezca la Ley Orgánica del Poder Judicial de la
+   Federación, en los casos siguientes:
 
    a. En materia penal, contra resoluciones definitivas dictadas por
       tribunales judiciales, sean éstos federales, del orden común o
       militares.
 
    b. En materia administrativa, cuando se reclamen por particulares
-      sentencias definitivas dictada por tribunales federales,
-      administrativos o judiciales, no reparables por algún recurso,
-      juicio o medio ordinario de defensa legal.
+      sentencias definitivas y resoluciones que ponen fin al juicio
+      dictadas por tribunales administrativos o juicios especiales, no
+      reparables por algún recurso, juicio o medio ordinario de defensa
+      legal;
 
    c. En materia civil, cuando se reclamen sentencias definitivas
       dictadas en juicios del orden federal o en juicios mercantiles,
@@ -97,11 +97,16 @@ V. El amparo contra sentencias definitivas o laudos, sea que la
       Tribunal Federal de Conciliación y Arbitraje de los Trabajadores
       al Servicio del Estado:
 
-VI. En los casos a que se refiere la fracción anterior, la Ley
-    Reglamentaria de los artículos 103 y 107 de esta Constitución
-    señalará el trámite y los términos a que deberán someterse tanto la
-    Suprema Corte de Justicia como los Tribunales Colegiados de Circuito
-    para dictar sus respectivas resoluciones;
+   La Suprema Corte de Justicia de oficio o a petición fundada del
+   correspondiente Tribunal Colegiado de Circuito, o del Procurador
+   General de la República, podrá conocer de los amparos directos que
+   por sus características especiales así lo ameriten.
+
+VI. En los casos a que se refiere la fracción anterior, la ley
+    reglamentaria de los artículos 103 y 107 de esta Constitución
+    señalará trámite y los términos a que deberán someterse los
+    tribunales colegiados de circuito y, en caso, la Suprema Corte de
+    Justicia, para dictar sus respectivas resoluciones;
 
 VII. El amparo contra actos en juicio, fuera de juicio o después de
      concluido, o que afecten a personas extrañas al juicio, contra
@@ -116,36 +121,28 @@ VII. El amparo contra actos en juicio, fuera de juicio o después de
      sentencia;
 
 VIII. Contra las sentencias que pronuncien en amparo los jueces de
-      Distrito, procede revisión. De ella conocerá la Suprema Corte de
-      Justicia:
+      distrito, procede revisión. De ella conocerá la Suprema Corte de
+      justicia.
 
-      a. Cuando se impugne una ley por estimarla inconstitucional.
+      a. Cuando habiéndose impugnado en la demanda de amparo, por
+         estimarlos directamente violatorios de esta Constitución, leyes
+         federales o locales, tratados internacionales, reglamentos
+         expedidos por el Presidente de la República de acuerdo con la
+         fracción I del artículo 89 de esta Constitución y Reglamentos
+         de leyes locales expedidos por los gobernadores de los Estados,
+         subsista en el recurso el problema de constitucionalidad;
 
-      b. Cuando se trate de los cases comprendidos en las fracciones II
+      b. Cuando se trate de los casos comprendidos en las fracciones II
          y III del artículo 103 de esta Constitución.
 
-      c. Cuando se reclamen del Presidente de la República, por
-         estimarlos, inconstitucionales, reglamentos en materia federal
-         expedidos de acuerdo con el artículo 89, fracción I, de esta
-         Constitucional.
+      La Suprema Corte de Justicia de oficio o a petición fundada del
+      correspondiente Tribunal Colegiado de Circuito, o del Procurador
+      General de la República, podrá conocer de los amparos en revisión
+      que por sus características especiales así lo ameriten.
 
-      d. Cuando, en materia agraria, se reclamen actos de cualquiera
-         autoridad que afecten a núcleos ejidales o comunales con sus
-         derechos colectivos o a la pequeña propiedad.
-
-      e. Cuando la autoridad responsable, en amparo administrativo sea
-         federal, con las limitaciones que en materia de competencia
-         establezca la ley, y
-
-      f. Cuando, en materia penal, se reclame solamente la violación del
-         artículo 22 de esta Constitución.
-
-      En los casos no previstos en los incisos anteriores, así como en
-      los amparos promovidos contra actos de las autoridades
-      administrativas, constituidas conforme a la fracción VI, base
-      primera del artículo 73 de esta Constitución, conocerán de la
-      revisión los Tribunales Colegiados de Circuito y sus sentencias no
-      admitirán recurso alguno;
+      En lo casos no previstos en los párrafos anteriores, conocerán de
+      la revisión los tribunales colegiados de circuito y sus sentencias
+      no admitirán recurso alguno;
 
 IX. Las resoluciones que en materia de amparo directo pronuncien los
     Tribunales Colegiados de Circuito no admiten recurso alguno, a menos
@@ -154,11 +151,6 @@ IX. Las resoluciones que en materia de amparo directo pronuncien los
     que serán recurribles ante la Suprema Corte de Justicia, limitándose
     la materia del recurso exclusivamente a la decisión de las
     cuestiones propiamente constitucionales.
-
-    La resolución del Tribunal Colegiado de Circuito no será recurrible
-    cuando se funde en la jurisprudencia que haya establecido la Suprema
-    Corte de Justicia sobre la constitucionalidad de una ley o la
-    interpretación directa de un precepto de la Constitución;
 
 X. Los actos reclamados podrán ser objeto de suspensión en los casos y
    mediante las condiciones y garantías que determine la ley, para lo
@@ -176,13 +168,13 @@ X. Los actos reclamados podrán ser objeto de suspensión en los casos y
    concediese el amparo, y a pagar los daños y perjuicios consiguientes;
 
 XI. La suspensión se pedirá ante la autoridad responsable cuando se
-    trate de amparos directos ante la Suprema Corte de Justicia o los
-    Tribunales Colegiados de Circuito, en cuyo caso el agraviado le
-    comunicará a la propia autoridad responsable, dentro del término que
-    fije la ley y bajo protesta de decir verdad, la interposición del
-    amparo, acompañado dos copias de la demanda, un para el expediente y
-    otra que se entregará a la parte contraria. En los demás casos,
-    conocerán y resolverán sobre la suspensión los Juzgados de Distrito;
+    trate de amparos directos promovidos ante los tribunales colegiados
+    de circuito, y la propia autoridad responsable decidirá al respecto;
+    en todo caso, el agraviado deberá presentar la demanda de amparo
+    ante la propia autoridad responsable, acompañando copias de la
+    demanda para las demás partes en el juicio, incluyendo al Ministerio
+    Público y una para el expediente. En lo demás casos, conocerán y
+    resolverán sobre la suspensión los juzgados de distrito.
 
 XII. La violación de las garantías de los artículos 16, en materia
      penal, 19 y 20 se reclamará ante el superior del tribunal que la
