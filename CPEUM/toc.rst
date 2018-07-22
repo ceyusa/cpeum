@@ -1075,3 +1075,13 @@ los artículos transitorios 17, 18 y 19, todos de la Constitución
 Política de los Estados Unidos Mexicanos.
 
 .. include:: T118.rst
+
+Artículos Transitorios de Decretos de Reforma (119)
+---------------------------------------------------
+
+DECRETO que deroga el párrafo quinto del Artículo 28, modifica y
+adiciona el inciso a) de la fracción XXXI del apartado A del Artículo
+123 y reforma la fracción XIII bis del apartado B del Artículo 123 de la
+Constitución Política de los Estados Unidos Mexicanos.
+
+.. include:: T119.rst
