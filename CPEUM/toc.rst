@@ -1065,3 +1065,13 @@ DECRETO por el que se reforma la Fracción X del Artículo 89 de la
 Constitución Política de los Estados Unidos Mexicanos.
 
 .. include:: T117.rst
+
+Artículos Transitorios de Decretos de Reforma (118)
+---------------------------------------------------
+
+DECRETO por el que se reforman y adicionan los artículos 5, 35 fracción
+III, 36 fracción I, 41, 54, 60 y 73 fracción VI, base 3a. y se derogan
+los artículos transitorios 17, 18 y 19, todos de la Constitución
+Política de los Estados Unidos Mexicanos.
+
+.. include:: T118.rst
