@@ -1085,3 +1085,11 @@ adiciona el inciso a) de la fracción XXXI del apartado A del Artículo
 Constitución Política de los Estados Unidos Mexicanos.
 
 .. include:: T119.rst
+
+Artículos Transitorios de Decretos de Reforma (120)
+---------------------------------------------------
+
+DECRETO por el que se reforma el artículo 27 de la Constitución Política
+de los Estados Unidos Mexicanos.
+
+.. include:: T120.rst
