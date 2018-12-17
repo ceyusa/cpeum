@@ -1093,3 +1093,12 @@ DECRETO por el que se reforma el artículo 27 de la Constitución Política
 de los Estados Unidos Mexicanos.
 
 .. include:: T120.rst
+
+Artículos Transitorios de Decretos de Reforma (121)
+---------------------------------------------------
+
+DECRETO por el que se reforman los artículos 3o., 5o., 24, 27, 130 y se
+adiciona el Artículo Decimoséptimo Transitorio de la Constitución
+Política de los Estados Unidos Mexicanos.
+
+.. include:: T121.rst
