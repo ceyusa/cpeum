@@ -1102,3 +1102,11 @@ adiciona el Artículo Decimoséptimo Transitorio de la Constitución
 Política de los Estados Unidos Mexicanos.
 
 .. include:: T121.rst
+
+Artículos Transitorios de Decretos de Reforma (122)
+---------------------------------------------------
+
+DECRETO por el que se reforma el Artículo 4o. de la Constitución
+Política de los Estados Unidos Mexicanos.
+
+.. include:: T122.rst
