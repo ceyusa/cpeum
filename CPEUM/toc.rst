@@ -1150,3 +1150,11 @@ DECRETO por el que se reforman los artículos 65 y 66 de la Constitución
 Política de los Estados Unidos Mexicanos.
 
 .. include:: T127.rst
+
+Artículos Transitorios de Decretos de Reforma (128)
+---------------------------------------------------
+
+DECRETO por el que se reforman los artículos 41, 54, 56, 60, 63, 74 y
+100 de la Constitución Política de los Estados Unidos Mexicanos.
+
+.. include:: T128.rst

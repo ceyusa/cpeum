@@ -1,8 +1,8 @@
 **Artículo 54**
 
 La elección de los 200 diputados según el principio de representación
-proporcional y el sistema de listas regionales se sujetará a las
-siguientes bases y reglas y a lo que disponga la ley:
+proporcional y el sistema de asignación por listas regionales, se
+sujetará a las siguientes bases y a lo que disponga la ley:
 
 I. Un partido político para obtener el registro de sus listas regionales
    deberá acreditar que participa con candidatos a diputados por mayoría
@@ -15,40 +15,34 @@ II. Todo partido político que alcance por lo menos el uno y medio por
     proporcional;
 
 III. Al partido político que cumpla con lo dispuesto por las dos bases
-     anteriores le serán asignados diputados por el principio de
-     representación proporcional. La ley establecerá la fórmula para la
-     asignación. Además, en la asignación se seguirá el orden que
-     tuviesen los candidatos en las listas correspondientes;
+     anteriores, adicionalmente a las constancias de mayoría relativa
+     que hubiesen obtenido sus candidatos, les serán asignados por el
+     principio de representación proporcional, de acuerdo con su
+     votación nacional emitida, el número de diputados de su lista
+     regional que le corresponda en cada circunscripción
+     plurinominal. En la asignación se seguirá el orden que tuviesen los
+     candidatos en las listas correspondientes;
 
-IV. En todo caso, para el otorgamiento de las constancias de asignación
-    se observarán las siguientes reglas:
+IV. En ningún caso un partido político podrá contar con más de 315
+    diputados por ambos principios;
 
-    a. Ningún partido político podrá contar con más de trescientos
-       cincuenta diputados electos mediante ambos principios;
+V. El partido político que haya obtenido más del 60% de la votación
+   nacional emitida, tendrá derecho a que se le asignen diputados por el
+   principio de representación proporcional, hasta que el número de
+   diputados por ambos principios sea igual a su porcentaje de votación
+   nacional emitida sin rebasar el límite señalado en la fracción IV de
+   este artículo;
 
-    b. Si ningún partido político obtiene por lo menos el treinta y
-       cinco por ciento de la votación nacional emitida, a todos los
-       partidos políticos que cumplan con lo dispuesto en las dos bases
-       anteriores le será otorgada constancia de asignación por el
-       número de diputados que se requiera para que su representación en
-       la Cámara, por ambos principios, corresponda en su caso, al
-       porcentaje de votos obtenido.
+VI. Ningún partido político que haya obtenido el 60% o menos de la
+    votación nacional emitida podrá contar con más de 300 diputados por
+    ambos principios; y
 
-    c. Al partido político que obtenga el mayor número de constancias de
-       mayoría y un treinta y cinco por ciento de la votación nacional,
-       le será otorgada constancia de asignación de diputados en número
-       suficiente para alcanzar la mayoría absoluta de la Cámara. Se le
-       asignarán también dos diputados de representación proporcional,
-       adicionalmente a la mayoría absoluta, por cada uno por ciento de
-       votación obtenida por encima del treinta y cinco por ciento y
-       hasta menos del sesenta por ciento, en la forma que determine la
-       ley.
-
-    d. El partido político que obtenga entre el sesenta por ciento y el
-       setenta por ciento de la votación nacional, y su número de
-       constancias de mayoría relativa represente un porcentaje del
-       total de la Cámara inferior a su porcentaje de votos, tendrá
-       derecho a participar en la distribución de diputados electos
-       según el principio de representación proporcional hasta que la
-       suma de diputados obtenidos por ambos principios represente el
-       mismo porcentaje de votos.
+VII. En los términos de lo establecido en las fracciones III, IV, V y VI
+     anteriores, las diputaciones de representación proporcional que
+     resten después de asignar las que correspondan al partido político
+     que se halle en los supuestos de las fracciones V o VI, se
+     adjudicarán a los demás partidos políticos con derecho a ello en
+     cada una de las circunscripciones plurinominales, en proporción
+     directa con las respectivas votaciones nacionales de estos
+     últimos. La ley desarrollará las reglas y fórmulas necesarias para
+     estos efectos.

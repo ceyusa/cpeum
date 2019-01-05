@@ -25,6 +25,9 @@ actividades tendientes a la obtención del sufragio popular.
 Los partidos políticos nacionales tendrán derecho a participar en las
 elecciones estatales y municipales.
 
+La ley establecerá las reglas a que se sujetarán el financiamiento de
+los partidos políticos y sus campañas electorales.
+
 La organización de las elecciones federales es una función estatal que
 se ejerce por los Poderes Legislativo y Ejecutivo de la Unión, con la
 participación de los partidos políticos nacionales y de los ciudadanos
@@ -56,22 +59,48 @@ políticos. Las sesiones de todos los órganos colegiados electorales
 serán públicas en los términos que disponga la ley.
 
 La ley establecerá un sistema de medios de impugnación de los que
-conocerán el organismo público y un tribunal autónomo que será órgano
-jurisdiccional en materia electoral. Dicho sistema dará definitividad a
-las distintas etapas de los procesos electorales y garantizará que los
-actos y resoluciones electorales se sujeten invariablemente al principio
-de legalidad.
+conocerán el organismo público previsto en el párrafo octavo de este
+artículo y el Tribunal Federal Electoral. Dicho sistema dará
+definitividad a las distintas etapas de los procesos electorales y
+garantizará que los actos y resoluciones se sujeten invariablemente al
+principio de legalidad.
 
-El tribunal electoral tendrá la competencia y organización que determine
-la ley; funcionará en pleno o salas regionales, resolverá en una sola
-instancia y sus sesiones serán públicas. Los Poderes Legislativo y
-Ejecutivo garantizarán su debida integración. Contra sus resoluciones no
-procederá juicio ni recurso alguno, pero aquéllas que se dicten con
-posterioridad a la jornada electoral sólo podrán ser revisadas y en su
-caso modificadas por los Colegios Electorales en los términos de los
-Artículos 60 y 74, fracción I de esta Constitución. Para el ejercicio de
-sus funciones contará con cuerpos de magistrados y jueces instructores,
-los cuales serán independientes y responderán sólo al mandato de la ley.
+La ley establecerá un sistema de medios de impugnación de los que
+conocerán el organismo público previsto en el párrafo octavo de este
+artículo y el Tribunal Federal Electoral. Dicho sistema dará
+definitividad a las distintas etapas de los procesos electorales y
+garantizará que los actos y resoluciones se sujeten invariablemente al
+principio de legalidad.
+
+En materia electoral la interposición de los recursos no producirá, en
+ningún caso, efectos suspensivos del acto o resolución impugnado.
+
+El Tribunal Federal Electoral será órgano autónomo y máxima autoridad
+jurisdiccional electoral. Los Poderes Legislativo, Ejecutivo y Judicial
+garantizarán su debida integración.
+
+El Tribunal Federal Electoral tendrá competencia para resolver en forma
+definitiva e inatacable, en los términos de esta Constitución y la ley,
+las impugnaciones que se presenten en materia electoral federal, las que
+establecen los párrafos segundo y tercero del artículo 60 de esta
+Constitución, y las diferencias laborales que se presenten con las
+autoridades electorales establecidas por este artículo. Expedirá su
+Reglamento Interior y realizará las demás atribuciones que le confiera
+la ley.
+
+El Tribunal Federal Electoral funcionará en Pleno o Salas y sus sesiones
+de resolución serán públicas en los términos que establezca la ley.
+
+Para cada proceso electoral se integrará una Sala de segunda instancia
+con cuatro miembros de la judicatura federal y el Presidente del
+Tribunal Federal Electoral, quien la presidirá. Esta Sala será
+competente para resolver las impugnaciones a que se refiere el párrafo
+tercero del artículo 60 de esta Constitución.
+
+El Tribunal Federal Electoral se organizará en los términos que señale
+la ley. Para el ejercicio de su competencia contará con cuerpos de
+magistrados y jueces instructores, los cuales serán independientes y
+responderán sólo al mandato de la ley.
 
 Los consejeros magistrados y los magistrados del tribunal deberán
 satisfacer los requisitos que señale la ley, que no podrán ser menores a
@@ -83,3 +112,18 @@ la primera votación, se procederá a insacular de los candidatos
 propuestos, el número que corresponda de consejeros magistrados y
 magistrados del tribunal. La ley señalará las reglas y el procedimiento
 correspondientes.
+
+Los cuatro miembros de la judicatura federal, que con el Presidente del
+Tribunal Federal Electoral integren la Sala de segunda instancia, serán
+electos para cada proceso electoral por el voto de las dos terceras
+partes de los miembros presentes de la Cámara de Diputados, de entre los
+propuestos por la Suprema Corte de Justicia de la Nación. Si no se
+alcanza esta mayoría, se presentarán nuevas propuestas para el mismo
+efecto, y si en este segundo caso tampoco se alcanzara la votación
+requerida, procederá la Cámara a elegirlos de entre todos los propuestos
+por mayoría simple de los diputados presentes. La ley señalará las
+reglas y el procedimiento correspondientes.
+
+Durante los recesos del Congreso de la Unión, la elección a que se
+refieren los dos párrafos anteriores será realizada por la Comisión
+Permanente.
