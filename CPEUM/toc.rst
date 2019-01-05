@@ -1142,3 +1142,11 @@ DECRETO por el que se reforman los artículos 28, 73 y 123 de la
 Constitución Política de los Estados Unidos Mexicanos.
 
 .. include:: T126.rst
+
+Artículos Transitorios de Decretos de Reforma (127)
+---------------------------------------------------
+
+DECRETO por el que se reforman los artículos 65 y 66 de la Constitución
+Política de los Estados Unidos Mexicanos.
+
+.. include:: T127.rst
