@@ -1158,3 +1158,12 @@ DECRETO por el que se reforman los artículos 41, 54, 56, 60, 63, 74 y
 100 de la Constitución Política de los Estados Unidos Mexicanos.
 
 .. include:: T128.rst
+
+Artículos Transitorios de Decretos de Reforma (129)
+---------------------------------------------------
+
+DECRETO por el que se reforman los artículos 16, 19, 20 y 119 y se
+deroga la fracción XVIII del artículo 107 de la Constitución Política de
+los Estados Unidos Mexicanos.
+
+.. include:: T129.rst

@@ -1,39 +1,28 @@
 **Artículo 20**
 
-En todo juicio del orden criminal tendrá el acusado las siguientes
+En todo proceso de orden penal, tendrá el inculpado las siguientes
 garantías:
 
-I. Inmediatamente que lo solicite será puesto en libertad provisional
-   bajo caución, que fijará el Juzgador, tomando en cuenta sus
-   circunstancias personales y la gravedad del delito que se le impute,
-   siempre que dicho delito, incluyendo sus modalidades, merezca ser
-   sancionado con pena cuyo término medio aritmético no sea mayor de
-   cinco años de prisión, sin más requisito que poner la suma de dinero
-   respectiva, a disposición de la autoridad judicial, u otorgar otra
-   caución bastante para asegurarla, bajo la responsabilidad del
-   Juzgador en su aceptación.
+I. Inmediatamente que lo solicite, el juez deberá otorgarle la libertad
+   provisional bajo caución, siempre y cuando se garantice el monto
+   estimado de la reparación del daño y de las sanciones pecuniarias que
+   en su caso puedan imponerse al inculpado y no se trate de delitos en
+   que por su gravedad la ley expresamente prohiba conceder este
+   beneficio.
 
-   La caución no excederá de la cantidad equivalente a la percepción
-   durante dos años del salario mínimo general vigente en el lugar en
-   que se cometió el delito. Sin embargo, la Autoridad Judicial, en
-   virtud de la especial gravedad del delito, las particulares
-   circunstancias personales del imputado o de la víctima, mediante
-   resolución motivada, podrá incrementar el monto de la caución hasta
-   la cantidad equivalente a la percepción durante cuatro años del
-   salario mínimo vigente en el lugar en que se cometió el delito.
+   El monto y la forma de caución que se fije deberán ser asequibles
+   para el inculpado. En circunstancias que la ley determine, la
+   autoridad judicial podrá disminuir el monto de la caución inicial;
 
-   Si el delito es intencional y representa para su autor un beneficio
-   económico o causa a la víctima daño y perjuicio patrimonial, la
-   garantía será cuando menos tres veces mayor al beneficio obtenido o a
-   los daños y perjuicios patrimoniales causados.
+   El juez podrá revocar la libertad provisional cuando el procesado
+   incumpla en forma grave con cualquiera de las obligaciones que en
+   términos de ley se deriven a su cargo en razón del proceso;
 
-   Si el delito es preterintencional o imprudencial, bastará que se
-   garantice la reparación de los daños y perjuicios patrimoniales, y se
-   estará a lo dispuesto en los dos párrafos anteriores.
-
-II. No podrá ser compelido a declarar en su contra, por lo cual queda
-    rigurosamente prohibida toda incomunicación o cualquier otro medio
-    que tienda a aquel objeto.
+II. No podrá ser obligado a declarar. Queda prohibida y será sancionada
+    por la ley penal, toda incomunicación, intimidación o tortura. La
+    confesión rendida ante cualquier autoridad distinta del Ministerio
+    Público o del juez, o ante éstos sin la asistencia de su defensor
+    carecerá de todo valor probatorio;
 
 III. Se le hará saber en audiencia pública, y dentro de las cuarenta y
      ocho horas siguientes a su consignación a la justicia, el nombre de
@@ -41,10 +30,8 @@ III. Se le hará saber en audiencia pública, y dentro de las cuarenta y
      conozca bien el hecho punible que se le atribuye y pueda contestar
      el cargo, rindiendo en este acto su declaración preparatoria.
 
-IV. Será careado con los testigos que depongan en su contra, los que
-    declararán en su presencia si estuviesen en el lugar del juicio,
-    para que pueda hacerles todas las preguntas conducentes a su
-    defensa.
+IV. Siempre que lo solicite, será careado en presencia del juez con
+    quienes depongan en su contra;
 
 V. Se le recibirán los testigos y demás pruebas que ofrezca,
    concediéndosele el tiempo que la ley estime necesario al afecto y
@@ -63,20 +50,18 @@ VII. Le serán facilitados todos los datos que solicite para su defensa y
      que consten por el proceso.
 
 VIII. Será juzgado antes de cuatro meses si se tratare de delitos cuya
-      pena máxima no exceda de dos años de prisión; y antes de un año si
-      la pena máxima excediera de ese tiempo.
+      pena máxima no exceda de dos años de prisión, y antes de un año si
+      la pena excediere de ese tiempo, salvo que solicite mayor plazo
+      para su defensa;
 
-IX. Se le oirá en defensa por sí o por persona de su confianza, o por
-    ambos, según su voluntad. En caso de no tener quien lo defienda, se
-    le presentará lista de los defensores de oficio para que elija el
-    que, o los que les convengan. Si el acusado no quiere nombrar
-    defensores, después de ser requerido para hacerlo, al rendir su
-    declaración preparatoria, el juez le nombrará uno de oficio.
-
-    El acusado podrá nombrar defensor desde el momento en que sea
-    aprehendido, y tendrá derecho a que éste se halle presente en todos
-    los actos del juicio; pero tendrá obligación de hacerlo comparecer
-    cuantas veces se necesite.
+IX. Desde el inicio de su proceso será informado de los derechos que en
+    su favor consigna esta Constitución y tendrá derecho a una defensa
+    adecuada, por sí, por abogado, o por persona de su confianza. Si no
+    quiere o no puede nombrar defensor, después de haber sido requerido
+    para hacerlo, el juez le designará un defensor de oficio. También
+    tendrá derecho a que su defensor comparezca en todos los actos del
+    proceso y éste tendrá obligación de hacerlo cuantas veces se le
+    requiera; y,
 
 X. En ningún caso podrá prolongarse la prisión o detención, por falta de
    pago de honorarios de defensores o por cualquiera otra prestación de
@@ -88,3 +73,14 @@ X. En ningún caso podrá prolongarse la prisión o detención, por falta de
 
    En toda pena de prisión que imponga una sentencia, se computará el
    tiempo de la detención.
+
+   Las garantías previstas en las fracciones V, VII y IX también serán
+   observadas durante la averiguación previa, en los términos y con los
+   requisitos y límites que las leyes establezcan; lo previsto en las
+   fracciones I y II no estará sujeto a condición alguna.
+
+   En todo proceso penal, la víctima o el ofendido por algún delito,
+   tendrá derecho a recibir asesoría jurídica, a que se le satisfaga la
+   reparación del daño cuando proceda, a coadyuvar con el Ministerio
+   Público, a que se le preste atención médica de urgencia cuando la
+   requiera y, los demás que señalen las leyes.
