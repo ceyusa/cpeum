@@ -1178,3 +1178,12 @@ la fracción XVII del artículo 89 de la Constitución Política de los
 Estados Unidos Mexicanos.
 
 .. include:: T130.rst
+
+Artículos Transitorios de Decretos de Reforma (131)
+---------------------------------------------------
+
+DECRETO por el que se reforman los párrafos octavo, noveno,
+decimoséptimo y decimoctavo del artículo 41 de la Constitución Política
+de los Estados Unidos Mexicanos.
+
+.. include:: T131.rst
