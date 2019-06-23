@@ -311,8 +311,8 @@ De las Responsabilidades de los Funcionarios Públicos
 Título Quinto
 -------------
 
-De los Estados de la Federación
-```````````````````````````````
+De los Estados de la Federación y del Distrito Federal
+``````````````````````````````````````````````````````
 
 .. include:: 115.rst
 
@@ -1167,3 +1167,14 @@ deroga la fracción XVIII del artículo 107 de la Constitución Política de
 los Estados Unidos Mexicanos.
 
 .. include:: T129.rst
+
+Artículos Transitorios de Decretos de Reforma (130)
+---------------------------------------------------
+
+DECRETO por el que se reforman los artículos 31, 44, 73, 74, 79, 89,
+104, 105, 107, 122, así como la denominación del título quinto, adición
+de una fracción IX al artículo 76 y un primer párrafo al 119 y se deroga
+la fracción XVII del artículo 89 de la Constitución Política de los
+Estados Unidos Mexicanos.
+
+.. include:: T130.rst

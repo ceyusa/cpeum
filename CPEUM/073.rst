@@ -41,8 +41,9 @@ IV. Para arreglar definitivamente los límites de los Estados,
 
 V. Para cambiar la residencia de los Supremos Poderes de la Federación.
 
-VI. Para legislar en todo lo relativo al Distrito Federal, sometiéndose
-    a las bases siguientes:
+VI. Para expedir el Estatuto de Gobierno del Distrito Federal y legislar
+    en lo relativo al Distrito Federal, salvo en las materias
+    expresamente conferidas a la Asamblea de Representantes;
 
     1. El gobierno del Distrito Federal estará a cargo del Presidente de
        la República, quien lo ejercerá por conducto del órgano u órganos
@@ -318,13 +319,23 @@ VII. Para imponer las contribuciones necesarias a cubrir el Presupuesto.
 
 VIII. Para dar bases sobre las cuales el Ejecutivo pueda celebrar
       empréstitos sobre el crédito de la Nación, para aprobar esos
-      mismos empréstitos y para reconocer y mandar pagar la Deuda
-      Nacional. Ningún empréstito podrá celebrarse sino para la
+      mismos empréstitos y para reconocer y mandar pagar la deuda
+      nacional. Ningún empréstito podrá celebrarse sino para la
       ejecución de obras que directamente produzcan un incremento en los
       ingresos públicos, salvo los que se realicen con propósitos de
       regulación monetaria, las operaciones de conversión y los que se
       contraten durante alguna emergencia declarada por el Presidente de
-      la República en los términos del artículo 29.
+      la República en los términos del artículo 29.  Asimismo, aprobar
+      anualmente los montos de endeudamiento que deberán incluirse en la
+      ley de ingresos, que en su caso requiera el Gobierno del Distrito
+      Federal y las entidades de su sector público, conforme a las bases
+      de la ley correspondiente. El Ejecutivo Federal informará
+      anualmente al Congreso de la Unión sobre el ejercicio de dicha
+      deuda a cuyo efecto el Jefe del Distrito Federal le hará llegar el
+      informe que sobre el ejercicio de los recursos correspondientes
+      hubiere realizado.  El Jefe del Distrito Federal informará
+      igualmente a la Asamblea de Representantes del Distrito Federal,
+      al rendir la cuenta pública;
 
 IX. Para impedir que en el comercio de Estado a Estado se establezcan
     restricciones.
@@ -498,14 +509,13 @@ XXIX. Para establecer contribuciones:
          protección al ambiente y de preservación y restauración del
          equilibrio ecológico.
 
-      H. Para expedir leyes que instituyan tribunales de lo
-         contencioso-administrativo dotados de plena autonomía para
-         dictar sus fallos, que tengan a su cargo dirimir las
-         controversias que se susciten entre la Administración Pública
-         Federal o del Distrito Federal y los particulares,
-         estableciendo las normas para su organización, su
+      H. Para expedir leyes que instituyan tribunales de lo contencioso
+         administrativo, dotados de plena autonomía para dictar sus
+         fallos, y que tengan a su cargo dirimir las controversias que
+         se susciten entre la administración Pública Federal y los
+         particulares, estableciendo las normas para su organización, su
          funcionamiento, el procedimiento y los recursos contra sus
-         resoluciones.
+         resoluciones; y
 
 XXX. Para expedir todas las leyes que sean necesarias, a objeto de hacer
      efectivas las facultades anteriores, y todas las otras concedidas
