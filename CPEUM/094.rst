@@ -1,12 +1,12 @@
 **Artículo 94**
 
 Se deposita el ejercicio del Poder Judicial de la Federación en una
-Suprema Corte de Justicia, en tribunales colegiados y unitarios de
-circuito y en juzgados de distrito.
+Suprema Corte de Justicia, en Tribunales Colegiados y Unitarios de
+Circuito, en Juzgados de Distrito y en un Consejo de la Judicatura
+Federal.
 
-La Suprema Corte de Justicia de la Nación se compondrá de veintiún
-ministros numerarios y funcionará en Pleno o en Salas. Se podrán nombrar
-hasta cinco ministros supernumerarios.
+La Suprema Corte de Justicia de la Nación se compondrá de once Ministros
+y funcionará en Pleno o en Salas.
 
 En los términos que la ley disponga las sesiones del Pleno y de las
 Salas serán públicas, y por excepción secretas en los casos en que así
@@ -18,15 +18,17 @@ distrito y las responsabilidades que incurran los servidores públicos
 del Poder Judicial de la Federación, se regirán por lo que dispongan las
 leyes, de conformidad con las bases que esta Constitución establece.
 
-El Pleno de la Suprema Corte determinará el número, división en
-circuitos y jurisdicción territorial y especialización por materia de
-los tribunales colegiados y unitarios de circuito y de los juzgados de
-distrito.
+El Consejo de la Judicatura Federal determinará el número, división en
+circuitos, competencia territorial y, en su caso, especialización por
+materia, de los Tribunales Colegiados y Unitarios de Circuito y de los
+Juzgados de Distrito.
 
-El propio Tribunal en Pleno estará facultado para emitir acuerdos
-generales a fin de lograr, mediante una adecuada distribución entre las
-Salas de los asuntos que competa conocer a la Suprema Corte de Justicia,
-la mayor prontitud en su despacho.
+El Pleno de la Suprema Corte de Justicia, estará facultado para expedir
+acuerdos generales, a fin de lograr una adecuada distribución entre las
+Salas de los asuntos que competa conocer a la propia Corte y remitir a
+los Tribunales Colegiados de Circuito, aquellos asuntos en los que
+hubiera establecido jurisprudencia, para la mayor prontitud de su
+despacho.
 
 La ley fijará los términos en que sea obligatoria la jurisprudencia que
 establezcan los tribunales del Poder Judicial de la Federación sobre
@@ -34,9 +36,16 @@ interpretación de la Constitución, leyes y reglamentos federales o
 locales y tratados internacionales celebrados por el Estado Mexicano,
 así como los requisitos para su interrupción y modificación.
 
-La remuneración que perciban por sus servicios los ministros de la
-Suprema Corte, los magistrados de circuito y los jueces de distrito, no
-podrá ser disminuida durante su encargo.
+La remuneración que perciban por sus servicios los Ministros de la
+Suprema Corte, los Magistrados de Circuíto, los Jueces de Distrito y los
+Consejeros de la Judicatura Federal, no podrá ser disminuida durante su
+encargo.
 
-Los ministros de la Suprema Corte de Justicia sólo podrán ser privados
-de sus puestos en los términos del Título Cuarto de esta Constitución.
+Los Ministros de la Suprema Corte de Justicia durarán en su encargo
+quince años, sólo podrán ser removidos del mismo en los términos del
+Título Cuarto de esta Constitución y, al vencimiento de su período,
+tendrán derecho a un haber por retiro.
+
+Ninguna persona que haya sido Ministro podrá ser nombrada para un nuevo
+período, salvo que hubiera ejercido el cargo con el carácter de
+provisional o interino.

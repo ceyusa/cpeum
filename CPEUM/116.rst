@@ -61,9 +61,12 @@ III. El Poder Judicial de los Estados se ejercerá por los tribunales que
      condiciones para el ingreso, formación y permanencia de quienes
      sirvan a los Poderes Judiciales de los Estados.
 
-     Los magistrados integrantes de los Poderes Judiciales Locales
-     deberán reunir los requisitos señalados por el artículo 95 de esta
-     Constitución.
+     Los Magistrados integrantes de los Poderes Judiciales Locales,
+     deberán reunir los requisitos señalados por las fracciones I a V
+     del artículo 95 de esta Constitución. No podrán ser Magistrados las
+     personas que hayan ocupado el cargo de Secretario o su equivalente,
+     Procurador de Justicia o Diputado Local, en sus respectivos
+     Estados, durante el año previo al día de la designación.
 
      Los nombramientos de los magistrados y jueces integrantes de los
      Poderes Judiciales Locales serán hechos preferentemente entre
@@ -71,11 +74,6 @@ III. El Poder Judicial de los Estados se ejercerá por los tribunales que
      probidad en la administración de justicia o que lo merezcan por su
      honorabilidad, competencia y antecedentes en otras ramas de la
      profesión jurídica.
-
-     Los jueces de primera instancia y los que con cualquiera otra
-     denominación se creen en los Estados, serán nombrados por el
-     Tribunal Superior o por el Supremo Tribunal de Justicia de cada
-     Estado.
 
      Los magistrados durarán en el ejercicio de su encargado el tiempo
      que señalen las Constituciones Locales, podrán ser reelectos, y si

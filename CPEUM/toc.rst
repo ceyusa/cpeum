@@ -1195,3 +1195,13 @@ DECRETO por el que se reforma la fracción I del Artículo 82 de la
 Constitución Política de los Estados Unidos Mexicanos.
 
 .. include:: T132.rst
+
+Artículos Transitorios de Decretos de Reforma (133)
+---------------------------------------------------
+
+DECRETO mediante el cual se declaran reformados los artículos 21, 55,
+73, 76, 79, 89, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104,
+105, 106, 107, 108, 110, 111, 116, 122 y 123 de la Constitución Política
+de los Estados Unidos Mexicanos.
+
+.. include:: T133.rst

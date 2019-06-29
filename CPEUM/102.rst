@@ -1,10 +1,16 @@
 **Artículo 102**
 
-A. La ley organizará el Ministerio Público de la Federación, cuyos
+A. La ley organizará el Ministerio Publico de la Federación, cuyos
    funcionarios serán nombrados y removidos por el Ejecutivo, de acuerdo
-   con la ley respectiva, debiendo estar presididos por un Procurador
-   General, el que deberá tener las mismas calidades requeridas para ser
-   ministro de la Suprema Corte de Justicia.
+   con la ley respectiva. El Ministerio Público de la Federación estará
+   presidido por un Procurador General de la República, designado por el
+   Titular del Ejecutivo Federal con ratificación del Senado o, en sus
+   recesos, de la Comisión Permanente. Para ser Procurador se requiere:
+   ser ciudadano mexicano por nacimiento; tener cuando menos treinta y
+   cinco años cumplidos el día de la designación; contar, con antigüedad
+   mínima de diez años, con título profesional de licenciado en derecho;
+   gozar de buena reputación, y no haber sido condenado por delito
+   doloso. El procurador podrá ser removido libremente por el Ejecutivo.
 
    Incumbe al Ministerio Público de la Federación, la persecución, ante
    los tribunales, de todos los delitos del orden federal; y, por lo
@@ -16,19 +22,21 @@ A. La ley organizará el Ministerio Público de la Federación, cuyos
    negocios que la ley determine.
 
    El Procurador General de la República intervendrá personalmente en
-   las controversias que se suscitaren entre dos o más Estados de la
-   Unión, entre un Estado y la Federación o entre los Poderes de un
-   mismo Estado.
+   las controversias y acciones a que se refiere el artículo 105 de esta
+   Constitución.
 
    En todos los negocios en que la Federación fuese parte; en los casos
    de los diplomáticos y los cónsules generales y en los demás en que
    deba intervenir el Ministerio Público de la Federación, le Procurador
    General lo hará por si o por medio de sus agentes.
 
-   El Procurador General de la República será el consejero jurídico del
-   Gobierno. Tanto él como sus agentes serán responsables de toda falta,
-   omisión o violación a la ley, en que incurran con motivo de sus
-   funciones.
+   El Procurador General de la República y sus agentes, serán
+   responsables de toda falta, omisión o violación a la ley en que
+   incurran con motivo de sus funciones.
+
+   La función de consejero jurídico del Gobierno, estará a cargo de la
+   dependencia del Ejecutivo Federal que, para tal efecto, establezca la
+   ley.
 
 B. El Congreso de la Unión y las legislaturas de los Estados en el
    ámbito de sus respectivas competencias, establecerán organismos de

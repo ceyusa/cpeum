@@ -97,10 +97,10 @@ V. El amparo contra sentencias definitivas o laudos y resoluciones que
       Tribunal Federal de Conciliación y Arbitraje de los Trabajadores
       al Servicio del Estado:
 
-   La Suprema Corte de Justicia de oficio o a petición fundada del
+   La Suprema Corte de Justicia, de oficio o a petición fundada del
    correspondiente Tribunal Colegiado de Circuito, o del Procurador
    General de la República, podrá conocer de los amparos directos que
-   por sus características especiales así lo ameriten.
+   por su interés y trascendencia así lo ameriten.
 
 VI. En los casos a que se refiere la fracción anterior, la ley
     reglamentaria de los artículos 103 y 107 de esta Constitución
@@ -120,9 +120,9 @@ VII. El amparo contra actos en juicio, fuera de juicio o después de
      oirán los alegados, pronunciándose en la misma audiencia las
      sentencia;
 
-VIII. Contra las sentencias que pronuncien en amparo los jueces de
-      distrito, procede revisión. De ella conocerá la Suprema Corte de
-      Justicia:
+VIII. Contra las sentencias que pronuncien en amparo los Jueces de
+      Distrito o los Tribunales Unitarios de Circuito procede
+      revisión. De ella conocerá la Suprema Corte de Justicia:
 
       a. Cuando habiéndose impugnado en la demanda de amparo, por
          estimarlos directamente violatorios de esta Constitución, leyes
@@ -136,10 +136,11 @@ VIII. Contra las sentencias que pronuncien en amparo los jueces de
       b. Cuando se trate de los casos comprendidos en las fracciones II
          y III del artículo 103 de esta Constitución.
 
-      La Suprema Corte de Justicia de oficio o a petición fundada del
+
+      La Suprema Corte de Justicia, de oficio o a petición fundada del
       correspondiente Tribunal Colegiado de Circuito, o del Procurador
-      General de la República, podrá conocer de los amparos en revisión
-      que por sus características especiales así lo ameriten.
+      General de la República, podrá conocer de los amparos en revisión,
+      que por su interés y trascendencia así lo ameriten.
 
       En lo casos no previstos en los párrafos anteriores, conocerán de
       la revisión los tribunales colegiados de circuito y sus sentencias
@@ -169,33 +170,38 @@ X. Los actos reclamados podrán ser objeto de suspensión en los casos y
    concediese el amparo, y a pagar los daños y perjuicios consiguientes;
 
 XI. La suspensión se pedirá ante la autoridad responsable cuando se
-    trate de amparos directos promovidos ante los tribunales colegiados
-    de circuito, y la propia autoridad responsable decidirá al respecto;
-    en todo caso, el agraviado deberá presentar la demanda de amparo
-    ante la propia autoridad responsable, acompañando copias de la
-    demanda para las demás partes en el juicio, incluyendo al Ministerio
-    Público y una para el expediente. En lo demás casos, conocerán y
-    resolverán sobre la suspensión los juzgados de distrito.
+    trate de amparos directos promovidos ante los Tribunales Colegiados
+    de Circuito y la propia autoridad responsable decidirá al
+    respecto. En todo caso, el agraviado deberá presentar la demanda de
+    amparo ante la propia autoridad responsable, acompañando copias de
+    la demanda para las demás partes en el juicio, incluyendo al
+    Ministerio Público y una para el expediente. En los demás casos,
+    conocerán y resolverán sobre la suspensión los Juzgados de Distrito
+    o los Tribunales Unitarios de Circuito;
 
 XII. La violación de las garantías de los artículos 16, en materia
      penal, 19 y 20 se reclamará ante el superior del tribunal que la
-     cometa, o ante el juez de Distrito que corresponda, pudiéndose
-     recurrir, en uno y otro caso, las resoluciones que se pronuncien,
-     en los términos prescritos por la fracción VIII.
+     cometa, o ante el Juez de Distrito o Tribunal Unitario de Circuito
+     que corresponda, pudiéndose recurrir, en uno y otro caso, las
+     resoluciones que se pronuncien, en los términos prescritos por la
+     fracción VIII.
 
-     Si el juez de Distrito no residiere en el mismo lugar que reside la
-     autoridad responsable, la ley determinará el juez ante el que se ha
-     de presentar el escrito de amparo, el que podrá suspender
+     Si el Juez de Distrito o el Tribunal Unitario de Circuito no
+     residieren en el mismo lugar en que reside la autoridad
+     responsable, la ley determinará el juez o tribunal ante el que se
+     ha de presentar el escrito de amparo, el que podrá suspender
      provisionalmente el acto reclamado, en los casos y términos que la
      misma ley establezca;
 
 XIII. Cuando los Tribunales Colegiados de Circuito sustenten tesis
       contradictorias en los juicios de amparo de su competencia, los
-      ministros de la Suprema Corte de Justicia, el Procurador General
-      de la República, los mencionados tribunales o las partes que
+      Ministros de la Suprema Corte de Justicia, el Procurador General
+      de la República, los mencionados Tribunales o las partes que
       intervinieron en los juicios en que dichas tesis fueron
-      sustentadas, podrán denunciar la contradicción ante la Sala que
-      corresponda, a fin de que decida cuál tesis debe prevalecer.
+      sustentadas, podrán denunciar la contradicción ante la Suprema
+      Corte de Justicia, a fin de que el Pleno o la Sala respectiva,
+      según corresponda, decidan la tesis que debe prevalecer como
+      jurisprudencia.
 
       Cuando las Salas de la Suprema Corte de Justicia sustentes tesis
       contradictorias en los juicios de amparo materia de su
@@ -227,10 +233,31 @@ XV. El Procurador General de la República o el Agente del Ministerio
     interés público.
 
 XVI. Si concedido el amparo la autoridad responsable insistiere en la
-     repetición del acto reclamado o tratare de eludir la sentencia del
-     acto reclamado o tratare de eludir la sentencia de la autoridad
-     federal, será inmediatamente separada de su cargo y consignada ante
-     el Juez de Distrito que corresponda.
+     repetición del acto reclamado o tratare de eludir la sentencia de
+     la autoridad federal, y la Suprema Corte de Justicia estima que es
+     inexcusable el incumplimiento, dicha autoridad será inmediatamente
+     separada de su cargo y consignada al Juez de Distrito que
+     corresponda.  Si fuere excusable, previa declaración de
+     incumplimiento o repetición, la Suprema Corte requerirá a la
+     responsable y le otorgará un plazo prudente para que ejecute la
+     sentencia. Si la autoridad no ejecuta la sentencia en el término
+     concedido, la Suprema Corte de Justicia procederá en los términos
+     primeramente señalados.
+
+     Cuando la naturaleza del acto lo permita, la Suprema Corte de
+     Justicia, una vez que hubiera determinado el incumplimiento o
+     repetición del acto reclamado, podrá disponer de oficio el
+     cumplimiento substituto de las sentencias de amparo, cuando su
+     ejecución afecte gravemente a la sociedad o a terceros en mayor
+     proporción que los beneficios económicos que pudiera obtener el
+     quejoso. Igualmente, el quejoso podrá solicitar ante el órgano que
+     corresponda, el cumplimiento substituto de la sentencia de amparo,
+     siempre que la naturaleza del acto lo permita.
+
+     La inactividad procesal o la falta de promoción de parte
+     interesada, en los procedimientos tendientes al cumplimiento de las
+     sentencias de amparo, producirá su caducidad en los términos de la
+     ley reglamentaria.
 
 XVII. La autoridad responsable será consignada a la autoridad
       correspondiente, cuando no suspenda el acto reclamado debiendo
