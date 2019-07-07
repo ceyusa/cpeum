@@ -1222,3 +1222,11 @@ fracción I y penúltimo párrafo, 21, 22 y 73 fracción XXI de la
 Constitución Política de los Estados Unidos Mexicanos.
 
 .. include:: T135.rst
+
+Artículos Transitorios de Decretos de Reforma (136)
+---------------------------------------------------
+
+DECRETO mediante el cual se declaran reformados diversos artículos de la
+Constitución Política de los Estados Unidos Mexicanos.
+
+.. include:: T136.rst

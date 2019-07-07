@@ -8,41 +8,38 @@ I. Un partido político para obtener el registro de sus listas regionales
    deberá acreditar que participa con candidatos a diputados por mayoría
    relativa en por lo menos doscientos distritos uninominales;
 
-II. Todo partido político que alcance por lo menos el uno y medio por
-    ciento del total de la votación emitida para las listas regionales
-    de las circunscripciones plurinominales, tendrá derecho a que le
-    sean atribuidos diputados según el principio de representación
+II. Todo partido político que alcance por lo menos el dos por ciento del
+    total de la votación emitida para las listas regionales de las
+    circunscripciones plurinominales, tendrá derecho a que le sean
+    atribuidos diputados según el principio de representación
     proporcional;
 
-III. Al partido político que cumpla con lo dispuesto por las dos bases
-     anteriores, adicionalmente a las constancias de mayoría relativa
-     que hubiesen obtenido sus candidatos, les serán asignados por el
-     principio de representación proporcional, de acuerdo con su
+III. Al partido político que cumpla con las dos bases anteriores,
+     independiente y adicionalmente a las constancias de mayoría
+     relativa que hubiesen obtenido sus candidatos, le serán asignados
+     por el principio de representación proporcional, de acuerdo con su
      votación nacional emitida, el número de diputados de su lista
      regional que le corresponda en cada circunscripción
      plurinominal. En la asignación se seguirá el orden que tuviesen los
-     candidatos en las listas correspondientes;
+     candidatos en las listas correspondientes.
 
-IV. En ningún caso un partido político podrá contar con más de 315
-    diputados por ambos principios;
+IV. Ningún partido político podrá contar con más de 300 diputados por
+    ambos principios.
 
-V. El partido político que haya obtenido más del 60% de la votación
-   nacional emitida, tendrá derecho a que se le asignen diputados por el
-   principio de representación proporcional, hasta que el número de
-   diputados por ambos principios sea igual a su porcentaje de votación
-   nacional emitida sin rebasar el límite señalado en la fracción IV de
-   este artículo;
+V. En ningún caso, un partido político podrá contar con un número de
+   diputados por ambos principios que representen un porcentaje del
+   total de la Cámara que exceda en ocho puntos a su porcentaje de
+   votación nacional emitida. Esta base no se aplicará al partido
+   político que, por sus triunfos en distritos uninominales, obtenga un
+   porcentaje de curules del total de la Cámara, superior a la suma del
+   porcentaje de su votación nacional emitida más el ocho por ciento; y
 
-VI. Ningún partido político que haya obtenido el 60% o menos de la
-    votación nacional emitida podrá contar con más de 300 diputados por
-    ambos principios; y
-
-VII. En los términos de lo establecido en las fracciones III, IV, V y VI
-     anteriores, las diputaciones de representación proporcional que
-     resten después de asignar las que correspondan al partido político
-     que se halle en los supuestos de las fracciones V o VI, se
-     adjudicarán a los demás partidos políticos con derecho a ello en
-     cada una de las circunscripciones plurinominales, en proporción
-     directa con las respectivas votaciones nacionales de estos
-     últimos. La ley desarrollará las reglas y fórmulas necesarias para
-     estos efectos.
+VI. En los términos de lo establecido en las fracciones III, IV y V
+    anteriores, las diputaciones de representación proporcional que
+    resten después de asignar las que correspondan al partido político
+    que se halle en los supuestos de las fracciones IV o V, se
+    adjudicarán a los demás partidos políticos con derecho a ello en
+    cada una de las circunscripciones plurinominales, en proporción
+    directa con las respectivas votaciones nacionales efectivas de estos
+    últimos. La ley desarrollará las reglas y fórmulas para estos
+    efectos.

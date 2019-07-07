@@ -49,8 +49,9 @@ II. El número de representantes en las legislaturas de los Estados será
     diputados propietarios no podrán ser electos para el período
     inmediato con el carácter de suplentes.
 
-    En la legislación electoral respectiva se introducirá el sistema de
-    diputados de minoría en la elección de las legislaturas locales.
+    Las legislaturas de los Estados se integrarán con diputados elegidos
+    según los principios de mayoría relativa y de representación
+    proporcional, en los términos que señalen sus leyes;
 
 III. El Poder Judicial de los Estados se ejercerá por los tribunales que
      establezcan las Constituciones respectivas.
@@ -84,25 +85,73 @@ III. El Poder Judicial de los Estados se ejercerá por los tribunales que
      los magistrados y los jueces percibirán una remuneración adecuada e
      irrenunciable, la cual no podrá ser disminuida durante su encargo.
 
-IV. Las Constituciones y leyes de los Estados podrán instituir
-    Tribunales de lo Contencioso-Administrativo dotados de plena
-    autonomía para dictar sus fallos, que tengan a su cargo dirimir las
-    controversias que se susciten entre la Administración Pública
-    Estatal y los particulares, estableciendo las normas para su
-    organización, su funcionamiento, el procedimiento y los recursos
-    contra sus resoluciones.
+IV. Las Constituciones y leyes de los Estados en materia electoral
+    garantizarán que:
 
-V. Las relaciones de trabajo entre los estados y sus trabajadores, se
-   regirán por las leyes que expidan las legislaturas de los estados con
-   base en lo dispuesto por el Artículo 123 de la Constitución Política
-   de los Estados Unidos Mexicanos y sus disposiciones reglamentarias.
+    a. Las elecciones de los gobernadores de los Estados, de los
+       miembros de las legislaturas locales y de los integrantes de los
+       ayuntamientos se realicen mediante sufragio universal, libre,
+       secreto y directo;
 
-VI. La Federación y los Estados, en los términos de ley, podrán convenir
-    la asunción por parte de éstos del ejercicio de sus funciones, la
-    ejecución y operación de obras y la prestación de servicios
-    públicos, cuando el desarrollo económico y social lo haga necesario.
+    b. En el ejercicio de la función electoral a cargo de las
+       autoridades electorales sean principios rectores los de
+       legalidad, imparcialidad, objetividad, certeza e independencia;
 
-    Los Estados estarán facultados para celebrar esos convenios con sus
-    Municipios, a efecto de que éstos asuman la prestación de los
-    servicios o la atención de las funciones a las que se refiere el
-    párrafo anterior.
+    c. Las autoridades que tengan a su cargo la organización de las
+       elecciones y las jurisdiccionales que resuelvan las controversias
+       en la materia, gocen de autonomía en su funcionamiento e
+       independencia en sus decisiones;
+
+    d. Se establezca un sistema de medios de impugnación para que todos
+       los actos y resoluciones electorales se sujeten invariablemente
+       al principio de legalidad;
+
+    e. Se fijen los plazos convenientes para el desahogo de todas las
+       instancias impugnativas, tomando en cuenta el principio de
+       definitividad de las etapas de los procesos electorales;
+
+    f. De acuerdo con las disponibilidades presupuestales, los partidos
+       políticos reciban, en forma equitativa, financiamiento público
+       para su sostenimiento y cuenten durante los procesos electorales
+       con apoyos para sus actividades tendientes a la obtención del
+       sufragio universal;
+
+    g. Se propicien condiciones de equidad para el acceso de los
+       partidos políticos a los medios de comunicación social;
+
+    h. Se fijen los criterios para determinar los límites a las
+       erogaciones de los partidos políticos en sus campañas
+       electorales, así como los montos máximos que tengan las
+       aportaciones pecuniarias de sus simpatizantes y los
+       procedimientos para el control y vigilancia del origen y uso de
+       todos los recursos con que cuenten los partidos políticos; se
+       establezcan, asimismo, las sanciones por el incumplimiento a las
+       disposiciones que se expidan en estas materias; e
+
+    i. Se tipifiquen los delitos y determinen las faltas en materia
+       electoral, así como las sanciones que por ellos deban imponerse;
+
+V. Las Constituciones y leyes de los Estados podrán instituir
+   Tribunales de lo Contencioso-Administrativo dotados de plena
+   autonomía para dictar sus fallos, que tengan a su cargo dirimir las
+   controversias que se susciten entre la Administración Pública
+   Estatal y los particulares, estableciendo las normas para su
+   organización, su funcionamiento, el procedimiento y los recursos
+   contra sus resoluciones;
+
+VI. Las relaciones de trabajo entre los estados y sus trabajadores, se
+    regirán por las leyes que expidan las legislaturas de los estados
+    con base en lo dispuesto por el Artículo 123 de la Constitución
+    Política de los Estados Unidos Mexicanos y sus disposiciones
+    reglamentarias; y
+
+VII. La Federación y los Estados, en los términos de ley, podrán
+     convenir la asunción por parte de éstos del ejercicio de sus
+     funciones, la ejecución y operación de obras y la prestación de
+     servicios públicos, cuando el desarrollo económico y social lo haga
+     necesario.
+
+     Los Estados estarán facultados para celebrar esos convenios con sus
+     Municipios, a efecto de que éstos asuman la prestación de los
+     servicios o la atención de las funciones a las que se refiere el
+     párrafo anterior.

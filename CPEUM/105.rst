@@ -47,8 +47,7 @@ I. De las controversias constitucionales que, con excepción de las que
 
 II. De las acciones de inconstitucionalidad que tengan por objeto
     plantear la posible contradicción entre una norma de carácter
-    general y esta Constitución, con excepción de las que se refieran a
-    la materia electoral.
+    general y esta Constitución.
 
     Las acciones de inconstitucionalidad podrán ejercitarse, dentro de
     los treinta días naturales siguientes a la fecha de publicación de
@@ -70,11 +69,26 @@ II. De las acciones de inconstitucionalidad que tengan por objeto
 
     d. El equivalente al treinta y tres por ciento de los integrantes de
        alguno de los órganos legislativos estatales, en contra de leyes
-       expedidas por el propio órgano, y
+       expedidas por el propio órgano,
 
     e. El equivalente al treinta y tres por ciento de los integrantes de
        la Asamblea de Representantes del Distrito Federal, en contra de
-       leyes expedidas por la propia Asamblea.
+       leyes expedidas por la propia Asamblea,
+
+    f. Los partidos políticos con registro ante el Instituto Federal
+       Electoral, por conducto de sus dirigencias nacionales, en contra
+       de leyes electorales federales o locales; y los partidos
+       políticos con registro estatal, a través de sus dirigencias,
+       exclusivamente en contra de leyes electorales expedidas por el
+       órgano legislativo del Estado que les otorgó el registro.
+
+    La única vía para plantear la no conformidad de las leyes
+    electorales a la Constitución es la prevista en este artículo.
+
+    Las leyes electorales federal y locales deberán promulgarse y
+    publicarse por lo menos noventa días antes de que inicie el proceso
+    electoral en que vayan a aplicarse, y durante el mismo no podrá
+    haber modificaciones legales fundamentales.
 
     Las resoluciones de la Suprema Corte de Justicia sólo podrán
     declarar la invalidez de las normas impugnadas, siempre que fueren
