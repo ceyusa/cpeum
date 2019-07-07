@@ -4,19 +4,29 @@ En todo proceso de orden penal, tendrá el inculpado las siguientes
 garantías:
 
 I. Inmediatamente que lo solicite, el juez deberá otorgarle la libertad
-   provisional bajo caución, siempre y cuando se garantice el monto
-   estimado de la reparación del daño y de las sanciones pecuniarias que
-   en su caso puedan imponerse al inculpado y no se trate de delitos en
-   que por su gravedad la ley expresamente prohiba conceder este
-   beneficio.
+   provisional bajo caución, siempre y cuando no se trate de delitos en
+   que, por su gravedad, la ley expresamente prohíba conceder este
+   beneficio. En caso de delitos no graves, a solicitud del Ministerio
+   Público, el juez podrá negar la libertad provisional, cuando el
+   inculpado haya sido condenado con anterioridad, por algún delito
+   calificado como grave por la ley o, cuando el Ministerio Público
+   aporte elementos al juez para establecer que la libertad del
+   inculpado representa, por su conducta precedente o por las
+   circunstancias y características del delito cometido, un riesgo para
+   el ofendido o para la sociedad.
 
-   El monto y la forma de caución que se fije deberán ser asequibles
+   El monto y la forma de caución que se fije, deberán ser asequibles
    para el inculpado. En circunstancias que la ley determine, la
-   autoridad judicial podrá disminuir el monto de la caución inicial;
+   autoridad judicial podrá modificar el monto de la caución. Para
+   resolver sobre la forma y el monto de la caución, el juez deberá
+   tomar en cuenta la naturaleza, modalidades y circunstancias del
+   delito; las características del inculpado y la posibilidad de
+   cumplimiento de las obligaciones procesales a su cargo; los daños y
+   perjuicios causados al ofendido; así como la sanción pecuniaria que,
+   en su caso, pueda imponerse al inculpado.
 
-   El juez podrá revocar la libertad provisional cuando el procesado
-   incumpla en forma grave con cualquiera de las obligaciones que en
-   términos de ley se deriven a su cargo en razón del proceso;
+   La ley determinará los casos graves en los cuales el juez podrá
+   revocar la libertad provisional;
 
 II. No podrá ser obligado a declarar. Queda prohibida y será sancionada
     por la ley penal, toda incomunicación, intimidación o tortura. La
@@ -74,10 +84,10 @@ X. En ningún caso podrá prolongarse la prisión o detención, por falta de
    En toda pena de prisión que imponga una sentencia, se computará el
    tiempo de la detención.
 
-   Las garantías previstas en las fracciones V, VII y IX también serán
-   observadas durante la averiguación previa, en los términos y con los
-   requisitos y límites que las leyes establezcan; lo previsto en las
-   fracciones I y II no estará sujeto a condición alguna.
+   Las garantías previstas en las fracciones I, V, VII y IX también
+   serán observadas durante la averiguación previa, en los términos y
+   con los requisitos y límites que las leyes establezcan; lo previsto
+   en la fracción II no estará sujeto a condición alguna.
 
    En todo proceso penal, la víctima o el ofendido por algún delito,
    tendrá derecho a recibir asesoría jurídica, a que se le satisfaga la

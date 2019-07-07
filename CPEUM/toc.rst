@@ -1213,3 +1213,12 @@ DECRETO por el que se declara reformado el cuarto párrafo del artículo
 28 de la Constitución Política de los Estados Unidos Mexicanos.
 
 .. include:: T134.rst
+
+Artículos Transitorios de Decretos de Reforma (135)
+---------------------------------------------------
+
+DECRETO mediante el cual se declaran reformados los artículos 16, 20
+fracción I y penúltimo párrafo, 21, 22 y 73 fracción XXI de la
+Constitución Política de los Estados Unidos Mexicanos.
+
+.. include:: T135.rst

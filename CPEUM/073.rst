@@ -402,8 +402,11 @@ XIX. Para fijar las reglas a que debe sujetarse la ocupación y
 XX. Para expedir las leyes de organización del Cuerpo Diplomático y del
     Cuerpo Consular mexicano.
 
-XXI. Para definir los delitos y faltas contra la Federación y fijar los
-     castigos que por ellos deban imponerse.
+XXI. Para establecer los delitos y faltas contra la Federación y fijar
+     los castigos que por ellos deban imponerse.
+
+     Las autoridades federales podrán conocer también de los delitos del
+     fuero común, cuando éstos tengan conexidad con delitos federales;
 
 XXII. Para conceder amnistías por delitos cuyo conocimiento pertenezca a
       los tribunales de la Federación.
