@@ -7,11 +7,17 @@ A. Son mexicanos por nacimiento:
    I. Los que nazcan en territorio de la República, sea cual fuere la
       nacionalidad de sus padres.
 
-   II. Los que nazcan en el extranjero de padres mexicanos; de padre
-       mexicano o de madre mexicana
+   II. Los que nazcan en el extranjero, hijos de padres mexicanos
+       nacidos en territorio nacional, de padre mexicano nacido en
+       territorio nacional, o de madre mexicana nacida en territorio
+       nacional;
 
-   III. Los que nazcan a bordo de embarcaciones o aeronaves mexicanas,
-	sean de guerra o mercantes.
+   III. Los que nazcan en el extranjero, hijos de padres mexicanos por
+        naturalización, de padre mexicano por naturalización, o de madre
+        mexicana por naturalización, y
+
+   IV. Los que nazcan a bordo de embarcaciones o aeronaves mexicanas,
+       sean de guerra o mercantes.
 
 B. Son mexicanos por naturalización:
 
@@ -19,5 +25,6 @@ B. Son mexicanos por naturalización:
       de naturalización.
 
    II. La mujer o el varón extranjeros que contraigan matrimonio con
-       varón o con mujer mexicana y tengan o establezcan su domicilio
-       dentro del territorio nacional.
+       varón o con mujer mexicanos, que tengan o establezcan su
+       domicilio dentro del territorio nacional y cumplan con los demás
+       requisitos que al efecto señale la ley.
