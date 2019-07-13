@@ -1238,3 +1238,13 @@ DECRETO por el que se declaran reformados los artículos 30, 32 y 37 de
 la Constitución Política de los Estados Unidos Mexicanos.
 
 .. include:: T137.rst
+
+Artículos Transitorios de Decretos de Reforma (138)
+---------------------------------------------------
+
+DECRETO por el que se declara reformado el artículo 3o. transitorio, del
+Decreto por el que se reformaron los artículos 30, 32 y 37 de la
+Constitución Política de los Estados Unidos Mexicanos, publicado el 20
+de marzo de 1997.
+
+.. include:: T138.rst
