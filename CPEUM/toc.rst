@@ -1248,3 +1248,11 @@ Constitución Política de los Estados Unidos Mexicanos, publicado el 20
 de marzo de 1997.
 
 .. include:: T138.rst
+
+Artículos Transitorios de Decretos de Reforma (139)
+---------------------------------------------------
+
+DECRETO por el que se declaran reformados los artículos 16, 19, 22 y 123
+de la Constitución Política de los Estados Unidos Mexicanos.
+
+.. include:: T139.rst

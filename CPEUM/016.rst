@@ -5,10 +5,10 @@ posesiones, sino en virtud de mandamiento escrito de la autoridad
 competente, que funde y motive la causa legal del procedimiento.
 
 No podrá librarse orden de aprehensión sino por la autoridad judicial y
-sin que preceda denuncia, acusación o querella de un hecho determinado
-que la ley señale como delito, sancionado cuando menos con pena
-privativa de libertad y existan datos que acrediten los elementos que
-integran el tipo penal y la probable responsabilidad del indiciado.
+sin que preceda denuncia o querella de un hecho que la ley señale como
+delito, sancionado cuando menos con pena privativa de libertad y existan
+datos que acrediten el cuerpo del delito y que hagan probable la
+responsabilidad del indiciado.
 
 La autoridad que ejecute una orden judicial de aprehensión, deberá poner
 al inculpado a disposición del juez, sin dilación alguna y bajo su más
