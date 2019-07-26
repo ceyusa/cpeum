@@ -48,6 +48,5 @@ Ministro: "Sí protesto"
 
 Presidente: "Si no lo hiciereis así, la Nación os lo demande".
 
-Los Magistrados de Circuito y los Jueces de Distrito protestarán ante el
-Consejo de la Judicatura Federal o ante la autoridad que determine la
-ley.
+Los Magistrados de Circuito y los Jueces de Distrito protestarán ante la
+Suprema Corte de Justicia y el Consejo de la Judicatura Federal.

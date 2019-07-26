@@ -148,11 +148,14 @@ VIII. Contra las sentencias que pronuncien en amparo los Jueces de
 
 IX. Las resoluciones que en materia de amparo directo pronuncien los
     Tribunales Colegiados de Circuito no admiten recurso alguno, a menos
-    que decidan sobre la inconstitucionalidad de una ley o establezcan
-    la interpretación directa de un precepto de la Constitución, caso en
-    que serán recurribles ante la Suprema Corte de Justicia, limitándose
+    de que decidan sobre la inconstitucionalidad de una ley o
+    establezcan la interpretación directa de un precepto de la
+    Constitución cuya resolución, a juicio de la Suprema Corte de
+    Justicia y conforme a acuerdos generales, entrañe la fijación de un
+    criterio de importancia y trascendencia. Sólo en esta hipótesis
+    procederá la revisión ante la Suprema Corte de Justicia, limitándose
     la materia del recurso exclusivamente a la decisión de las
-    cuestiones propiamente constitucionales.
+    cuestiones propiamente constitucionales;
 
 X. Los actos reclamados podrán ser objeto de suspensión en los casos y
    mediante las condiciones y garantías que determine la ley, para lo

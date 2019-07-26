@@ -1256,3 +1256,11 @@ DECRETO por el que se declaran reformados los artículos 16, 19, 22 y 123
 de la Constitución Política de los Estados Unidos Mexicanos.
 
 .. include:: T139.rst
+
+Artículos Transitorios de Decretos de Reforma (140)
+---------------------------------------------------
+
+DECRETO por el que se reforman los artículos 94, 97, 100 y 107 de la
+Constitución Política de los Estados Unidos Mexicanos.
+
+.. include:: T140.rst
