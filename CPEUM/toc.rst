@@ -1273,3 +1273,12 @@ artículo 4o. Constitucional y se reforma el párrafo primero del artículo
 25 de la Constitución Política de los Estados Unidos Mexicanos.
 
 .. include:: T141.rst
+
+Artículos Transitorios de Decretos de Reforma (142)
+---------------------------------------------------
+
+DECRETO por el que se declara reformada la fracción XXIX-H y se adiciona
+una fracción XXIX-I al artículo 73 de la Constitución Política de los
+Estados Unidos Mexicanos.
+
+.. include:: T142.rst
