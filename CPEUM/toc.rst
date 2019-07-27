@@ -1282,3 +1282,11 @@ una fracción XXIX-I al artículo 73 de la Constitución Política de los
 Estados Unidos Mexicanos.
 
 .. include:: T142.rst
+
+Artículos Transitorios de Decretos de Reforma (143)
+---------------------------------------------------
+
+DECRETO por el que se declara la adición de una fracción XXIX-J al
+artículo 73 de la Constitución Política de los Estados Unidos Mexicanos.
+
+.. include:: T143.rst
