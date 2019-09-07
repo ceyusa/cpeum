@@ -1309,3 +1309,11 @@ DECRETO por el que se declaran reformados los artículos 73, 74, 78 y 79
 de la Constitución Política de los Estados Unidos Mexicanos.
 
 .. include:: T145.rst
+
+Artículos Transitorios de Decretos de Reforma (146)
+---------------------------------------------------
+
+DECRETO por el que se reforma y adiciona el artículo 102 apartado B de
+la Constitución Política de los Estados Unidos Mexicanos.
+
+.. include:: T146.rst
