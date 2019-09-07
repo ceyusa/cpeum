@@ -224,6 +224,9 @@ Sección IV: De la Comisión Permanente
 
 .. include:: 078.rst
 
+Sección V: De la Fiscalización Superior de la Federación
+::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
 .. include:: 079.rst
 
 Capítulo III: Del Poder Ejecutivo
@@ -1298,3 +1301,11 @@ DECRETO por el que se declara reformado el artículo 58 de la
 Constitución Política de los Estados Unidos Mexicanos.
 
 .. include:: T144.rst
+
+Artículos Transitorios de Decretos de Reforma (145)
+---------------------------------------------------
+
+DECRETO por el que se declaran reformados los artículos 73, 74, 78 y 79
+de la Constitución Política de los Estados Unidos Mexicanos.
+
+.. include:: T145.rst
