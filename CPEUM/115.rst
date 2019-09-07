@@ -5,9 +5,12 @@ republicano, representativo, popular, teniendo como base de su división
 territorial y de su organización política y administrativa el Municipio
 Libre, conforme a las bases siguientes:
 
-I. Cada Municipio será administrado por un Ayuntamiento de elección
-   popular directa y no habrá ninguna autoridad intermedia entre éste y
-   el Gobierno del Estado.
+I. Cada Municipio será gobernado por un Ayuntamiento de elección popular
+   directa, integrado por un Presidente Municipal y el número de
+   regidores y síndicos que la ley determine. La competencia que esta
+   Constitución otorga al gobierno municipal se ejercerá por el
+   Ayuntamiento de manera exclusiva y no habrá autoridad intermedia
+   alguna entre éste y el gobierno del Estado.
 
    Los presidentes municipales, regidores y síndicos de los
    ayuntamientos, electos popularmente por elección directa, no podrán
@@ -29,34 +32,77 @@ I. Cada Municipio será administrado por un Ayuntamiento de elección
    para rendir las pruebas y hacer los alegatos que a su juicio
    convengan.
 
-   En caso de declararse desaparecido un ayuntamiento o por renuncia o
-   falta absoluta de la mayoría de sus miembros, si conforme a la ley no
-   procediere que entraren en funciones los suplentes ni que se
-   celebraren nuevas elecciones, las Legislaturas designarán entre los
-   vecinos a los Consejos Municipales que concluirán los periodos
-   respectivos.
+   Si alguno de los miembros dejare de desempeñar su cargo, será
+   sustituido por su suplente, o se procederá según lo disponga la ley.
 
-   Si alguno de los miembros dejare de desempeñar su cargo. será
-   substituido por su suplente, o se procederá según lo disponga la ley.
+   En caso de declararse desaparecido un Ayuntamiento o por renuncia o
+   falta absoluta de la mayoría de sus miembros, si conforme a la ley no
+   procede que entren en funciones los suplentes ni que se celebren
+   nuevas elecciones, las legislaturas de los Estados designarán de
+   entre los vecinos a los Concejos Municipales que concluirán los
+   períodos respectivos; estos Concejos estarán integrados por el número
+   de miembros que determine la ley, quienes deberán cumplir los
+   requisitos de elegibilidad establecidos para los regidores;
 
 II. Los municipios estarán investidos de personalidad jurídica y
     manejarán su patrimonio conforme a la ley.
 
-    Los ayuntamientos poseerán facultades para expedir de acuerdo con
-    las bases normativas que deberán establecer las Legislaturas de los
-    Estados, los bandos de policía y buen gobierno y los reglamentos
+    Los ayuntamientos tendrán facultades para aprobar, de acuerdo con
+    las leyes en materia municipal que deberán expedir las legislaturas
+    de los Estados, los bandos de policía y gobierno, los reglamentos,
     circulares y disposiciones administrativas de observancia general
-    dentro de sus respectivas jurisdicciones.
+    dentro de sus respectivas jurisdicciones, que organicen la
+    administración pública municipal, regulen las materias,
+    procedimientos, funciones y servicios públicos de su competencia y
+    aseguren la participación ciudadana y vecinal.
 
-III. Los municipios, con el concurso de los Estados cuando así fuere
-     necesario y lo determinen las leyes, tendrán a su cargo los
-     siguientes servicios públicos:
+    El objeto de las leyes a que se refiere el párrafo anterior será
+    establecer:
 
-     a. Agua potable y alcantarillado.
+    a. Las bases generales de la administración pública municipal y del
+       procedimiento administrativo, incluyendo los medios de
+       impugnación y los órganos para dirimir las controversias entre
+       dicha administración y los particulares, con sujeción a los
+       principios de igualdad, publicidad, audiencia y legalidad;
+
+    b. Los casos en que se requiera el acuerdo de las dos terceras
+       partes de los miembros de los ayuntamientos para dictar
+       resoluciones que afecten el patrimonio inmobiliario municipal o
+       para celebrar actos o convenios que comprometan al Municipio por
+       un plazo mayor al periodo del Ayuntamiento;
+
+    c. Las normas de aplicación general para celebrar los convenios a
+       que se refieren tanto las fracciones III y IV de este artículo,
+       como el segundo párrafo de la fracción VII del artículo 116 de
+       esta Constitución;
+
+    d. El procedimiento y condiciones para que el gobierno estatal asuma
+       una función o servicio municipal cuando, al no existir el
+       convenio correspondiente, la legislatura estatal considere que el
+       municipio de que se trate esté imposibilitado para ejercerlos o
+       prestarlos; en este caso, será necesaria solicitud previa del
+       ayuntamiento respectivo, aprobada por cuando menos las dos
+       terceras partes de sus integrantes; y
+
+    e. Las disposiciones aplicables en aquellos municipios que no
+       cuenten con los bandos o reglamentos correspondientes.
+
+    Las legislaturas estatales emitirán las normas que establezcan los
+    procedimientos mediante los cuales se resolverán los conflictos que
+    se presenten entre los municipios y el gobierno del estado, o entre
+    aquéllos, con motivo de los actos derivados de los incisos c) y d)
+    anteriores;
+
+III. Los Municipios tendrán a su cargo las funciones y servicios
+     públicos siguientes:
+
+     a. Agua potable, drenaje, alcantarillado, tratamiento y disposición
+        de sus aguas residuales;
 
      b. Alumbrado público.
 
-     c. Limpia.
+     c. Limpia, recolección, traslado, tratamiento y disposición final
+        de residuos;
 
      d. Mercados y centrales de abasto.
 
@@ -64,18 +110,31 @@ III. Los municipios, con el concurso de los Estados cuando así fuere
 
      f. Rastro.
 
-     g. Calles, parques y jardines.
+     g. Calles, parques y jardines y su equipamiento;
 
-     h. Seguridad pública y tránsito, e
+     h. Seguridad pública, en los términos del artículo 21 de esta
+        Constitución, policía preventiva municipal y tránsito; e
 
      i. Los demás que las Legislaturas locales determinen según las
         condiciones territoriales y socio-económicas de los Municipios
         así como su capacidad administrativa y financiera.
 
-     Los municipios de un mismo Estado, previo acuerdo entre sus
-     ayuntamientos y con sujeción a la ley, podrán coordinarse y
-     asociarse para la más eficaz prestación de los servicios públicos
-     que les corresponda.
+     Sin perjuicio de su competencia constitucional, en el desempeño de
+     las funciones o la prestación de los servicios a su cargo, los
+     municipios observarán lo dispuesto por las leyes federales y
+     estatales.
+
+     Los Municipios, previo acuerdo entre sus ayuntamientos, podrán
+     coordinarse y asociarse para la más eficaz prestación de los
+     servicios públicos o el mejor ejercicio de las funciones que les
+     correspondan.  En este caso y tratándose de la asociación de
+     municipios de dos o más Estados, deberán contar con la aprobación
+     de las legislaturas de los Estados respectivas. Así mismo cuando a
+     juicio del ayuntamiento respectivo sea necesario, podrán celebrar
+     convenios con el Estado para que éste, de manera directa o a través
+     del organismo correspondiente, se haga cargo en forma temporal de
+     algunos de ellos, o bien se presten o ejerzan coordinadamente por
+     el Estado y el propio municipio;
 
 IV. Los municipios administrarán libremente su hacienda, la cual se
     formará de los rendimientos de los bienes que les pertenezcan, así
@@ -102,29 +161,66 @@ IV. Los municipios administrarán libremente su hacienda, la cual se
     Las leyes federales no limitarán la facultad de los Estados para
     establecer las contribuciones a que se refieren los incisos a) y c),
     ni concederán exenciones en relación con las mismas. Las leyes
-    locales no establecerán exenciones o subsidios respecto de las
-    mencionadas contribuciones, en favor de personas físicas o morales,
-    ni de instituciones oficiales o privadas. Sólo los bienes del
-    dominio público de la Federación, de los Estados o de los Municipios
-    estarán exentos de dichas contribuciones.
+    estatales no establecerán exenciones o subsidios en favor de persona
+    o institución alguna respecto de dichas contribuciones. Sólo estarán
+    exentos los bienes de dominio público de la Federación, de los
+    Estados o los Municipios, salvo que tales bienes sean utilizados por
+    entidades paraestatales o por particulares, bajo cualquier título,
+    para fines administrativos o propósitos distintos a los de su objeto
+    público.
 
-    Las Legislaturas de los Estados aprobarán las leyes de ingresos de
-    los Ayuntamientos y revisarán sus cuentas públicas. Los presupuestos
-    de egreso serán aprobados por los ayuntamientos con base en sus
-    ingresos disponibles.
+    Los ayuntamientos, en el ámbito de su competencia, propondrán a las
+    legislaturas estatales las cuotas y tarifas aplicables a impuestos,
+    derechos, contribuciones de mejoras y las tablas de valores
+    unitarios de suelo y construcciones que sirvan de base para el cobro
+    de las contribuciones sobre la propiedad inmobiliaria.
 
-V. Los municipios, en los términos de las leyes federales y estatales
-   relativas, estarán facultados para formular, aprobar y administrar la
-   zonificación y planes de desarrollo urbano municipal; participar en
-   la creación y administración de sus reservas territoriales; controlar
-   y vigilar la utilización del suelo en sus jurisdicciones
-   territoriales; intervenir en la regularización de la tenencia de la
-   tierra urbana; otorgar licencias y permisos para construcciones, y
-   participar en la creación y administración de zonas de reservas
-   ecológicas. Para el efecto y de conformidad a los fines señalados en
-   el párrafo Tercero del artículo 27 de esta Constitución, expedirán
-   los reglamentos y disposiciones administrativas que fueren
-   necesarios.
+    Las legislaturas de los Estados aprobarán las leyes de ingresos de
+    los municipios, revisarán y fiscalizarán sus cuentas públicas. Los
+    presupuestos de egresos serán aprobados por los ayuntamientos con
+    base en sus ingresos disponibles.
+
+    Los recursos que integran la hacienda municipal serán ejercidos en
+    forma directa por los ayuntamientos, o bien, por quien ellos
+    autoricen, conforme a la ley;
+
+V. Los Municipios, en los términos de las leyes federales y Estatales
+   relativas, estarán facultados para:
+
+   a. Formular, aprobar y administrar la zonificación y planes de
+      desarrollo urbano municipal;
+
+   b. Participar en la creación y administración de sus reservas
+      territoriales;
+
+   c. Participar en la formulación de planes de desarrollo regional, los
+      cuales deberán estar en concordancia con los planes generales de
+      la materia. Cuando la Federación o los Estados elaboren proyectos
+      de desarrollo regional deberán asegurar la participación de los
+      municipios;
+
+   d. Autorizar, controlar y vigilar la utilización del suelo, en el
+      ámbito de su competencia, en sus jurisdicciones territoriales;
+
+   e. Intervenir en la regularización de la tenencia de la tierra
+      urbana;
+
+   f. Otorgar licencias y permisos para construcciones;
+
+   g. Participar en la creación y administración de zonas de reservas
+      ecológicas y en la elaboración y aplicación de programas de
+      ordenamiento en esta materia;
+
+   h. Intervenir en la formulación y aplicación de programas de
+      transporte público de pasajeros cuando aquellos afecten su ámbito
+      territorial; e
+
+   i. Celebrar convenios para la administración y custodia de las zonas
+      federales.
+
+   En lo conducente y de conformidad a los fines señalados en el párrafo
+   tercero del artículo 27 de esta Constitución, expedirán los
+   reglamentos y disposiciones administrativas que fueren necesarios;
 
 VI. Cuando dos o más centros urbanos situados en territorios municipales
     de dos o más entidades federativas formen o tiendan a formar una
@@ -133,9 +229,14 @@ VI. Cuando dos o más centros urbanos situados en territorios municipales
     planearán y regularán de manera conjunta y coordinada el desarrollo
     de dichos centros con apego a la ley federal de la materia.
 
-VII. El Ejecutivo Federal y los gobernadores de los Estados tendrán el
-     mando de la fuerza pública en los Municipios donde residieren
-     habitual o transitoriamente.
+VII. La policía preventiva municipal estará al mando del presidente
+     Municipal, en los términos del reglamento correspondiente. Aquélla
+     acatará las órdenes que el Gobernador del Estado le transmita en
+     aquellos casos que éste juzgue como de fuerza mayor o alteración
+     grave del orden público.
+
+     El Ejecutivo Federal tendrá el mando de la fuerza pública en los
+     lugares donde resida habitual o transitoriamente;
 
 VIII. Las leyes de los estbados introducirán el principio de la
       representación proporcional en la elección de los ayuntamientos de

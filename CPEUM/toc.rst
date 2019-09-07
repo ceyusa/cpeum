@@ -1317,3 +1317,11 @@ DECRETO por el que se reforma y adiciona el artículo 102 apartado B de
 la Constitución Política de los Estados Unidos Mexicanos.
 
 .. include:: T146.rst
+
+Artículos Transitorios de Decretos de Reforma (147)
+---------------------------------------------------
+
+DECRETO por el que se declara reformado y adicionado el artículo 115 de
+la Constitución Política de los Estados Unidos Mexicanos.
+
+.. include:: T147.rst
