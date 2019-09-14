@@ -1342,3 +1342,11 @@ diversas disposiciones del artículo 20 de la Constitución Política de
 los Estados Unidos Mexicanos.
 
 .. include:: T149.rst
+
+Artículos Transitorios de Decretos de Reforma (150)
+---------------------------------------------------
+
+DECRETO por el que se declara reformada la fracción XXV del artículo 73
+de la Constitución Política de los Estados Unidos Mexicanos.
+
+.. include:: T150.rst
