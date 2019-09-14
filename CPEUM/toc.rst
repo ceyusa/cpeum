@@ -1350,3 +1350,15 @@ DECRETO por el que se declara reformada la fracción XXV del artículo 73
 de la Constitución Política de los Estados Unidos Mexicanos.
 
 .. include:: T150.rst
+
+Artículos Transitorios de Decretos de Reforma (151)
+---------------------------------------------------
+
+DECRETO por el que se aprueba el diverso por el que se adicionan un
+segundo y tercer párrafos al artículo 1o., se reforma el artículo 2o.,
+se deroga el párrafo primero del artículo 4o.; y se adicionan un sexto
+párrafo al artículo 18, y un último párrafo a la fracción tercera del
+artículo 115 de la Constitución Política de los Estados Unidos
+Mexicanos.
+
+.. include:: T151.rst
