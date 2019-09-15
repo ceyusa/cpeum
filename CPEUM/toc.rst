@@ -1372,3 +1372,13 @@ artículo 113 de la Constitución Política de los Estados Unidos
 Mexicanos.
 
 .. include:: T152.rst
+
+Artículos Transitorios de Decretos de Reforma (153)
+---------------------------------------------------
+
+DECRETO por el que se aprueba el diverso por el que se adiciona el
+artículo 3o., en su párrafo primero, fracciones III, V y VI, y el
+artículo 31 en su fracción I, de la Constitución Política de los Estados
+Unidos Mexicanos.
+
+.. include:: T153.rst
