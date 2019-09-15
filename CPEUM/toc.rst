@@ -1362,3 +1362,13 @@ artículo 115 de la Constitución Política de los Estados Unidos
 Mexicanos.
 
 .. include:: T151.rst
+
+Artículos Transitorios de Decretos de Reforma (152)
+---------------------------------------------------
+
+DECRETO por el que se aprueba el diverso por el que se modifica la
+denominación del Título Cuarto y se adiciona un segundo párrafo al
+artículo 113 de la Constitución Política de los Estados Unidos
+Mexicanos.
+
+.. include:: T152.rst
