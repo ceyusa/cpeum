@@ -1418,3 +1418,12 @@ transitorio a los artículos 30, 32 y 37 de la Constitución Política de
 los Estados Unidos Mexicanos, publicado el veinte de marzo de 1997.
 
 .. include:: T157.rst
+
+Artículos Transitorios de Decretos de Reforma (158)
+---------------------------------------------------
+
+DECRETO por el que se aprueba el diverso mediante el cual se reforma la
+fracción IV del artículo 74 de la Constitución Política de los Estados
+Unidos Mexicanos.
+
+.. include:: T158.rst
