@@ -1400,3 +1400,12 @@ del artículo 63 y la fracción IV del artículo 77 de la Constitución
 Política de los Estados Unidos Mexicanos.
 
 .. include:: T155.rst
+
+Artículos Transitorios de Decretos de Reforma (156)
+---------------------------------------------------
+
+DECRETO por el que se adiciona la fracción XXIX-M al artículo 73 y se
+reforma la fracción VI del artículo 89 de la Constitución Política de
+los Estados Unidos Mexicanos.
+
+.. include:: T156.rst
