@@ -1409,3 +1409,12 @@ reforma la fracción VI del artículo 89 de la Constitución Política de
 los Estados Unidos Mexicanos.
 
 .. include:: T156.rst
+
+Artículos Transitorios de Decretos de Reforma (157)
+---------------------------------------------------
+
+DECRETO por el que se aprueba el diverso que reforma el artículo segundo
+transitorio a los artículos 30, 32 y 37 de la Constitución Política de
+los Estados Unidos Mexicanos, publicado el veinte de marzo de 1997.
+
+.. include:: T157.rst
