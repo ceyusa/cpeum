@@ -1462,3 +1462,12 @@ fracción XXI, del Artículo 73 de la Constitución Política de los Estados
 Unidos Mexicanos.
 
 .. include:: T162.rst
+
+Artículos Transitorios de Decretos de Reforma (163)
+---------------------------------------------------
+
+DECRETO por el que se declara adicionado un párrafo tercero a la
+fracción XXI, del Artículo 73 de la Constitución Política de los Estados
+Unidos Mexicanos.
+
+.. include:: T163.rst
