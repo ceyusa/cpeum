@@ -1445,3 +1445,11 @@ XXIX-L al artículo 73 de la Constitución Política de los Estados Unidos
 Mexicanos.
 
 .. include:: T160.rst
+
+Artículos Transitorios de Decretos de Reforma (161)
+---------------------------------------------------
+
+DECRETO por el que se adiciona el artículo 21 de la Constitución
+Política de los Estados Unidos Mexicanos.
+
+.. include:: T161.rst
