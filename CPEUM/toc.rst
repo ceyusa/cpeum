@@ -1427,3 +1427,12 @@ fracción IV del artículo 74 de la Constitución Política de los Estados
 Unidos Mexicanos.
 
 .. include:: T158.rst
+
+Artículos Transitorios de Decretos de Reforma (159)
+---------------------------------------------------
+
+DECRETO por el que se aprueba el Decreto que reforma el primer párrafo
+del artículo 65 de la Constitución Política de los Estados Unidos
+Mexicanos.
+
+.. include:: T159.rst
