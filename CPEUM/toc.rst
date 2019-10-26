@@ -1453,3 +1453,12 @@ DECRETO por el que se adiciona el artículo 21 de la Constitución
 Política de los Estados Unidos Mexicanos.
 
 .. include:: T161.rst
+
+Artículos Transitorios de Decretos de Reforma (162)
+---------------------------------------------------
+
+DECRETO por el que se declara adicionado un párrafo tercero a la
+fracción XXI, del Artículo 73 de la Constitución Política de los Estados
+Unidos Mexicanos.
+
+.. include:: T162.rst
