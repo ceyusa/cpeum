@@ -1436,3 +1436,12 @@ del artículo 65 de la Constitución Política de los Estados Unidos
 Mexicanos.
 
 .. include:: T159.rst
+
+Artículos Transitorios de Decretos de Reforma (160)
+---------------------------------------------------
+
+DECRETO por el que se aprueba el diverso que adiciona una fracción
+XXIX-L al artículo 73 de la Constitución Política de los Estados Unidos
+Mexicanos.
+
+.. include:: T160.rst
