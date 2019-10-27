@@ -1480,3 +1480,13 @@ párrafo y 22 primer párrafo, y derogado el cuarto párrafo del artículo
 22 de la Constitución Política de los Estados Unidos Mexicanos.
 
 .. include:: T164.rst
+
+Artículos Transitorios de Decretos de Reforma (165)
+---------------------------------------------------
+
+DECRETO por el que se declara reformado el párrafo cuarto y adicionados
+los párrafos quinto y sexto, y se recorre en su orden los últimos dos
+párrafos del Artículo 18 de la Constitución Política de los Estados
+Unidos Mexicanos.
+
+.. include:: T165.rst
