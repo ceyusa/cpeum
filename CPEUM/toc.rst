@@ -1515,3 +1515,11 @@ DECRETO por el que se reforma el artículo 73, fracción XXIX-H de la
 Constitución Política de los Estados Unidos Mexicanos.
 
 .. include:: T168.rst
+
+Artículos Transitorios de Decretos de Reforma (169)
+---------------------------------------------------
+
+DECRETO por el que se reforma el Artículo 1o., Párrafo Tercero de la
+Constitución Política de los Estados Unidos Mexicanos.
+
+.. include:: T169.rst
