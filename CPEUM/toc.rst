@@ -1507,3 +1507,11 @@ artículo 105 de la Constitución Política de los Estados Unidos
 Mexicanos.
 
 .. include:: T167.rst
+
+Artículos Transitorios de Decretos de Reforma (168)
+---------------------------------------------------
+
+DECRETO por el que se reforma el artículo 73, fracción XXIX-H de la
+Constitución Política de los Estados Unidos Mexicanos.
+
+.. include:: T168.rst
