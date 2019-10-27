@@ -1471,3 +1471,12 @@ fracción XXI, del Artículo 73 de la Constitución Política de los Estados
 Unidos Mexicanos.
 
 .. include:: T163.rst
+
+Artículos Transitorios de Decretos de Reforma (164)
+---------------------------------------------------
+
+DECRETO por el que se declara reformados los artículos 14, segundo
+párrafo y 22 primer párrafo, y derogado el cuarto párrafo del artículo
+22 de la Constitución Política de los Estados Unidos Mexicanos.
+
+.. include:: T164.rst
