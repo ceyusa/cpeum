@@ -1540,3 +1540,11 @@ DECRETO por el que se reforma la fracción VI, del artículo 82 de la
 Constitución Política de los Estados Unidos Mexicanos.
 
 .. include:: T171.rst
+
+Artículos Transitorios de Decretos de Reforma (172)
+---------------------------------------------------
+
+DECRETO por el que se reforma la fracción V del artículo 55 de la
+Constitución Política de los Estados Unidos Mexicanos.
+
+.. include:: T172.rst
