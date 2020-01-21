@@ -1523,3 +1523,12 @@ DECRETO por el que se reforma el Artículo 1o., Párrafo Tercero de la
 Constitución Política de los Estados Unidos Mexicanos.
 
 .. include:: T169.rst
+
+Artículos Transitorios de Decretos de Reforma (170)
+---------------------------------------------------
+
+DECRETO por el que se reforma el artículo 76 fracción I, y el artículo
+89 fracción X, de la Constitución Política de los Estados Unidos
+Mexicanos.
+
+.. include:: T170.rst

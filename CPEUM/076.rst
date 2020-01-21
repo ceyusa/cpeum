@@ -4,9 +4,12 @@ Son facultades exclusivas del Senado:
 
 I. Analizar la política exterior desarrollada por el Ejecutivo Federal
    con base en los informes anuales que el Presidente de la República y
-   el Secretario del Despacho correspondiente rindan al Congreso;
-   además, aprobar los tratados internacionales y convenciones
-   diplomáticas que celebre el Ejecutivo de la Unión.
+   el Secretario del Despacho correspondiente rindan al Congreso.
+
+   Además, aprobar los tratados internacionales y convenciones
+   diplomáticas que el Ejecutivo Federal suscriba, así como su decisión
+   de terminar, denunciar, suspender, modificar, enmendar, retirar
+   reservas y formular declaraciones interpretativas sobre los mismos;
 
 II. Ratificar los nombramientos que el mismo funcionario haga de
     Ministros, Agentes, Diplomáticos, Cónsules Generales, Empleados
