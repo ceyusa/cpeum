@@ -1556,3 +1556,12 @@ DECRETO por el que se reforma la fracción X del artículo 73 de la
 Constitución Política de los Estados Unidos Mexicanos.
 
 .. include:: T173.rst
+
+Artículos Transitorios de Decretos de Reforma (174)
+---------------------------------------------------
+
+DECRETO por el que se adiciona un segundo párrafo con siete fracciones
+al Artículo 6o. de la Constitución Política de los Estados Unidos
+Mexicanos.
+
+.. include:: T174.rst
