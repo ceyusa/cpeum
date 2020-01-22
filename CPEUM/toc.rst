@@ -1565,3 +1565,11 @@ al Artículo 6o. de la Constitución Política de los Estados Unidos
 Mexicanos.
 
 .. include:: T174.rst
+
+Artículos Transitorios de Decretos de Reforma (175)
+---------------------------------------------------
+
+DECRETO por el que se reforman los artículos 29, 73, 90, 92, 93, 95, 110
+y 111 de la Constitución Política de los Estados Unidos Mexicanos.
+
+.. include:: T175.rst
