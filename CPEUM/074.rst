@@ -16,8 +16,12 @@ III. Derogada
 IV. Aprobar anualmente el Presupuesto de Egresos de la Federación,
     previo examen, discusión y, en su caso, modificación del Proyecto
     enviado por el Ejecutivo Federal, una vez aprobadas las
-    contribuciones que, a su juicio, deben decretarse para cubrirlo, así
-    como revisar la Cuenta Pública del año anterior.
+    contribuciones que, a su juicio, deben decretarse para
+    cubrirlo. Asimismo, podrá autorizar en dicho Presupuesto las
+    erogaciones plurianuales para aquellos proyectos de inversión en
+    infraestructura que se determinen conforme a lo dispuesto en la ley
+    reglamentaria; las erogaciones correspondientes deberán incluirse en
+    los subsecuentes Presupuestos de Egresos.
 
     El Ejecutivo Federal hará llegar a la Cámara la Iniciativa de Ley de
     Ingresos y el Proyecto de Presupuesto de Egresos de la Federación a
@@ -37,31 +41,12 @@ IV. Aprobar anualmente el Presupuesto de Egresos de la Federación,
     las que emplearán los secretarios por acuerdo escrito del Presidente
     de la República.
 
-    Para la revisión de la Cuenta Pública, la Cámara de Diputados se
-    apoyará en la entidad de fiscalización superior de la Federación. Si
-    del examen que ésta realice aparecieran discrepancias entre las
-    cantidades correspondientes a los ingresos o a los egresos, con
-    relación a los conceptos y las partidas respectivas o no existiera
-    exactitud o justificación en los ingresos obtenidos o en los gastos
-    realizados, se determinarán las responsabilidades de acuerdo con la
-    Ley.
-
-    Si del examen que realice la Contaduría Mayor de Hacienda
-    aparecieran discrepancias entre las cantidades gastadas y las
-    partidas respectivas del Presupuesto o no existiera exactitud o
-    justificación en los gastos hechos, se determinarán las
-    responsabilidades de acuerdo con la Ley.
-
-    La Cuenta Pública del año anterior deberá ser presentada a la Cámara
-    de Diputados del H. Congreso de la Unión dentro de los diez primeros
-    días del mes de junio.
-
     Sólo se podrá ampliar el plazo de presentación de la iniciativa de
-    Ley de Ingresos y del Proyecto de Presupuesto de Egresos, así como
-    de la Cuenta Pública, cuando medie solicitud del Ejecutivo
-    suficientemente justificada a juicio de la Cámara o de la Comisión
-    Permanente, debiendo comparecer en todo caso el Secretario del
-    Despacho correspondiente a informar de las razones que lo motiven;
+    Ley de Ingresos y del Proyecto de Presupuesto de Egresos, cuando
+    medie solicitud del Ejecutivo suficientemente justificada a juicio
+    de la Cámara o de la Comisión Permanente, debiendo comparecer en
+    todo caso el Secretario del Despacho correspondiente a informar de
+    las razones que lo motiven;
 
 V. Declarar si ha o no lugar a proceder penalmente contra los servidores
    públicos que hubieren incurrido en delito en los términos del
@@ -72,7 +57,46 @@ V. Declarar si ha o no lugar a proceder penalmente contra los servidores
    órgano de acusación en los juicios políticos que contra éstos se
    instauren.
 
-VI. Derogada.
+VI. Revisar la Cuenta Pública del año anterior, con el objeto de evaluar
+    los resultados de la gestión financiera, comprobar si se ha ajustado
+    a los criterios señalados por el Presupuesto y verificar el
+    cumplimiento de los objetivos contenidos en los programas.
+
+    La revisión de la Cuenta Pública la realizará la Cámara de Diputados
+    a través de la entidad de fiscalización superior de la
+    Federación. Si del examen que ésta realice aparecieran discrepancias
+    entre las cantidades correspondientes a los ingresos o a los
+    egresos, con relación a los conceptos y las partidas respectivas o
+    no existiera exactitud o justificación en los ingresos obtenidos o
+    en los gastos realizados, se determinarán las responsabilidades de
+    acuerdo con la Ley. En el caso de la revisión sobre el cumplimiento
+    de los objetivos de los programas, dicha entidad sólo podrá emitir
+    las recomendaciones para la mejora en el desempeño de los mismos, en
+    los términos de la Ley.
+
+    La Cuenta Pública del ejercicio fiscal correspondiente deberá ser
+    presentada a la Cámara de Diputados a más tardar el 30 de abril del
+    año siguiente. Sólo se podrá ampliar el plazo de presentación en los
+    términos de la fracción IV, último párrafo, de este artículo; la
+    prórroga no deberá exceder de 30 días naturales y, en tal supuesto,
+    la entidad de fiscalización superior de la Federación contará con el
+    mismo tiempo adicional para la presentación del informe del
+    resultado de la revisión de la Cuenta Pública.
+
+    La Cámara concluirá la revisión de la Cuenta Pública a más tardar el
+    30 de septiembre del año siguiente al de su presentación, con base
+    en el análisis de su contenido y en las conclusiones técnicas del
+    informe del resultado de la entidad de fiscalización superior de la
+    Federación, a que se refiere el artículo 79 de esta Constitución,
+    sin menoscabo de que el trámite de las observaciones,
+    recomendaciones y acciones promovidas por la entidad de
+    fiscalización superior de la Federación, seguirá su curso en
+    términos de lo dispuesto en dicho artículo.
+
+    La Cámara de Diputados evaluará el desempeño de la entidad de
+    fiscalización superior de la Federación y al efecto le podrá
+    requerir que le informe sobre la evolución de sus trabajos de
+    fiscalización;
 
 VII. Derogada.
 
