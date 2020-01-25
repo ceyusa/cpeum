@@ -1589,3 +1589,12 @@ DECRETO por el que se reforma la fracción IV del artículo 99, de la
 Constitución Política de los Estados Unidos Mexicanos.
 
 .. include:: T177.rst
+
+Artículos Transitorios de Decretos de Reforma (178)
+---------------------------------------------------
+
+DECRETO que reforma los artículos 6o., 41, 85, 99, 108, 116 y 122;
+adiciona el artículo 134 y deroga un párrafo al artículo 97 de la
+Constitución Política de los Estados Unidos Mexicanos.
+
+.. include:: T178.rst

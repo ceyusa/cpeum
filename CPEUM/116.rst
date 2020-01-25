@@ -88,48 +88,91 @@ III. El Poder Judicial de los Estados se ejercerá por los tribunales que
 IV. Las Constituciones y leyes de los Estados en materia electoral
     garantizarán que:
 
-    a. Las elecciones de los gobernadores de los Estados, de los
-       miembros de las legislaturas locales y de los integrantes de los
-       ayuntamientos se realicen mediante sufragio universal, libre,
-       secreto y directo;
+    a. Las elecciones de los gobernadores, de los miembros de las
+       legislaturas locales y de los integrantes de los ayuntamientos se
+       realicen mediante sufragio universal, libre, secreto y directo; y
+       que la jornada comicial tenga lugar el primer domingo de julio
+       del año que corresponda. Los Estados cuyas jornadas electorales
+       se celebren en el año de los comicios federales y no coincidan en
+       la misma fecha de la jornada federal, no estarán obligados por
+       esta última disposición;
 
-    b. En el ejercicio de la función electoral a cargo de las
-       autoridades electorales sean principios rectores los de
-       legalidad, imparcialidad, objetividad, certeza e independencia;
+    b. En el ejercicio de la función electoral, a cargo de las
+       autoridades electorales, sean principios rectores los de certeza,
+       imparcialidad, independencia, legalidad y objetividad;
 
     c. Las autoridades que tengan a su cargo la organización de las
        elecciones y las jurisdiccionales que resuelvan las controversias
        en la materia, gocen de autonomía en su funcionamiento e
        independencia en sus decisiones;
 
-    d. Se establezca un sistema de medios de impugnación para que todos
+    d. Las autoridades electorales competentes de carácter
+       administrativo puedan convenir con el Instituto Federal Electoral
+       se haga cargo de la organización de los procesos electorales
+       locales;
+
+    e. Los partidos políticos sólo se constituyan por ciudadanos sin
+       intervención de organizaciones gremiales, o con objeto social
+       diferente y sin que haya afiliación corporativa. Asimismo tengan
+       reconocido el derecho exclusivo para solicitar el registro de
+       candidatos a cargos de elección popular, con excepción de lo
+       dispuesto en el artículo 2o., apartado A, fracciones III y VII,
+       de esta Constitución;
+
+    f. Las autoridades electorales solamente puedan intervenir en los
+       asuntos internos de los partidos en los términos que expresamente
+       señalen;
+
+    g. Los partidos políticos reciban, en forma equitativa, financiamiento
+       público para sus actividades ordinarias permanentes y las tendientes a
+       la obtención del voto durante los procesos electorales. Del mismo modo
+       se establezca el procedimiento para la liquidación de los partidos que
+       pierdan su registro y el destino de sus bienes y remanentes;
+
+    h. Se fijen los criterios para establecer los límites a las
+       erogaciones de los partidos políticos en sus precampañas y
+       campañas electorales, así como los montos máximos que tengan las
+       aportaciones de sus simpatizantes, cuya suma total no excederá el
+       diez por ciento del tope de gastos de campaña que se determine
+       para la elección de gobernador; los procedimientos para el
+       control y vigilancia del origen y uso de todos los recursos con
+       que cuenten los partidos políticos; y establezcan las sanciones
+       por el incumplimiento a las disposiciones que se expidan en estas
+       materias;
+
+    i. Los partidos políticos accedan a la radio y la televisión,
+       conforme a las normas establecidas por el apartado B de la base
+       III del artículo 41 de esta Constitución;
+
+    j. Se fijen las reglas para las precampañas y las campañas
+       electorales de los partidos políticos, así como las sanciones
+       para quienes las infrinjan. En todo caso, la duración de las
+       campañas no deberá exceder de noventa días para la elección de
+       gobernador, ni de sesenta días cuando sólo se elijan diputados
+       locales o ayuntamientos; las precampañas no podrán durar más de
+       las dos terceras partes de las respectivas campañas electorales;
+
+    k. Se instituyan bases obligatorias para la coordinación entre el
+       Instituto Federal Electoral y las autoridades electorales locales
+       en materia de fiscalización de las finanzas de los partidos
+       políticos, en los términos establecidos en los dos últimos
+       párrafos de la base V del artículo 41 de esta Constitución;
+
+    l. Se establezca un sistema de medios de impugnación para que todos
        los actos y resoluciones electorales se sujeten invariablemente
-       al principio de legalidad;
+       al principio de legalidad. Igualmente, que se señalen los
+       supuestos y las reglas para la realización, en los ámbitos
+       administrativo y jurisdiccional, de recuentos totales o parciales
+       de votación;
 
-    e. Se fijen los plazos convenientes para el desahogo de todas las
-       instancias impugnativas, tomando en cuenta el principio de
-       definitividad de las etapas de los procesos electorales;
+    m. Se fijen las causales de nulidad de las elecciones de gobernador,
+       diputados locales y ayuntamientos, así como los plazos
+       convenientes para el desahogo de todas las instancias
+       impugnativas, tomando en cuenta el principio de definitividad de
+       las etapas de los procesos electorales, y
 
-    f. De acuerdo con las disponibilidades presupuestales, los partidos
-       políticos reciban, en forma equitativa, financiamiento público
-       para su sostenimiento y cuenten durante los procesos electorales
-       con apoyos para sus actividades tendientes a la obtención del
-       sufragio universal;
-
-    g. Se propicien condiciones de equidad para el acceso de los
-       partidos políticos a los medios de comunicación social;
-
-    h. Se fijen los criterios para determinar los límites a las
-       erogaciones de los partidos políticos en sus campañas
-       electorales, así como los montos máximos que tengan las
-       aportaciones pecuniarias de sus simpatizantes y los
-       procedimientos para el control y vigilancia del origen y uso de
-       todos los recursos con que cuenten los partidos políticos; se
-       establezcan, asimismo, las sanciones por el incumplimiento a las
-       disposiciones que se expidan en estas materias; e
-
-    i. Se tipifiquen los delitos y determinen las faltas en materia
-       electoral, así como las sanciones que por ellos deban imponerse;
+    n. Se tipifiquen los delitos y determinen las faltas en materia
+       electoral, así como las sanciones que por ellos deban imponerse.
 
 V. Las Constituciones y leyes de los Estados podrán instituir
    Tribunales de lo Contencioso-Administrativo dotados de plena

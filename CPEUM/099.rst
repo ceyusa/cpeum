@@ -5,10 +5,10 @@ II del artículo 105 de esta Constitución, la máxima autoridad
 jurisdiccional en la materia y órgano especializado del Poder Judicial
 de la Federación.
 
-Para el ejercicio de sus atribuciones, el Tribunal funcionará con una
-Sala Superior así como con Salas Regionales y sus sesiones de resolución
-serán públicas, en los términos que determine la ley. Contará con el
-personal jurídico y administrativo necesario para su adecuado
+Para el ejercicio de sus atribuciones, el Tribunal funcionará en forma
+permanente con una Sala Superior y salas regionales; sus sesiones de
+resolución serán públicas, en los términos que determine la ley. Contará
+con el personal jurídico y administrativo necesario para su adecuado
 funcionamiento.
 
 La Sala Superior se integrará por siete Magistrados Electorales. El
@@ -26,12 +26,16 @@ II. Las impugnaciones que se presenten sobre la elección de Presidente
     de los Estados Unidos Mexicanos que serán resueltas en única
     instancia por la Sala Superior.
 
+    Las salas Superior y regionales del Tribunal sólo podrán declarar la
+    nulidad de una elección por las causales que expresamente se
+    establezcan en las leyes.
+
     La Sala Superior realizará el cómputo final de la elección de
-    Presidente de los Estados Unidos Mexicanos, una vez resueltas, en su
-    caso, las impugnaciones que se hubieren interpuesto sobre la misma,
-    procediendo a formular la declaración de validez de la elección y la
-    de Presidente Electo respecto del candidato que hubiese obtenido el
-    mayor número de votos;
+    Presidente de los Estados Unidos Mexicanos, una vez resueltas las
+    impugnaciones que se hubieren interpuesto sobre la misma,
+    procediendo a formular, en su caso, la declaración de validez de la
+    elección y la de Presidente Electo respecto del candidato que
+    hubiese obtenido el mayor número de votos.
 
 III. Las impugnaciones de actos y resoluciones de la autoridad electoral
      federal, distintas a las señaladas en las dos fracciones
@@ -42,9 +46,8 @@ IV. Las impugnaciones de actos o resoluciones definitivos y firmes de
     organizar y calificar los comicios o resolver las controversias que
     surjan durante los mismos, que puedan resultar determinantes para el
     desarrollo del proceso respectivo o el resultado final de las
-    elecciones. Esta vía procederá solamente cuando se viole algún
-    precepto establecido en esta Constitución, la reparación solicitada
-    sea material y jurídicamente posible dentro de los plazos
+    elecciones. Esta vía procederá solamente cuando la reparación
+    solicitada sea material y jurídicamente posible dentro de los plazos
     electorales y sea factible antes de la fecha constitucional o
     legalmente fijada para la instalación de los órganos o la toma de
     posesión de los funcionarios elegidos;
@@ -52,7 +55,12 @@ IV. Las impugnaciones de actos o resoluciones definitivos y firmes de
 V. Las impugnaciones de actos y resoluciones que violen los derechos
    político electorales de los ciudadanos de votar, ser votado y de
    afiliación libre y pacífica para tomar parte en los asuntos políticos
-   del país, en los términos que señalen esta Constitución y las leyes;
+   del país, en los términos que señalen esta Constitución y las leyes.
+   Para que un ciudadano pueda acudir a la jurisdicción del Tribunal por
+   violaciones a sus derechos por el partido político al que se
+   encuentre afiliado, deberá haber agotado previamente las instancias
+   de solución de conflictos previstas en sus normas internas, la ley
+   establecerá las reglas y plazos aplicables;
 
 VI. Los conflictos o diferencias laborales entre el Tribunal y sus
     servidores;
@@ -60,24 +68,44 @@ VI. Los conflictos o diferencias laborales entre el Tribunal y sus
 VII. Los conflictos o diferencias laborales entre el Instituto Federal
      Electoral y sus servidores;
 
-VIII. La determinación e imposición de sanciones en la materia; y
+VIII. La determinación e imposición de sanciones por parte del Instituto
+      Federal Electoral a partidos o agrupaciones políticas o personas
+      físicas o morales, nacionales o extranjeras, que infrinjan las
+      disposiciones de esta Constitución y las leyes, y
 
 IX. Las demás que señale la ley.
 
-Cuando una Sala del Tribunal Electoral sustente una tesis sobre la
+Las salas del Tribunal Electoral harán uso de los medios de apremio
+necesarios para hacer cumplir de manera expedita sus sentencias y
+resoluciones, en los términos que fije la ley.
+
+Sin perjuicio de lo dispuesto por el artículo 105 de esta Constitución,
+las salas del Tribunal Electoral podrán resolver la no aplicación de
+leyes sobre la materia electoral contrarias a la presente Constitución.
+Las resoluciones que se dicten en el ejercicio de esta facultad se
+limitarán al caso concreto sobre el que verse el juicio. En tales casos
+la Sala Superior informará a la Suprema Corte de Justicia de la Nación.
+
+Cuando una sala del Tribunal Electoral sustente una tesis sobre la
 inconstitucionalidad de algún acto o resolución o sobre la
 interpretación de un precepto de esta Constitución, y dicha tesis pueda
-ser contradictoria con una sostenida por las Salas o el Pleno de la
-Suprema Corte de Justicia, cualquiera de los Ministros, las Salas o las
-partes, podrán denunciar la contradicción, en los términos que señale la
-ley, para que el Pleno de la Suprema Corte de Justicia de la Nación
-decida en definitiva cual tesis debe prevalecer. Las resoluciones que se
+ser contradictoria con una sostenida por las salas o el Pleno de la
+Suprema Corte de Justicia, cualquiera de los Ministros, las salas o las
+partes, podrán denunciar la contradicción en los términos que señale la
+ley, para que el pleno de la Suprema Corte de Justicia de la Nación
+decida en definitiva cuál tesis debe prevalecer. Las resoluciones que se
 dicten en este supuesto no afectarán los asuntos ya resueltos.
 
-La organización del Tribunal, la competencia de las Salas, los
+La organización del Tribunal, la competencia de las salas, los
 procedimientos para la resolución de los asuntos de su competencia, así
 como los mecanismos para fijar criterios de jurisprudencia obligatorios
 en la materia, serán los que determinen esta Constitución y las leyes.
+
+La Sala Superior podrá, de oficio, a petición de parte o de alguna de
+las salas regionales, atraer los juicios de que conozcan éstas;
+asimismo, podrá enviar los asuntos de su competencia a las salas
+regionales para su conocimiento y resolución. La ley señalará las reglas
+y los procedimientos para el ejercicio de tales facultades.
 
 La administración, vigilancia y disciplina en el Tribunal Electoral
 corresponderán, en los términos que señale la ley, a una Comisión del
@@ -90,25 +118,29 @@ inclusión en el proyecto de Presupuesto del Poder Judicial de la
 Federación. Asimismo, el Tribunal expedirá su Reglamento Interno y los
 acuerdos generales para su adecuado funcionamiento.
 
-Los Magistrados Electorales que integren la Sala Superior y las
-regionales serán elegidos por el voto de las dos terceras partes de los
-miembros presentes de la Cámara de Senadores, o en sus recesos por la
-Comisión Permanente, a propuesta de la Suprema Corte de Justicia de la
-Nación. La ley señalará las reglas y el procedimiento correspondientes.
+Los Magistrados Electorales que integren las salas Superior y regionales
+serán elegidos por el voto de las dos terceras partes de los miembros
+presentes de la Cámara de Senadores a propuesta de la Suprema Corte de
+Justicia de la Nación. La elección de quienes las integren será
+escalonada, conforme a las reglas y al procedimiento que señale la ley.
 
 Los Magistrados Electorales que integren la Sala Superior deberán
 satisfacer los requisitos que establezca la ley, que no podrán ser
 menores a los que se exigen para ser Ministro de la Suprema Corte de
-Justicia de la Nación y durarán en su encargo diez años improrrogables.
-Las renuncias, ausencias y licencias de los Magistrados Electorales de
-la Sala Superior serán tramitadas, cubiertas y otorgadas por dicha Sala,
-según corresponda, en los términos del artículo 98 de esta Constitución.
+Justicia de la Nación, y durarán en su encargo nueve años
+improrrogables. Las renuncias, ausencias y licencias de los Magistrados
+Electorales de la Sala Superior serán tramitadas, cubiertas y otorgadas
+por dicha Sala, según corresponda, en los términos del artículo 98 de
+esta Constitución.
 
 Los Magistrados Electorales que integren las salas regionales deberán
 satisfacer los requisitos que señale la ley, que no podrán ser menores a
-los que se exigen para ser Magistrado de Tribunal Colegiado de Circuito.
-Durarán en su encargo ocho años improrrogables, salvo si son promovidos
+los que se exige para ser Magistrado de Tribunal Colegiado de Circuito.
+Durarán en su encargo nueve años improrrogables, salvo si son promovidos
 a cargos superiores.
+
+En caso de vacante definitiva se nombrará a un nuevo Magistrado por el
+tiempo restante al del nombramiento original.
 
 El personal del Tribunal regirá sus relaciones de trabajo conforme a las
 disposiciones aplicables al Poder Judicial de la Federación y a las
