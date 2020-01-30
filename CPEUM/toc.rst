@@ -1614,3 +1614,11 @@ DECRETO por el que se reforman y adicionan diversas disposiciones de la
 Constitución Política de los Estados Unidos Mexicanos.
 
 .. include:: T180.rst
+
+Artículos Transitorios de Decretos de Reforma (181)
+---------------------------------------------------
+
+DECRETO por el que se reforman los artículos 69 y 93 de la Constitución
+Política de los Estados Unidos Mexicanos.
+
+.. include:: T181.rst
