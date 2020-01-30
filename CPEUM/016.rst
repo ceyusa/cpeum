@@ -6,18 +6,20 @@ competente, que funde y motive la causa legal del procedimiento.
 
 No podrá librarse orden de aprehensión sino por la autoridad judicial y
 sin que preceda denuncia o querella de un hecho que la ley señale como
-delito, sancionado cuando menos con pena privativa de libertad y existan
-datos que acrediten el cuerpo del delito y que hagan probable la
-responsabilidad del indiciado.
+delito, sancionado con pena privativa de libertad y obren datos que
+establezcan que se ha cometido ese hecho y que exista la probabilidad de
+que el indiciado lo cometió o participó en su comisión.
 
 La autoridad que ejecute una orden judicial de aprehensión, deberá poner
 al inculpado a disposición del juez, sin dilación alguna y bajo su más
 estricta responsabilidad. La contravención a lo anterior será sancionada
 por la ley penal.
 
-En los casos de delito flagrante, cualquier persona puede detener al
-indiciado poniéndolo sin demora a disposición de la autoridad inmediata
-y ésta, con la misma prontitud, a la del Ministerio Público.
+Cualquier persona puede detener al indiciado en el momento en que esté
+cometiendo un delito o inmediatamente después de haberlo cometido,
+poniéndolo sin demora a disposición de la autoridad más cercana y ésta
+con la misma prontitud, a la del Ministerio Público. Existirá un
+registro inmediato de la detención.
 
 Sólo en casos urgentes, cuando se trate de delito grave así calificado
 por la ley y ante el riesgo fundado de que el indiciado pueda sustraerse
@@ -30,6 +32,21 @@ En casos de urgencia o flagrancia, el juez que reciba la consignación
 del detenido deberá inmediatamente ratificar la detención o decretar la
 libertad con las reservas de ley.
 
+La autoridad judicial, a petición del Ministerio Público y tratándose de
+delitos de delincuencia organizada, podrá decretar el arraigo de una
+persona, con las modalidades de lugar y tiempo que la ley señale, sin
+que pueda exceder de cuarenta días, siempre que sea necesario para el
+éxito de la investigación, la protección de personas o bienes jurídicos,
+o cuando exista riesgo fundado de que el inculpado se sustraiga a la
+acción de la justicia. Este plazo podrá prorrogarse, siempre y cuando el
+Ministerio Público acredite que subsisten las causas que le dieron
+origen. En todo caso, la duración total del arraigo no podrá exceder los
+ochenta días.
+
+Por delincuencia organizada se entiende una organización de hecho de
+tres o más personas, para cometer delitos en forma permanente o
+reiterada, en los términos de la ley de la materia.
+
 Ningún indiciado podrá ser retenido por el Ministerio Público por más de
 cuarenta y ocho horas, plazo en que deberá ordenarse su libertad o
 ponérsele a disposición de la autoridad judicial; este plazo podrá
@@ -37,35 +54,57 @@ duplicarse en aquellos casos que la ley prevea como delincuencia
 organizada. Todo abuso a lo anteriormente dispuesto será sancionado por
 la ley penal.
 
-En toda orden de cateo, sólo la autoridad administrativa podrá practicar
-visitas domiciliarias únicamente para cerciorarse de que se han cumplido
-los reglamentos sanitarios y de policía; y exigir la exhibición de los
-libros y papeles indispensables para comprobar que se han acatado las
-disposicioies (*sic*) fiscales, sujetándose en estos casos, a las leyes
-respectivas y a las formalidades prescriptas (*sic*) para los cateos.
+En toda orden de cateo, que sólo la autoridad judicial podrá expedir, a
+solicitud del Ministerio Público, se expresará el lugar que ha de
+inspeccionarse, la persona o personas que hayan de aprehenderse y los
+objetos que se buscan, a lo que únicamente debe limitarse la diligencia,
+levantándose al concluirla, un acta circunstanciada, en presencia de dos
+testigos propuestos por el ocupante del lugar cateado o en su ausencia o
+negativa, por la autoridad que practique la diligencia.
 
-Las comunicaciones privadas son inviolables. La Ley sancionará
+Las comunicaciones privadas son inviolables. La ley sancionará
 penalmente cualquier acto que atente contra la libertad y privacía de
-las mismas. Exclusivamente la autoridad judicial federal, a petición de
-la autoridad federal que faculte la ley o del titular del Ministerio
-Público de la entidad federativa correspondiente, podrá autorizar la
-intervención de cualquier comunicación privada. Para ello, la autoridad
-competente, por escrito, deberá fundar y motivar las causas legales de
-la solicitud, expresando además, el tipo de intervención, los sujetos de
-la misma y su duración. La autoridad judicial federal no podrá otorgar
-estas autorizaciones cuando se trate de materias de carácter electoral,
-fiscal, mercantil, civil, laboral o administrativo, ni en el caso de las
-comunicaciones del detenido con su defensor.
+las mismas, excepto cuando sean aportadas de forma voluntaria por alguno
+de los particulares que participen en ellas. El juez valorará el alcance
+de éstas, siempre y cuando contengan información relacionada con la
+comisión de un delito. En ningún caso se admitirán comunicaciones que
+violen el deber de confidencialidad que establezca la ley.
+
+Exclusivamente la autoridad judicial federal, a petición de la autoridad
+federal que faculte la ley o del titular del Ministerio Público de la
+entidad federativa correspondiente, podrá autorizar la intervención de
+cualquier comunicación privada. Para ello, la autoridad competente
+deberá fundar y motivar las causas legales de la solicitud, expresando
+además, el tipo de intervención, los sujetos de la misma y su duración.
+La autoridad judicial federal no podrá otorgar estas autorizaciones
+cuando se trate de materias de carácter electoral, fiscal, mercantil,
+civil, laboral o administrativo, ni en el caso de las comunicaciones del
+detenido con su defensor.
+
+Los Poderes Judiciales contarán con jueces de control que resolverán, en
+forma inmediata, y por cualquier medio, las solicitudes de medidas
+cautelares, providencias precautorias y técnicas de investigación de la
+autoridad, que requieran control judicial, garantizando los derechos de
+los indiciados y de las víctimas u ofendidos. Deberá existir un registro
+fehaciente de todas las comunicaciones entre jueces y Ministerio Público
+y demás autoridades competentes.
 
 Las intervenciones autorizadas se ajustarán a los requisitos y límites
 previstos en las leyes. Los resultados de las intervenciones que no
 cumplan con éstos, carecerán de todo valor probatorio.
 
+La autoridad administrativa podrá practicar visitas domiciliarias
+únicamente para cerciorarse de que se han cumplido los reglamentos
+sanitarios y de policía; y exigir la exhibición de los libros y papeles
+indispensables para comprobar que se han acatado las disposiciones
+fiscales, sujetándose en estos casos, a las leyes respectivas y a las
+formalidades prescritas para los cateos.
+
 La correspondencia que bajo cubierta circule por las estafetas estará
 libre de todo registro, y su violación será penada por la ley.
 
 En tiempo de paz ningún miembro del Ejército podrá alojarse en casa
-particular contra la voluntad del dueño, ni imponer prestación
-alguna. En tiempo de guerra los militares podrán exigir alojamiento,
-bagajes, alimentos y otras prestaciones, en los términos que establezca
-la ley marcial correspondiente.
+particular contra la voluntad del dueño, ni imponer prestación alguna.
+En tiempo de guerra los militares podrán exigir alojamiento, bagajes,
+alimentos y otras prestaciones, en los términos que establezca la ley
+marcial correspondiente.

@@ -1,101 +1,146 @@
 **Artículo 20**
 
-En todo proceso de orden penal, el inculpado, la víctima o el ofendido,
-tendrán las siguientes garantías:
+El proceso penal será acusatorio y oral. Se regirá por los principios de
+publicidad, contradicción, concentración, continuidad e inmediación.
 
+A. De los principios generales:
 
-A. Del inculpado:
+   I. El proceso penal tendrá por objeto el esclarecimiento de los
+      hechos, proteger al inocente, procurar que el culpable no quede
+      impune y que los daños causados por el delito se reparen;
 
-   I. Inmediatamente que lo solicite, el juez deberá otorgarle la
-      libertad provisional bajo caución, siempre y cuando no se trate de
-      delitos en que, por su gravedad, la ley expresamente prohíba
-      conceder este beneficio. En caso de delitos no graves, a solicitud
-      del Ministerio Público, el juez podrá negar la libertad
-      provisional, cuando el inculpado haya sido condenado con
-      anterioridad, por algún delito calificado como grave por la ley o,
-      cuando el Ministerio Público aporte elementos al juez para
-      establecer que la libertad del inculpado representa, por su
-      conducta precedente o por las circunstancias y características del
-      delito cometido, un riesgo para el ofendido o para la sociedad.
+   II. Toda audiencia se desarrollará en presencia del juez, sin que
+       pueda delegar en ninguna persona el desahogo y la valoración de
+       las pruebas, la cual deberá realizarse de manera libre y lógica;
 
-      El monto y la forma de caución que se fije, deberán ser asequibles
-      para el inculpado. En circunstancias que la ley determine, la
-      autoridad judicial podrá modificar el monto de la caución. Para
-      resolver sobre la forma y el monto de la caución, el juez deberá
-      tomar en cuenta la naturaleza, modalidades y circunstancias del
-      delito; las características del inculpado y la posibilidad de
-      cumplimiento de las obligaciones procesales a su cargo; los daños
-      y perjuicios causados al ofendido; así como la sanción pecuniaria
-      que, en su caso, pueda imponerse al inculpado.
+   III. Para los efectos de la sentencia sólo se considerarán como
+        prueba aquellas que hayan sido desahogadas en la audiencia de
+        juicio. La ley establecerá las excepciones y los requisitos para
+        admitir en juicio la prueba anticipada, que por su naturaleza
+        requiera desahogo previo;
 
-      La ley determinará los casos graves en los cuales el juez podrá
-      revocar la libertad provisional;
+   IV. El juicio se celebrará ante un juez que no haya conocido del caso
+       previamente. La presentación de los argumentos y los elementos
+       probatorios se desarrollará de manera pública, contradictoria y
+       oral;
 
-   II. No podrá ser obligado a declarar. Queda prohibida y será
-       sancionada por la ley penal, toda incomunicación, intimidación o
-       tortura. La confesión rendida ante cualquier autoridad distinta
-       del Ministerio Público o del juez, o ante éstos sin la asistencia
-       de su defensor carecerá de todo valor probatorio;
+   V. La carga de la prueba para demostrar la culpabilidad corresponde a
+      la parte acusadora, conforme lo establezca el tipo penal. Las
+      partes tendrán igualdad procesal para sostener la acusación o la
+      defensa, respectivamente;
 
-   III. Se le hará saber en audiencia pública, y dentro de las cuarenta
-        y ocho horas siguientes a su consignación a la justicia, el
-        nombre de su acusador y la naturaleza y causa de la acusación, a
-        fin de que conozca bien el hecho punible que se le atribuye y
-        pueda contestar el cargo, rindiendo en este acto su declaración
-        preparatoria.
+   VI. Ningún juzgador podrá tratar asuntos que estén sujetos a proceso
+       con cualquiera de las partes sin que esté presente la otra,
+       respetando en todo momento el principio de contradicción, salvo
+       las excepciones que establece esta Constitución;
 
-   IV. Cuando así lo solicite, será careado, en presencia del juez, con
-       quien deponga en su contra, salvo lo dispuesto en la fracción V
-       del Apartado B de este artículo;
+   VII. Una vez iniciado el proceso penal, siempre y cuando no exista
+        oposición del inculpado, se podrá decretar su terminación
+        anticipada en los supuestos y bajo las modalidades que determine
+        la ley. Si el imputado reconoce ante la autoridad judicial,
+        voluntariamente y con conocimiento de las consecuencias, su
+        participación en el delito y existen medios de convicción
+        suficientes para corroborar la imputación, el juez citará a
+        audiencia de sentencia. La ley establecerá los beneficios que se
+        podrán otorgar al inculpado cuando acepte su responsabilidad;
 
-   V. Se le recibirán los testigos y demás pruebas que ofrezca,
-      concediéndosele el tiempo que la ley estime necesario al afecto y
-      auxiliándosele para obtenes (*sic*) de los reglamentos
-      gubernativos y de policía, el solicite (*sic*), siempre que se
-      encuentren en el lugar del proceso.
+   VIII. El juez sólo condenará cuando exista convicción de la
+         culpabilidad del procesado;
 
-   VI. Será juzgado en audiencia pública por un juez o jurado de
-       ciudadanos que sepan leer y escribir, vecinos del lugar y partido
-       en que se cometiere el delito, siempre que éste pueda ser
-       castigado con una pena mayor de un año de prisión. En todo caso
-       serán juzgados por un jurado los delitos cometidos por medio de
-       la prensa contra el orden público o la seguridad exterior o
-       interior de la Nación.
+   IX. Cualquier prueba obtenida con violación de derechos fundamentales
+       será nula, y
 
-   VII. Le serán facilitados todos los datos que solicite para su
-        defensa y que consten por el proceso.
+   X. Los principios previstos en este artículo, se observarán también
+      en las audiencias preliminares al juicio.
 
-   VIII. Será juzgado antes de cuatro meses si se tratare de delitos
-         cuya pena máxima no exceda de dos años de prisión, y antes de
-         un año si la pena excediere de ese tiempo, salvo que solicite
-         mayor plazo para su defensa;
+B. De los derechos de toda persona imputada:
 
-   IX. Desde el inicio de su proceso será informado de los derechos que
-       en su favor consigna esta Constitución y tendrá derecho a una
-       defensa adecuada, por sí, por abogado, o por persona de su
-       confianza. Si no quiere o no puede nombrar defensor, después de
-       haber sido requerido para hacerlo, el juez le designará un
-       defensor de oficio. También tendrá derecho a que su defensor
-       comparezca en todos los actos del proceso y éste tendrá
-       obligación de hacerlo cuantas veces se le requiera; y,
+   I. A que se presuma su inocencia mientras no se declare su
+      responsabilidad mediante sentencia emitida por el juez de la
+      causa;
 
-   X. En ningún caso podrá prolongarse la prisión o detención, por falta
-      de pago de honorarios de defensores o por cualquiera otra
-      prestación de dinero, por causa de responsabilidad civil o algún
-      otro motivo análogo.
+   II. A declarar o a guardar silencio. Desde el momento de su detención
+       se le harán saber los motivos de la misma y su derecho a guardar
+       silencio, el cual no podrá ser utilizado en su perjuicio. Queda
+       prohibida y será sancionada por la ley penal, toda
+       incomunicación, intimidación o tortura. La confesión rendida sin
+       la asistencia del defensor carecerá de todo valor probatorio;
 
-      Tampoco podrá prolongarse la prisión preventiva por más tiempo del
-      que como máximo fije la ley al delito que motivare el proceso.
+   III. A que se le informe, tanto en el momento de su detención como en
+        su comparecencia ante el Ministerio Público o el juez, los
+        hechos que se le imputan y los derechos que le
+        asisten. Tratándose de delincuencia organizada, la autoridad
+        judicial podrá autorizar que se mantenga en reserva el nombre y
+        datos del acusador.
 
-      En toda pena de prisión que imponga una sentencia, se computará el
-      tiempo de la detención.
+        La ley establecerá beneficios a favor del inculpado, procesado o
+        sentenciado que preste ayuda eficaz para la investigación y
+        persecución de delitos en materia de delincuencia organizada;
 
-      Las garantías previstas en las fracciones I, V, VII y IX también
-      serán observadas durante la averiguación previa, en los términos y
-      con los requisitos y límites que las leyes establezcan; lo
-      previsto en la fracción II no estará sujeto a condición alguna.
+   IV. Se le recibirán los testigos y demás pruebas pertinentes que
+       ofrezca, concediéndosele el tiempo que la ley estime necesario al
+       efecto y auxiliándosele para obtener la comparecencia de las
+       personas cuyo testimonio solicite, en los términos que señale la
+       ley;
 
-B. De la víctima o del ofendido:
+   V. Será juzgado en audiencia pública por un juez o tribunal. La
+      publicidad sólo podrá restringirse en los casos de excepción que
+      determine la ley, por razones de seguridad nacional, seguridad
+      pública, protección de las víctimas, testigos y menores, cuando se
+      ponga en riesgo la revelación de datos legalmente protegidos, o
+      cuando el tribunal estime que existen razones fundadas para
+      justificarlo.
+
+      En delincuencia organizada, las actuaciones realizadas en la fase
+      de investigación podrán tener valor probatorio, cuando no puedan
+      ser reproducidas en juicio o exista riesgo para testigos o
+      víctimas. Lo anterior sin perjuicio del derecho del inculpado de
+      objetarlas o impugnarlas y aportar pruebas en contra;
+
+   VI. Le serán facilitados todos los datos que solicite para su defensa
+       y que consten en el proceso.
+
+       El imputado y su defensor tendrán acceso a los registros de la
+       investigación cuando el primero se encuentre detenido y cuando
+       pretenda recibírsele declaración o entrevistarlo. Asimismo, antes
+       de su primera comparecencia ante juez podrán consultar dichos
+       registros, con la oportunidad debida para preparar la defensa. A
+       partir de este momento no podrán mantenerse en reserva las
+       actuaciones de la investigación, salvo los casos excepcionales
+       expresamente señalados en la ley cuando ello sea imprescindible
+       para salvaguardar el éxito de la investigación y siempre que sean
+       oportunamente revelados para no afectar el derecho de defensa;
+
+   VII. Será juzgado antes de cuatro meses si se tratare de delitos cuya
+        pena máxima no exceda de dos años de prisión, y antes de un año
+        si la pena excediere de ese tiempo, salvo que solicite mayor
+        plazo para su defensa;
+
+   VIII. Tendrá derecho a una defensa adecuada por abogado, al cual
+         elegirá libremente incluso desde el momento de su detención. Si
+         no quiere o no puede nombrar un abogado, después de haber sido
+         requerido para hacerlo, el juez le designará un defensor
+         público. También tendrá derecho a que su defensor comparezca en
+         todos los actos del proceso y éste tendrá obligación de hacerlo
+         cuantas veces se le requiera, y
+
+   IX. En ningún caso podrá prolongarse la prisión o detención, por
+       falta de pago de honorarios de defensores o por cualquiera otra
+       prestación de dinero, por causa de responsabilidad civil o algún
+       otro motivo análogo.
+
+       La prisión preventiva no podrá exceder del tiempo que como máximo
+       de pena fije la ley al delito que motivare el proceso y en ningún
+       caso será superior a dos años, salvo que su prolongación se deba
+       al ejercicio del derecho de defensa del imputado. Si cumplido
+       este término no se ha pronunciado sentencia, el imputado será
+       puesto en libertad de inmediato mientras se sigue el proceso, sin
+       que ello obste para imponer otras medidas cautelares.
+
+       En toda pena de prisión que imponga una sentencia, se computará
+       el tiempo de la detención.
+
+C. De los derechos de la víctima o del ofendido:
 
    I. Recibir asesoría jurídica; ser informado de los derechos que en su
       favor establece la Constitución y, cuando lo solicite, ser
@@ -103,8 +148,9 @@ B. De la víctima o del ofendido:
 
    II. Coadyuvar con el Ministerio Público; a que se le reciban todos
        los datos o elementos de prueba con los que cuente, tanto en la
-       averiguación previa como en el proceso, y a que se desahoguen las
-       diligencias correspondientes.
+       investigación como en el proceso, a que se desahoguen las
+       diligencias correspondientes, y a intervenir en el juicio e
+       interponer los recursos en los términos que prevea la ley.
 
        Cuando el Ministerio Público considere que no es necesario el
        desahogo de la diligencia, deberá fundar y motivar su negativa;
@@ -114,16 +160,30 @@ B. De la víctima o del ofendido:
 
    IV. Que se le repare el daño. En los casos en que sea procedente, el
        Ministerio Público estará obligado a solicitar la reparación del
-       daño y el juzgador no podrá absolver al sentenciado de dicha
-       reparación si ha emitido una sentencia condenatoria.
+       daño, sin menoscabo de que la víctima u ofendido lo pueda
+       solicitar directamente, y el juzgador no podrá absolver al
+       sentenciado de dicha reparación si ha emitido una sentencia
+       condenatoria.
 
        La ley fijará procedimientos ágiles para ejecutar las sentencias
        en materia de reparación del daño;
 
-   V. Cuando la víctima o el ofendido sean menores de edad, no estarán
-      obligados a carearse con el inculpado cuando se trate de los
-      delitos de violación o secuestro. En estos casos, se llevarán a
-      cabo declaraciones en las condiciones que establezca la ley; y
+   V. Al resguardo de su identidad y otros datos personales en los
+      siguientes casos: cuando sean menores de edad; cuando se trate de
+      delitos de violación, secuestro o delincuencia organizada; y
+      cuando a juicio del juzgador sea necesario para su protección,
+      salvaguardando en todo caso los derechos de la defensa.
 
-   VI. Solicitar las medidas y providencias que prevea la ley para su
-       seguridad y auxilio.
+      El Ministerio Público deberá garantizar la protección de víctimas,
+      ofendidos, testigos y en general todas los sujetos que intervengan
+      en el proceso. Los jueces deberán vigilar el buen cumplimiento de
+      esta obligación;
+
+   VI. Solicitar las medidas cautelares y providencias necesarias para
+       la protección y restitución de sus derechos, y
+
+   VII. Impugnar ante autoridad judicial las omisiones del Ministerio
+        Público en la investigación de los delitos, así como las
+        resoluciones de reserva, no ejercicio, desistimiento de la
+        acción penal o suspensión del procedimiento cuando no esté
+        satisfecha la reparación del daño.
