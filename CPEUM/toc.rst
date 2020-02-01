@@ -1630,3 +1630,12 @@ DECRETO por el que se reforma el artículo 88 de la Constitución Política
 de los Estados Unidos Mexicanos.
 
 .. include:: T182.rst
+
+Artículos Transitorios de Decretos de Reforma (183)
+---------------------------------------------------
+
+DECRETO por el que se reforma el párrafo quinto de la fracción I del
+artículo 116 de la Constitución Política de los Estados Unidos
+Mexicanos.
+
+.. include:: T183.rst

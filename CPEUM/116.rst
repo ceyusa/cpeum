@@ -27,13 +27,15 @@ I. Los gobernadores de los Estados no podrán durar en su encargo más de
       aun cuando tenga distinta denominación;
 
    b. El gobernador interino, el provisional o el ciudadano que, bajo
-      cualquiera denominación, supla las faltas temporales del
+      cualquier denominación, supla las faltas temporales del
       gobernador, siempre que desempeñe el cargo los dos últimos años
-      del período.
+      del periodo.
 
    Sólo podrá ser gobernador constitucional de un Estado un ciudadano
    mexicano por nacimiento y nativo de él, o con residencia efectiva no
-   menor de cinco años inmediatamente anteriores al día de la elección.
+   menor de cinco años inmediatamente anteriores al día de los comicios,
+   y tener 30 años cumplidos el día de la elección, o menos, si así lo
+   establece la Constitución Política de la Entidad Federativa.
 
 II. El número de representantes en las legislaturas de los Estados será
     proporcional al de habitantes de cada uno; pero, en todo caso, no
