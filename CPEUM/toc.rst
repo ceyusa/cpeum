@@ -1622,3 +1622,11 @@ DECRETO por el que se reforman los artículos 69 y 93 de la Constitución
 Política de los Estados Unidos Mexicanos.
 
 .. include:: T181.rst
+
+Artículos Transitorios de Decretos de Reforma (182)
+---------------------------------------------------
+
+DECRETO por el que se reforma el artículo 88 de la Constitución Política
+de los Estados Unidos Mexicanos.
+
+.. include:: T182.rst
