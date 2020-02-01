@@ -1639,3 +1639,12 @@ artículo 116 de la Constitución Política de los Estados Unidos
 Mexicanos.
 
 .. include:: T183.rst
+
+Artículos Transitorios de Decretos de Reforma (184)
+---------------------------------------------------
+
+DECRETO por el que se adiciona un párrafo noveno al artículo 4o.; se
+reforma la fracción XXV y se adiciona una fracción XXIX-Ñ al artículo 73
+de la Constitución Política de los Estados Unidos Mexicanos.
+
+.. include:: T184.rst
