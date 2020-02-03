@@ -1648,3 +1648,11 @@ reforma la fracción XXV y se adiciona una fracción XXIX-Ñ al artículo 73
 de la Constitución Política de los Estados Unidos Mexicanos.
 
 .. include:: T184.rst
+
+Artículos Transitorios de Decretos de Reforma (185)
+---------------------------------------------------
+
+DECRETO por el que se adiciona la fracción XXIX-O al artículo 73 de la
+Constitución Política de los Estados Unidos Mexicanos.
+
+.. include:: T185.rst
