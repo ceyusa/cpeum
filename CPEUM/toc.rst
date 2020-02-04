@@ -1656,3 +1656,11 @@ DECRETO por el que se adiciona la fracción XXIX-O al artículo 73 de la
 Constitución Política de los Estados Unidos Mexicanos.
 
 .. include:: T185.rst
+
+Artículos Transitorios de Decretos de Reforma (186)
+---------------------------------------------------
+
+DECRETO por el que se reforma el párrafo primero de la fracción XXI del
+artículo 73 de la Constitución Política de los Estados Unidos Mexicanos.
+
+.. include:: T186.rst
