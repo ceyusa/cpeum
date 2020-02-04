@@ -1664,3 +1664,12 @@ DECRETO por el que se reforma el párrafo primero de la fracción XXI del
 artículo 73 de la Constitución Política de los Estados Unidos Mexicanos.
 
 .. include:: T186.rst
+
+Artículos Transitorios de Decretos de Reforma (187)
+---------------------------------------------------
+
+DECRETO por el que se adiciona un segundo párrafo, recorriéndose los
+subsecuentes en su orden, al artículo 16 de la Constitución Política de
+los Estados Unidos Mexicanos.
+
+.. include:: T187.rst
