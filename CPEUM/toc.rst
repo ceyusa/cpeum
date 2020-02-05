@@ -1673,3 +1673,15 @@ subsecuentes en su orden, al artículo 16 de la Constitución Política de
 los Estados Unidos Mexicanos.
 
 .. include:: T187.rst
+
+Artículos Transitorios de Decretos de Reforma (188)
+---------------------------------------------------
+
+DECRETO por el que se adiciona un segundo párrafo al artículo segundo
+transitorio y un artículo tercero transitorio al decreto por el que se
+declaran reformado el párrafo cuarto y adicionados los párrafos quinto y
+sexto, y se recorre el orden de los últimos dos párrafos del artículo 18
+de la Constitución Política de los Estados Unidos Mexicanos, publicado
+el 12 de diciembre de 2005.
+
+.. include:: T188.rst
