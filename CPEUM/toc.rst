@@ -1685,3 +1685,12 @@ de la Constitución Política de los Estados Unidos Mexicanos, publicado
 el 12 de diciembre de 2005.
 
 .. include:: T188.rst
+
+Artículos Transitorios de Decretos de Reforma (189)
+---------------------------------------------------
+
+DECRETO por el que se reforman y adicionan los artículos 75, 115, 116,
+122, 123 y 127 de la Constitución Política de los Estados Unidos
+Mexicanos.
+
+.. include:: T189.rst
