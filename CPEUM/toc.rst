@@ -1694,3 +1694,12 @@ DECRETO por el que se reforman y adicionan los artículos 75, 115, 116,
 Mexicanos.
 
 .. include:: T189.rst
+
+Artículos Transitorios de Decretos de Reforma (190)
+---------------------------------------------------
+
+DECRETO por el que se reforma la fracción II, de la Base Cuarta del
+Apartado C del artículo 122 de la Constitución Política de los Estados
+Unidos Mexicanos.
+
+.. include:: T190.rst
