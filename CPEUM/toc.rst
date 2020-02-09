@@ -1720,3 +1720,12 @@ DECRETO por el que se reforma el artículo 43 de la Constitución Política
 de los Estados Unidos Mexicanos.
 
 .. include:: T192.rst
+
+Artículos Transitorios de Decretos de Reforma (193)
+---------------------------------------------------
+
+DECRETO por el que se reforman, adicionan y derogan diversas
+disposiciones de los artículos 94, 103, 104 y 107 de la Constitución
+Política de los Estados Unidos Mexicanos.
+
+.. include:: T193.rst
