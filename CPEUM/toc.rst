@@ -1703,3 +1703,12 @@ Apartado C del artículo 122 de la Constitución Política de los Estados
 Unidos Mexicanos.
 
 .. include:: T190.rst
+
+Artículos Transitorios de Decretos de Reforma (191)
+---------------------------------------------------
+
+DECRETO por el que se adiciona un párrafo tercero y se recorre el orden
+de los párrafos subsecuentes del artículo 17 de la Constitución Política
+de los Estados Unidos Mexicanos.
+
+.. include:: T191.rst
