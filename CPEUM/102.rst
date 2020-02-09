@@ -47,15 +47,28 @@ B. El Congreso de la Unión y las legislaturas de las entidades
    Poder Judicial de la Federación, que violen estos derechos.
 
    Los organismos a que se refiere el párrafo anterior, formularán
-   recomendaciones públicas, no vinculatorias y denuncias y quejas ante
-   las autoridades respectivas.
+   recomendaciones públicas, no vinculatorias, denuncias y quejas ante
+   las autoridades respectivas. Todo servidor público está obligado a
+   responder las recomendaciones que les presenten estos
+   organismos. Cuando las recomendaciones emitidas no sean aceptadas o
+   cumplidas por las autoridades o servidores públicos, éstos deberán
+   fundar, motivar y hacer pública su negativa; además, la Cámara de
+   Senadores o en sus recesos la Comisión Permanente, o las legislaturas
+   de las entidades federativas, según corresponda, podrán llamar, a
+   solicitud de estos organismos, a las autoridades o servidores
+   públicos responsables para que comparezcan ante dichos órganos
+   legislativos, a efecto de que expliquen el motivo de su negativa.
 
    Estos organismos no serán competentes tratándose de asuntos
-   electorales, laborales y jurisdiccionales.
+   electorales y jurisdiccionales.
 
    El organismo que establezca el Congreso de la Unión se denominará
    Comisión Nacional de los Derechos Humanos; contará con autonomía de
    gestión y presupuestaria, personalidad jurídica y patrimonio propios.
+
+   Las Constituciones de los Estados y el Estatuto de Gobierno del
+   Distrito Federal establecerán y garantizarán la autonomía de los
+   organismos de protección de los derechos humanos.
 
    La Comisión Nacional de los Derechos Humanos tendrá un Consejo
    Consultivo integrado por diez consejeros que serán elegidos por el
@@ -73,6 +86,12 @@ B. El Congreso de la Unión y las legislaturas de las entidades
    ser reelecto por una sola vez y sólo podrá ser removido de sus
    funciones en los términos del Título Cuarto de esta Constitución.
 
+   Derechos Humanos, así como de los integrantes del Consejo Consultivo,
+   y de titulares de los organismos de protección de los derechos
+   humanos de las entidades federativas, se ajustarán a un procedimiento
+   de consulta pública, que deberá ser transparente, en los términos y
+   condiciones que determine la ley.
+
    El Presidente de la Comisión Nacional de los Derechos Humanos
    presentará anualmente a los Poderes de la Unión un informe de
    actividades. Al efecto comparecerá ante las Cámaras del Congreso en
@@ -81,4 +100,11 @@ B. El Congreso de la Unión y las legislaturas de las entidades
    La Comisión Nacional de los Derechos Humanos conocerá de las
    inconformidades que se presenten en relación con las recomendaciones,
    acuerdos u omisiones de los organismos equivalentes en las entidades
+   federativas.
+
+   La Comisión Nacional de los Derechos Humanos podrá investigar hechos
+   que constituyan violaciones graves de derechos humanos, cuando así lo
+   juzgue conveniente o lo pidiere el Ejecutivo Federal, alguna de las
+   Cámaras del Congreso de la Unión, el gobernador de un Estado, el Jefe
+   de Gobierno del Distrito Federal o las legislaturas de las entidades
    federativas.

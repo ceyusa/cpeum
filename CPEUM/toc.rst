@@ -27,8 +27,8 @@ CONSTITUCION POLITICA DE LOS ESTADOS UNIDOS MEXICANOS QUE REFORMA LA DE 5 DE FEB
 Título Primero
 --------------
 
-Capítulo I: De las Garantías Individuales
-`````````````````````````````````````````
+Capítulo I: De los Derechos Humanos y sus Garantías
+```````````````````````````````````````````````````
 
 .. include:: 001.rst
 
@@ -1729,3 +1729,12 @@ disposiciones de los artículos 94, 103, 104 y 107 de la Constitución
 Política de los Estados Unidos Mexicanos.
 
 .. include:: T193.rst
+
+Artículos Transitorios de Decretos de Reforma (194)
+---------------------------------------------------
+
+DECRETO por el que se modifica la denominación del Capítulo I del Título
+Primero y reforma diversos artículos de la Constitución Política de los
+Estados Unidos Mexicanos.
+
+.. include:: T194.rst
