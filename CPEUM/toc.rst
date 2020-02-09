@@ -1712,3 +1712,11 @@ de los párrafos subsecuentes del artículo 17 de la Constitución Política
 de los Estados Unidos Mexicanos.
 
 .. include:: T191.rst
+
+Artículos Transitorios de Decretos de Reforma (192)
+---------------------------------------------------
+
+DECRETO por el que se reforma el artículo 43 de la Constitución Política
+de los Estados Unidos Mexicanos.
+
+.. include:: T192.rst
