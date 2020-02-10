@@ -1738,3 +1738,11 @@ Primero y reforma diversos artículos de la Constitución Política de los
 Estados Unidos Mexicanos.
 
 .. include:: T194.rst
+
+Artículos Transitorios de Decretos de Reforma (195)
+---------------------------------------------------
+
+DECRETO por el que se reforman los artículos 19, 20 y 73 de la
+Constitución Política de los Estados Unidos Mexicanos.
+
+.. include:: T195.rst
