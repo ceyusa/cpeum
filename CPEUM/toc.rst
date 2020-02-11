@@ -1763,3 +1763,12 @@ reforma la fracción XXIX-J del artículo 73 de la Constitución Política
 de los Estados Unidos Mexicanos.
 
 .. include:: T197.rst
+
+Artículos Transitorios de Decretos de Reforma (198)
+---------------------------------------------------
+
+DECRETO por el que se reforman los párrafos sexto y séptimo del artículo
+4o. y se adiciona la fracción XXIX-P al artículo 73, de la Constitución
+Política de los Estados Unidos Mexicanos.
+
+.. include:: T198.rst
