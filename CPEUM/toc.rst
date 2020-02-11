@@ -1754,3 +1754,12 @@ DECRETO por el que se reforman los artículos 71, 72 y 78 de la
 Constitución Política de los Estados Unidos Mexicanos.
 
 .. include:: T196.rst
+
+Artículos Transitorios de Decretos de Reforma (197)
+---------------------------------------------------
+
+DECRETO por el que se adiciona un párrafo décimo al artículo 4o. y se
+reforma la fracción XXIX-J del artículo 73 de la Constitución Política
+de los Estados Unidos Mexicanos.
+
+.. include:: T197.rst
