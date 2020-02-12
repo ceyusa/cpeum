@@ -1782,3 +1782,12 @@ fracción XX del artículo 27 ambos de la Constitución Política de los
 Estados Unidos Mexicanos.
 
 .. include:: T199.rst
+
+Artículos Transitorios de Decretos de Reforma (200)
+---------------------------------------------------
+
+DECRETO por el que se Declara reformado el párrafo quinto y se adiciona
+un párrafo sexto recorriéndose en su orden los subsecuentes, al artículo
+4o. de la Constitución Política de los Estados Unidos Mexicanos.
+
+.. include:: T200.rst
