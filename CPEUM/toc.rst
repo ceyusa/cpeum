@@ -1772,3 +1772,13 @@ DECRETO por el que se reforman los párrafos sexto y séptimo del artículo
 Política de los Estados Unidos Mexicanos.
 
 .. include:: T198.rst
+
+Artículos Transitorios de Decretos de Reforma (199)
+---------------------------------------------------
+
+DECRETO por el que se adiciona un párrafo tercero al artículo 4o.
+recorriéndose en el orden los subsecuentes y un segundo párrafo a la
+fracción XX del artículo 27 ambos de la Constitución Política de los
+Estados Unidos Mexicanos.
+
+.. include:: T199.rst
