@@ -1791,3 +1791,12 @@ un párrafo sexto recorriéndose en su orden los subsecuentes, al artículo
 4o. de la Constitución Política de los Estados Unidos Mexicanos.
 
 .. include:: T200.rst
+
+Artículos Transitorios de Decretos de Reforma (201)
+---------------------------------------------------
+
+DECRETO por el que se declara reformado el párrafo primero; el inciso c)
+de la fracción II y la fracción V del artículo 3o., y la fracción I del
+artículo 31 de la Constitución Política de los Estados Unidos Mexicanos.
+
+.. include:: T201.rst
