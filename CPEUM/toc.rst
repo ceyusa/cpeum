@@ -1800,3 +1800,11 @@ de la fracción II y la fracción V del artículo 3o., y la fracción I del
 artículo 31 de la Constitución Política de los Estados Unidos Mexicanos.
 
 .. include:: T201.rst
+
+Artículos Transitorios de Decretos de Reforma (202)
+---------------------------------------------------
+
+DECRETO por el que se adiciona el párrafo segundo de la fracción XXI del
+artículo 73 de la Constitución Política de los Estados Unidos Mexicanos.
+
+.. include:: T202.rst
