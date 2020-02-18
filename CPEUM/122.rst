@@ -83,11 +83,17 @@ C. El Estatuto de Gobierno del Distrito Federal se sujetará a las
        sean compatibles, las disposiciones contenidas en los artículos
        51, 59, 61, 62, 64 y 77, fracción IV de esta Constitución;
 
-   III. Al partido político que obtenga por sí mismo el mayor número de
-        constancias de mayoría y por lo menos el treinta por ciento de
-        la votación en el Distrito Federal, le será asignado el número
-        de Diputados de representación proporcional suficiente para
-        alcanzar la mayoría absoluta de la Asamblea;
+   III. En la integración de la Asamblea Legislativa del Distrito
+        Federal, invariablemente se observará el siguiente criterio:
+
+        En ningún caso, un partido político podrá contar con un número
+        de diputados por ambos principios que representen un porcentaje
+        del total de la Asamblea, que exceda en ocho puntos a su
+        porcentaje de votación total emitida en el Distrito
+        Federal. Esta base no se aplicará al partido político que, por
+        sus triunfos en distritos uninominales, obtenga un porcentaje de
+        curules del total de la Asamblea, superior a la suma del
+        porcentaje de su votación total emitida más el ocho por ciento;
 
    IV. Establecerá las fechas para la celebración de dos períodos de
        sesiones ordinarios al año y la integración y las atribuciones
@@ -229,7 +235,11 @@ C. El Estatuto de Gobierno del Distrito Federal se sujetará a las
       o. **ñ**\. Presentar iniciativas de leyes o decretos en materias
          relativas al Distrito Federal, ante el Congreso de la Unión; y
 
-      p. **o**\. Las demás que se le confieran expresamente en esta
+      p. **o**\. Para establecer en ley los términos y requisitos para
+         que los ciudadanos del Distrito Federal ejerzan el derecho de
+         iniciativa ante la propia Asamblea, y
+
+      q. **p**\. Las demás que se le confieran expresamente en esta
          Constitución.
 
    **BASE SEGUNDA**

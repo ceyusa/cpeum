@@ -1808,3 +1808,12 @@ DECRETO por el que se adiciona el párrafo segundo de la fracción XXI del
 artículo 73 de la Constitución Política de los Estados Unidos Mexicanos.
 
 .. include:: T202.rst
+
+Artículos Transitorios de Decretos de Reforma (203)
+---------------------------------------------------
+
+DECRETO por el que se reforman y adicionan diversas disposiciones de la
+Constitución Política de los Estados Unidos Mexicanos, en materia
+política.
+
+.. include:: T203.rst

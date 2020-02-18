@@ -25,19 +25,24 @@ IV. Acordar por sí o a propuesta del Ejecutivo, la convocatoria del
     Congreso o de una sola Cámara a sesiones extraordinarias, siendo
     necesario en ambos casos el voto de las dos terceras partes de los
     individuos presentes. La convocatoria señalará el objeto u objetos
-    de las sesiones extraordinarias;
+    de las sesiones extraordinarias. Cuando la convocatoria sea al
+    Congreso General para que se erija en Colegio Electoral y designe
+    presidente interino o substituto, la aprobación de la convocatoria
+    se hará por mayoría;
 
 V. Otorgar o negar su ratificación a la designación del Procurador
    General de la República, que le someta el titular del Ejecutivo
    Federal;
 
-VI. Conceder licencia hasta por treinta días al Presidente de la
-    República y nombrar el interino que supla esa falta;
+VI. Conceder licencia hasta por sesenta días naturales al Presidente de
+    la República;
 
-VII. Ratificar los nombramientos que el Presidente haga de ministros,
-     agentes diplomáticos, cónsules generales, empleados superiores de
-     Hacienda, coroneles y demás jefes superiores del Ejército, Armada y
-     Fuerza Aérea Nacionales, en los términos que la ley disponga, y
+VII. Ratificar los nombramientos que el Presidente haga de embajadores,
+     cónsules generales, empleados superiores de Hacienda, integrantes
+     de los órganos colegiados encargados de la regulación en materia de
+     telecomunicaciones, energía y competencia económica, coroneles y
+     demás jefes superiores del Ejército, Armada y Fuerza Aérea
+     Nacionales, en los términos que la ley disponga, y
 
 VIII. Conocer y resolver sobre las solicitudes de licencia que le sean
       presentadas por los legisladores.

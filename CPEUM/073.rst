@@ -183,8 +183,8 @@ XXV. Para establecer, organizar y sostener en toda la República escuelas
 XXVI. Para conceder licencia al Presidente de la República y para
       constituirse en Colegio Electoral y designar al ciudadano que deba
       substituir al Presidente de la República, ya sea con el carácter
-      de substituto, interino o provisional, en los términos de los
-      artículos 34 y 35 de esta Constitución.
+      de interino o substituto, en los términos de los artículos 84 y 85
+      de esta Constitución;
 
 XXVII. Para establecer, organizar y sostener en toda la República
        escuelas rurales, elementales, superiores, secundarias y
@@ -329,6 +329,9 @@ XXIX. Para establecer contribuciones:
          momento por el interés superior de los mismos y cumpliendo con
          los tratados internacionales de la materia, de los que México
          sea parte.
+
+      R. **Q**. Para legislar sobre iniciativa ciudadana y consultas
+         populares.
 
 XXX. Para expedir todas las leyes que sean necesarias, a objeto de hacer
      efectivas las facultades anteriores, y todas las otras concedidas

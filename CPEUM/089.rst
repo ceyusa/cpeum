@@ -5,22 +5,19 @@ Las facultades y obligaciones del Presidente son las siguientes:
 I. Promulgar y ejecutar las leyes que expida el Congreso de la Unión,
    proveyendo en la esfera administrativa a su exacta observancia.
 
-II. Nombrar y remover libremente a los secretarios del despacho, remover
-    a los agentes diplomáticos y empleados superiores de Hacienda, y
-    nombrar y remover libremente a los demás empleados de la Unión, cuyo
-    nombramiento o remoción no esté determinado de otro modo en la
-    Constitución o en las leyes;
+II. Nombrar y remover libremente a los Secretarios de Estado, remover a
+    los embajadores, cónsules generales y empleados superiores de
+    Hacienda, y nombrar y remover libremente a los demás empleados de la
+    Unión, cuyo nombramiento o remoción no esté determinado de otro modo
+    en la Constitución o en las leyes;
 
-III. Nombrar y remover libremente a los Secretarios del Despacho, al
-     Procurador General de la República, remover a los Agentes
-     Diplomáticos y empleados superiores de Hacienda y, nombrar y
-     remover libremente a los demás empleados de la Unión, cuyo
-     nombramiento o remoción no esté determinado de otro modo en la
-     Constitución o en las leyes;
+III. Nombrar, con aprobación del Senado, a los embajadores, cónsules
+     generales, empleados superiores de Hacienda y a los integrantes de
+     los órganos colegiados encargados de la regulación en materia de
+     telecomunicaciones, energía y competencia económica;
 
-IV. Nombrar con aprobación del Senado, los Coroneles y demás oficiales
-    superiores del Ejército, Armada y Fuerza Aérea Nacionales y los
-    empleados superiores de Hacienda.
+IV. Nombrar, con aprobación del Senado, los Coroneles y demás oficiales
+    superiores del Ejército, Armada y Fuerza Aérea Nacionales;
 
 V. Nombrar a los demás oficiales del Ejército, Armada y Fuerza Aérea
    Nacionales, con arreglo a las leyes.
