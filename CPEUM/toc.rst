@@ -1817,3 +1817,11 @@ Constitución Política de los Estados Unidos Mexicanos, en materia
 política.
 
 .. include:: T203.rst
+
+Artículos Transitorios de Decretos de Reforma (204)
+---------------------------------------------------
+
+DECRETO por el que se reforman los artículos 46, 76 y 105 de la
+Constitución Política de los Estados Unidos Mexicanos.
+
+.. include:: T204.rst
