@@ -1833,3 +1833,14 @@ DECRETO por el que se reforma el Artículo 40 de la Constitución Política
 de los Estados Unidos Mexicanos.
 
 .. include:: T205.rst
+
+Artículos Transitorios de Decretos de Reforma (206)
+---------------------------------------------------
+
+DECRETO por el que se reforman los artículos 3o. en sus fracciones III,
+VII y VIII; y 73, fracción XXV, y se adiciona un párrafo tercero, un
+inciso d) al párrafo segundo de la fracción II y una fracción IX al
+artículo 3o. de la Constitución Política de los Estados Unidos
+Mexicanos.
+
+.. include:: T206.rst
