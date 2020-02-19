@@ -1825,3 +1825,11 @@ DECRETO por el que se reforman los artículos 46, 76 y 105 de la
 Constitución Política de los Estados Unidos Mexicanos.
 
 .. include:: T204.rst
+
+Artículos Transitorios de Decretos de Reforma (205)
+---------------------------------------------------
+
+DECRETO por el que se reforma el Artículo 40 de la Constitución Política
+de los Estados Unidos Mexicanos.
+
+.. include:: T205.rst
