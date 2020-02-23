@@ -113,9 +113,11 @@ XVI. Para dictar leyes sobre nacionalidad, condición jurídica de los
         después revisadas por el Congreso de la Unión en los casos que
         le competan.
 
-XVII. Para dictar leyes sobre vías generales de comunicación, y sobres
-      postas y correos, para expedir leyes sobre el uso y
-      aprovechamiento de las aguas de jurisdicción federal.
+XVII. Para dictar leyes sobre vías generales de comunicación,
+      tecnologías de la información y la comunicación, radiodifusión,
+      telecomunicaciones, incluida la banda ancha e Internet, postas y
+      correos, y sobre el uso y aprovechamiento de las aguas de
+      jurisdicción federal
 
 XVIII. Para establecer casas de moneda, fijar las condiciones que ésta
        deba tener, dictar reglas para determinar el valor relativo de la

@@ -1853,3 +1853,12 @@ artículo 25, así como el párrafo primero y tercero del apartado A del
 artículo 26 de la Constitución Política de los Estados Unidos Mexicanos.
 
 .. include:: T207.rst
+
+Artículos Transitorios de Decretos de Reforma (208)
+---------------------------------------------------
+
+DECRETO por el que se reforman y adicionan diversas disposiciones de los
+artículos 6o., 7o., 27, 28, 73, 78, 94 y 105 de la Constitución Política
+de los Estados Unidos Mexicanos, en materia de telecomunicaciones.
+
+.. include:: T208.rst
