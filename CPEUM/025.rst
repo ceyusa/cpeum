@@ -2,11 +2,14 @@
 
 Corresponde al Estado la rectoría del desarrollo nacional para
 garantizar que éste sea integral y sustentable, que fortalezca la
-Soberanía de la Nación y su régimen democrático y que, mediante el
-fomento del crecimiento económico y el empleo y una más justa
-distribución del ingreso y la riqueza, permita el pleno ejercicio de la
-libertad y la dignidad de los individuos, grupos y clases sociales, cuya
-seguridad protege esta Constitución.
+Soberanía de la Nación y su régimen democrático y que, mediante la
+competitividad, el fomento del crecimiento económico y el empleo y una
+más justa distribución del ingreso y la riqueza, permita el pleno
+ejercicio de la libertad y la dignidad de los individuos, grupos y
+clases sociales, cuya seguridad protege esta Constitución. La
+competitividad se entenderá como el conjunto de condiciones necesarias
+para generar un mayor crecimiento económico, promoviendo la inversión y
+la generación de empleo.
 
 El Estado planeará, conducirá, coordinará y orientará la actividad
 económica nacional, y llevará al cabo la regulación y fomento de las
@@ -42,5 +45,7 @@ distribución y consumo de bienes y servicios socialmente necesarios.
 
 La ley alentará y protegerá la actividad económica que realicen los
 particulares y proveerá las condiciones para que el desenvolvimiento del
-sector privado contribuya al desarrollo económico nacional, en los
-términos que establece esta Constitución.
+sector privado contribuya al desarrollo económico nacional, promoviendo
+la competitividad e implementando una política nacional para el
+desarrollo industrial que incluya vertientes sectoriales y regionales,
+en los términos que establece esta Constitución.

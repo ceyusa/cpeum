@@ -1844,3 +1844,12 @@ artículo 3o. de la Constitución Política de los Estados Unidos
 Mexicanos.
 
 .. include:: T206.rst
+
+Artículos Transitorios de Decretos de Reforma (207)
+---------------------------------------------------
+
+DECRETO por el que se reforman los párrafos primero y último del
+artículo 25, así como el párrafo primero y tercero del apartado A del
+artículo 26 de la Constitución Política de los Estados Unidos Mexicanos.
+
+.. include:: T207.rst
