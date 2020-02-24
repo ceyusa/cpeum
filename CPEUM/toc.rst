@@ -1862,3 +1862,11 @@ artículos 6o., 7o., 27, 28, 73, 78, 94 y 105 de la Constitución Política
 de los Estados Unidos Mexicanos, en materia de telecomunicaciones.
 
 .. include:: T208.rst
+
+Artículos Transitorios de Decretos de Reforma (209)
+---------------------------------------------------
+
+DECRETO por el que se reforma el artículo 24 de la Constitución Política
+de los Estados Unidos Mexicanos.
+
+.. include:: T209.rst
