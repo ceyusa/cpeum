@@ -1870,3 +1870,11 @@ DECRETO por el que se reforma el artículo 24 de la Constitución Política
 de los Estados Unidos Mexicanos.
 
 .. include:: T209.rst
+
+Artículos Transitorios de Decretos de Reforma (210)
+---------------------------------------------------
+
+DECRETO por el que se reforma el artículo 37 de la Constitución Política
+de los Estados Unidos Mexicanos.
+
+.. include:: T210.rst
