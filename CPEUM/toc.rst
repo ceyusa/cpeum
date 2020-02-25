@@ -1886,3 +1886,12 @@ DECRETO por el que se reforma la fracción XXI del artículo 73 de la
 Constitución Política de los Estados Unidos Mexicanos.
 
 .. include:: T211.rst
+
+Artículos Transitorios de Decretos de Reforma (212)
+---------------------------------------------------
+
+DECRETO por el que se reforman y adicionan diversas disposiciones de la
+Constitución Política de los Estados Unidos Mexicanos, en Materia de
+Energía.
+
+.. include:: T212.rst
