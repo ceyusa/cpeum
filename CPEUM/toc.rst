@@ -1895,3 +1895,11 @@ Constitución Política de los Estados Unidos Mexicanos, en Materia de
 Energía.
 
 .. include:: T212.rst
+
+Artículos Transitorios de Decretos de Reforma (213)
+---------------------------------------------------
+
+DECRETO por el que se adiciona una fracción XXIX-R al artículo 73 de la
+Constitución Política de los Estados Unidos Mexicanos.
+
+.. include:: T213.rst
