@@ -1903,3 +1903,13 @@ DECRETO por el que se adiciona una fracción XXIX-R al artículo 73 de la
 Constitución Política de los Estados Unidos Mexicanos.
 
 .. include:: T213.rst
+
+Artículos Transitorios de Decretos de Reforma (214)
+---------------------------------------------------
+
+DECRETO por el que se reforma el inciso e) y se adiciona un inciso o) de
+la fracción IV del artículo 116; y se reforma el artículo 122, Apartado
+C, Base Primera, fracción V, inciso f) de la Constitución Política de
+los Estados Unidos Mexicanos.
+
+.. include:: T214.rst

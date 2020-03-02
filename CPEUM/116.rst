@@ -148,10 +148,10 @@ IV. Las Constituciones y leyes de los Estados en materia electoral
     e. Los partidos políticos sólo se constituyan por ciudadanos sin
        intervención de organizaciones gremiales, o con objeto social
        diferente y sin que haya afiliación corporativa. Asimismo tengan
-       reconocido el derecho exclusivo para solicitar el registro de
-       candidatos a cargos de elección popular, con excepción de lo
-       dispuesto en el artículo 2o., apartado A, fracciones III y VII,
-       de esta Constitución;
+       reconocido el derecho para solicitar el registro de candidatos a
+       cargos de elección popular, con excepción de lo dispuesto en el
+       artículo 2°., apartado A, fracciones III y VII, de esta
+       Constitución.
 
     f. Las autoridades electorales solamente puedan intervenir en los
        asuntos internos de los partidos en los términos que expresamente
@@ -207,6 +207,11 @@ IV. Las Constituciones y leyes de los Estados en materia electoral
 
     n. Se tipifiquen los delitos y determinen las faltas en materia
        electoral, así como las sanciones que por ellos deban imponerse.
+
+    o. Se fijen las bases y requisitos para que en las elecciones los
+       ciudadanos soliciten su registro como candidatos para poder ser
+       votados en forma independiente a todos los cargos de elección
+       popular, en los términos del artículo 35 de esta Constitución.
 
 V. Las Constituciones y leyes de los Estados podrán instituir
    Tribunales de lo Contencioso-Administrativo dotados de plena
