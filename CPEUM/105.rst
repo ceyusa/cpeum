@@ -69,9 +69,9 @@ II. De las acciones de inconstitucionalidad que tengan por objeto
        expedidas por el Congreso de la Unión o de tratados
        internacionales celebrados por el Estado Mexicano;
 
-    c. El Procurador General de la República, en contra de leyes de
-       carácter federal, estatal y del Distrito Federal, así como de
-       tratados internacionales celebrados por el Estado Mexicano;
+    c. El Ejecutivo Federal, por conducto del Consejero Jurídico del
+       Gobierno, en contra de normas generales de carácter federal y de
+       las entidades federativas;
 
     d. El equivalente al treinta y tres por ciento de los integrantes de
        alguno de los órganos legislativos estatales, en contra de leyes
@@ -81,12 +81,12 @@ II. De las acciones de inconstitucionalidad que tengan por objeto
        la Asamblea de Representantes del Distrito Federal, en contra de
        leyes expedidas por la propia Asamblea,
 
-    f. Los partidos políticos con registro ante el Instituto Federal
+    f. Los partidos políticos con registro ante el Instituto Nacional
        Electoral, por conducto de sus dirigencias nacionales, en contra
        de leyes electorales federales o locales; y los partidos
        políticos con registro estatal, a través de sus dirigencias,
        exclusivamente en contra de leyes electorales expedidas por el
-       órgano legislativo del Estado que les otorgó el registro.
+       órgano legislativo del Estado que les otorgó el registro;
 
     g. La Comisión Nacional de los Derechos Humanos, en contra de leyes
        de carácter federal, estatal y del Distrito Federal, así como de
@@ -111,6 +111,10 @@ II. De las acciones de inconstitucionalidad que tengan por objeto
        órgano garante del Distrito Federal, en contra de leyes emitidas
        por la Asamblea Legislativa del Distrito Federal.
 
+    i. El Fiscal General de la República respecto de leyes federales y
+       de las entidades federativas, en materia penal y procesal penal,
+       así como las relacionadas con el ámbito de sus funciones;
+
     La única vía para plantear la no conformidad de las leyes
     electorales a la Constitución es la prevista en este artículo.
 
@@ -124,7 +128,9 @@ II. De las acciones de inconstitucionalidad que tengan por objeto
     aprobadas por una mayoría de cuando menos ocho votos.
 
 III. De oficio o a petición fundada del correspondiente Tribunal
-     Unitario de Circuito o del Procurador General de la República,
+     Unitario de Circuito o del Ejecutivo Federal, por conducto del
+     Consejero Jurídico del Gobierno, así como del Fiscal General de la
+     República en los asuntos en que intervenga el Ministerio Público,
      podrá conocer de los recursos de apelación en contra de sentencias
      de Jueces de Distrito dictadas en aquellos procesos en que la
      Federación sea parte y que por su interés y trascendencia así lo

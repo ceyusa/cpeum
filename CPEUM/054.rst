@@ -8,10 +8,10 @@ I. Un partido político para obtener el registro de sus listas regionales
    deberá acreditar que participa con candidatos a diputados por mayoría
    relativa en por lo menos doscientos distritos uninominales;
 
-II. Todo partido político que alcance por lo menos el dos por ciento del
-    total de la votación emitida para las listas regionales de las
-    circunscripciones plurinominales, tendrá derecho a que le sean
-    atribuidos diputados según el principio de representación
+II. Todo partido político que alcance por lo menos el tres por ciento
+    del total de la votación válida emitida para las listas regionales
+    de las circunscripciones plurinominales, tendrá derecho a que le
+    sean atribuidos diputados según el principio de representación
     proporcional;
 
 III. Al partido político que cumpla con las dos bases anteriores,

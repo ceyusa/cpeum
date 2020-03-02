@@ -12,17 +12,18 @@ mediante elecciones libres, auténticas y periódicas, conforme a las
 siguientes bases:
 
 I. Los partidos políticos son entidades de interés público; la ley
-   determinará las normas y requisitos para su registro legal y las
-   formas específicas de su intervención en el proceso electoral. Los
-   partidos políticos nacionales tendrán derecho a participar en las
-   elecciones estatales, municipales y del Distrito Federal.
+   determinará las normas y requisitos para su registro legal, las
+   formas específicas de su intervención en el proceso electoral y los
+   derechos, obligaciones y prerrogativas que les corresponden.
 
    Los partidos políticos tienen como fin promover la participación del
-   pueblo en la vida democrática, contribuir a la integración de la
-   representación nacional y como organizaciones de ciudadanos, hacer
-   posible el acceso de éstos al ejercicio del poder público, de acuerdo
-   con los programas, principios e ideas que postulan y mediante el
-   sufragio universal, libre, secreto y directo. Sólo los ciudadanos
+   pueblo en la vida democrática, contribuir a la integración de los
+   órganos de representación política y como organizaciones de
+   ciudadanos, hacer posible el acceso de éstos al ejercicio del poder
+   público, de acuerdo con los programas, principios e ideas que
+   postulan y mediante el sufragio universal, libre, secreto y directo,
+   así como las reglas para garantizar la paridad entre los géneros, en
+   candidaturas a legisladores federales y locales. Sólo los ciudadanos
    podrán formar partidos políticos y afiliarse libre e individualmente
    a ellos; por tanto, quedan prohibidas la intervención de
    organizaciones gremiales o con objeto social diferente en la creación
@@ -31,6 +32,13 @@ I. Los partidos políticos son entidades de interés público; la ley
    Las autoridades electorales solamente podrán intervenir en los
    asuntos internos de los partidos políticos en los términos que
    señalen esta Constitución y la ley.
+
+   Los partidos políticos nacionales tendrán derecho a participar en las
+   elecciones de las entidades federativas y municipales. El partido
+   político nacional que no obtenga, al menos, el tres por ciento del
+   total de la votación válida emitida en cualquiera de las elecciones
+   que se celebren para la renovación del Poder Ejecutivo o de las
+   Cámaras del Congreso de la Unión, le será cancelado el registro.
 
 II. La ley garantizará que los partidos políticos nacionales cuenten de
     manera equitativa con elementos para llevar a cabo sus actividades y
@@ -77,15 +85,13 @@ II. La ley garantizará que los partidos políticos nacionales cuenten de
        diputados inmediata anterior.
 
     La ley fijará los límites a las erogaciones en los procesos internos
-    de selección de candidatos y las campañas electorales de los
-    partidos políticos. La propia ley establecerá el monto máximo que
-    tendrán las aportaciones de sus simpatizantes, cuya suma total no
-    podrá exceder anualmente, para cada partido, al diez por ciento del
-    tope de gastos establecido para la última campaña presidencial;
-    asimismo ordenará los procedimientos para el control y vigilancia
-    del origen y uso de todos los recursos con que cuenten y dispondrá
-    las sanciones que deban imponerse por el incumplimiento de estas
-    disposiciones.
+    de selección de candidatos y en las campañas electorales. La propia
+    ley establecerá el monto máximo que tendrán las aportaciones de sus
+    militantes y simpatizantes; ordenará los procedimientos para el
+    control, fiscalización oportuna y vigilancia, durante la campaña,
+    del origen y uso de todos los recursos con que cuenten; asimismo,
+    dispondrá las sanciones que deban imponerse por el incumplimiento de
+    estas disposiciones.
 
     De igual manera, la ley establecerá el procedimiento para la
     liquidación de las obligaciones de los partidos que pierdan su
@@ -93,9 +99,11 @@ II. La ley garantizará que los partidos políticos nacionales cuenten de
     adjudicados a la Federación.
 
 III. Los partidos políticos nacionales tendrán derecho al uso de manera
-     permanente de los medios de comunicación social.
+     permanente de los medios de comunicación social. Los candidatos
+     independientes tendrán derecho de acceso a prerrogativas para las
+     campañas electorales en los términos que establezca la ley.
 
-     A. El Instituto Federal Electoral será autoridad única para la
+     A. El Instituto Nacional Electoral será autoridad única para la
         administración del tiempo que corresponda al Estado en radio y
         televisión destinado a sus propios fines y al ejercicio del
         derecho de los partidos políticos nacionales, de acuerdo con lo
@@ -103,10 +111,16 @@ III. Los partidos políticos nacionales tendrán derecho al uso de manera
 
         a. A partir del inicio de las precampañas y hasta el día de la
            jornada electoral quedarán a disposición del Instituto
-           Federal Electoral cuarenta y ocho minutos diarios, que serán
+           Nacional Electoral cuarenta y ocho minutos diarios, que serán
            distribuidos en dos y hasta tres minutos por cada hora de
            transmisión en cada estación de radio y canal de televisión,
-           en el horario referido en el inciso d) de este apartado;
+           en el horario referido en el inciso d) de este apartado. En
+           el período comprendido entre el fin de las precampañas y el
+           inicio de las campañas, el cincuenta por ciento de los
+           tiempos en radio y televisión se destinará a los fines
+           propios de las autoridades electorales, y el resto a la
+           difusión de mensajes genéricos de los partidos políticos,
+           conforme a lo que establezca la ley;
 
         b. Durante sus precampañas, los partidos políticos dispondrán en
            conjunto de un minuto por cada hora de transmisión en cada
@@ -114,19 +128,23 @@ III. Los partidos políticos nacionales tendrán derecho al uso de manera
            se utilizará conforme a lo que determine la ley;
 
         c. Durante las campañas electorales deberá destinarse para
-           cubrir el derecho de los partidos políticos al menos el
-           ochenta y cinco por ciento del tiempo total disponible a que
-           se refiere el inciso a) de este apartado;
+           cubrir el derecho de los partidos políticos y los candidatos
+           al menos el ochenta y cinco por ciento del tiempo total
+           disponible a que se refiere el inciso a) de este apartado;
 
         d. Las transmisiones en cada estación de radio y canal de
            televisión se distribuirán dentro del horario de programación
            comprendido entre las seis y las veinticuatro horas;
 
         e. El tiempo establecido como derecho de los partidos políticos
-           se distribuirá entre los mismos conforme a lo siguiente: el
-           treinta por ciento en forma igualitaria y el setenta por
-           ciento restante de acuerdo a los resultados de la elección
-           para diputados federales inmediata anterior;
+           y, en su caso, de los candidatos independientes, se
+           distribuirá entre los mismos conforme a lo siguiente: el
+           setenta por ciento será distribuido entre los partidos
+           políticos de acuerdo a los resultados de la elección para
+           diputados federales inmediata anterior y el treinta por
+           ciento restante será dividido en partes iguales, de las
+           cuales, hasta una de ellas podrá ser asignada a los
+           candidatos independientes en su conjunto;
 
         f. A cada partido político nacional sin representación en el
            Congreso de la Unión se le asignará para radio y televisión
@@ -134,29 +152,28 @@ III. Los partidos políticos nacionales tendrán derecho al uso de manera
            establecido en el inciso anterior, y
 
         g. Con independencia de lo dispuesto en los apartados A y B de
-           esta base y fuera de los periodos de precampañas y campañas
-           electorales federales, al Instituto Federal Electoral le será
-           asignado hasta el doce por ciento del tiempo total de que el
-           Estado disponga en radio y televisión, conforme a las leyes y
-           bajo cualquier modalidad; del total asignado, el Instituto
-           distribuirá entre los partidos políticos nacionales en forma
-           igualitaria un cincuenta por ciento; el tiempo restante lo
-           utilizará para fines propios o de otras autoridades
-           electorales, tanto federales como de las entidades
-           federativas. Cada partido político nacional utilizará el
-           tiempo que por este concepto le corresponda en un programa
-           mensual de cinco minutos y el restante en mensajes con
-           duración de veinte segundos cada uno.  En todo caso, las
+           esta base y fuera de los períodos de precampañas y campañas
+           electorales federales, al Instituto Nacional Electoral le
+           será asignado hasta el doce por ciento del tiempo total de
+           que el Estado disponga en radio y televisión, conforme a las
+           leyes y bajo cualquier modalidad; del total asignado, el
+           Instituto distribuirá entre los partidos políticos nacionales
+           en forma igualitaria un cincuenta por ciento; el tiempo
+           restante lo utilizará para fines propios o de otras
+           autoridades electorales, tanto federales como de las
+           entidades federativas. Cada partido político nacional
+           utilizará el tiempo que por este concepto le corresponda en
+           los formatos que establezca la ley. En todo caso, las
            transmisiones a que se refiere este inciso se harán en el
            horario que determine el Instituto conforme a lo señalado en
-           el inciso d) del presente Apartado. En situaciones especiales
-           el Instituto podrá disponer de los tiempos correspondientes a
-           mensajes partidistas a favor de un partido político, cuando
-           así se justifique.
+           el inciso d) del presente Apartado. En situaciones
+           especiales, el Instituto podrá disponer de los tiempos
+           correspondientes a mensajes partidistas a favor de un partido
+           político, cuando así se justifique.
 
-        Los partidos políticos en ningún momento podrán contratar o
-        adquirir, por sí o por terceras personas, tiempos en cualquier
-        modalidad de radio y televisión.
+        Los partidos políticos y los candidatos en ningún momento podrán
+        contratar o adquirir, por sí o por terceras personas, tiempos en
+        cualquier modalidad de radio y televisión.
 
         Ninguna otra persona física o moral, sea a título propio o por
         cuenta de terceros, podrá contratar propaganda en radio y
@@ -171,7 +188,7 @@ III. Los partidos políticos nacionales tendrán derecho al uso de manera
         Federal conforme a la legislación aplicable.
 
      B. Para fines electorales en las entidades federativas, el
-        Instituto Federal Electoral administrará los tiempos que
+        Instituto Nacional Electoral administrará los tiempos que
         correspondan al Estado en radio y televisión en las estaciones y
         canales de cobertura en la entidad de que se trate, conforme a
         lo siguiente y a lo que determine la ley:
@@ -187,21 +204,21 @@ III. Los partidos políticos nacionales tendrán derecho al uso de manera
            constitucional, y
 
         c. La distribución de los tiempos entre los partidos políticos,
-           incluyendo a los de registro local, se realizará de acuerdo a
-           los criterios señalados en el apartado A de esta base y lo
-           que determine la legislación aplicable.
+           incluyendo a los de registro local, y los candidatos
+           independientes se realizará de acuerdo con los criterios
+           señalados en el apartado A de esta base y lo que determine la
+           legislación aplicable.
 
-        Cuando a juicio del Instituto Federal Electoral el tiempo total
+        Cuando a juicio del Instituto Nacional Electoral el tiempo total
         en radio y televisión a que se refieren este apartado y el
-        anterior fuese insuficiente para sus propios fines o los de
-        otras autoridades electorales, determinará lo conducente para
-        cubrir el tiempo faltante, conforme a las facultades que la ley
-        le confiera.
+        anterior fuese insuficiente para sus propios fines, los de otras
+        autoridades electorales o para los candidatos independientes,
+        determinará lo conducente para cubrir el tiempo faltante,
+        conforme a las facultades que la ley le confiera.
 
      C. En la propaganda política o electoral que difundan los partidos
-        deberán abstenerse de expresiones que denigren a las
-        instituciones y a los propios partidos, o que calumnien a las
-        personas.
+        y candidatos deberán abstenerse de expresiones que calumnien a
+        las personas.
 
         Durante el tiempo que comprendan las campañas electorales
         federales y locales y hasta la conclusión de la respectiva
@@ -214,14 +231,18 @@ III. Los partidos políticos nacionales tendrán derecho al uso de manera
         electorales, las relativas a servicios educativos y de salud, o
         las necesarias para la protección civil en casos de emergencia.
 
-     D. Las infracciones a lo dispuesto en esta base serán sancionadas
-        por el Instituto Federal Electoral mediante procedimientos
-        expeditos, que podrán incluir la orden de cancelación inmediata
-        de las transmisiones en radio y televisión, de concesionarios y
-        permisionarios, que resulten violatorias de la ley.
+     D. El Instituto Nacional Electoral, mediante procedimientos
+        expeditos en los términos de la ley, investigará las
+        infracciones a lo dispuesto en esta base e integrará el
+        expediente para someterlo al conocimiento y resolución del
+        Tribunal Electoral del Poder Judicial de la Federación. En el
+        procedimiento, el Instituto podrá imponer, entre otras medidas
+        cautelares, la orden de suspender o cancelar de manera inmediata
+        las transmisiones en radio y televisión, de conformidad con lo
+        que disponga la ley.
 
-IV. La ley establecerá los plazos para la realización de los procesos
-    partidistas de selección y postulación de candidatos a cargos de
+IV. La ley establecerá los requisitos y las formas de realización de los
+    procesos de selección y postulación de candidatos a cargos de
     elección popular, así como las reglas para las precampañas y las
     campañas electorales.
 
@@ -235,115 +256,268 @@ IV. La ley establecerá los plazos para la realización de los procesos
     La violación a estas disposiciones por los partidos o cualquier otra
     persona física o moral será sancionada conforme a la ley.
 
-V. La organización de las elecciones federales es una función estatal
-   que se realiza a través de un organismo público autónomo denominado
-   Instituto Federal Electoral, dotado de personalidad jurídica y
-   patrimonio propios, en cuya integración participan el Poder
-   Legislativo de la Unión, los partidos políticos nacionales y los
-   ciudadanos, en los términos que ordene la ley. En el ejercicio de
-   esta función estatal, la certeza, legalidad, independencia,
-   imparcialidad y objetividad serán principios rectores.
+V. La organización de las elecciones es una función estatal que se
+   realiza a través del Instituto Nacional Electoral y de los organismos
+   públicos locales, en los términos que establece esta Constitución.
 
-   El Instituto Federal Electoral será autoridad en la materia,
-   independiente en sus decisiones y funcionamiento y profesional en su
-   desempeño; contará en su estructura con órganos de dirección,
-   ejecutivos, técnicos y de vigilancia. El Consejo General será su
-   órgano superior de dirección y se integrará por un consejero
-   Presidente y ocho consejeros electorales, y concurrirán, con voz pero
-   sin voto, los consejeros del Poder Legislativo, los representantes de
-   los partidos políticos y un Secretario Ejecutivo; la ley determinará
-   las reglas para la organización y funcionamiento de los órganos, así
-   como las relaciones de mando entre éstos. Los órganos ejecutivos y
-   técnicos dispondrán del personal calificado necesario para prestar el
-   servicio profesional electoral. Una Contraloría General tendrá a su
-   cargo, con autonomía técnica y de gestión, la fiscalización de todos
-   los ingresos y egresos del Instituto. Las disposiciones de la ley
-   electoral y del Estatuto que con base en ella apruebe el Consejo
-   General, regirán las relaciones de trabajo con los servidores del
-   organismo público. Los órganos de vigilancia del padrón electoral se
-   integrarán mayoritariamente por representantes de los partidos
-   políticos nacionales. Las mesas directivas de casilla estarán
-   integradas por ciudadanos.
+   A. El Instituto Nacional Electoral es un organismo público autónomo
+      dotado de personalidad jurídica y patrimonio propios, en cuya
+      integración participan el Poder Legislativo de la Unión, los
+      partidos políticos nacionales y los ciudadanos, en los términos
+      que ordene la ley. En el ejercicio de esta función estatal, la
+      certeza, legalidad, independencia, imparcialidad, máxima
+      publicidad y objetividad serán principios rectores.
 
-   El consejero Presidente durará en su cargo seis años y podrá ser
-   reelecto una sola vez. Los consejeros electorales durarán en su cargo
-   nueve años, serán renovados en forma escalonada y no podrán ser
-   reelectos. Según sea el caso, uno y otros serán elegidos
-   sucesivamente por el voto de las dos terceras partes de los miembros
-   presentes de la Cámara de Diputados, a propuesta de los grupos
-   parlamentarios, previa realización de una amplia consulta a la
-   sociedad. De darse la falta absoluta del consejero Presidente o de
-   cualquiera de los consejeros electorales, el sustituto será elegido
-   para concluir el periodo de la vacante. La ley establecerá las reglas
-   y el procedimiento correspondientes.
+      El Instituto Nacional Electoral será autoridad en la materia,
+      independiente en sus decisiones y funcionamiento, y profesional en
+      su desempeño; contará en su estructura con órganos de dirección,
+      ejecutivos, técnicos y de vigilancia. El Consejo General será su
+      órgano superior de dirección y se integrará por un consejero
+      Presidente y diez consejeros electorales, y concurrirán, con voz
+      pero sin voto, los consejeros del Poder Legislativo, los
+      representantes de los partidos políticos y un Secretario
+      Ejecutivo; la ley determinará las reglas para la organización y
+      funcionamiento de los órganos, las relaciones de mando entre
+      éstos, así como la relación con los organismos públicos locales.
+      Los órganos ejecutivos y técnicos dispondrán del personal
+      calificado necesario para el ejercicio de sus atribuciones. Una
+      Contraloría General tendrá a su cargo, con autonomía técnica y de
+      gestión, la fiscalización de todos los ingresos y egresos del
+      Instituto. Las disposiciones de la ley electoral y del Estatuto
+      que con base en ella apruebe el Consejo General, regirán las
+      relaciones de trabajo con los servidores del organismo
+      público. Los órganos de vigilancia del padrón electoral se
+      integrarán mayoritariamente por representantes de los partidos
+      políticos nacionales. Las mesas directivas de casilla estarán
+      integradas por ciudadanos.
 
-   El consejero Presidente y los consejeros electorales no podrán tener
-   otro empleo, cargo o comisión, con excepción de aquellos en que
-   actúen en representación del Consejo General y de los que desempeñen
-   en asociaciones docentes, científicas, culturales, de investigación o
-   de beneficencia, no remunerados. La retribución que perciban será
-   igual a la prevista para los Ministros de la Suprema Corte de
-   Justicia de la Nación.
+      Las sesiones de todos los órganos colegiados de dirección serán
+      públicas en los términos que señale la ley.
 
-   El titular de la Contraloría General del Instituto será designado por
-   la Cámara de Diputados con el voto de las dos terceras partes de sus
-   miembros presentes a propuesta de instituciones públicas de educación
-   superior, en la forma y términos que determine la ley. Durará seis
-   años en el cargo y podrá ser reelecto por una sola vez. Estará
-   adscrito administrativamente a la presidencia del Consejo General y
-   mantendrá la coordinación técnica necesaria con la entidad de
-   fiscalización superior de la Federación.
+      El Instituto contará con una oficialía electoral investida de fé
+      pública para actos de naturaleza electoral, cuyas atribuciones y
+      funcionamiento serán reguladas por la ley.
 
-   El Secretario Ejecutivo será nombrado con el voto de las dos terceras
-   partes del Consejo General a propuesta de su Presidente.
+      El consejero Presidente y los consejeros electorales durarán en su
+      cargo nueve años y no podrán ser reelectos. Serán electos por el
+      voto de las dos terceras partes de los miembros presentes de la
+      Cámara de Diputados, mediante el siguiente procedimiento:
 
-   La ley establecerá los requisitos que deberán reunir para su
-   designación el consejero presidente del Consejo General, los
-   consejeros electorales, el Contralor General y el Secretario
-   Ejecutivo del Instituto Federal Electoral; quienes hayan fungido como
-   consejero Presidente, consejeros electorales y Secretario Ejecutivo
-   no podrán ocupar, dentro de los dos años siguientes a la fecha de su
-   retiro, cargos en los poderes públicos en cuya elección hayan
-   participado.
+      a. La Cámara de Diputados emitirá el acuerdo para la elección del
+         consejero Presidente y los consejeros electorales, que
+         contendrá la convocatoria pública, las etapas completas para el
+         procedimiento, sus fechas límites y plazos improrrogables, así
+         como el proceso para la designación de un comité técnico de
+         evaluación, integrado por siete personas de reconocido
+         prestigio, de las cuales tres serán nombradas por el órgano de
+         dirección política de la Cámara de Diputados, dos por la
+         Comisión Nacional de los Derechos Humanos y dos por el
+         organismo garante establecido en el artículo 6o. de esta
+         Constitución;
 
-   Los consejeros del Poder Legislativo serán propuestos por los grupos
-   parlamentarios con afiliación de partido en alguna de las
-   Cámaras. Sólo habrá un Consejero por cada grupo parlamentario no
-   obstante su reconocimiento en ambas Cámaras del Congreso de la Unión.
+      b. El comité recibirá la lista completa de los aspirantes que
+         concurran a la convocatoria pública, evaluará el cumplimiento
+         de los requisitos constitucionales y legales, así como su
+         idoneidad para desempeñar el cargo; seleccionará a los mejor
+         evaluados en una proporción de cinco personas por cada cargo
+         vacante, y remitirá la relación correspondiente al órgano de
+         dirección política de la Cámara de Diputados;
 
-   El Instituto Federal Electoral tendrá a su cargo en forma integral y
-   directa, además de las que le determine la ley, las actividades
-   relativas a la capacitación y educación cívica, geografía electoral,
-   los derechos y prerrogativas de las agrupaciones y de los partidos
-   políticos, al padrón y lista de electores, impresión de materiales
-   electorales, preparación de la jornada electoral, los cómputos en los
-   términos que señale la ley, declaración de validez y otorgamiento de
-   constancias en las elecciones de diputados y senadores, cómputo de la
-   elección de Presidente de los Estados Unidos Mexicanos en cada uno de
-   los distritos electorales uninominales, así como la regulación de la
-   observación electoral y de las encuestas o sondeos de opinión con
-   fines electorales. Las sesiones de todos los órganos colegiados de
-   dirección serán públicas en los términos que señale la ley.
+      c. El órgano de dirección política impulsará la construcción de
+         los acuerdos para la elección del consejero Presidente y los
+         consejeros electorales, a fin de que una vez realizada la
+         votación por este órgano en los términos de la ley, se remita
+         al Pleno de la Cámara la propuesta con las designaciones
+         correspondientes;
 
-   La fiscalización de las finanzas de los partidos políticos nacionales
-   estará a cargo de un órgano técnico del Consejo General del Instituto
-   Federal Electoral, dotado de autonomía de gestión, cuyo titular será
-   designado por el voto de las dos terceras partes del propio Consejo a
-   propuesta del consejero Presidente. La ley desarrollará la
-   integración y funcionamiento de dicho órgano, así como los
-   procedimientos para la aplicación de sanciones por el Consejo
-   General. En el cumplimiento de sus atribuciones el órgano técnico no
-   estará limitado por los secretos bancario, fiduciario y fiscal.
+      d. Vencido el plazo que para el efecto se establezca en el acuerdo
+         a que se refiere el inciso a), sin que el órgano de dirección
+         política de la Cámara haya realizado la votación o remisión
+         previstas en el inciso anterior, o habiéndolo hecho, no se
+         alcance la votación requerida en el Pleno, se deberá convocar a
+         éste a una sesión en la que se realizará la elección mediante
+         insaculación de la lista conformada por el comité de
+         evaluación;
 
-   El órgano técnico será el conducto para que las autoridades
-   competentes en materia de fiscalización partidista en el ámbito de
-   las entidades federativas puedan superar la limitación a que se
-   refiere el párrafo anterior.
+      e. Al vencimiento del plazo fijado en el acuerdo referido en el
+         inciso a), sin que se hubiere concretado la elección en los
+         términos de los incisos c) y d), el Pleno de la Suprema Corte
+         de Justicia de la Nación realizará, en sesión pública, la
+         designación mediante insaculación de la lista conformada por el
+         comité de evaluación.
 
-   El Instituto Federal Electoral asumirá mediante convenio con las
-   autoridades competentes de las entidades federativas que así lo
-   soliciten, la organización de procesos electorales locales, en los
-   términos que disponga la legislación aplicable.
+      De darse la falta absoluta del consejero Presidente o de
+      cualquiera de los consejeros electorales durante los primeros seis
+      años de su encargo, se elegirá un sustituto para concluir el
+      período de la vacante. Si la falta ocurriese dentro de los últimos
+      tres años, se elegirá a un consejero para un nuevo periodo.
+
+      El consejero Presidente y los consejeros electorales no podrán
+      tener otro empleo, cargo o comisión, con excepción de aquellos en
+      que actúen en representación del Consejo General y los no
+      remunerados que desempeñen en asociaciones docentes, científicas,
+      culturales, de investigación o de beneficencia.
+
+      El titular de la Contraloría General del Instituto será designado
+      por la Cámara de Diputados con el voto de las dos terceras partes
+      de sus miembros presentes a propuesta de instituciones públicas de
+      educación superior, en la forma y términos que determine la ley.
+      Durará seis años en el cargo y podrá ser reelecto por una sola
+      vez. Estará adscrito administrativamente a la presidencia del
+      Consejo General y mantendrá la coordinación técnica necesaria con
+      la entidad de fiscalización superior de la Federación.
+
+      El Secretario Ejecutivo será nombrado con el voto de las dos
+      terceras partes del Consejo General a propuesta de su Presidente.
+
+      La ley establecerá los requisitos que deberán reunir para su
+      designación el consejero Presidente del Consejo General, los
+      consejeros electorales, el Contralor General y el Secretario
+      Ejecutivo del Instituto Nacional Electoral. Quienes hayan fungido
+      como consejero Presidente, consejeros electorales y Secretario
+      Ejecutivo no podrán desempeñar cargos en los poderes públicos en
+      cuya elección hayan participado, de dirigencia partidista, ni ser
+      postulados a cargos de elección popular, durante los dos años
+      siguientes a la fecha de conclusión de su encargo.
+
+      Los consejeros del Poder Legislativo serán propuestos por los
+      grupos parlamentarios con afiliación de partido en alguna de las
+      Cámaras. Sólo habrá un consejero por cada grupo parlamentario no
+      obstante su reconocimiento en ambas Cámaras del Congreso de la
+      Unión.
+
+   B. Corresponde al Instituto Nacional Electoral en los términos que
+      establecen esta Constitución y las leyes:
+
+      a. Para los procesos electorales federales y locales:
+
+         1. La capacitación electoral;
+
+         2. La geografía electoral, así como el diseño y determinación
+            de los distritos electorales y división del territorio en
+            secciones electorales;
+
+         3. El padrón y la lista de electores;
+
+         4. La ubicación de las casillas y la designación de los
+            funcionarios de sus mesas directivas;
+
+         5. Las reglas, lineamientos, criterios y formatos en materia de
+            resultados preliminares; encuestas o sondeos de opinión;
+            observación electoral; conteos rápidos; impresión de
+            documentos y producción de materiales electorales;
+
+         6. La fiscalización de los ingresos y egresos de los partidos
+            políticos y candidatos, y
+
+         7. Las demás que determine la ley.
+
+      b. Para los procesos electorales federales:
+
+         1. Los derechos y el acceso a las prerrogativas de los
+            candidatos y partidos políticos;
+
+         2. La preparación de la jornada electoral;
+
+         3. La impresión de documentos y la producción de materiales
+            electorales;
+
+         4. Los escrutinios y cómputos en los términos que señale la
+            ley;
+
+         5. La declaración de validez y el otorgamiento de constancias
+            en las elecciones de diputados y senadores;
+
+         6. El cómputo de la elección de Presidente de los Estados
+            Unidos Mexicanos en cada uno de los distritos electorales
+            uninominales, y
+
+         7. Las demás que determine la ley.
+
+      El Instituto Nacional Electoral asumirá mediante convenio con las
+      autoridades competentes de las entidades federativas que así lo
+      soliciten, la organización de procesos electorales locales, en los
+      términos que disponga la legislación aplicable. A petición de los
+      partidos políticos y con cargo a sus prerrogativas, en los
+      términos que establezca la ley, podrá organizar las elecciones de
+      sus dirigentes.
+
+      La fiscalización de las finanzas de los partidos políticos y de
+      las campañas de los candidatos estará a cargo del Consejo General
+      del Instituto Nacional Electoral. La ley desarrollará las
+      atribuciones del Consejo para la realización de dicha función, así
+      como la definición de los órganos técnicos dependientes del mismo,
+      responsables de realizar las revisiones e instruir los
+      procedimientos para la aplicación de las sanciones
+      correspondientes. En el cumplimiento de sus atribuciones, el
+      Consejo General no estará limitado por los secretos bancario,
+      fiduciario y fiscal, y contará con el apoyo de las autoridades
+      federales y locales.
+
+      En caso de que el Instituto Nacional Electoral delegue la función
+      de fiscalización, su órgano técnico será el conducto para superar
+      la limitación a que se refiere el párrafo anterior.
+
+   C. En las entidades federativas las elecciones locales estarán a
+      cargo de organismos públicos locales en los términos de esta
+      Constitución, que ejercerán funciones en las siguientes materias:
+
+      1. Derechos y el acceso a las prerrogativas de los candidatos y
+         partidos políticos;
+
+      2. Educación cívica;
+
+      3. Preparación de la jornada electoral;
+
+      4. Impresión de documentos y la producción de materiales
+         electorales;
+
+      5. Escrutinios y cómputos en los términos que señale la ley;
+
+      6. Declaración de validez y el otorgamiento de constancias en las
+         elecciones locales;
+
+      7. Cómputo de la elección del titular del poder ejecutivo;
+
+      8. Resultados preliminares; encuestas o sondeos de opinión;
+         observación electoral, y conteos rápidos, conforme a los
+         lineamientos establecidos en el Apartado anterior;
+
+      9. Organización, desarrollo, cómputo y declaración de resultados
+         en los mecanismos de participación ciudadana que prevea la
+         legislación local;
+
+      10. Todas las no reservadas al Instituto Nacional Electoral, y
+
+      11. Las que determine la ley.
+
+      En los supuestos que establezca la ley y con la aprobación de una
+      mayoría de cuando menos ocho votos del Consejo General, el
+      Instituto Nacional Electoral podrá:
+
+      a. Asumir directamente la realización de las actividades propias
+         de la función electoral que corresponden a los órganos
+         electorales locales;
+
+      b. Delegar en dichos órganos electorales las atribuciones a que se
+         refiere el inciso a) del Apartado B de esta Base, sin perjuicio
+         de reasumir su ejercicio directo en cualquier momento, o
+
+      c. Atraer a su conocimiento cualquier asunto de la competencia de
+         los órganos electorales locales, cuando su trascendencia así lo
+         amerite o para sentar un criterio de interpretación.
+
+      Corresponde al Instituto Nacional Electoral designar y remover a
+      los integrantes del órgano superior de dirección de los organismos
+      públicos locales, en los términos de esta Constitución.
+
+   D. El Servicio Profesional Electoral Nacional comprende la selección,
+      ingreso, capacitación, profesionalización, promoción, evaluación,
+      rotación, permanencia y disciplina, de los servidores públicos de
+      los órganos ejecutivos y técnicos del Instituto Nacional Electoral
+      y de los organismos públicos locales de las entidades federativas
+      en materia electoral. El Instituto Nacional Electoral regulará la
+      organización y funcionamiento de este Servicio.
 
 VI. Para garantizar los principios de constitucionalidad y legalidad de
     los actos y resoluciones electorales, se establecerá un sistema de
@@ -356,3 +530,24 @@ VI. Para garantizar los principios de constitucionalidad y legalidad de
     En materia electoral la interposición de los medios de impugnación,
     constitucionales o legales, no producirá efectos suspensivos sobre
     la resolución o el acto impugnado.
+
+    La ley establecerá el sistema de nulidades de las elecciones
+    federales o locales por violaciones graves, dolosas y determinantes
+    en los siguientes casos:
+
+    a. Se exceda el gasto de campaña en un cinco por ciento del monto
+       total autorizado;
+
+    b. Se compre cobertura informativa o tiempos en radio y televisión,
+       fuera de los supuestos previstos en la ley;
+
+    c. Se reciban o utilicen recursos de procedencia ilícita o recursos
+       públicos en las campañas.
+
+    Dichas violaciones deberán acreditarse de manera objetiva y
+    material. Se presumirá que las violaciones son determinantes cuando
+    la diferencia entre la votación obtenida entre el primero y el
+    segundo lugar sea menor al cinco por ciento.
+
+    En caso de nulidad de la elección, se convocará a una elección
+    extraordinaria, en la que no podrá participar la persona sancionada.

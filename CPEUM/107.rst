@@ -163,9 +163,11 @@ V. El amparo contra sentencias definitivas, laudos o resoluciones que
       al Servicio del Estado:
 
    La Suprema Corte de Justicia, de oficio o a petición fundada del
-   correspondiente Tribunal Colegiado de Circuito, o del Procurador
-   General de la República, podrá conocer de los amparos directos que
-   por su interés y trascendencia así lo ameriten.
+   correspondiente Tribunal Colegiado de Circuito, del Fiscal General de
+   la República, en los asuntos en que el Ministerio Público de la
+   Federación sea parte, o del Ejecutivo Federal, por conducto del
+   Consejero Jurídico del Gobierno, podrá conocer de los amparos
+   directos que por su interés y trascendencia así lo ameriten.
 
 VI. En los casos a que se refiere la fracción anterior, la ley
     reglamentaria señalará el procedimiento y los términos a que deberán
@@ -195,11 +197,12 @@ VIII. Contra las sentencias que pronuncien en amparo los Jueces de
       b. Cuando se trate de los casos comprendidos en las fracciones II
          y III del artículo 103 de esta Constitución.
 
-
       La Suprema Corte de Justicia, de oficio o a petición fundada del
-      correspondiente Tribunal Colegiado de Circuito, o del Procurador
-      General de la República, podrá conocer de los amparos en revisión,
-      que por su interés y trascendencia así lo ameriten.
+      correspondiente Tribunal Colegiado de Circuito, del Fiscal General
+      de la República, en los asuntos en que el Ministerio Público de la
+      Federación sea parte, o del Ejecutivo Federal, por conducto del
+      Consejero Jurídico del Gobierno, podrá conocer de los amparos en
+      revisión, que por su interés y trascendencia así lo ameriten.
 
       En lo casos no previstos en los párrafos anteriores, conocerán de
       la revisión los tribunales colegiados de circuito y sus sentencias
@@ -254,11 +257,14 @@ XII. La violación de las garantías de los artículos 16, en materia
 
 XIII. Cuando los Tribunales Colegiados de un mismo Circuito sustenten
       tesis contradictorias en los juicios de amparo de su competencia,
-      el Procurador General de la República, los mencionados tribunales
-      y sus integrantes, los Jueces de Distrito o las partes en los
-      asuntos que los motivaron podrán denunciar la contradicción ante
-      el Pleno del Circuito correspondiente, a fin de que decida la
-      tesis que debe prevalecer como jurisprudencia.
+      el Fiscal General de la República, en asuntos en materia penal y
+      procesal penal, así como los relacionados con el ámbito de sus
+      funciones, los mencionados tribunales y sus integrantes, los
+      Jueces de Distrito, las partes en los asuntos que los motivaron o
+      el Ejecutivo Federal, por conducto del Consejero Jurídico del
+      Gobierno, podrán denunciar la contradicción ante el Pleno del
+      Circuito correspondiente, a fin de que decida la tesis que debe
+      prevalecer como jurisprudencia.
 
       Cuando los Plenos de Circuito de distintos Circuitos, los Plenos
       de Circuito en materia especializada de un mismo Circuito o los
@@ -274,11 +280,14 @@ XIII. Cuando los Tribunales Colegiados de un mismo Circuito sustenten
       Cuando las Salas de la Suprema Corte de Justicia de la Nación
       sustenten tesis contradictorias en los juicios de amparo cuyo
       conocimiento les competa, los ministros, los Tribunales Colegiados
-      de Circuito y sus integrantes, los Jueces de Distrito, el
-      Procurador General de la República o las partes en los asuntos que
-      las motivaron, podrán denunciar la contradicción ante el Pleno de
-      la Suprema Corte, conforme a la ley reglamentaria, para que éste
-      resuelva la contradicción.
+      de Circuito y sus integrantes, los Jueces de Distrito, el Fiscal
+      General de la República, en asuntos en materia penal y procesal
+      penal, así como los relacionados con el ámbito de sus funciones,
+      el Ejecutivo Federal, por conducto del Consejero Jurídico del
+      Gobierno, o las partes en los asuntos que las motivaron, podrán
+      denunciar la contradicción ante el Pleno de la Suprema Corte,
+      conforme a la ley reglamentaria, para que éste resuelva la
+      contradicción.
 
       Las resoluciones que pronuncien el Pleno o las Salas de la Suprema
       Corte de Justicia así como los Plenos de Circuito conforme a los
@@ -289,11 +298,10 @@ XIII. Cuando los Tribunales Colegiados de un mismo Circuito sustenten
 
 XIV. Se deroga;
 
-XV. El Procurador General de la República o el Agente del Ministerio
-    Público Federal que al efecto designare, será parte en todos los
-    juicios de amparo; pero podrá abstenerse de intervenir en dichos
-    juicios, cuando el caso de que se trate carezca a su juicio, de
-    interés público.
+XV. El Fiscal General de la República o el Agente del Ministerio Público
+    de la Federación que al efecto designe, será parte en todos los
+    juicios de amparo en los que el acto reclamado provenga de
+    procedimientos del orden penal y aquéllos que determine la ley;
 
 XVI. Si la autoridad incumple la sentencia que concedió el amparo, pero
      dicho incumplimiento es justificado, la Suprema Corte de Justicia

@@ -11,7 +11,11 @@ II. Coordinar y evaluar, sin perjuicio de su autonomía técnica y de
     fiscalización superior de la Federación, en los términos que
     disponga la ley;
 
-III. Derogada
+III. Ratificar el nombramiento que el Presidente de la República haga
+     del Secretario del ramo en materia de Hacienda, salvo que se opte
+     por un gobierno de coalición, en cuyo caso se estará a lo dispuesto
+     en la fracción II del artículo 76 de esta Constitución; así como de
+     los demás empleados superiores de Hacienda;
 
 IV. Aprobar anualmente el Presupuesto de Egresos de la Federación,
     previo examen, discusión y, en su caso, modificación del Proyecto
@@ -32,9 +36,9 @@ IV. Aprobar anualmente el Presupuesto de Egresos de la Federación,
     noviembre.
 
     Cuando inicie su encargo en la fecha prevista por el artículo 83, el
-    Ejecutivo Federal hará llegar a la Cámara la Iniciativa de Ley de
-    Ingresos y el Proyecto de Presupuesto de Egresos de la Federación a
-    más tardar el día 15 del mes de diciembre.
+    Ejecutivo Federal hará llegar a la Cámara la iniciativa de Ley de
+    Ingresos y el proyecto de Presupuesto de Egresos de la Federación a
+    más tardar el día 15 del mes de noviembre.
 
     No podrá haber otras partidas secretas, fuera de las que se
     consideren necesarias, con ese carácter, en el mismo presupuestos;
@@ -98,6 +102,8 @@ VI. Revisar la Cuenta Pública del año anterior, con el objeto de evaluar
     requerir que le informe sobre la evolución de sus trabajos de
     fiscalización;
 
-VII. Derogada.
+VII. Aprobar el Plan Nacional de Desarrollo en el plazo que disponga la
+     ley. En caso de que la Cámara de Diputados no se pronuncie en dicho
+     plazo, el Plan se entenderá aprobado;
 
 VIII. Las demás que le confiere expresamente esta Constitución.

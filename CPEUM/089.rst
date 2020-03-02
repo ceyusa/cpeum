@@ -11,6 +11,17 @@ II. Nombrar y remover libremente a los Secretarios de Estado, remover a
     Unión, cuyo nombramiento o remoción no esté determinado de otro modo
     en la Constitución o en las leyes;
 
+    Los Secretarios de Estado y los empleados superiores de Hacienda y
+    de Relaciones entrarán en funciones el día de su
+    nombramiento. Cuando no sean ratificados en los términos de esta
+    Constitución, dejarán de ejercer su encargo.
+
+    En los supuestos de la ratificación de los Secretarios de Relaciones
+    y de Hacienda, cuando no se opte por un gobierno de coalición, si la
+    Cámara respectiva no ratificare en dos ocasiones el nombramiento del
+    mismo Secretario de Estado, ocupará el cargo la persona que designe
+    el Presidente de la República;
+
 III. Nombrar, con aprobación del Senado, a los embajadores, cónsules
      generales, empleados superiores de Hacienda y a los integrantes de
      los órganos colegiados encargados de la regulación en materia de
@@ -33,8 +44,9 @@ VII. Disponer de la Guardia Nacional para los mismos objetos, en los
 VIII. Declarar la guerra en nombre de los Estados Unidos Mexicanos,
       previa ley del Congreso de la Unión.
 
-IX. Designar, con ratificación del Senado, al Procurador General de la
-    República;
+IX. Intervenir en la designación del Fiscal General de la República y
+    removerlo, en términos de lo dispuesto en el artículo 102, Apartado
+    A, de esta Constitución;
 
 X. Dirigir la política exterior y celebrar tratados internacionales, así
    como terminar, denunciar, suspender, modificar, enmendar, retirar
@@ -70,7 +82,14 @@ XVI. Cuando la Cámara de Senadores no esté en sesiones, el Presidente de
      la República podrá hacer los nombramientos de que hablan las
      fracciones III, IV y IX, con aprobación de la Comisión Permanente;
 
-XVII. Se deroga.
+XVII. En cualquier momento, optar por un gobierno de coalición con uno o
+      varios de los partidos políticos representados en el Congreso de
+      la Unión.
+
+      El gobierno de coalición se regulará por el convenio y el programa
+      respectivos, los cuales deberán ser aprobados por mayoría de los
+      miembros presentes de la Cámara de Senadores. El convenio
+      establecerá las causas de la disolución del gobierno de coalición.
 
 XVIII. Presentar a consideración del Senado, la terna para la
        designación de Ministros de la Suprema Corte de Justicia y

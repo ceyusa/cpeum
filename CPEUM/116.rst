@@ -44,16 +44,27 @@ II. El número de representantes en las legislaturas de los Estados será
     exceda de este número y no llegue a 800 mil habitantes, y de 11 en
     los Estados cuya población sea superior a esta última cifra.
 
-    Los diputados a las legislaturas de los Estados no podrán ser
-    reelectos para el período inmediato. Los diputados suplentes podrán
-    ser electos para el período inmediato con el carácter de
-    propietario, siempre que no hubieren estado en ejercicio, pero los
-    diputados propietarios no podrán ser electos para el período
-    inmediato con el carácter de suplentes.
+    Las Constituciones estatales deberán establecer la elección
+    consecutiva de los diputados a las legislaturas de los Estados,
+    hasta por cuatro periodos consecutivos. La postulación sólo podrá
+    ser realizada por el mismo partido o por cualquiera de los partidos
+    integrantes de la coalición que los hubieren postulado, salvo que
+    hayan renunciado o perdido su militancia antes de la mitad de su
+    mandato.
 
-    Las legislaturas de los Estados se integrarán con diputados elegidos
+    Las legislaturas de los Estados se integrarán con diputados electos,
     según los principios de mayoría relativa y de representación
-    proporcional, en los términos que señalen sus leyes;
+    proporcional, en los términos que señalen sus leyes. En ningún caso,
+    un partido político podrá contar con un número de diputados por
+    ambos principios que representen un porcentaje del total de la
+    legislatura que exceda en ocho puntos su porcentaje de votación
+    emitida. Esta base no se aplicará al partido político que por sus
+    triunfos en distritos uninominales obtenga un porcentaje de curules
+    del total de la legislatura, superior a la suma del porcentaje de su
+    votación emitida más el ocho por ciento. Asimismo, en la integración
+    de la legislatura, el porcentaje de representación de un partido
+    político no podrá ser menor al porcentaje de votación que hubiere
+    recibido menos ocho puntos porcentuales.
 
     Corresponde a las legislaturas de los Estados la aprobación anual
     del presupuesto de egresos correspondiente. Al señalar las
@@ -119,13 +130,14 @@ III. El Poder Judicial de los Estados se ejercerá por los tribunales que
      los magistrados y los jueces percibirán una remuneración adecuada e
      irrenunciable, la cual no podrá ser disminuida durante su encargo.
 
-IV. Las Constituciones y leyes de los Estados en materia electoral
-    garantizarán que:
+IV. De conformidad con las bases establecidas en esta Constitución y las
+    leyes generales en la materia, las Constituciones y leyes de los
+    Estados en materia electoral, garantizarán que:
 
     a. Las elecciones de los gobernadores, de los miembros de las
        legislaturas locales y de los integrantes de los ayuntamientos se
        realicen mediante sufragio universal, libre, secreto y directo; y
-       que la jornada comicial tenga lugar el primer domingo de julio
+       que la jornada comicial tenga lugar el primer domingo de junio
        del año que corresponda. Los Estados cuyas jornadas electorales
        se celebren en el año de los comicios federales y no coincidan en
        la misma fecha de la jornada federal, no estarán obligados por
@@ -133,17 +145,77 @@ IV. Las Constituciones y leyes de los Estados en materia electoral
 
     b. En el ejercicio de la función electoral, a cargo de las
        autoridades electorales, sean principios rectores los de certeza,
-       imparcialidad, independencia, legalidad y objetividad;
+       imparcialidad, independencia, legalidad, máxima publicidad y
+       objetividad;
 
     c. Las autoridades que tengan a su cargo la organización de las
        elecciones y las jurisdiccionales que resuelvan las controversias
-       en la materia, gocen de autonomía en su funcionamiento e
-       independencia en sus decisiones;
+       en la materia, gocen de autonomía en su funcionamiento\ **,** e
+       independencia en sus decisiones, conforme a lo siguiente y lo que
+       determinen las leyes:
+
+       1. Los organismos públicos locales electorales contarán con un
+          órgano de dirección superior integrado por un consejero
+          Presidente y seis consejeros electorales, con derecho a voz y
+          voto; el Secretario Ejecutivo y los representantes de los
+          partidos políticos concurrirán a las sesiones sólo con derecho
+          a voz; cada partido político contará con un representante en
+          dicho órgano.
+
+       2. El consejero Presidente y los consejeros electorales serán
+          designados por el Consejo General del Instituto Nacional
+          Electoral, en los términos previstos por la ley. Los
+          consejeros electorales estatales deberán ser originarios de la
+          entidad federativa correspondiente o contar con una residencia
+          efectiva de por lo menos cinco años anteriores a su
+          designación, y cumplir con los requisitos y el perfil que
+          acredite su idoneidad para el cargo que establezca la ley. En
+          caso de que ocurra una vacante de consejero electoral estatal,
+          el Consejo General del Instituto Nacional Electoral hará la
+          designación correspondiente en términos de este artículo y la
+          ley. Si la vacante se verifica durante los primeros cuatro
+          años de su encargo, se elegirá un sustituto para concluir el
+          período. Si la falta ocurriese dentro de los últimos tres
+          años, se elegirá a un consejero para un nuevo periodo.
+
+       3. Los consejeros electorales estatales tendrán un período de
+          desempeño de siete años y no podrán ser reelectos; percibirán
+          una remuneración acorde con sus funciones y podrán ser
+          removidos por el Consejo General del Instituto Nacional
+          Electoral, por las causas graves que establezca la ley.
+
+       4. Los consejeros electorales estatales y demás servidores
+          públicos que establezca la ley, no podrán tener otro empleo,
+          cargo o comisión, con excepción de los no remunerados en
+          actividades docentes, científicas, culturales, de
+          investigación o de beneficencia. Tampoco podrán asumir un
+          cargo público en los órganos emanados de las elecciones en
+          cuya organización y desarrollo hubieren participado, ni ser
+          postulados para un cargo de elección popular o asumir un cargo
+          de dirigencia partidista, durante los dos años posteriores al
+          término de su encargo.
+
+       5. Las autoridades electorales jurisdiccionales se integrarán por
+          un número impar de magistrados, quienes serán electos por las
+          dos terceras partes de los miembros presentes de la Cámara de
+          Senadores, previa convocatoria pública, en los términos que
+          determine la ley.
+
+       6. Los organismos públicos locales electorales contarán con
+          servidores públicos investidos de fé pública para actos de
+          naturaleza electoral, cuyas atribuciones y funcionamiento
+          serán reguladas por la ley.
+
+       7. Las impugnaciones en contra de los actos que, conforme a la
+          base V del artículo 41 de esta Constitución, realice el
+          Instituto Nacional Electoral con motivo de los procesos
+          electorales locales, serán resueltas por el Tribunal Electoral
+          del Poder Judicial de la Federación, conforme lo determine la
+          ley.
 
     d. Las autoridades electorales competentes de carácter
-       administrativo puedan convenir con el Instituto Federal Electoral
-       se haga cargo de la organización de los procesos electorales
-       locales;
+       administrativo puedan convenir con el Instituto Nacional Electoral se
+       haga cargo de la organización de los procesos electorales locales;
 
     e. Los partidos políticos sólo se constituyan por ciudadanos sin
        intervención de organizaciones gremiales, o con objeto social
@@ -157,6 +229,13 @@ IV. Las Constituciones y leyes de los Estados en materia electoral
        asuntos internos de los partidos en los términos que expresamente
        señalen;
 
+       El partido político local que no obtenga, al menos, el tres por
+       ciento del total de la votación válida emitida en cualquiera de
+       las elecciones que se celebren para la renovación del Poder
+       Ejecutivo o Legislativo locales, le será cancelado el
+       registro. Esta disposición no será aplicable para los partidos
+       políticos nacionales que participen en las elecciones locales;
+
     g. Los partidos políticos reciban, en forma equitativa, financiamiento
        público para sus actividades ordinarias permanentes y las tendientes a
        la obtención del voto durante los procesos electorales. Del mismo modo
@@ -166,13 +245,7 @@ IV. Las Constituciones y leyes de los Estados en materia electoral
     h. Se fijen los criterios para establecer los límites a las
        erogaciones de los partidos políticos en sus precampañas y
        campañas electorales, así como los montos máximos que tengan las
-       aportaciones de sus simpatizantes, cuya suma total no excederá el
-       diez por ciento del tope de gastos de campaña que se determine
-       para la elección de gobernador; los procedimientos para el
-       control y vigilancia del origen y uso de todos los recursos con
-       que cuenten los partidos políticos; y establezcan las sanciones
-       por el incumplimiento a las disposiciones que se expidan en estas
-       materias;
+       aportaciones de sus militantes y simpatizantes;
 
     i. Los partidos políticos accedan a la radio y la televisión,
        conforme a las normas establecidas por el apartado B de la base
@@ -181,16 +254,17 @@ IV. Las Constituciones y leyes de los Estados en materia electoral
     j. Se fijen las reglas para las precampañas y las campañas
        electorales de los partidos políticos, así como las sanciones
        para quienes las infrinjan. En todo caso, la duración de las
-       campañas no deberá exceder de noventa días para la elección de
-       gobernador, ni de sesenta días cuando sólo se elijan diputados
-       locales o ayuntamientos; las precampañas no podrán durar más de
-       las dos terceras partes de las respectivas campañas electorales;
+       campañas será de sesenta a noventa días para la elección de
+       gobernador y de treinta a sesenta días cuando sólo se elijan
+       diputados locales o ayuntamientos; las precampañas no podrán
+       durar más de las dos terceras partes de las respectivas campañas
+       electorales;
 
-    k. Se instituyan bases obligatorias para la coordinación entre el
-       Instituto Federal Electoral y las autoridades electorales locales
-       en materia de fiscalización de las finanzas de los partidos
-       políticos, en los términos establecidos en los dos últimos
-       párrafos de la base V del artículo 41 de esta Constitución;
+    k. Se regule el régimen aplicable a la postulación, registro,
+       derechos y obligaciones de los candidatos independientes,
+       garantizando su derecho al financiamiento público y al acceso a
+       la radio y la televisión en los términos establecidos en esta
+       Constitución y en las leyes correspondientes;
 
     l. Se establezca un sistema de medios de impugnación para que todos
        los actos y resoluciones electorales se sujeten invariablemente
@@ -205,8 +279,8 @@ IV. Las Constituciones y leyes de los Estados en materia electoral
        impugnativas, tomando en cuenta el principio de definitividad de
        las etapas de los procesos electorales, y
 
-    n. Se tipifiquen los delitos y determinen las faltas en materia
-       electoral, así como las sanciones que por ellos deban imponerse.
+    n. Se verifique, al menos, una elección local en la misma fecha en
+       que tenga lugar alguna de las elecciones federales;
 
     o. Se fijen las bases y requisitos para que en las elecciones los
        ciudadanos soliciten su registro como candidatos para poder ser
@@ -246,3 +320,8 @@ VIII. Las Constituciones de los Estados establecerán organismos
       artículo 6o. de esta Constitución y la ley general que emita el
       Congreso de la Unión para establecer las bases, principios
       generales y procedimientos del ejercicio de este derecho.
+
+IX. Las Constituciones de los Estados garantizarán que las funciones de
+    procuración de justicia se realicen con base en los principios de
+    autonomía, eficiencia, imparcialidad, legalidad, objetividad,
+    profesionalismo, responsabilidad y respeto a los derechos humanos.
