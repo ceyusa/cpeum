@@ -26,10 +26,19 @@ A. Para el ejercicio del derecho de acceso a la información, la
    bases:
 
    I. Toda la información en posesión de cualquier autoridad, entidad,
-      órgano y organismo federal, estatal y municipal, es pública y sólo
-      podrá ser reservada temporalmente por razones de interés público
-      en los términos que fijen las leyes. En la interpretación de este
-      derecho deberá prevalecer el principio de máxima publicidad.
+      órgano y organismo de los Poderes Ejecutivo, Legislativo y
+      Judicial, órganos autónomos, partidos políticos, fideicomisos y
+      fondos públicos, así como de cualquier persona física, moral o
+      sindicato que reciba y ejerza recursos públicos o realice actos de
+      autoridad en el ámbito federal, estatal y municipal, es pública y
+      sólo podrá ser reservada temporalmente por razones de interés
+      público y seguridad nacional, en los términos que fijen las
+      leyes. En la interpretación de este derecho deberá prevalecer el
+      principio de máxima publicidad. Los sujetos obligados deberán
+      documentar todo acto que derive del ejercicio de sus facultades,
+      competencias o funciones, la ley determinará los supuestos
+      específicos bajo los cuales procederá la declaración de
+      inexistencia de la información.
 
    II. La información que se refiere a la vida privada y los datos
        personales será protegida en los términos y con las excepciones
@@ -41,15 +50,16 @@ A. Para el ejercicio del derecho de acceso a la información, la
         de éstos.
 
    IV. Se establecerán mecanismos de acceso a la información y
-       procedimientos de revisión expeditos. Estos procedimientos se
-       sustanciarán ante órganos u organismos especializados e
-       imparciales, y con autonomía operativa, de gestión y de decisión.
+       procedimientos de revisión expeditos que se sustanciarán ante los
+       organismos autónomos especializados e imparciales que establece
+       esta Constitución.
 
    V. Los sujetos obligados deberán preservar sus documentos en archivos
-      administrativos actualizados y publicarán a través de los medios
+      administrativos actualizados y publicarán, a través de los medios
       electrónicos disponibles, la información completa y actualizada
-      sobre sus indicadores de gestión y el ejercicio de los recursos
-      públicos.
+      sobre el ejercicio de los recursos públicos y los indicadores que
+      permitan rendir cuenta del cumplimiento de sus objetivos y de los
+      resultados obtenidos.
 
    VI. Las leyes determinarán la manera en que los sujetos obligados
        deberán hacer pública la información relativa a los recursos
@@ -58,6 +68,126 @@ A. Para el ejercicio del derecho de acceso a la información, la
    VII. La inobservancia a las disposiciones en materia de acceso a la
         información pública será sancionada en los términos que dispongan
         las leyes.
+
+   VIII. La Federación contará con un organismo autónomo, especializado,
+         imparcial, colegiado, con personalidad jurídica y patrimonio
+         propio, con plena autonomía técnica, de gestión, capacidad para
+         decidir sobre el ejercicio de su presupuesto y determinar su
+         organización interna, responsable de garantizar el cumplimiento
+         del derecho de acceso a la información pública y a la
+         protección de datos personales en posesión de los sujetos
+         obligados en los términos que establezca la ley.
+
+         El organismo autónomo previsto en esta fracción, se regirá por
+         la ley en materia de transparencia y acceso a la información
+         pública y protección de datos personales en posesión de sujetos
+         obligados, en los términos que establezca la ley general que
+         emita el Congreso de la Unión para establecer las bases,
+         principios generales y procedimientos del ejercicio de este
+         derecho.
+
+         En su funcionamiento se regirá por los principios de certeza,
+         legalidad, independencia, imparcialidad, eficacia, objetividad,
+         profesionalismo, transparencia y máxima publicidad.
+
+         El organismo garante tiene competencia para conocer de los
+         asuntos relacionados con el acceso a la información pública y
+         la protección de datos personales de cualquier autoridad,
+         entidad, órgano u organismo que forme parte de alguno de los
+         Poderes Ejecutivo, Legislativo y Judicial, órganos autónomos,
+         partidos políticos, fideicomisos y fondos públicos, así como de
+         cualquier persona física, moral o sindicatos que reciba y
+         ejerza recursos públicos o realice actos de autoridad en el
+         ámbito federal; con excepción de aquellos asuntos
+         jurisdiccionales que correspondan a la Suprema Corte de
+         Justicia de la Nación, en cuyo caso resolverá un comité
+         integrado por tres ministros. También conocerá de los recursos
+         que interpongan los particulares respecto de las resoluciones
+         de los organismos autónomos especializados de los estados y el
+         Distrito Federal que determinen la reserva, confidencialidad,
+         inexistencia o negativa de la información, en los términos que
+         establezca la ley.
+
+         El organismo garante federal de oficio o a petición fundada del
+         organismo garante equivalente del estado o del Distrito
+         Federal, podrá conocer de los recursos de revisión que por su
+         interés y trascendencia así lo ameriten.
+
+         La ley establecerá aquella información que se considere
+         reservada o confidencial.
+
+         Las resoluciones del organismo garante son vinculatorias,
+         definitivas e inatacables para los sujetos obligados. El
+         Consejero Jurídico del Gobierno podrá interponer recurso de
+         revisión ante la Suprema Corte de Justicia de la Nación en los
+         términos que establezca la ley, sólo en el caso que dichas
+         resoluciones puedan poner en peligro la seguridad nacional
+         conforme a la ley de la materia.
+
+         El organismo garante se integra por siete comisionados. Para su
+         nombramiento, la Cámara de Senadores, previa realización de una
+         amplia consulta a la sociedad, a propuesta de los grupos
+         parlamentarios, con el voto de las dos terceras partes de los
+         miembros presentes, nombrará al comisionado que deba cubrir la
+         vacante, siguiendo el proceso establecido en la ley. El
+         nombramiento podrá ser objetado por el Presidente de la
+         República en un plazo de diez días hábiles. Si el Presidente de
+         la República no objetara el nombramiento dentro de dicho plazo,
+         ocupará el cargo de comisionado la persona nombrada por el
+         Senado de la República.
+
+         En caso de que el Presidente de la República objetara el
+         nombramiento, la Cámara de Senadores nombrará una nueva
+         propuesta, en los términos del párrafo anterior, pero con una
+         votación de las tres quintas partes de los miembros
+         presentes. Si este segundo nombramiento fuera objetado, la
+         Cámara de Senadores, en los términos del párrafo anterior, con
+         la votación de las tres quintas partes de los miembros
+         presentes, designará al comisionado que ocupará la vacante.
+
+         Los comisionados durarán en su encargo siete años y deberán
+         cumplir con los requisitos previstos en las fracciones I, II,
+         IV, V y VI del artículo 95 de esta Constitución, no podrán
+         tener otro empleo, cargo o comisión, con excepción de los no
+         remunerados en instituciones docentes, científicas o de
+         beneficencia, sólo podrán ser removidos de su cargo en los
+         términos del Título Cuarto de esta Constitución y serán sujetos
+         de juicio político.
+
+         En la conformación del organismo garante se procurará la
+         equidad de género.
+
+         El comisionado presidente será designado por los propios
+         comisionados, mediante voto secreto, por un periodo de tres
+         años, con posibilidad de ser reelecto por un periodo igual;
+         estará obligado a rendir un informe anual ante el Senado, en la
+         fecha y en los términos que disponga la ley.
+
+         El organismo garante tendrá un Consejo Consultivo, integrado
+         por diez consejeros, que serán elegidos por el voto de las dos
+         terceras partes de los miembros presentes de la Cámara de
+         Senadores. La ley determinará los procedimientos a seguir para
+         la presentación de las propuestas por la propia
+         Cámara. Anualmente serán sustituidos los dos consejeros de
+         mayor antigüedad en el cargo, salvo que fuesen propuestos y
+         ratificados para un segundo periodo.
+
+         La ley establecerá las medidas de apremio que podrá imponer el
+         organismo garante para asegurar el cumplimiento de sus
+         decisiones.
+
+         Toda autoridad y servidor público estará obligado a coadyuvar
+         con el organismo garante y sus integrantes para el buen
+         desempeño de sus funciones.
+
+         El organismo garante coordinará sus acciones con la entidad de
+         fiscalización superior de la Federación, con la entidad
+         especializada en materia de archivos y con el organismo
+         encargado de regular la captación, procesamiento y publicación
+         de la información estadística y geográfica, así como con los
+         organismos garantes de los estados y el Distrito Federal, con
+         el objeto de fortalecer la rendición de cuentas del Estado
+         Mexicano.
 
 B. En materia de radiodifusión y telecomunicaciones:
 

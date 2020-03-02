@@ -1913,3 +1913,12 @@ C, Base Primera, fracción V, inciso f) de la Constitución Política de
 los Estados Unidos Mexicanos.
 
 .. include:: T214.rst
+
+Artículos Transitorios de Decretos de Reforma (215)
+---------------------------------------------------
+
+DECRETO por el que se reforman y adicionan diversas disposiciones de la
+Constitución Política de los Estados Unidos Mexicanos, en materia de
+transparencia.
+
+.. include:: T215.rst
