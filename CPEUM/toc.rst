@@ -1931,3 +1931,11 @@ disposiciones de la Constitución Política de los Estados Unidos
 Mexicanos, en materia política-electoral.
 
 .. include:: T216.rst
+
+Artículos Transitorios de Decretos de Reforma (217)
+---------------------------------------------------
+
+DECRETO por el que se adiciona el artículo 4o. de la Constitución
+Política de los Estados Unidos Mexicanos.
+
+.. include:: T217.rst
