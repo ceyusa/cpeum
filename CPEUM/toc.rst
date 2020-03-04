@@ -1939,3 +1939,11 @@ DECRETO por el que se adiciona el artículo 4o. de la Constitución
 Política de los Estados Unidos Mexicanos.
 
 .. include:: T217.rst
+
+Artículos Transitorios de Decretos de Reforma (218)
+---------------------------------------------------
+
+DECRETO por el que se reforma el tercer párrafo del artículo 108 de la
+Constitución Política de los Estados Unidos Mexicanos.
+
+.. include:: T218.rst
