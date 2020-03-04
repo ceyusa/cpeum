@@ -1947,3 +1947,12 @@ DECRETO por el que se reforma el tercer párrafo del artículo 108 de la
 Constitución Política de los Estados Unidos Mexicanos.
 
 .. include:: T218.rst
+
+Artículos Transitorios de Decretos de Reforma (219)
+---------------------------------------------------
+
+DECRETO por el que se reforma la fracción III del apartado A del
+artículo 123 de la Constitución Política de los Estados Unidos
+Mexicanos.
+
+.. include:: T219.rst
