@@ -1956,3 +1956,12 @@ artículo 123 de la Constitución Política de los Estados Unidos
 Mexicanos.
 
 .. include:: T219.rst
+
+Artículos Transitorios de Decretos de Reforma (220)
+---------------------------------------------------
+
+DECRETO por el que se reforma el inciso b) del tercer párrafo de la Base
+VI del artículo 41 de la Constitución Política de los Estados Unidos
+Mexicanos.
+
+.. include:: T220.rst
