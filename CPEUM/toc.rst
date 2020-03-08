@@ -1965,3 +1965,12 @@ VI del artículo 41 de la Constitución Política de los Estados Unidos
 Mexicanos.
 
 .. include:: T220.rst
+
+Artículos Transitorios de Decretos de Reforma (221)
+---------------------------------------------------
+
+DECRETO por el que se reforma la fracción III, del Apartado A, del
+artículo 2o. de la Constitución Política de los Estados Unidos
+Mexicanos.
+
+.. include:: T221.rst
