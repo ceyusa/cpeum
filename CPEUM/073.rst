@@ -207,10 +207,13 @@ XXIII. Para expedir leyes que establezcan las bases de coordinación
        conformidad con lo establecido en el artículo 21 de esta
        Constitución.
 
-XXIV. Para expedir la Ley que regule la organización de la entidad de
-      fiscalización superior de la Federación y las demás que normen la
+XXIV. Para expedir las leyes que regulen la organización y facultades de
+      la Auditoría Superior de la Federación y las demás que normen la
       gestión, control y evaluación de los Poderes de la Unión y de los
-      entes públicos federales;
+      entes públicos federales; así como para expedir la ley general que
+      establezca las bases de coordinación del Sistema Nacional
+      Anticorrupción a que se refiere el artículo 113 de esta
+      Constitución;
 
 XXV. Para establecer el Servicio Profesional docente en términos del
      artículo 3o. de esta Constitución; establecer, organizar y sostener
@@ -321,15 +324,45 @@ XXIX. Para establecer contribuciones:
          protección al ambiente y de preservación y restauración del
          equilibrio ecológico.
 
-      H. Para expedir leyes que instituyan tribunales de lo
-         contencioso-administrativo, dotados de plena autonomía para
-         dictar sus fallos, y que tengan a su cargo dirimir las
-         controversias que se susciten entre la administración pública
-         federal y los particulares, así como para imponer sanciones a
-         los servidores públicos por responsabilidad administrativa que
-         determine la ley, estableciendo las normas para su
-         organización, su funcionamiento, los procedimientos y los
-         recursos contra sus resoluciones;
+      H. Para expedir la ley que instituya el Tribunal Federal de
+         Justicia Administrativa, dotado de plena autonomía para dictar
+         sus fallos, y que establezca su organización, su funcionamiento
+         y los recursos para impugnar sus resoluciones.
+
+         El Tribunal tendrá a su cargo dirimir las controversias que se
+         susciten entre la administración pública federal y los
+         particulares.
+
+         Asimismo, será el órgano competente para imponer las sanciones
+         a los servidores públicos por las responsabilidades
+         administrativas que la ley determine como graves y a los
+         particulares que participen en actos vinculados con dichas
+         responsabilidades, así como fincar a los responsables el pago
+         de las indemnizaciones y sanciones pecuniarias que deriven de
+         los daños y perjuicios que afecten a la Hacienda Pública
+         Federal o al patrimonio de los entes públicos federales.
+
+         El Tribunal funcionará en Pleno o en Salas Regionales.
+
+         La Sala Superior del Tribunal se compondrá de dieciséis
+         Magistrados y actuará en Pleno o en Secciones, de las cuales a
+         una corresponderá la resolución de los procedimientos a que se
+         refiere el párrafo tercero de la presente fracción.
+
+         Los Magistrados de la Sala Superior serán designados por el
+         Presidente de la República y ratificados por el voto de las dos
+         terceras partes de los miembros presentes del Senado de la
+         República o, en sus recesos, por la Comisión
+         Permanente. Durarán en su encargo quince años improrrogables.
+
+         Los Magistrados de Sala Regional serán designados por el
+         Presidente de la República y ratificados por mayoría de los
+         miembros presentes del Senado de la República o, en sus
+         recesos, por la Comisión Permanente.  Durarán en su encargo
+         diez años pudiendo ser considerados para nuevos nombramientos.
+
+         Los Magistrados sólo podrán ser removidos de sus cargos por las
+         causas graves que señale la ley.
 
       I. Para expedir leyes que establezcan las bases sobre las cuales
          la Federación, los estados, el Distrito Federal y los
@@ -410,11 +443,20 @@ XXIX. Para establecer contribuciones:
          procesos electorales, conforme a las bases previstas en esta
          Constitución.
 
-      W. Para expedir leyes en materia de responsabilidad hacendaria que
-         tengan por objeto el manejo sostenible de las finanzas públicas
-         en la Federación, los Estados, Municipios y el Distrito
-         Federal, con base en el principio establecido en el párrafo
-         segundo del artículo 25;
+      W. **V**. Para expedir la ley general que distribuya competencias
+         entre los órdenes de gobierno para establecer las
+         responsabilidades administrativas de los servidores públicos,
+         sus obligaciones, las sanciones aplicables por los actos u
+         omisiones en que éstos incurran y las que correspondan a los
+         particulares vinculados con faltas administrativas graves que
+         al efecto prevea, así como los procedimientos para su
+         aplicación.
+
+      X. **W**. Para expedir leyes en materia de responsabilidad
+         hacendaria que tengan por objeto el manejo sostenible de las
+         finanzas públicas en la Federación, los Estados, Municipios y
+         el Distrito Federal, con base en el principio establecido en el
+         párrafo segundo del artículo 25;
 
 XXX. Para expedir todas las leyes que sean necesarias, a objeto de hacer
      efectivas las facultades anteriores, y todas las otras concedidas

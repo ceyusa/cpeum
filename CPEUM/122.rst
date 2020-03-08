@@ -147,13 +147,15 @@ C. El Estatuto de Gobierno del Distrito Federal se sujetará a las
          fracción VI del artículo 74, en lo que sean aplicables.
 
          La cuenta pública del año anterior deberá ser enviada a la
-         Asamblea Legislativa dentro de los diez primeros días del mes
-         de junio. Este plazo, así como los establecidos para la
-         presentación de las iniciativas de la ley de ingresos y del
-         proyecto del presupuesto de egresos, solamente podrán ser
-         ampliados cuando se formule una solicitud del Ejecutivo del
-         Distrito Federal suficientemente justificada a juicio de la
-         Asamblea;
+         Asamblea Legislativa a más tardar el 30 de abril. Este plazo,
+         así como los establecidos para la presentación de las
+         iniciativas de la ley de ingresos y del proyecto del
+         presupuesto de egresos, solamente podrán ser ampliados cuando
+         se formule una solicitud del Ejecutivo del Distrito Federal
+         suficientemente justificada a juicio de la Asamblea.
+
+         Los informes de auditoría de la entidad de fiscalización del
+         Distrito Federal tendrán carácter público.
 
          El titular de la entidad de fiscalización del Distrito Federal
          será electo por las dos terceras partes de los miembros
@@ -170,9 +172,9 @@ C. El Estatuto de Gobierno del Distrito Federal se sujetará a las
          Distrito Federal, y la entidad de fiscalización dotándola de
          autonomía técnica y de gestión en el ejercicio de sus
          atribuciones, y para decidir sobre su organización interna,
-         funcionamiento y resoluciones.  La función de fiscalización
-         será ejercida conforme a los principios de posterioridad,
-         anualidad, legalidad, imparcialidad y confiabilidad.
+         funcionamiento y resoluciones. La función de fiscalización será
+         ejercida conforme a los principios de legalidad, imparcialidad
+         y confiabilidad;
 
       f. Expedir las disposiciones que garanticen en el Distrito Federal
          elecciones libres y auténticas, mediante sufragio universal,
@@ -218,12 +220,10 @@ C. El Estatuto de Gobierno del Distrito Federal se sujetará a las
          de la fracción VIII, del artículo 3o. de esta Constitución;
 
       m. Expedir la Ley Orgánica de los tribunales encargados de la
-         función judicial del fuero común en el Distrito Federal, que
-         incluirá lo relativo a las responsabilidades de los servidores
-         públicos de dichos órganos;
+         función judicial del fuero común en el Distrito Federal;
 
-      n. Expedir la Ley Orgánica del Tribunal de lo Contencioso
-         Administrativo para el Distrito Federal;
+      n. Expedir la Ley Orgánica del Tribunal de Justicia
+         Administrativa;
 
       o. **ñ**\. Legislar en materia del derecho de acceso a la
          información y protección de datos personales en posesión de los
@@ -402,13 +402,26 @@ C. El Estatuto de Gobierno del Distrito Federal se sujetará a las
 
    **BASE QUINTA**
 
-   Existirá un Tribunal de lo Contencioso Administrativo, que tendrá
-   plena autonomía para dirimir las controversias entre los particulares
-   y las autoridades de la Administración Pública local del Distrito
-   Federal.
+   Existirá un Tribunal de Justicia Administrativa, dotado de plena
+   autonomía para dictar sus fallos y establecer su organización,
+   funcionamiento, procedimientos y, en su caso, recursos contra sus
+   resoluciones. El Tribunal tendrá a su cargo dirimir las controversias
+   que se susciten entre la administración pública del Distrito Federal
+   y los particulares; imponer, en los términos que disponga la ley, las
+   sanciones a los servidores públicos por responsabilidad
+   administrativa grave y a los particulares que incurran en actos
+   vinculados con faltas administrativas graves; así como fincar a los
+   responsables el pago de las indemnizaciones y sanciones pecuniarias
+   que deriven de los daños y perjuicios que afecten a la Hacienda
+   Pública del Distrito Federal o al patrimonio de los entes públicos
+   del Distrito Federal.
 
-   Se determinarán las normas para su integración y atribuciones, mismas
-   que serán desarrolladas por su ley orgánica.
+   Para la investigación, substanciación y sanción de las
+   responsabilidades administrativas de los miembros del Tribunal
+   Superior de Justicia, se observará lo previsto en la fracción II de
+   la BASE CUARTA del presente artículo, sin perjuicio de las
+   atribuciones de las entidades de fiscalización sobre el manejo, la
+   custodia y aplicación de recursos públicos.
 
 D. El Ministerio Público en el Distrito Federal será presidido por un
    Procurador General de Justicia, que será nombrado en los términos que

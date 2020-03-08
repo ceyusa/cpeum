@@ -294,8 +294,8 @@ Capítulo IV: Del Poder Judicial
 Título Cuarto
 -------------
 
-De las Responsabilidades de los Funcionarios Públicos
-`````````````````````````````````````````````````````
+De las Responsabilidades de los Servidores Públicos, Particulares Vinculados con Faltas Administrativas Graves o Hechos de Corrupción, y Patrimonial del Estado
+```````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````````
 
 .. include:: 108.rst
 
@@ -1983,3 +1983,12 @@ Constitución Política de los Estados Unidos Mexicanos, en materia de
 disciplina financiera de las entidades federativas y los municipios.
 
 .. include:: T222.rst
+
+Artículos Transitorios de Decretos de Reforma (223)
+---------------------------------------------------
+
+DECRETO por el que se reforman, adicionan y derogan diversas
+disposiciones de la Constitución Política de los Estados Unidos
+Mexicanos, en materia de combate a la corrupción.
+
+.. include:: T223.rst

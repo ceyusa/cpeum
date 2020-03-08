@@ -280,9 +280,9 @@ V. La organización de las elecciones es una función estatal que se
       funcionamiento de los órganos, las relaciones de mando entre
       éstos, así como la relación con los organismos públicos locales.
       Los órganos ejecutivos y técnicos dispondrán del personal
-      calificado necesario para el ejercicio de sus atribuciones. Una
-      Contraloría General tendrá a su cargo, con autonomía técnica y de
-      gestión, la fiscalización de todos los ingresos y egresos del
+      calificado necesario para el ejercicio de sus atribuciones. Un
+      órgano interno de control tendrá a su cargo, con autonomía técnica
+      y de gestión, la fiscalización de todos los ingresos y egresos del
       Instituto. Las disposiciones de la ley electoral y del Estatuto
       que con base en ella apruebe el Consejo General, regirán las
       relaciones de trabajo con los servidores del organismo
@@ -358,27 +358,29 @@ V. La organización de las elecciones es una función estatal que se
       remunerados que desempeñen en asociaciones docentes, científicas,
       culturales, de investigación o de beneficencia.
 
-      El titular de la Contraloría General del Instituto será designado
-      por la Cámara de Diputados con el voto de las dos terceras partes
-      de sus miembros presentes a propuesta de instituciones públicas de
-      educación superior, en la forma y términos que determine la ley.
-      Durará seis años en el cargo y podrá ser reelecto por una sola
-      vez. Estará adscrito administrativamente a la presidencia del
-      Consejo General y mantendrá la coordinación técnica necesaria con
-      la entidad de fiscalización superior de la Federación.
+      El titular del órgano interno de control del Instituto será
+      designado por la Cámara de Diputados con el voto de las dos
+      terceras partes de sus miembros presentes a propuesta de
+      instituciones públicas de educación superior, en la forma y
+      términos que determine la ley. Durará seis años en el cargo y
+      podrá ser reelecto por una sola vez. Estará adscrito
+      administrativamente a la presidencia del Consejo General y
+      mantendrá la coordinación técnica necesaria con la Auditoría
+      Superior de la Federación.
 
       El Secretario Ejecutivo será nombrado con el voto de las dos
       terceras partes del Consejo General a propuesta de su Presidente.
 
       La ley establecerá los requisitos que deberán reunir para su
       designación el consejero Presidente del Consejo General, los
-      consejeros electorales, el Contralor General y el Secretario
-      Ejecutivo del Instituto Nacional Electoral. Quienes hayan fungido
-      como consejero Presidente, consejeros electorales y Secretario
-      Ejecutivo no podrán desempeñar cargos en los poderes públicos en
-      cuya elección hayan participado, de dirigencia partidista, ni ser
-      postulados a cargos de elección popular, durante los dos años
-      siguientes a la fecha de conclusión de su encargo.
+      consejeros electorales, el titular del órgano interno de control y
+      el Secretario Ejecutivo del Instituto Nacional Electoral. Quienes
+      hayan fungido como consejero Presidente, consejeros electorales y
+      Secretario Ejecutivo no podrán desempeñar cargos en los poderes
+      públicos en cuya elección hayan participado, de dirigencia
+      partidista, ni ser postulados a cargos de elección popular,
+      durante los dos años siguientes a la fecha de conclusión de su
+      encargo.
 
       Los consejeros del Poder Legislativo serán propuestos por los
       grupos parlamentarios con afiliación de partido en alguna de las

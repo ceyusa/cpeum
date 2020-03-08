@@ -261,9 +261,10 @@ XI. Los comisionados de los órganos podrán ser removidos de su cargo por
     República, por falta grave en el ejercicio de sus funciones, en los
     términos que disponga la ley, y
 
-XII. Cada órgano contará con una Contraloría Interna, cuyo titular será
-     designado por las dos terceras partes de los miembros presentes de
-     la Cámara de Diputados, en los términos que disponga la ley.
+XII. Cada órgano contará con un órgano interno de control, cuyo titular
+     será designado por las dos terceras partes de los miembros
+     presentes de la Cámara de Diputados, en los términos que disponga
+     la ley.
 
 Los órganos de gobierno, tanto de la Comisión Federal de Competencia
 Económica como del Instituto Federal de Telecomunicaciones se integrarán

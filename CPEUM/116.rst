@@ -80,21 +80,27 @@ II. El número de representantes en las legislaturas de los Estados será
     egresos de los Estados, establezcan las disposiciones
     constitucionales y legales aplicables.
 
-    Las legislaturas de los Estados contarán con entidades estatales de
+    Las legislaturas de los estados contarán con entidades estatales de
     fiscalización, las cuales serán órganos con autonomía técnica y de
-    gestión en el ejercido de sus atribuciones y para decidir sobre su
+    gestión en el ejercicio de sus atribuciones y para decidir sobre su
     organización interna, funcionamiento y resoluciones, en los términos
     que dispongan sus leyes. La función de fiscalización se desarrollará
-    conforme a los principios de posterioridad, anualidad, legalidad,
-    imparcialidad y confiabilidad. Asimismo, deberán fiscalizar las
-    acciones de Estados y Municipios en materia de fondos, recursos
-    locales y deuda pública.
+    conforme a los principios de legalidad, imparcialidad y
+    confiabilidad.  Asimismo, deberán fiscalizar las acciones de Estados
+    y Municipios en materia de fondos, recursos locales y deuda
+    pública. Los informes de auditoría de las entidades estatales de
+    fiscalización tendrán carácter público.
 
     El titular de la entidad de fiscalización de las entidades
     federativas será electo por las dos terceras partes de los miembros
     presentes en las legislaturas locales, por periodos no menores a
     siete años y deberá contar con experiencia de cinco años en materia
     de control, auditoría financiera y de responsabilidades.
+
+    La cuenta pública del año anterior deberá ser enviada a la Legislatura
+    del Estado, a más tardar el 30 de abril. Sólo se podrá ampliar el plazo
+    de presentación cuando medie solicitud del Gobernador, suficientemente
+    justificada a juicio de la Legislatura.
 
     Las Legislaturas de los Estados regularán los términos para que los
     ciudadanos puedan presentar iniciativas de ley ante el respectivo
@@ -289,13 +295,27 @@ IV. De conformidad con las bases establecidas en esta Constitución y las
        votados en forma independiente a todos los cargos de elección
        popular, en los términos del artículo 35 de esta Constitución.
 
-V. Las Constituciones y leyes de los Estados podrán instituir
-   Tribunales de lo Contencioso-Administrativo dotados de plena
-   autonomía para dictar sus fallos, que tengan a su cargo dirimir las
-   controversias que se susciten entre la Administración Pública
-   Estatal y los particulares, estableciendo las normas para su
-   organización, su funcionamiento, el procedimiento y los recursos
-   contra sus resoluciones;
+V. Las Constituciones y leyes de los Estados deberán instituir
+   Tribunales de Justicia Administrativa, dotados de plena autonomía
+   para dictar sus fallos y establecer su organización, funcionamiento,
+   procedimientos y, en su caso, recursos contra sus resoluciones. Los
+   Tribunales tendrán a su cargo dirimir las controversias que se
+   susciten entre la administración pública local y municipal y los
+   particulares; imponer, en los términos que disponga la ley, las
+   sanciones a los servidores públicos locales y municipales por
+   responsabilidad administrativa grave, y a los particulares que
+   incurran en actos vinculados con faltas administrativas graves; así
+   como fincar a los responsables el pago de las indemnizaciones y
+   sanciones pecuniarias que deriven de los daños y perjuicios que
+   afecten a la Hacienda Pública Estatal o Municipal o al patrimonio de
+   los entes públicos locales o municipales.
+
+   Para la investigación, substanciación y sanción de las
+   responsabilidades administrativas de los miembros del Poder Judicial
+   de los Estados, se observará lo previsto en las Constituciones
+   respectivas, sin perjuicio de las atribuciones de las entidades de
+   fiscalización sobre el manejo, la custodia y aplicación de recursos
+   públicos;
 
 VI. Las relaciones de trabajo entre los estados y sus trabajadores, se
     regirán por las leyes que expidan las legislaturas de los estados
