@@ -1974,3 +1974,12 @@ artículo 2o. de la Constitución Política de los Estados Unidos
 Mexicanos.
 
 .. include:: T221.rst
+
+Artículos Transitorios de Decretos de Reforma (222)
+---------------------------------------------------
+
+DECRETO por el que se reforman y adicionan diversas disposiciones de la
+Constitución Política de los Estados Unidos Mexicanos, en materia de
+disciplina financiera de las entidades federativas y los municipios.
+
+.. include:: T222.rst

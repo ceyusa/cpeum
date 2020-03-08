@@ -42,25 +42,61 @@ VI. Derogada;
 
 VII. Para imponer las contribuciones necesarias a cubrir el Presupuesto.
 
-VIII. Para dar bases sobre las cuales el Ejecutivo pueda celebrar
-      empréstitos sobre el crédito de la Nación, para aprobar esos
-      mismos empréstitos y para reconocer y mandar pagar la deuda
-      nacional. Ningún empréstito podrá celebrarse sino para la
-      ejecución de obras que directamente produzcan un incremento en los
-      ingresos públicos, salvo los que se realicen con propósitos de
-      regulación monetaria, las operaciones de conversión y los que se
-      contraten durante alguna emergencia declarada por el Presidente de
-      la República en los términos del artículo 29.  Asimismo, aprobar
-      anualmente los montos de endeudamiento que deberán incluirse en la
-      ley de ingresos, que en su caso requiera el Gobierno del Distrito
-      Federal y las entidades de su sector público, conforme a las bases
-      de la ley correspondiente. El Ejecutivo Federal informará
-      anualmente al Congreso de la Unión sobre el ejercicio de dicha
-      deuda a cuyo efecto el Jefe del Distrito Federal le hará llegar el
-      informe que sobre el ejercicio de los recursos correspondientes
-      hubiere realizado.  El Jefe del Distrito Federal informará
-      igualmente a la Asamblea de Representantes del Distrito Federal,
-      al rendir la cuenta pública;
+VIII. En materia de deuda pública, para:
+
+      1. Dar bases sobre las cuales el Ejecutivo pueda celebrar
+         empréstitos y otorgar garantías sobre el crédito de la Nación,
+         para aprobar esos mismos empréstitos y para reconocer y mandar
+         pagar la deuda nacional.  Ningún empréstito podrá celebrarse
+         sino para la ejecución de obras que directamente produzcan un
+         incremento en los ingresos públicos o, en términos de la ley de
+         la materia, los que se realicen con propósitos de regulación
+         monetaria, las operaciones de refinanciamiento o reestructura
+         de deuda que deberán realizarse bajo las mejores condiciones de
+         mercado; así como los que se contraten durante alguna
+         emergencia declarada por el Presidente de la República en los
+         términos del artículo 29.
+
+      2. Aprobar anualmente los montos de endeudamiento que deberán
+         incluirse en la ley de ingresos, que en su caso requiera el
+         Gobierno del Distrito Federal y las entidades de su sector
+         público, conforme a las bases de la ley correspondiente. El
+         Ejecutivo Federal informará anualmente al Congreso de la Unión
+         sobre el ejercicio de dicha deuda a cuyo efecto el Jefe de
+         Gobierno le hará llegar el informe que sobre el ejercicio de
+         los recursos correspondientes hubiere realizado. El Jefe de
+         Gobierno informará igualmente a la Asamblea Legislativa del
+         Distrito Federal, al rendir la cuenta pública.
+
+      3. Establecer en las leyes las bases generales, para que los
+         Estados, el Distrito Federal y los Municipios puedan incurrir
+         en endeudamiento; los límites y modalidades bajo los cuales
+         dichos órdenes de gobierno podrán afectar sus respectivas
+         participaciones para cubrir los empréstitos y obligaciones de
+         pago que contraigan; la obligación de dichos órdenes de
+         gobierno de inscribir y publicar la totalidad de sus
+         empréstitos y obligaciones de pago en un registro público
+         único, de manera oportuna y transparente; un sistema de alertas
+         sobre el manejo de la deuda; así como las sanciones aplicables
+         a los servidores públicos que no cumplan sus
+         disposiciones. Dichas leyes deberán discutirse primero en la
+         Cámara de Diputados conforme a lo dispuesto por la fracción H
+         del artículo 72 de esta Constitución.
+
+      4. El Congreso de la Unión, a través de la comisión legislativa
+         bicameral competente, analizará la estrategia de ajuste para
+         fortalecer las finanzas públicas de los Estados, planteada en
+         los convenios que pretendan celebrar con el Gobierno Federal
+         para obtener garantías y, en su caso, emitirá las observaciones
+         que estime pertinentes en un plazo máximo de quince días
+         hábiles, inclusive durante los períodos de receso del Congreso
+         de la Unión. Lo anterior aplicará en el caso de los Estados que
+         tengan niveles elevados de deuda en los términos de la ley.
+         Asimismo, de manera inmediata a la suscripción del convenio
+         correspondiente, será informado de la estrategia de ajuste para
+         los Municipios que se encuentren en el mismo supuesto, así como
+         de los convenios que, en su caso, celebren los Estados que no
+         tengan un nivel elevado de deuda;
 
 IX. Para impedir que en el comercio de Estado a Estado se establezcan
     restricciones.
@@ -373,6 +409,12 @@ XXIX. Para establecer contribuciones:
          materias de partidos políticos; organismos electorales, y
          procesos electorales, conforme a las bases previstas en esta
          Constitución.
+
+      W. Para expedir leyes en materia de responsabilidad hacendaria que
+         tengan por objeto el manejo sostenible de las finanzas públicas
+         en la Federación, los Estados, Municipios y el Distrito
+         Federal, con base en el principio establecido en el párrafo
+         segundo del artículo 25;
 
 XXX. Para expedir todas las leyes que sean necesarias, a objeto de hacer
      efectivas las facultades anteriores, y todas las otras concedidas

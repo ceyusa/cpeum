@@ -80,13 +80,15 @@ II. El número de representantes en las legislaturas de los Estados será
     egresos de los Estados, establezcan las disposiciones
     constitucionales y legales aplicables.
 
-    Las legislaturas de los estados contarán con entidades estatales de
+    Las legislaturas de los Estados contarán con entidades estatales de
     fiscalización, las cuales serán órganos con autonomía técnica y de
-    gestión en el ejercicio de sus atribuciones y para decidir sobre su
+    gestión en el ejercido de sus atribuciones y para decidir sobre su
     organización interna, funcionamiento y resoluciones, en los términos
     que dispongan sus leyes. La función de fiscalización se desarrollará
     conforme a los principios de posterioridad, anualidad, legalidad,
-    imparcialidad y confiabilidad.
+    imparcialidad y confiabilidad. Asimismo, deberán fiscalizar las
+    acciones de Estados y Municipios en materia de fondos, recursos
+    locales y deuda pública.
 
     El titular de la entidad de fiscalización de las entidades
     federativas será electo por las dos terceras partes de los miembros
