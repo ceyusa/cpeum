@@ -1992,3 +1992,12 @@ disposiciones de la Constitución Política de los Estados Unidos
 Mexicanos, en materia de combate a la corrupción.
 
 .. include:: T223.rst
+
+Artículos Transitorios de Decretos de Reforma (224)
+---------------------------------------------------
+
+DECRETO por el que se reforman los párrafos cuarto y sexto del artículo
+18 y el inciso c) de la fracción XXI del artículo 73 de la Constitución
+Política de los Estados Unidos Mexicanos.
+
+.. include:: T224.rst
