@@ -2009,3 +2009,12 @@ DECRETO por el que se reforma el artículo 73, fracción XXI, inciso a),
 de la Constitución Política de los Estados Unidos Mexicanos.
 
 .. include:: T225.rst
+
+Artículos Transitorios de Decretos de Reforma (226)
+---------------------------------------------------
+
+DECRETO por el que se declara reformadas y adicionadas diversas
+disposiciones de la Constitución Política de los Estados Unidos
+Mexicanos, en materia de desindexación del salario mínimo.
+
+.. include:: T226.rst
