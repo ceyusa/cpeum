@@ -2001,3 +2001,11 @@ DECRETO por el que se reforman los párrafos cuarto y sexto del artículo
 Política de los Estados Unidos Mexicanos.
 
 .. include:: T224.rst
+
+Artículos Transitorios de Decretos de Reforma (225)
+---------------------------------------------------
+
+DECRETO por el que se reforma el artículo 73, fracción XXI, inciso a),
+de la Constitución Política de los Estados Unidos Mexicanos.
+
+.. include:: T225.rst
