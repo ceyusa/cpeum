@@ -21,7 +21,7 @@ Para efectos de lo dispuesto en el presente artículo se observará lo
 siguiente:
 
 A. Para el ejercicio del derecho de acceso a la información, la
-   Federación, los Estados y el Distrito Federal, en el ámbito de sus
+   Federación y las entidades federativas, en el ámbito de sus
    respectivas competencias, se regirán por los siguientes principios y
    bases:
 
@@ -94,7 +94,7 @@ A. Para el ejercicio del derecho de acceso a la información, la
          asuntos relacionados con el acceso a la información pública y
          la protección de datos personales de cualquier autoridad,
          entidad, órgano u organismo que forme parte de alguno de los
-         Poderes Ejecutivo, Legislativo y Judicial, órganos autónomos,
+         Poderes Legislativo, Ejecutivo y Judicial, órganos autónomos,
          partidos políticos, fideicomisos y fondos públicos, así como de
          cualquier persona física, moral o sindicatos que reciba y
          ejerza recursos públicos o realice actos de autoridad en el
@@ -103,15 +103,15 @@ A. Para el ejercicio del derecho de acceso a la información, la
          Justicia de la Nación, en cuyo caso resolverá un comité
          integrado por tres ministros. También conocerá de los recursos
          que interpongan los particulares respecto de las resoluciones
-         de los organismos autónomos especializados de los estados y el
-         Distrito Federal que determinen la reserva, confidencialidad,
+         de los organismos autónomos especializados de las entidades
+         federativas que determinen la reserva, confidencialidad,
          inexistencia o negativa de la información, en los términos que
          establezca la ley.
 
-         El organismo garante federal de oficio o a petición fundada del
-         organismo garante equivalente del estado o del Distrito
-         Federal, podrá conocer de los recursos de revisión que por su
-         interés y trascendencia así lo ameriten.
+         El organismo garante federal, de oficio o a petición fundada
+         del organismo garante equivalente de las entidades federativas,
+         podrá conocer de los recursos de revisión que por su interés y
+         trascendencia así lo ameriten.
 
          La ley establecerá aquella información que se considere
          reservada o confidencial.
@@ -180,14 +180,13 @@ A. Para el ejercicio del derecho de acceso a la información, la
          con el organismo garante y sus integrantes para el buen
          desempeño de sus funciones.
 
-         El organismo garante coordinará sus acciones con la entidad de
-         fiscalización superior de la Federación, con la entidad
-         especializada en materia de archivos y con el organismo
-         encargado de regular la captación, procesamiento y publicación
-         de la información estadística y geográfica, así como con los
-         organismos garantes de los estados y el Distrito Federal, con
-         el objeto de fortalecer la rendición de cuentas del Estado
-         Mexicano.
+         El organismo garante coordinará sus acciones con la Auditoría
+         Superior de la Federación, con la entidad especializada en
+         materia de archivos y con el organismo encargado de regular la
+         captación, procesamiento y publicación de la información
+         estadística y geográfica, así como con los organismos garantes
+         de las entidades federativas, con el objeto de fortalecer la
+         rendición de cuentas del Estado Mexicano.
 
 B. En materia de radiodifusión y telecomunicaciones:
 

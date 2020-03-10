@@ -295,10 +295,10 @@ A. Entre los obreros, jornaleros, empleados, domésticos, artesanos y de
         destinadas a ser adquiridas en propiedad, por los trabajadores
         en plazos determinados.
 
-   XXXI. La aplicación de las leyes de trabajo corresponde a las
-         autoridades de los Estados, en sus respectivas jurisdicciones,
-         pero es de la competencia exclusiva de las autoridades
-         federales en asuntos relativos a:
+   XXXI. La aplicación de las leyes del trabajo corresponde a las
+         autoridades de las entidades federativas, de sus respectivas
+         jurisdicciones, pero es de la competencia exclusiva de las
+         autoridades federales en los asuntos relativos a:
 
          a) Ramas industriales:
 
@@ -364,8 +364,7 @@ A. Entre los obreros, jornaleros, empleados, domésticos, artesanos y de
          jurisdicción local, en los términos de la ley reglamentaria
          correspondiente.
 
-B. Entre los Poderes de la Unión, el Gobierno del Distrito Federal y sus
-   trabajadores:
+B. Entre los Poderes de la Unión y sus trabajadores:
 
    I. La jornada diaria máxima de trabajo diurna y nocturna será de ocho
       y siete horas respectivamente. Las que excedan serán
@@ -386,8 +385,7 @@ B. Entre los Poderes de la Unión, el Gobierno del Distrito Federal y sus
        Constitución y en la ley.
 
        En ningún caso los salarios podrán ser inferiores al mínimo para
-       los trabajadores en general en el Distrito Federal y en las
-       Entidades de la República.
+       los trabajadores en general en las entidades federativas.
 
    V. A trabajo igual corresponderá salario igual, sin tener en cuenta
       el sexo;
@@ -480,26 +478,26 @@ B. Entre los Poderes de la Unión, el Gobierno del Distrito Federal y sus
          instituciones policiales, se regirán por sus propias leyes.
 
          Los agentes del Ministerio Público, los peritos y los miembros
-         de las instituciones policiales de la Federación, el Distrito
-         Federal, los Estados y los Municipios, podrán ser separados de
-         sus cargos si no cumplen con los requisitos que las leyes
-         vigentes en el momento del acto señalen para permanecer en
-         dichas instituciones, o removidos por incurrir en
-         responsabilidad en el desempeño de sus funciones. Si la
-         autoridad jurisdiccional resolviere que la separación,
-         remoción, baja, cese o cualquier otra forma de terminación del
-         servicio fue injustificada, el Estado sólo estará obligado a
-         pagar la indemnización y demás prestaciones a que tenga
-         derecho, sin que en ningún caso proceda su reincorporación al
-         servicio, cualquiera que sea el resultado del juicio o medio de
-         defensa que se hubiere promovido.
+         de las instituciones policiales de la Federación, las entidades
+         federativas y los Municipios, podrán ser separados de sus
+         cargos si no cumplen con los requisitos que las leyes vigentes
+         en el momento del acto señalen para permanecer en dichas
+         instituciones, o removidos por incurrir en responsabilidad en
+         el desempeño de sus funciones. Si la autoridad jurisdiccional
+         resolviere que la separación, remoción, baja, cese o cualquier
+         otra forma de terminación del servicio fue injustificada, el
+         Estado sólo estará obligado a pagar la indemnización y demás
+         prestaciones a que tenga derecho, sin que en ningún caso
+         proceda su reincorporación al servicio, cualquiera que sea el
+         resultado del juicio o medio de defensa que se hubiere
+         promovido.
 
-         Las autoridades del orden federal, estatal, del Distrito
-         Federal y municipal, a fin de propiciar el fortalecimiento del
-         sistema de seguridad social del personal del Ministerio
-         Público, de las corporaciones policiales y de los servicios
-         periciales, de sus familias y dependientes, instrumentarán
-         sistemas complementarios de seguridad social.
+         Las autoridades federales, de las entidades federativas y
+         municipales, a fin de propiciar el fortalecimiento del sistema
+         de seguridad social del personal del Ministerio Público, de las
+         corporaciones policiales y de los servicios periciales, de sus
+         familias y dependientes, instrumentarán sistemas
+         complementarios de seguridad social.
 
          El Estado proporcionará a los miembros en el activo del
          Ejército, Fuerza Aérea y Armada, las prestaciones a que se

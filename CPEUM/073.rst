@@ -14,9 +14,9 @@ III. Para formar nuevos Estados dentro de los límites de los existentes,
         lo menos.
      2. Que se compruebe ante el Congreso que tiene los elementos
         bastantes para proveer a su existencia política.
-     3. Que sean oídas las Legislaturas de los Estados de cuyo
-        territorio se trate, sobre la conveniencia o inconveniencia de
-        la erección del nuevo Estado, quedando obligadas a dar su
+     3. Que sean oídas las Legislaturas de las entidades federativas de
+        cuyo territorio se trate, sobre la conveniencia o inconveniencia
+        de la erección del nuevo Estado, quedando obligadas a dar su
         informe dentro de seis meses, contados desde el día en que se
         les remita la comunicación respectiva.
      4. Que igualmente se oiga al Ejecutivo de la Federación, el cual
@@ -26,13 +26,15 @@ III. Para formar nuevos Estados dentro de los límites de los existentes,
         partes de los diputados y senadores presentes en sus respectivas
         Cámaras.
      6. Que la resolución del Congreso sea ratificada por la mayoría de
-        las Legislaturas de los Estados, previo examen de la copia del
-        expediente, siempre que hayan dado su consentimiento las
-        Legislaturas de los Estados de cuyo territorio se trate.
-     7. Si las Legislaturas de los Estados de cuyo territorio se trate,
-        no hubieren dado su consentimiento, la ratificación de que habla
-        la fracción anterior, deberá ser hecha por las dos terceras
-        partes del total de Legislaturas de los demás Estados.
+        las Legislaturas de las entidades federativas, previo examen de
+        la copia del expediente, siempre que hayan dado su
+        consentimiento las Legislaturas de las entidades federativas de
+        cuyo territorio se trate.
+     7. Si las Legislaturas de las entidades federativas de cuyo
+        territorio se trate, no hubieren dado su consentimiento, la
+        ratificación de que habla la fracción anterior, deberá ser hecha
+        por las dos terceras partes del total de Legislaturas de las
+        demás entidades federativas.
 
 IV. Derogada.
 
@@ -98,8 +100,8 @@ VIII. En materia de deuda pública, para:
          de los convenios que, en su caso, celebren los Estados que no
          tengan un nivel elevado de deuda;
 
-IX. Para impedir que en el comercio de Estado a Estado se establezcan
-    restricciones.
+IX. Para impedir que en el comercio entre entidades federativas se
+    establezcan restricciones.
 
 X. Para legislar en toda la República sobre hidrocarburos, minería,
    sustancias químicas, explosivos, pirotecnia, industria
@@ -122,10 +124,10 @@ XIV. Para levantar y sostener a las instituciones armadas de la Unión, a
      reglamentar su organización y servicio.
 
 XV. Para dar reglamentos con objeto de organizar, armar y disciplinar la
-    Guardia Nacional, reservándose a los ciudadanos que la forman, el
-    nombramiento respectivo de jefes y oficiales, y a los Estados la
-    facultad de instruirla conforme a la disciplina prescrita por dichos
-    reglamentos.
+    Guardia Nacional, reservándose los ciudadanos que la formen, el
+    nombramiento respectivo de jefes y oficiales, y a las entidades
+    federativas la facultad de instruirla conforme a la disciplina
+    prescrita por dichos reglamentos.
 
 XVI. Para dictar leyes sobre nacionalidad, condición jurídica de los
      extranjeros, ciudadanía, naturalización, colonización, emigración e
@@ -175,9 +177,9 @@ XXI. Para expedir:
         otros tratos o penas crueles, inhumanos o degradantes, así como
         electoral.
 
-        Las leyes generales contemplanrán también la distribución de
+        Las leyes generales contemplarán también la distribución de
         competencias y las formas de coordinación entre la Federación,
-        las entidades federativas, el Distrito Federal y los municipios;
+        las entidades federativas y los Municipios;
 
      b. La legislación que establezca los delitos y las faltas contra la
         Federación y las penas y sanciones que por ellos deban
@@ -204,11 +206,10 @@ XXII. Para conceder amnistías por delitos cuyo conocimiento pertenezca a
       los tribunales de la Federación.
 
 XXIII. Para expedir leyes que establezcan las bases de coordinación
-       entre la Federación, el Distrito Federal, los Estados y los
-       Municipios, así como para establecer y organizar a las
-       instituciones de seguridad pública en materia federal, de
-       conformidad con lo establecido en el artículo 21 de esta
-       Constitución.
+       entre la Federación, las entidades federativas y los Municipios,
+       así como para establecer y organizar a las instituciones de
+       seguridad pública en materia federal, de conformidad con lo
+       establecido en el artículo 21 de esta Constitución.
 
 XXIV. Para expedir las leyes que regulen la organización y facultades de
       la Auditoría Superior de la Federación y las demás que normen la
@@ -230,15 +231,15 @@ XXV. Para establecer el Servicio Profesional docente en términos del
      fósiles y sobre monumentos arqueológicos, artísticos e históricos,
      cuya conservación sea de interés nacional; así como para dictar las
      leyes encaminadas a distribuir convenientemente entre la
-     Federación, los Estados y los Municipios el ejercicio de la función
-     educativa y las aportaciones económicas correspondientes a ese
-     servicio público, buscando unificar y coordinar la educación en
-     toda la República, y para asegurar el cumplimiento de los fines de
-     la educación y su mejora continua en un marco de inclusión y
-     diversidad. Los Títulos que se expidan por los establecimientos de
-     que se trata surtirán sus efectos en toda la República. Para
-     legislar en materia de derechos de autor y otras figuras de la
-     propiedad intelectual relacionadas con la misma;
+     Federación, las entidades federativas y los Municipios el ejercicio
+     de la función educativa y las aportaciones económicas
+     correspondientes a ese servicio público, buscando unificar y
+     coordinar la educación en toda la República, y para asegurar el
+     cumplimiento de los fines de la educación y su mejora continua en
+     un marco de inclusión y diversidad. Los Títulos que se expidan por
+     los establecimientos de que se trata surtirán sus efectos en toda
+     la República. Para legislar en materia de derechos de autor y otras
+     figuras de la propiedad intelectual relacionadas con la misma;
 
 XXVI. Para conceder licencia al Presidente de la República y para
       constituirse en Colegio Electoral y designar al ciudadano que deba
@@ -264,10 +265,9 @@ XXVII. Para establecer, organizar y sostener en toda la República
 XXVIII. Para expedir leyes en materia de contabilidad gubernamental que
         regirán la contabilidad pública y la presentación homogénea de
         información financiera, de ingresos y egresos, así como
-        patrimonial, para la Federación, los estados, los municipios, el
-        Distrito Federal y los órganos político-administrativos de sus
-        demarcaciones territoriales, a fin de garantizar su armonización
-        a nivel nacional;
+        patrimonial, para la Federación, las entidades federativas, los
+        Municipios y las demarcaciones territoriales de la Ciudad de
+        México, a fin de garantizar su armonización a nivel nacional;
 
 XXIX. Para establecer contribuciones:
 
@@ -299,11 +299,12 @@ XXIX. Para establecer contribuciones:
          Escudo e Himno Nacionales.
 
       C. Para expedir las leyes que establezcan la concurrencia del
-         Gobierno Federal, de los Estados y de los municipios, en el
-         ámbito de sus respectivas competencias, en materia de
-         asentamientos humanos, con objeto de cumplir los fines
-         previstos en el párrafo tercero del artículo 27 de esta
-         Constitución.
+         Gobierno Federal, de las entidades federativas, de los
+         Municipios y, en su caso, de las demarcaciones territoriales de
+         la Ciudad de México, en el ámbito de sus respectivas
+         competencias, en materia de asentamientos humanos, con objeto
+         de cumplir los fines previstos en el párrafo tercero del
+         artículo 27 de esta Constitución;
 
       D. Para expedir leyes sobre planeación nacional del desarrollo
          económico y social, así como en materia de información
@@ -322,10 +323,11 @@ XXIX. Para establecer contribuciones:
          requiere el desarrollo nacional.
 
       G. Para expedir leyes que establezcan la concurrencia del Gobierno
-         Federal, de los gobiernos de los Estado y de los municipios, en
-         el ámbito de sus respectivas competencias, en materia de
-         protección al ambiente y de preservación y restauración del
-         equilibrio ecológico.
+         Federal, de los gobiernos de las entidades federativas, de los
+         Municipios y, en su caso, de las demarcaciones territoriales de
+         la Ciudad de México, en el ámbito de sus respectivas
+         competencias, en materia de protección al ambiente y de
+         preservación y restauración del equilibrio ecológico.
 
       H. Para expedir la ley que instituya el Tribunal Federal de
          Justicia Administrativa, dotado de plena autonomía para dictar
@@ -368,20 +370,25 @@ XXIX. Para establecer contribuciones:
          causas graves que señale la ley.
 
       I. Para expedir leyes que establezcan las bases sobre las cuales
-         la Federación, los estados, el Distrito Federal y los
-         municipios, coordinarán sus acciones en materia de protección
-         civil, y
+         la Federación, las entidades federativas, los Municipios y, en
+         su caso, las demarcaciones territoriales de la Ciudad de
+         México, en el ámbito de sus respectivas competencias,
+         coordinarán sus acciones en materia de protección civil;
 
       J. Para legislar en materia de cultura física y deporte con objeto
          de cumplir lo previsto en el artículo 4o. de esta Constitución,
-         estableciendo la concurrencia entre la Federación, los Estados,
-         el Distrito Federal y los municipios; así como de la
+         estableciendo la concurrencia entre la Federación, las
+         entidades federativas, los Municipios y, en su caso, las
+         demarcaciones territoriales de la Ciudad de México, en el
+         ámbito de sus respectivas competencias; así como la
          participación de los sectores social y privado;
 
       K. Para expedir leyes en materia de turismo, estableciendo las
          bases generales de coordinación de las facultades concurrentes
-         entre la Federación, Estados, Municipios y el Distrito Federal,
-         así como la participación de los sectores social y privado.
+         entre la Federación, las entidades federativas, los Municipios
+         y, en su caso, las demarcaciones territoriales de la Ciudad de
+         México, en el ámbito de sus respectivas competencias, así como
+         la participación de los sectores social y privado;
 
       L. Para expedir leyes que establezcan la concurrencia del gobierno
          federal, de los gobiernos de las entidades federativas y de los
@@ -397,28 +404,33 @@ XXIX. Para establecer contribuciones:
          funcionamiento y extinción de las sociedades
          cooperativas. Estas leyes establecerán las bases para la
          concurrencia en materia de fomento y desarrollo sustentable de
-         la actividad cooperativa de la Federación, Estados y
-         Municipios, así como del Distrito Federal, en el ámbito de sus
-         respectivas competencias.
+         la actividad cooperativa de la Federación, entidades
+         federativas, Municipios y, en su caso, demarcaciones
+         territoriales de la Ciudad de México, en el ámbito de sus
+         respectivas competencias;
 
       O. **Ñ**. Para expedir leyes que establezcan las bases sobre las
-         cuales la Federación, los Estados, los Municipios y el Distrito
-         Federal coordinarán sus acciones en materia de cultura, salvo
-         lo dispuesto en la fracción XXV de este artículo. Asimismo,
+         cuales la Federación, las entidades federativas, los Municipios
+         y, en su caso, las demarcaciones territoriales de la Ciudad de
+         México, en el ámbito de sus respectivas competencias,
+         coordinarán sus acciones en materia de cultura, salvo lo
+         dispuesto en la fracción XXV de este artículo. Asimismo,
          establecerán los mecanismos de participación de los sectores
          social y privado, con objeto de cumplir los fines previstos en
-         el párrafo noveno del artículo 4o. de esta Constitución.
+         el párrafo décimo segundo del artículo 4o. de esta
+         Constitución.
 
       P. **O**. Para legislar en materia de protección de datos
          personales en posesión de particulares.
 
       Q. **P**. Expedir leyes que establezcan la concurrencia de la
-         Federación, los Estados, el Distrito Federal y los Municipios,
+         Federación, las entidades federativas, los Municipios y, en su
+         caso, las demarcaciones territoriales de la Ciudad de México,
          en el ámbito de sus respectivas competencias, en materia de
          derechos de niñas, niños y adolescentes, velando en todo
          momento por el interés superior de los mismos y cumpliendo con
-         los tratados internacionales de la materia, de los que México
-         sea parte.
+         los tratados internacionales de la materia de los que México
+         sea parte;
 
       R. **Q**. Para legislar sobre iniciativa ciudadana y consultas
          populares.
@@ -435,8 +447,9 @@ XXIX. Para establecer contribuciones:
          organismos gubernamentales de todos los niveles de gobierno.
 
       U. **T**. Para expedir la ley general que establezca la
-         organización y administración homogénea de los archivos en los
-         órdenes federal, estatal, del Distrito Federal y municipal, que
+         organización y administración homogénea de los archivos de la
+         Federación, de las entidades federativas, de los Municipios y
+         de las demarcaciones territoriales de la Ciudad de México, y
          determine las bases de organización y funcionamiento del
          Sistema Nacional de Archivos.
 

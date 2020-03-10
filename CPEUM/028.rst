@@ -90,10 +90,10 @@ interés general, vendan directamente en los mercados extranjeros los
 productos nacionales o industriales que sean la principal fuente de
 riqueza de la región en que se produzcan o que no sean artículos de
 primera necesidad, siempre que dichas asociaciones estén bajo vigilancia
-o amparo del Gobierno Federal o de los Estados, y previa autorización
-que al efecto se obtenga de las legislaturas respectivas en cada
-caso. Las mismas Legislaturas, por sí o a propuesta del Ejecutivo podrán
-derogar, cuando así lo exijan las necesidades públicas, las
+o amparo del Gobierno Federal o de las entidades federativas, y previa
+autorización que al efecto se obtenga de las Legislaturas respectivas en
+cada caso. Las mismas Legislaturas, por sí o a propuesta del Ejecutivo
+podrán derogar, cuando así lo exijan las necesidades públicas, las
 autorizaciones concedidas para la formación de las asociaciones de que
 se trata.
 
@@ -300,9 +300,9 @@ V. Haberse desempeñado, cuando menos tres años, en forma destacada en
 VI. Acreditar, en los términos de este precepto, los conocimientos
     técnicos necesarios para el ejercicio del cargo;
 
-VII. No haber sido Secretario de Estado, Fiscal General de la
-     República, senador, diputado federal o local, Gobernador de algún Estado
-     o Jefe de Gobierno del Distrito Federal, durante el año previo a su
+VII. No haber sido Secretario de Estado, Fiscal General de la República,
+     senador, diputado federal o local, Gobernador de algún Estado o
+     Jefe de Gobierno de la Ciudad de México, durante el año previo a su
      nombramiento, y
 
 VIII. En la Comisión Federal de Competencia Económica, no haber ocupado,

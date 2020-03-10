@@ -314,8 +314,8 @@ De las Responsabilidades de los Servidores Públicos, Particulares Vinculados co
 Título Quinto
 -------------
 
-De los Estados de la Federación y del Distrito Federal
-``````````````````````````````````````````````````````
+De los Estados de la Federación y de la Ciudad de México
+````````````````````````````````````````````````````````
 
 .. include:: 115.rst
 
@@ -2018,3 +2018,12 @@ disposiciones de la Constitución Política de los Estados Unidos
 Mexicanos, en materia de desindexación del salario mínimo.
 
 .. include:: T226.rst
+
+Artículos Transitorios de Decretos de Reforma (227)
+---------------------------------------------------
+
+DECRETO por el que se declaran reformadas y derogadas diversas
+disposiciones de la Constitución Política de los Estados Unidos
+Mexicanos, en materia de la reforma política de la Ciudad de México.
+
+.. include:: T227.rst

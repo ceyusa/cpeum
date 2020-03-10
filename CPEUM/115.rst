@@ -165,10 +165,10 @@ IV. Los municipios administrarán libremente su hacienda, la cual se
        leyes estatales no establecerán exenciones o subsidios en favor
        de persona o institución alguna respecto de dichas
        contribuciones. Sólo estarán exentos los bienes de dominio
-       público de la Federación, de los Estados o los Municipios, salvo
-       que tales bienes sean utilizados por entidades paraestatales o
-       por particulares, bajo cualquier título, para fines
-       administrativos o propósitos distintos a los de su objeto
+       público de la Federación, de las entidades federativas o los
+       Municipios, salvo que tales bienes sean utilizados por entidades
+       paraestatales o por particulares, bajo cualquier título, para
+       fines administrativos o propósitos distintos a los de su objeto
        público.
 
        Los ayuntamientos, en el ámbito de su competencia, propondrán a
@@ -227,7 +227,11 @@ V. Los Municipios, en los términos de las leyes federales y Estatales
 
    En lo conducente y de conformidad a los fines señalados en el párrafo
    tercero del artículo 27 de esta Constitución, expedirán los
-   reglamentos y disposiciones administrativas que fueren necesarios;
+   reglamentos y disposiciones administrativas que fueren
+   necesarios. Los bienes inmuebles de la Federación ubicados en los
+   Municipios estarán exclusivamente bajo la jurisdicción de los poderes
+   federales, sin perjuicio de los convenios que puedan celebrar en
+   términos del inciso i) de esta fracción;
 
 VI. Cuando dos o más centros urbanos situados en territorios municipales
     de dos o más entidades federativas formen o tiendan a formar una

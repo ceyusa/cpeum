@@ -15,15 +15,14 @@ II. De todas las controversias del orden civil o mercantil que se
 
 III. De los recursos de revisión que se interpongan contra las
      resoluciones definitivas de los tribunales de justicia
-     administrativa a que se refieren la fracción XXIX-H del artículo 73
-     y la BASE PRIMERA, fracción V, inciso n) y BASE QUINTA del artículo
-     122 de esta Constitución, sólo en los casos que señalen las
-     leyes. Las revisiones, de las cuales conocerán los Tribunales
-     Colegiados de Circuito, se sujetarán a los trámites que la ley
-     reglamentaria de los artículos 103 y 107 de esta Constitución fije
-     para la revisión en amparo indirecto, y en contra de las
-     resoluciones que en ellas dicten los Tribunales Colegiados de
-     Circuito no procederá juicio o recurso alguno;
+     administrativa a que se refiere la fracción XXIX-H del artículo 73
+     de esta Constitución, sólo en los casos que señalen las leyes. Las
+     revisiones, de las cuales conocerán los Tribunales Colegiados de
+     Circuito, se sujetarán a los trámites que la ley reglamentaria de
+     los artículos 103 y 107 de esta Constitución fije para la revisión
+     en amparo indirecto, y en contra de las resoluciones que en ellas
+     dicten los Tribunales Colegiados de Circuito no procederá juicio o
+     recurso alguno;
 
 IV. De todas las controversias que versen sobre derecho marítimo;
 
@@ -33,7 +32,8 @@ VI. De las controversias y de las acciones a que se refiere el artículo
     105, mismas que serán del conocimiento exclusivo de la Suprema Corte
     de Justicia de la Nación;
 
-VII. De las que surjan entre un Estado y uno o más vecinos de otro, y
+VII. De las que surjan entre una entidad federativa y uno o más vecinos
+     de otra, y
 
 VIII. De los casos concernientes a miembros del Cuerpo Diplomático y
       Consular.

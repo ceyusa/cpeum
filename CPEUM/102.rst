@@ -1,8 +1,8 @@
 **Artículo 102**
 
-A. El Ministerio Público se organizará en una Fiscalía General de la
-   República como órgano público autónomo, dotado de personalidad
-   jurídica y de patrimonio propios.
+A. El Ministerio Público de la Federación se organizará en una Fiscalía
+   General de la República como órgano público autónomo, dotado de
+   personalidad jurídica y patrimonio propio.
 
    Para ser Fiscal General de la República se requiere: ser ciudadano
    mexicano por nacimiento; tener cuando menos treinta y cinco años
@@ -60,15 +60,15 @@ A. El Ministerio Público se organizará en una Fiscalía General de la
    VI. Las ausencias del Fiscal General serán suplidas en los términos
        que determine la ley.
 
-   Corresponde al Ministerio Público la persecución, ante los
-   tribunales, de todos los delitos del orden federal; y, por lo mismo,
-   solicitará las medidas cautelares contra los imputados; buscará y
-   presentará las pruebas que acrediten la participación de éstos en
-   hechos que las leyes señalen como delito; procurará que los juicios
-   federales en materia penal se sigan con toda regularidad para que la
-   impartición de justicia sea pronta y expedita; pedirá la aplicación
-   de las penas, e intervendrá en todos los asuntos que la ley
-   determine.
+   Corresponde al Ministerio Público de la Federación la persecución,
+   ante los tribunales, de todos los delitos del orden federal; y, por
+   lo mismo, solicitará las medidas cautelares contra los imputados;
+   buscará y presentará las pruebas que acrediten la participación de
+   éstos en hechos que las leyes señalen como delito; procurará que los
+   juicios federales en materia penal se sigan con toda regularidad para
+   que la impartición de justicia sea pronta y expedita; pedirá la
+   aplicación de las penas, e intervendrá en todos los asuntos que la
+   ley determine.
 
    La Fiscalía General contará, al menos, con las fiscalías
    especializadas en materia de delitos electorales y de combate a la
@@ -122,9 +122,9 @@ B. El Congreso de la Unión y las legislaturas de las entidades
    Comisión Nacional de los Derechos Humanos; contará con autonomía de
    gestión y presupuestaria, personalidad jurídica y patrimonio propios.
 
-   Las Constituciones de los Estados y el Estatuto de Gobierno del
-   Distrito Federal establecerán y garantizarán la autonomía de los
-   organismos de protección de los derechos humanos.
+   Las Constituciones de las entidades federativas establecerán y
+   garantizarán la autonomía de los organismos de protección de los
+   derechos humanos.
 
    La Comisión Nacional de los Derechos Humanos tendrá un Consejo
    Consultivo integrado por diez consejeros que serán elegidos por el
@@ -161,6 +161,5 @@ B. El Congreso de la Unión y las legislaturas de las entidades
    La Comisión Nacional de los Derechos Humanos podrá investigar hechos
    que constituyan violaciones graves de derechos humanos, cuando así lo
    juzgue conveniente o lo pidiere el Ejecutivo Federal, alguna de las
-   Cámaras del Congreso de la Unión, el gobernador de un Estado, el Jefe
-   de Gobierno del Distrito Federal o las legislaturas de las entidades
-   federativas.
+   Cámaras del Congreso de la Unión, los titulares de los poderes
+   ejecutivos de las entidades federativas o las Legislaturas de éstas.

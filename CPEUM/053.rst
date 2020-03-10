@@ -5,7 +5,8 @@ será la que resulte de dividir la población total del país entre los
 distritos señalados. La distribución de los distritos electorales
 uninominales entre las entidades federativas se hará teniendo en cuenta
 el último censo general de población, sin que en ningún caso la
-representación de un Estado pueda ser menor de dos diputados de mayoría.
+representación de una entidad federativa pueda ser menor de dos
+diputados de mayoría.
 
 Para la elección de los 200 diputados según el principio de
 representación proporcional y el Sistema de Listas Regionales, se

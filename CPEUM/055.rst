@@ -1,15 +1,15 @@
 **Artículo 55**
 
-Para ser diputado se requieren los siguientes requisitos:
+Para ser diputado se requiere:
 
 I. Ser ciudadano mexicano, por nacimiento, en el ejercicio de sus
    derechos.
 
 II. Tener veintiún años cumplidos el día de la elección.
 
-III. Ser originario del Estado en que se haga la elección o vecino de él
-     con residencia efectiva de más de seis meses anteriores a la fecha
-     de ella.
+III. Ser originario de la entidad federativa en que se haga la elección
+     o vecino de esta con residencia efectiva de más de seis meses
+     anteriores a la fecha de ella.
 
      Para poder figurar en las listas de las circunscripciones
      electorales plurinominales como candidato a diputados, se requiere
@@ -41,18 +41,17 @@ V. No ser titular de alguno de los organismos a los que esta
    separado de su encargo, de manera definitiva, tres años antes del día
    de la elección.
 
-   Los Gobernadores de los Estados y el Jefe de Gobierno del Distrito
-   Federal no podrán ser electos en las entidades de sus respectivas
+   Los Gobernadores de los Estados y el Jefe de Gobierno de la Ciudad de
+   México no podrán ser electos en las entidades de sus respectivas
    jurisdicciones durante el periodo de su encargo, aun cuando se
    separen definitivamente de sus puestos.
 
-   Los Secretarios del Gobierno de los Estados y del Distrito Federal,
-   los Magistrados y Jueces Federales o del Estado o del Distrito
-   Federal, así como los Presidentes Municipales y titulares de algún
-   órgano político-administrativo en el caso del Distrito Federal, no
-   podrán ser electos en las entidades de sus respectivas
-   jurisdicciones, si no se separan definitivamente de sus cargos
-   noventa días antes del día de la elección;
+   Los Secretarios del Gobierno de las entidades federativas, los
+   Magistrados y Jueces Federales y locales, así como los Presidentes
+   Municipales y Alcaldes en el caso de la Ciudad de México, no podrán
+   ser electos en las entidades de sus respectivas jurisdicciones, si no
+   se separan definitivamente de sus cargos noventa días antes del día
+   de la elección;
 
 VI. No ser Ministro de algún culto religioso, y
 

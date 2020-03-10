@@ -6,30 +6,30 @@ señale la ley reglamentaria, de los asuntos siguientes:
 I. De las controversias constitucionales que, con excepción de las que
    se refieran a la materia electoral, se susciten entre:
 
-   a. La Federación y un Estado o el Distrito Federal;
+   a. La Federación y una entidad federativa;
 
    b. La Federación y un municipio;
 
    c. El Poder Ejecutivo y el Congreso de la Unión; aquél y cualquiera
-      de las Cámaras de éste o, en su caso, la Comisión Permanente, sean
-      como órganos federales o del Distrito Federal;
+      de las Cámaras de éste o, en su caso, la Comisión Permanente;
 
-   d. Un Estado y otro;
+   d. Una entidad federativa y otra;
 
-   e. Un Estado y el Distrito Federal;
+   e. Derogada.
 
-   f. El Distrito Federal y un municipio;
+   f. Derogada.
 
    g. Dos municipios de diversos Estados;
 
-   h. Dos Poderes de un mismo Estado, sobre la constitucionalidad de sus
-      actos o disposiciones generales;
+   h. Dos Poderes de una misma entidad federativa, sobre la
+      constitucionalidad de sus actos o disposiciones generales;
 
    i. Un Estado y uno de sus municipios, sobre la constitucionalidad de
       sus actos o disposiciones generales;
 
-   j. Un Estado y un Municipio de otro Estado, sobre la
-      constitucionalidad de sus actos o disposiciones generales;
+   j. Una entidad federativa y un Municipio de otra o una demarcación
+      territorial de la Ciudad de México, sobre la constitucionalidad de
+      sus actos o disposiciones generales, y
 
    k. Dos órganos de gobierno del Distrito Federal, sobre la
       constitucionalidad de sus actos o disposiciones generales, y
@@ -41,12 +41,14 @@ I. De las controversias constitucionales que, con excepción de las que
       garante que establece el artículo 6o. de esta Constitución.
 
    Siempre que las controversias versen sobre disposiciones generales de
-   los Estados o de los municipios impugnadas por la Federación, de los
-   municipios impugnadas por los Estados, o en los casos a que se
-   refieren los incisos c), h) y k) anteriores, y la resolución de la
-   Suprema Corte de Justicia las declare inválidas, dicha resolución
-   tendrá efectos generales cuando hubiera sido aprobada por una mayoría
-   de por lo menos ocho votos.
+   las entidades federativas, de los Municipios o de las demarcaciones
+   territoriales de la Ciudad de México impugnadas por la Federación; de
+   los Municipios o de las demarcaciones territoriales de la Ciudad de
+   México impugnadas por las entidades federativas, o en los casos a que
+   se refieren los incisos c) y h) anteriores, y la resolución de la
+   Suprema Corte de Justicia de la Nación las declare inválidas, dicha
+   resolución tendrá efectos generales cuando hubiere sido aprobada por
+   una mayoría de por lo menos ocho votos.
 
    En los demás casos, las resoluciones de la Suprema Corte de Justicia
    tendrán efectos únicamente respecto de las partes en la controversia.
@@ -61,12 +63,10 @@ II. De las acciones de inconstitucionalidad que tengan por objeto
 
     a. El equivalente al treinta y tres por ciento de los integrantes de
        la Cámara de Diputados del Congreso de la Unión, en contra de
-       leyes federales o del Distrito Federal expedidas por el Congreso
-       de la Unión;
+       leyes federales;
 
     b. El equivalente al treinta y tres por ciento de los integrantes
-       del Senado, en contra de leyes federales o del Distrito Federal
-       expedidas por el Congreso de la Unión o de tratados
+       del Senado, en contra de las leyes federales o de tratados
        internacionales celebrados por el Estado Mexicano;
 
     c. El Ejecutivo Federal, por conducto del Consejero Jurídico del
@@ -74,42 +74,37 @@ II. De las acciones de inconstitucionalidad que tengan por objeto
        las entidades federativas;
 
     d. El equivalente al treinta y tres por ciento de los integrantes de
-       alguno de los órganos legislativos estatales, en contra de leyes
-       expedidas por el propio órgano,
+       alguna de las Legislaturas de las entidades federativas en contra
+       de las leyes expedidas por el propio órgano;
 
-    e. El equivalente al treinta y tres por ciento de los integrantes de
-       la Asamblea de Representantes del Distrito Federal, en contra de
-       leyes expedidas por la propia Asamblea,
+    e. Derogada.
 
     f. Los partidos políticos con registro ante el Instituto Nacional
        Electoral, por conducto de sus dirigencias nacionales, en contra
        de leyes electorales federales o locales; y los partidos
-       políticos con registro estatal, a través de sus dirigencias,
-       exclusivamente en contra de leyes electorales expedidas por el
-       órgano legislativo del Estado que les otorgó el registro;
+       políticos con registro en una entidad federativa, a través de sus
+       dirigencias, exclusivamente en contra de leyes electorales
+       expedidas por la Legislatura de la entidad federativa que les
+       otorgó el registro;
 
     g. La Comisión Nacional de los Derechos Humanos, en contra de leyes
-       de carácter federal, estatal y del Distrito Federal, así como de
+       de carácter federal o de las entidades federativas, así como de
        tratados internacionales celebrados por el Ejecutivo Federal y
        aprobados por el Senado de la República, que vulneren los
        derechos humanos consagrados en esta Constitución y en los
        tratados internacionales de los que México sea parte. Asimismo,
        los organismos de protección de los derechos humanos equivalentes
-       en los estados de la República, en contra de leyes expedidas por
-       las legislaturas locales y la Comisión de Derechos Humanos del
-       Distrito Federal, en contra de leyes emitidas por la Asamblea
-       Legislativa del Distrito Federal.
+       en las entidades federativas, en contra de leyes expedidas por
+       las Legislaturas;
 
-    h. El organismo garante que establece el artículo 6o. de esta
-       Constitución en contra de leyes de carácter federal, estatal y
-       del Distrito Federal, así como de tratados internacionales
-       celebrados por el Ejecutivo Federal y aprobados por el Senado de
-       la República, que vulneren el derecho al acceso a la información
-       pública y la protección de datos personales. Asimismo, los
-       organismos garantes equivalentes en los estados de la República,
-       en contra de leyes expedidas por las legislaturas locales y el
-       órgano garante del Distrito Federal, en contra de leyes emitidas
-       por la Asamblea Legislativa del Distrito Federal.
+    h. El organismo garante que establece el artículo 6° de esta
+       Constitución en contra de leyes de carácter federal y local, así
+       como de tratados internacionales celebrados por el Ejecutivo
+       Federal y aprobados por el Senado de la República, que vulneren
+       el derecho al acceso a la información pública y la protección de
+       datos personales.  Asimismo, los organismos garantes equivalentes
+       en las entidades federativas, en contra de leyes expedidas por
+       las Legislaturas locales; e
 
     i. El Fiscal General de la República respecto de leyes federales y
        de las entidades federativas, en materia penal y procesal penal,

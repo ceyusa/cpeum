@@ -29,24 +29,30 @@ III. Autorizarlo también para que pueda permitir la salida de tropas
      de otra potencia, por más de un mes, en aguas mexicanas.
 
 IV. Dar su consentimiento para que el Presidente de la República pueda
-    disponer de la Guardia Nacional fuera de sus respectivos Estados,
-    fijando la fuerza necesaria.
+    disponer de la Guardia Nacional fuera de sus respectivas entidades
+    federativas, fijando la fuerza necesaria.
 
 V. Declarar, cuando hayan desaparecido todos los poderes
-   constitucionales de un Estado, que es llegado el caso de nombrarle un
-   Gobernador provisional, quien convocará a elecciones conforme a las
-   leyes constitucionales del mismo Estado. El nombramiento de
-   Gobernador se hará por el Senado a propuesta en terna del Presidente
-   de la República con aprobación de las dos terceras partes de los
-   miembros presentes, y en los recesos, por la Comisión Permanente,
-   conforme a las mismas reglas. El funcionario así nombrado, no podrá
-   ser electo Gobernador constitucional en las elecciones que se
-   verifiquen en virtud de la convocatoria que él expidiere. Esta
-   disposición regirá siempre que las constituciones de los Estados no
+   constitucionales de una entidad federativa, que es llegado el caso de
+   nombrarle un titular del poder ejecutivo provisional, quien convocará
+   a elecciones conforme a las leyes constitucionales de la entidad
+   federativa. El nombramiento del titular del poder ejecutivo local se
+   hará por el Senado a propuesta en terna del Presidente de la
+   República con aprobación de las dos terceras partes de los miembros
+   presentes, y en los recesos, por la Comisión Permanente, conforme a
+   las mismas reglas. El funcionario así nombrado, no podrá ser electo
+   titular del poder ejecutivo en las elecciones que se verifiquen en
+   virtud de la convocatoria que él expidiere. Esta disposición regirá
+   siempre que las constituciones de las entidades federativas no
    prevean el caso.
 
-VI. Erigirse en Gran Jurado para conocer de los delitos oficiales de los
-    funcionarios que expresamente designa esta Constitución.
+VI. Resolver las cuestiones políticas que surjan entre los poderes de
+    una entidad federativa cuando alguno de ellos ocurra con ese fin al
+    Senado, o cuando con motivo de dichas cuestiones se haya
+    interrumpido el orden constitucional, mediando un conflicto de
+    armas. En este caso el Senado dictará su resolución, sujetándose a
+    la Constitución General de la República y a la de la entidad
+    federativa.
 
 VII. Erigirse en Jurado de sentencia para conocer en juicio político de
      las faltas u omisiones que cometan los servidores públicos y que
@@ -60,8 +66,7 @@ VIII. Designar a los Ministros de la Suprema Corte de Justicia de la
       a las solicitudes de licencia o renuncia de los mismos, que le
       someta dicho funcionario;
 
-IX. Nombrar y remover el Jefe del Distrito Federal en los supuestos
-    previstos en esta Constitución;
+IX. Derogada.
 
 X. Autorizar mediante decreto aprobado por el voto de las dos terceras
    partes de los individuos presentes, los convenios amistosos que sobre

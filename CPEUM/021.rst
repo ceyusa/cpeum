@@ -33,15 +33,15 @@ ley.
 El Ejecutivo Federal podrá, con la aprobación del Senado en cada caso,
 reconocer la jurisdicción de la Corte Penal Internacional.
 
-La seguridad pública es una función a cargo de la Federación, el
-Distrito Federal, los Estados y los Municipios, que comprende la
-prevención de los delitos; la investigación y persecución para hacerla
-efectiva, así como la sanción de las infracciones administrativas, en
-los términos de la ley, en las respectivas competencias que esta
-Constitución señala. La actuación de las instituciones de seguridad
-pública se regirá por los principios de legalidad, objetividad,
-eficiencia, profesionalismo, honradez y respeto a los derechos humanos
-reconocidos en esta Constitución.
+La seguridad pública es una función a cargo de la Federación, las
+entidades federativas y los Municipios, que comprende la prevención de
+los delitos; la investigación y persecución para hacerla efectiva, así
+como la sanción de las infracciones administrativas, en los términos de
+la ley, en las respectivas competencias que esta Constitución señala. La
+actuación de las instituciones de seguridad pública se regirá por los
+principios de legalidad, objetividad, eficiencia, profesionalismo,
+honradez y respeto a los derechos humanos reconocidos en esta
+Constitución.
 
 Las instituciones de seguridad pública serán de carácter civil,
 disciplinado y profesional. El Ministerio Público y las instituciones
@@ -53,8 +53,8 @@ siguientes bases mínimas:
 a. La regulación de la selección, ingreso, formación, permanencia,
    evaluación, reconocimiento y certificación de los integrantes de las
    instituciones de seguridad pública. La operación y desarrollo de
-   estas acciones será competencia de la Federación, el Distrito
-   Federal, los Estados y los municipios en el ámbito de sus respectivas
+   estas acciones será competencia de la Federación, las entidades
+   federativas y los Municipios en el ámbito de sus respectivas
    atribuciones.
 
 b. El establecimiento de las bases de datos criminalísticos y de
