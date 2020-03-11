@@ -2035,3 +2035,11 @@ DECRETO por el que se adiciona la fracción XXIX-X al artículo 73 de la
 Constitución Política de los Estados Unidos Mexicanos.
 
 .. include:: T228.rst
+
+Artículos Transitorios de Decretos de Reforma (229)
+---------------------------------------------------
+
+DECRETO por el que se reforma el párrafo segundo del artículo 11 de la
+Constitución Política de los Estados Unidos Mexicanos.
+
+.. include:: T229.rst
