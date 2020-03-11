@@ -2027,3 +2027,11 @@ disposiciones de la Constitución Política de los Estados Unidos
 Mexicanos, en materia de la reforma política de la Ciudad de México.
 
 .. include:: T227.rst
+
+Artículos Transitorios de Decretos de Reforma (228)
+---------------------------------------------------
+
+DECRETO por el que se adiciona la fracción XXIX-X al artículo 73 de la
+Constitución Política de los Estados Unidos Mexicanos.
+
+.. include:: T228.rst
