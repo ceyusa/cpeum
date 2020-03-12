@@ -2054,3 +2054,12 @@ Controversias, Mejora Regulatoria, Justicia Cívica e Itinerante y
 Registros Civiles.
 
 .. include:: T230.rst
+
+Artículos Transitorios de Decretos de Reforma (231)
+---------------------------------------------------
+
+DECRETO por el que se declaran reformadas y adicionadas diversas
+disposiciones de los artículos 107 y 123 de la Constitución Política de
+los Estados Unidos Mexicanos, en materia de Justicia Laboral.
+
+.. include:: T231.rst
