@@ -2043,3 +2043,14 @@ DECRETO por el que se reforma el párrafo segundo del artículo 11 de la
 Constitución Política de los Estados Unidos Mexicanos.
 
 .. include:: T229.rst
+
+Artículos Transitorios de Decretos de Reforma (230)
+---------------------------------------------------
+
+DECRETO por el que se declaran reformadas y adicionadas diversas
+disposiciones de la Constitución Política de los Estados Unidos
+Mexicanos, en materia de Mecanismos Alternativos de Solución de
+Controversias, Mejora Regulatoria, Justicia Cívica e Itinerante y
+Registros Civiles.
+
+.. include:: T230.rst
