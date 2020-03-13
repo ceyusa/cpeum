@@ -2063,3 +2063,13 @@ disposiciones de los artículos 107 y 123 de la Constitución Política de
 los Estados Unidos Mexicanos, en materia de Justicia Laboral.
 
 .. include:: T231.rst
+
+Artículos Transitorios de Decretos de Reforma (232)
+---------------------------------------------------
+
+DECRETO por el que se reforman y adicionan los artículos 16, 17 y 73 de
+la Constitución Política de los Estados Unidos Mexicanos, en materia de
+Justicia Cotidiana (Solución de Fondo del Conflicto y Competencia
+Legislativa sobre Procedimientos Civiles y Familiares).
+
+.. include:: T232.rst
