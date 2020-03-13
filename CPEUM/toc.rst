@@ -2084,3 +2084,12 @@ Mexicanos, en materia política-electoral”, publicado en el Diario
 Oficial de la Federación el 10 de febrero de 2014.
 
 .. include:: T233.rst
+
+Artículos Transitorios de Decretos de Reforma (234)
+---------------------------------------------------
+
+DECRETO por el que se reforman el artículo 22 y la fracción XXX del
+artículo 73, de la Constitución Política de los Estados Unidos
+Mexicanos, en materia de Extinción de Dominio.
+
+.. include:: T234.rst
