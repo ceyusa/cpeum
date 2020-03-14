@@ -10,8 +10,8 @@ estarán a cargo del Consejo de la Judicatura Federal en los términos
 que, conforme a las bases que señala esta Constitución, establezcan las
 leyes.
 
-La Suprema Corte de Justicia de la Nación se compondrá de once Ministros
-y funcionará en Pleno o en Salas.
+La Suprema Corte de Justicia de la Nación se compondrá de once
+integrantes, Ministras y Ministros, y funcionará en Pleno o en Salas.
 
 En los términos que la ley disponga las sesiones del Pleno y de las
 Salas serán públicas, y por excepción secretas en los casos en que así
@@ -34,6 +34,10 @@ Asimismo, mediante acuerdos generales establecerá Plenos de Circuito,
 atendiendo al número y especialización de los Tribunales Colegiados que
 pertenezcan a cada Circuito. Las leyes determinarán su integración y
 funcionamiento.
+
+La ley establecerá la forma y procedimientos mediante concursos abiertos
+para la integración de los órganos jurisdiccionales, observando el
+principio de paridad de género.
 
 El Pleno de la Suprema Corte de Justicia estará facultado para expedir
 acuerdos generales, a fin de lograr una adecuada distribución entre las

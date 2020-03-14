@@ -2120,3 +2120,12 @@ disposiciones de los artículos 3o., 31 y 73 de la Constitución Política
 de los Estados Unidos Mexicanos, en materia educativa.
 
 .. include:: T237.rst
+
+Artículos Transitorios de Decretos de Reforma (238)
+---------------------------------------------------
+
+DECRETO por el que se reforman los artículos 2, 4, 35, 41, 52, 53, 56,
+94 y 115; de la Constitución Política de los Estados Unidos Mexicanos,
+en materia de Paridad entre Géneros.
+
+.. include:: T238.rst
