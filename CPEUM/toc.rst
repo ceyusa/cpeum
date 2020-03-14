@@ -2093,3 +2093,12 @@ artículo 73, de la Constitución Política de los Estados Unidos
 Mexicanos, en materia de Extinción de Dominio.
 
 .. include:: T234.rst
+
+Artículos Transitorios de Decretos de Reforma (235)
+---------------------------------------------------
+
+DECRETO por el que se reforman, adicionan y derogan diversas
+disposiciones de la Constitución Política de los Estados Unidos
+Mexicanos, en materia de Guardia Nacional.
+
+.. include:: T235.rst

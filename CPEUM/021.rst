@@ -33,22 +33,25 @@ ley.
 El Ejecutivo Federal podrá, con la aprobación del Senado en cada caso,
 reconocer la jurisdicción de la Corte Penal Internacional.
 
-La seguridad pública es una función a cargo de la Federación, las
-entidades federativas y los Municipios, que comprende la prevención de
-los delitos; la investigación y persecución para hacerla efectiva, así
-como la sanción de las infracciones administrativas, en los términos de
-la ley, en las respectivas competencias que esta Constitución señala. La
-actuación de las instituciones de seguridad pública se regirá por los
-principios de legalidad, objetividad, eficiencia, profesionalismo,
-honradez y respeto a los derechos humanos reconocidos en esta
-Constitución.
+La seguridad pública es una función del Estado a cargo de la Federación,
+las entidades federativas y los Municipios, cuyos fines son salvaguardar
+la vida, las libertades, la integridad y el patrimonio de las personas,
+así como contribuir a la generación y preservación del orden público y
+la paz social, de conformidad con lo previsto en esta Constitución y las
+leyes en la materia. La seguridad pública comprende la prevención,
+investigación y persecución de los delitos, así como la sanción de las
+infracciones administrativas, en los términos de la ley, en las
+respectivas competencias que esta Constitución señala. La actuación de
+las instituciones de seguridad pública se regirá por los principios de
+legalidad, objetividad, eficiencia, profesionalismo, honradez y respeto
+a los derechos humanos reconocidos en esta Constitución.
 
-Las instituciones de seguridad pública serán de carácter civil,
-disciplinado y profesional. El Ministerio Público y las instituciones
-policiales de los tres órdenes de gobierno deberán coordinarse entre sí
-para cumplir los objetivos de la seguridad pública y conformarán el
-Sistema Nacional de Seguridad Pública, que estará sujeto a las
-siguientes bases mínimas:
+Las instituciones de seguridad pública, incluyendo la Guardia Nacional,
+serán de carácter civil, disciplinado y profesional. El Ministerio
+Público y las instituciones policiales de los tres órdenes de gobierno
+deberán coordinarse entre sí para cumplir los fines de la seguridad
+pública y conformarán el Sistema Nacional de Seguridad Pública, que
+estará sujeto a las siguientes bases mínimas:
 
 a. La regulación de la selección, ingreso, formación, permanencia,
    evaluación, reconocimiento y certificación de los integrantes de las
@@ -57,10 +60,15 @@ a. La regulación de la selección, ingreso, formación, permanencia,
    federativas y los Municipios en el ámbito de sus respectivas
    atribuciones.
 
-b. El establecimiento de las bases de datos criminalísticos y de
-   personal para las instituciones de seguridad pública. Ninguna persona
-   podrá ingresar a las instituciones de seguridad pública si no ha sido
-   debidamente certificado y registrado en el sistema.
+b. El establecimiento de un sistema nacional de información en seguridad
+   pública a cargo de la Federación al que ésta, las entidades
+   federativas y los Municipios, a través de las dependencias
+   responsables de la seguridad pública, proporcionarán la información
+   de que dispongan en la materia, conforme a la ley. El sistema
+   contendrá también las bases de datos criminalísticos y de personal
+   para las instituciones de seguridad pública. Ninguna persona podrá
+   ingresar a las instituciones de seguridad pública si no ha sido
+   debidamente certificada y registrada en el sistema.
 
 c. La formulación de políticas públicas tendientes a prevenir la
    comisión de delitos.
@@ -72,3 +80,20 @@ d. Se determinará la participación de la comunidad que coadyuvará, entre
 e. Los fondos de ayuda federal para la seguridad pública, a nivel
    nacional serán aportados a las entidades federativas y municipios
    para ser destinados exclusivamente a estos fines.
+
+La Federación contará con una institución policial de carácter civil
+denominada Guardia Nacional, cuyos fines son los señalados en el párrafo
+noveno de este artículo, la coordinación y colaboración con las
+entidades federativas y Municipios, así como la salvaguarda de los
+bienes y recursos de la Nación.
+
+La ley determinará la estructura orgánica y de dirección de la Guardia
+Nacional, que estará adscrita a la secretaría del ramo de seguridad
+pública, que formulará la Estrategia Nacional de Seguridad Pública, los
+respectivos programas, políticas y acciones.
+
+La formación y el desempeño de los integrantes de la Guardia Nacional y
+de las demás instituciones policiales se regirán por una doctrina
+policial fundada en el servicio a la sociedad, la disciplina, el respeto
+a los derechos humanos, al imperio de la ley, al mando superior, y en lo
+conducente a la perspectiva de género.
