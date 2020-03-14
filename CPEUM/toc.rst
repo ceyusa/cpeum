@@ -2129,3 +2129,11 @@ DECRETO por el que se reforman los artículos 2, 4, 35, 41, 52, 53, 56,
 en materia de Paridad entre Géneros.
 
 .. include:: T238.rst
+
+Artículos Transitorios de Decretos de Reforma (239)
+---------------------------------------------------
+
+DECRETO por el que se adiciona un apartado C al artículo 2o. de la
+Constitución Política de los Estados Unidos Mexicanos.
+
+.. include:: T239.rst
