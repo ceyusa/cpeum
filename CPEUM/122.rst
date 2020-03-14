@@ -87,15 +87,20 @@ A. El gobierno de la Ciudad de México está a cargo de sus poderes
    III. El titular del Poder Ejecutivo se denominará Jefe de Gobierno de
         la Ciudad de México y tendrá a su cargo la administración
         pública de la entidad; será electo por votación universal,
-        libre, secreta y directa, y no podrá durar en su encargo más de
-        seis años. Quien haya ocupado la titularidad del Ejecutivo local
-        designado o electo, en ningún caso y por ningún motivo podrá
-        volver a ocupar ese cargo, ni con el carácter de interino,
-        provisional, sustituto o encargado del despacho.
+        libre, secreta y directa, no podrá durar en su encargo más de
+        seis años y su mandato podrá ser revocado. Quien haya ocupado la
+        titularidad del Ejecutivo local designado o electo, en ningún
+        caso y por ningún motivo podrá volver a ocupar ese cargo, ni con
+        el carácter de interino, provisional, sustituto o encargado del
+        despacho.
 
         La Constitución Política de la Ciudad de México establecerá las
         facultades del Jefe de Gobierno y los requisitos que deberá
         reunir quien aspire a ocupar dicho encargo.
+
+        La Constitución Política de la Ciudad de México establecerá las
+        normas relativas al proceso para la revocación de mandato del
+        Jefe de Gobierno.
 
    IV. El ejercicio del Poder Judicial se deposita en el Tribunal
        Superior de Justicia, el Consejo de la Judicatura y los juzgados

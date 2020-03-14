@@ -8,8 +8,10 @@ legislativo en un solo individuo.
 Los poderes de los Estados se organizarán conforme a la Constitución de
 cada uno de ellos, con sujeción a las siguientes normas:
 
-I. Los gobernadores de los Estados no podrán durar en su encargo más de
-   seis años.
+I. Los gobernadores de los Estados no podrán durar en su encargo
+   más de seis años y su mandato podrá ser revocado. Las Constituciones
+   de los Estados establecerán las normas relativas a los procesos de
+   revocación de mandato del gobernador de la entidad.
 
    La elección de los gobernadores de los Estados y de las Legislaturas
    Locales será directa y en los términos que dispongan las leyes

@@ -447,13 +447,19 @@ V. La organización de las elecciones es una función estatal que se
 
          7. Las demás que determine la ley.
 
+      c. Para los procesos de revocación de mandato, en los términos del
+         artículo 35, fracción IX, el Instituto Nacional Electoral
+         deberá realizar aquellas funciones que correspondan para su
+         debida implementación.
+
       El Instituto Nacional Electoral asumirá mediante convenio con las
       autoridades competentes de las entidades federativas que así lo
-      soliciten, la organización de procesos electorales locales, en los
-      términos que disponga la legislación aplicable. A petición de los
-      partidos políticos y con cargo a sus prerrogativas, en los
-      términos que establezca la ley, podrá organizar las elecciones de
-      sus dirigentes.
+      soliciten la organización de procesos electorales, de consulta
+      popular y de revocación de mandato en el ámbito de aquéllas, en
+      los términos que disponga su Constitución y la legislación
+      aplicable. A petición de los partidos políticos y con cargo a sus
+      prerrogativas, en los términos que establezca la ley, podrá
+      organizar las elecciones de sus dirigentes.
 
       La fiscalización de las finanzas de los partidos políticos y de
       las campañas de los candidatos estará a cargo del Consejo General
@@ -471,9 +477,11 @@ V. La organización de las elecciones es una función estatal que se
       de fiscalización, su órgano técnico será el conducto para superar
       la limitación a que se refiere el párrafo anterior.
 
-   C. En las entidades federativas las elecciones locales estarán a
-      cargo de organismos públicos locales en los términos de esta
-      Constitución, que ejercerán funciones en las siguientes materias:
+   C. En las entidades federativas, las elecciones locales y, en su
+      caso, las consultas populares y los procesos de revocación de
+      mandato, estarán a cargo de organismos públicos locales en los
+      términos de esta Constitución, que ejercerán funciones en las
+      siguientes materias:
 
       1. Derechos y el acceso a las prerrogativas de los candidatos y
          partidos políticos;
@@ -533,12 +541,14 @@ V. La organización de las elecciones es una función estatal que se
       organización y funcionamiento de este Servicio.
 
 VI. Para garantizar los principios de constitucionalidad y legalidad de
-    los actos y resoluciones electorales, se establecerá un sistema de
-    medios de impugnación en los términos que señalen esta Constitución
-    y la ley. Dicho sistema dará definitividad a las distintas etapas de
-    los procesos electorales y garantizará la protección de los derechos
-    políticos de los ciudadanos de votar, ser votados y de asociación,
-    en los términos del artículo 99 de esta Constitución.
+    los actos y resoluciones electorales, incluidos los relativos a los
+    procesos de consulta popular y de revocación de mandato, se
+    establecerá un sistema de medios de impugnación en los términos que
+    señalen esta Constitución y la ley. Dicho sistema dará definitividad
+    a las distintas etapas de los procesos electorales, de consulta
+    popular y de revocación de mandato, y garantizará la protección de
+    los derechos políticos de los ciudadanos de votar, ser votados y de
+    asociación, en los términos del artículo 99 de esta Constitución.
 
     En materia electoral la interposición de los medios de impugnación,
     constitucionales o legales, no producirá efectos suspensivos sobre

@@ -2137,3 +2137,12 @@ DECRETO por el que se adiciona un apartado C al artículo 2o. de la
 Constitución Política de los Estados Unidos Mexicanos.
 
 .. include:: T239.rst
+
+Artículos Transitorios de Decretos de Reforma (240)
+---------------------------------------------------
+
+DECRETO por el que se declara reformadas y adicionadas diversas
+disposiciones de la Constitución Política de los Estados Unidos
+Mexicanos, en materia de Consulta Popular y Revocación de Mandato.
+
+.. include:: T240.rst
