@@ -2102,3 +2102,12 @@ disposiciones de la Constitución Política de los Estados Unidos
 Mexicanos, en materia de Guardia Nacional.
 
 .. include:: T235.rst
+
+Artículos Transitorios de Decretos de Reforma (236)
+---------------------------------------------------
+
+DECRETO por el que se declara reformado el Artículo 19 de la
+Constitución Política de los Estados Unidos Mexicanos, en materia de
+prisión preventiva oficiosa.
+
+.. include:: T236.rst
