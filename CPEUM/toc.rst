@@ -2146,3 +2146,12 @@ disposiciones de la Constitución Política de los Estados Unidos
 Mexicanos, en materia de Consulta Popular y Revocación de Mandato.
 
 .. include:: T240.rst
+
+Artículos Transitorios de Decretos de Reforma (241)
+---------------------------------------------------
+
+DECRETO por el que se declara reformado el primer párrafo del artículo
+28 de la Constitución Política de los Estados Unidos Mexicanos, en
+materia de condonación de impuestos.
+
+.. include:: T241.rst
