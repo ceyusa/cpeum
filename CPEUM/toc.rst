@@ -2111,3 +2111,12 @@ Constitución Política de los Estados Unidos Mexicanos, en materia de
 prisión preventiva oficiosa.
 
 .. include:: T236.rst
+
+Artículos Transitorios de Decretos de Reforma (237)
+---------------------------------------------------
+
+DECRETO por el que se reforman, adicionan y derogan diversas
+disposiciones de los artículos 3o., 31 y 73 de la Constitución Política
+de los Estados Unidos Mexicanos, en materia educativa.
+
+.. include:: T237.rst
