@@ -2155,3 +2155,11 @@ DECRETO por el que se declara reformado el primer párrafo del artículo
 materia de condonación de impuestos.
 
 .. include:: T241.rst
+
+Artículos Transitorios de Decretos de Reforma (242)
+---------------------------------------------------
+
+DECRETO por el que se reforma y adiciona el artículo 4o. de la
+Constitución Política de los Estados Unidos Mexicanos.
+
+.. include:: T242.rst
