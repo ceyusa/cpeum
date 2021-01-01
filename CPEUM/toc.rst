@@ -2163,3 +2163,12 @@ DECRETO por el que se reforma y adiciona el artículo 4o. de la
 Constitución Política de los Estados Unidos Mexicanos.
 
 .. include:: T242.rst
+
+Artículos Transitorios de Decretos de Reforma (243)
+---------------------------------------------------
+
+DECRETO por el que se declara reformadas diversas disposiciones de la
+Constitución Política de los Estados Unidos Mexicanos, en materia de
+Movilidad y Seguridad Vial.
+
+.. include:: T243.rst
