@@ -2181,3 +2181,12 @@ Constitución Política de los Estados Unidos Mexicanos, en materia de
 Juventud.
 
 .. include:: T244.rst
+
+Artículos Transitorios de Decretos de Reforma (245)
+---------------------------------------------------
+
+DECRETO por el que se declara reformados los artículos 108 y 111 de la
+Constitución Política de los Estados Unidos Mexicanos, en materia de
+fuero.
+
+.. include:: T245.rst
