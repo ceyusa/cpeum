@@ -2172,3 +2172,12 @@ Constitución Política de los Estados Unidos Mexicanos, en materia de
 Movilidad y Seguridad Vial.
 
 .. include:: T243.rst
+
+Artículos Transitorios de Decretos de Reforma (244)
+---------------------------------------------------
+
+DECRETO por el que se declara reformados los artículos 4o. y 73 de la
+Constitución Política de los Estados Unidos Mexicanos, en materia de
+Juventud.
+
+.. include:: T244.rst
