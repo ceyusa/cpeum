@@ -2190,3 +2190,12 @@ Constitución Política de los Estados Unidos Mexicanos, en materia de
 fuero.
 
 .. include:: T245.rst
+
+Artículos Transitorios de Decretos de Reforma (246)
+---------------------------------------------------
+
+DECRETO por el que se declara reformadas y adicionadas diversas
+disposiciones de la Constitución Política de los Estados Unidos
+Mexicanos, relativos al Poder Judicial de la Federación.
+
+.. include:: T246.rst

@@ -3,8 +3,10 @@
 La Suprema Corte de Justicia de la Nación conocerá, en los términos que
 señale la ley reglamentaria, de los asuntos siguientes:
 
-I. De las controversias constitucionales que, con excepción de las que
-   se refieran a la materia electoral, se susciten entre:
+I. De las controversias constitucionales que, sobre la
+   constitucionalidad de las normas generales, actos u omisiones, con
+   excepción de las que se refieran a la materia electoral, se susciten
+   entre:
 
    a. La Federación y una entidad federativa;
 
@@ -21,37 +23,37 @@ I. De las controversias constitucionales que, con excepción de las que
 
    g. Dos municipios de diversos Estados;
 
-   h. Dos Poderes de una misma entidad federativa, sobre la
-      constitucionalidad de sus actos o disposiciones generales;
+   h. Dos Poderes de una misma entidad federativa;
 
-   i. Un Estado y uno de sus municipios, sobre la constitucionalidad de
-      sus actos o disposiciones generales;
+   i. Un Estado y uno de sus Municipios;
 
-   j. Una entidad federativa y un Municipio de otra o una demarcación
-      territorial de la Ciudad de México, sobre la constitucionalidad de
-      sus actos o disposiciones generales, y
+   j. Una Entidad Federativa y un Municipio de otra o una demarcación
+      territorial de la Ciudad de México;
 
-   k. Dos órganos de gobierno del Distrito Federal, sobre la
-      constitucionalidad de sus actos o disposiciones generales, y
+   k. Dos órganos constitucionales autónomos de una entidad federativa,
+      y entre uno de éstos y el Poder Ejecutivo o el Poder Legislativo
+      de esa entidad federativa, y
 
-   l. Dos órganos constitucionales autónomos, y entre uno de éstos y el
-      Poder Ejecutivo de la Unión o el Congreso de la Unión sobre la
-      constitucionalidad de sus actos o disposiciones generales. Lo
-      dispuesto en el presente inciso será aplicable al organismo
-      garante que establece el artículo 6o. de esta Constitución.
+   l. Dos órganos constitucionales autónomos federales, y entre uno de
+      éstos y el Poder Ejecutivo de la Unión o el Congreso de la Unión.
 
    Siempre que las controversias versen sobre disposiciones generales de
    las entidades federativas, de los Municipios o de las demarcaciones
    territoriales de la Ciudad de México impugnadas por la Federación; de
    los Municipios o de las demarcaciones territoriales de la Ciudad de
    México impugnadas por las entidades federativas, o en los casos a que
-   se refieren los incisos c) y h) anteriores, y la resolución de la
-   Suprema Corte de Justicia de la Nación las declare inválidas, dicha
-   resolución tendrá efectos generales cuando hubiere sido aprobada por
-   una mayoría de por lo menos ocho votos.
+   se refieren los incisos c), h), k) y l) anteriores, y la resolución
+   de la Suprema Corte de Justicia de la Nación las declare inválidas,
+   dicha resolución tendrá efectos generales cuando hubiere sido
+   aprobada por una mayoría de por lo menos ocho votos.
 
    En los demás casos, las resoluciones de la Suprema Corte de Justicia
    tendrán efectos únicamente respecto de las partes en la controversia.
+
+   En las controversias previstas en esta fracción únicamente podrán
+   hacerse valer violaciones a esta Constitución, así como a los
+   derechos humanos reconocidos en los tratados internacionales de los
+   que el Estado Mexicano sea parte.
 
 II. De las acciones de inconstitucionalidad que tengan por objeto
     plantear la posible contradicción entre una norma de carácter
@@ -123,13 +125,13 @@ II. De las acciones de inconstitucionalidad que tengan por objeto
     aprobadas por una mayoría de cuando menos ocho votos.
 
 III. De oficio o a petición fundada del correspondiente Tribunal
-     Unitario de Circuito o del Ejecutivo Federal, por conducto del
-     Consejero Jurídico del Gobierno, así como del Fiscal General de la
-     República en los asuntos en que intervenga el Ministerio Público,
-     podrá conocer de los recursos de apelación en contra de sentencias
-     de Jueces de Distrito dictadas en aquellos procesos en que la
-     Federación sea parte y que por su interés y trascendencia así lo
-     ameriten.
+     Colegiado de Apelación o del Ejecutivo Federal, por conducto de la
+     Consejera o Consejero Jurídico del Gobierno, así como de la o el
+     Fiscal General de la República en los asuntos en que intervenga el
+     Ministerio Público, podrá conocer de los recursos de apelación en
+     contra de sentencias de los Juzgados de Distrito dictadas en
+     aquellos procesos en que la Federación sea parte y que por su
+     interés y trascendencia así lo ameriten.
 
      La declaración de invalidez de las resoluciones a que se refieren
      las fracciones I y II de este artículo no tendrá efectos

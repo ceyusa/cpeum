@@ -1,8 +1,9 @@
 **Artículo 94**
 
 Se deposita el ejercicio del Poder Judicial de la Federación en una
-Suprema Corte de Justicia, en un Tribunal Electoral, en Tribunales
-Colegiados y Unitarios de Circuito y en Juzgados de Distrito.
+Suprema Corte de Justicia, en un Tribunal Electoral, en Plenos
+Regionales, en Tribunales Colegiados de Circuito, en Tribunales
+Colegiados de Apelación y en Juzgados de Distrito.
 
 La administración, vigilancia y disciplina del Poder Judicial de la
 Federación, con excepción de la Suprema Corte de Justicia de la Nación,
@@ -18,21 +19,22 @@ Salas serán públicas, y por excepción secretas en los casos en que así
 lo exijan la moral o el interés público.
 
 La competencia de la Suprema Corte, su funcionamiento en Pleno y Salas,
-la competencia de los Tribunales de Circuito, de los Juzgados de
-Distrito y del Tribunal Electoral, así como las responsabilidades en que
-incurran los servidores públicos del Poder Judicial de la Federación, se
-regirán por lo que dispongan las leyes, de conformidad con las bases que
-esta Constitución establece.
+la competencia de los Plenos Regionales, de los Tribunales de Circuito,
+de los Juzgados de Distrito y del Tribunal Electoral, así como las
+responsabilidades en que incurran las servidoras y los servidores
+públicos del Poder Judicial de la Federación, se regirán por lo que
+dispongan las leyes y los acuerdos generales correspondientes, de
+conformidad con las bases que esta Constitución establece.
 
 El Consejo de la Judicatura Federal determinará el número, división en
 circuitos, competencia territorial y especialización por materias, entre
 las que se incluirá la de radiodifusión, telecomunicaciones y
-competencia económica, de los Tribunales Colegiados y Unitarios de
-Circuito y de los Juzgados de Distrito.
+competencia económica, de los Tribunales Colegiados de Circuito, de los
+Tribunales Colegiados de Apelación y de los Juzgados de Distrito.
 
-Asimismo, mediante acuerdos generales establecerá Plenos de Circuito,
-atendiendo al número y especialización de los Tribunales Colegiados que
-pertenezcan a cada Circuito. Las leyes determinarán su integración y
+Asimismo, mediante acuerdos generales establecerán Plenos Regionales,
+los cuales ejercerán jurisdicción sobre los circuitos que los propios
+acuerdos determinen. Las leyes establecerán su integración y
 funcionamiento.
 
 La ley establecerá la forma y procedimientos mediante concursos abiertos
@@ -41,12 +43,10 @@ principio de paridad de género.
 
 El Pleno de la Suprema Corte de Justicia estará facultado para expedir
 acuerdos generales, a fin de lograr una adecuada distribución entre las
-Salas de los asuntos que competa conocer a la Corte, así como remitir a
-los Tribunales Colegiados de Circuito, para mayor prontitud en el
-despacho de los asuntos, aquéllos en los que hubiera establecido
-jurisprudencia o los que, conforme a los referidos acuerdos, la propia
-Corte determine para una mejor impartición de justicia. Dichos acuerdos
-surtirán efectos después de publicados.
+Salas de los asuntos que competa conocer a la Corte, así como remitir
+asuntos a los Plenos Regionales y a los Tribunales Colegiados de
+Circuito, para mayor prontitud en el despacho de los mismos. Dichos
+acuerdos surtirán efectos después de publicados.
 
 Los juicios de amparo, las controversias constitucionales y las acciones
 de inconstitucionalidad se substanciarán y resolverán de manera
@@ -57,9 +57,15 @@ orden público, en los términos de lo dispuesto por las leyes
 reglamentarias.
 
 La ley fijará los términos en que sea obligatoria la jurisprudencia que
-establezcan los Tribunales del Poder Judicial de la Federación y los
-Plenos de Circuito sobre la interpretación de la Constitución y normas
-generales, así como los requisitos para su interrupción y sustitución.
+establezcan los Tribunales del Poder Judicial de la Federación sobre la
+interpretación de la Constitución y normas generales, así como los
+requisitos para su interrupción.
+
+Las razones que justifiquen las decisiones contenidas en las sentencias
+dictadas por el Pleno de la Suprema Corte de Justicia de la Nación por
+mayoría de ocho votos, y por las Salas, por mayoría de cuatro votos,
+serán obligatorias para todas las autoridades jurisdiccionales de la
+Federación y de las entidades federativas.
 
 La remuneración que perciban por sus servicios los Ministros de la
 Suprema Corte, los Magistrados de Circuito, los Jueces de Distrito y los
