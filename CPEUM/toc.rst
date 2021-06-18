@@ -2207,3 +2207,11 @@ DECRETO por el que se reforma el artículo 30 de la Constitución Política
 de los Estados Unidos Mexicanos, en materia de nacionalidad.
 
 .. include:: T247.rst
+
+Artículos Transitorios de Decretos de Reforma (248)
+---------------------------------------------------
+
+DECRETO por el que se reforma el artículo 43 de la Constitución Política
+de los Estados Unidos Mexicanos (Michoacán de Ocampo).
+
+.. include:: T248.rst
