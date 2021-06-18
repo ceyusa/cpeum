@@ -2231,3 +2231,12 @@ DECRETO por el que se reforma el artículo 74 de la Constitución Política
 de los Estados Unidos Mexicanos, en materia de partidas secretas.
 
 .. include:: T250.rst
+
+Artículos Transitorios de Decretos de Reforma (251)
+---------------------------------------------------
+
+DECRETO por el que se adiciona una fracción XXIII Bis al artículo 73 de
+la Constitución Política de los Estados Unidos Mexicanos, en materia de
+Seguridad Privada.
+
+.. include:: T251.rst
