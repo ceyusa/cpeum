@@ -7,10 +7,8 @@ A. Son mexicanos por nacimiento:
    I. Los que nazcan en territorio de la República, sea cual fuere la
       nacionalidad de sus padres.
 
-   II. Los que nazcan en el extranjero, hijos de padres mexicanos
-       nacidos en territorio nacional, de padre mexicano nacido en
-       territorio nacional, o de madre mexicana nacida en territorio
-       nacional;
+   II. Los que nazcan en el extranjero, hijos de padres mexicanos, de
+       madre mexicana o de padre mexicano;
 
    III. Los que nazcan en el extranjero, hijos de padres mexicanos por
         naturalización, de padre mexicano por naturalización, o de madre

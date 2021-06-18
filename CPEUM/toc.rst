@@ -2199,3 +2199,11 @@ disposiciones de la Constitución Política de los Estados Unidos
 Mexicanos, relativos al Poder Judicial de la Federación.
 
 .. include:: T246.rst
+
+Artículos Transitorios de Decretos de Reforma (247)
+---------------------------------------------------
+
+DECRETO por el que se reforma el artículo 30 de la Constitución Política
+de los Estados Unidos Mexicanos, en materia de nacionalidad.
+
+.. include:: T247.rst
