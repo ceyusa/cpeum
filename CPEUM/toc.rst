@@ -2223,3 +2223,11 @@ DECRETO por el que se reforma el artículo 43 de la Constitución Política
 de los Estados Unidos Mexicanos (Veracruz de Ignacio de la Llave).
 
 .. include:: T249.rst
+
+Artículos Transitorios de Decretos de Reforma (250)
+---------------------------------------------------
+
+DECRETO por el que se reforma el artículo 74 de la Constitución Política
+de los Estados Unidos Mexicanos, en materia de partidas secretas.
+
+.. include:: T250.rst
