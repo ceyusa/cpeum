@@ -2215,3 +2215,11 @@ DECRETO por el que se reforma el artículo 43 de la Constitución Política
 de los Estados Unidos Mexicanos (Michoacán de Ocampo).
 
 .. include:: T248.rst
+
+Artículos Transitorios de Decretos de Reforma (249)
+---------------------------------------------------
+
+DECRETO por el que se reforma el artículo 43 de la Constitución Política
+de los Estados Unidos Mexicanos (Veracruz de Ignacio de la Llave).
+
+.. include:: T249.rst
