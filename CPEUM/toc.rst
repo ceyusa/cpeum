@@ -2240,3 +2240,14 @@ la Constitución Política de los Estados Unidos Mexicanos, en materia de
 Seguridad Privada.
 
 .. include:: T251.rst
+
+Artículos Transitorios de Decretos de Reforma (252)
+---------------------------------------------------
+
+DECRETO por el que se reforma el Artículo Quinto Transitorio del Decreto
+por el que se reforman, adicionan y derogan diversas disposiciones de la
+Constitución Política de los Estados Unidos Mexicanos, en materia de
+Guardia Nacional, publicado en el Diario Oficial de la Federación el 26
+de marzo de 2019.
+
+.. include:: T252.rst
