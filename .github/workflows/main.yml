@@ -20,16 +20,26 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install aspell aspell-es
+
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Checkout
         uses: actions/checkout@v3
 
       - name: Install python
         uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
 
         # Runs a single command using the runners shell
-      - name: Install dependencies
+      - name: Install python dependencies
         run: "python3 -m pip install docutils"
+
+      - name: Check spelling
+        run: "bash scripts/spellcheck.sh check"
 
       # Runs a set of commands using the runners shell
       - name: Generate document
