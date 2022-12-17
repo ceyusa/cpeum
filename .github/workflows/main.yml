@@ -40,7 +40,7 @@ jobs:
 
       # Install generated document in Pages
       - name: Deploy to GitHub Pages
-        if: success()
+        if: success() && github.ref == 'refs/heads/master'
         uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: gh-pages
