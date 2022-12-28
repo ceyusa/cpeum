@@ -46,7 +46,7 @@ jobs:
         run: |
           mkdir html
           cd CPEUM
-          rst2html.py toc.rst ../html/index.html
+          rst2html5.py toc.rst ../html/index.html
 
       # Install generated document in Pages
       - name: Deploy to GitHub Pages
