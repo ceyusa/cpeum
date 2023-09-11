@@ -2253,3 +2253,12 @@ Guardia Nacional, publicado en el Diario Oficial de la Federación el 26
 de marzo de 2019.
 
 .. include:: T252.rst
+
+Artículos Transitorios de Decretos de Reforma (253)
+---------------------------------------------------
+
+DECRETO por el que se declara adicionada una fracción X al artículo 116
+de la Constitución Política de los Estados Unidos Mexicanos, en materia
+de símbolos de las entidades federativas.
+
+.. include:: T253.rst
