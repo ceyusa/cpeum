@@ -2272,3 +2272,12 @@ suspensión de derechos para ocupar cargo, empleo o comisión del servicio
 público.
 
 .. include:: T254.rst
+
+Artículos Transitorios de Decretos de Reforma (255)
+---------------------------------------------------
+
+DECRETO por el que se reforman los artículos 55 y 91 de la Constitución
+Política de los Estados Unidos Mexicanos, en materia de edad mínima para
+ocupar un cargo público.
+
+.. include:: T255.rst
