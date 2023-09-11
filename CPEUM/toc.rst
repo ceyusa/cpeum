@@ -24,6 +24,8 @@ la H. Veracruz, adicionando el Plan de Guadalupe, de 26 de marzo de
 CONSTITUCION POLITICA DE LOS ESTADOS UNIDOS MEXICANOS QUE REFORMA LA DE 5 DE FEBRERO DE 1857
 ============================================================================================
 
+.. contents::
+
 Título Primero
 --------------
 
