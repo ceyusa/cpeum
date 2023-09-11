@@ -31,7 +31,7 @@ if [[ ! -f "$dict_filename" ]]; then
     echo "Scanning files to generate dictionary file '$dict_filename'."
     echo "Please check that it doesn't contain any misspellings."
 
-    echo "personal_ws-1.1 en 0 utf-8" > "$dict_filename"
+    echo "personal_ws-1.1 es 0 utf-8" > "$dict_filename"
     cat "${rst_sources[@]}" | \
         $es_aspell_command list | \
         sort -u >> "$dict_filename"
