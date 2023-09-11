@@ -2262,3 +2262,13 @@ de la Constitución Política de los Estados Unidos Mexicanos, en materia
 de símbolos de las entidades federativas.
 
 .. include:: T253.rst
+
+Artículos Transitorios de Decretos de Reforma (254)
+---------------------------------------------------
+
+DECRETO por el que se reforman y adicionan los artículos 38 y 102 de la
+Constitución Política de los Estados Unidos Mexicanos, en materia de
+suspensión de derechos para ocupar cargo, empleo o comisión del servicio
+público.
+
+.. include:: T254.rst
