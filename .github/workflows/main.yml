@@ -27,16 +27,16 @@ jobs:
 
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - name: Checkout
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
       - name: Install python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: '3.12'
 
         # Runs a single command using the runners shell
       - name: Install python dependencies
-        run: "python3 -m pip install docutils"
+        run: "python3 -m pip install -r requirements.txt"
 
       - name: Check spelling
         run: "bash scripts/spellcheck.sh check"
@@ -51,7 +51,7 @@ jobs:
       # Install generated document in Pages
       - name: Deploy to GitHub Pages
         if: success() && github.ref == 'refs/heads/main'
-        uses: crazy-max/ghaction-github-pages@v3
+        uses: crazy-max/ghaction-github-pages@v4
         with:
           target_branch: gh-pages
           build_dir: html
