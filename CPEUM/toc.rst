@@ -2387,3 +2387,12 @@ del artículo 123 de la Constitución Política de los Estados Unidos
 Mexicanos, en materia de vivienda para las personas trabajadoras.
 
 .. include:: T266.rst
+
+Artículos Transitorios de Decretos de Reforma (267)
+---------------------------------------------------
+
+DECRETO por el que se reforman y adicionan los artículos 3o., 4o. y 73
+de la Constitución Política de los Estados Unidos Mexicanos, en materia
+de protección y cuidado animal.
+
+.. include:: T267.rst
