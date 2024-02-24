@@ -222,13 +222,16 @@ Zacatecas
 Zambrano
 Zavala
 aduanales
+afromexicana
 afromexicanas
 afromexicanos
+agroecología
 alternadamente
 anticompetitivos
 anticorrupción
 aprehenderse
 asignatarios
+autoadscripción
 autodenominación
 autodeterminación
 autorregulatoria
@@ -236,6 +239,7 @@ autónomamente
 auxiliándosele
 beneficiencia
 bicameral
+bioculturalidad
 cateos
 celebrarse
 coaligarse
@@ -302,6 +306,7 @@ include
 inspeccionarse
 insumos
 intercultural
+interculturalidad
 interinstitucional
 interpósita
 intersindicales
@@ -314,6 +319,8 @@ lecto
 literacidad
 monopólicas
 multianual
+multilingüe
+multiétnica
 normar
 normarán
 normatividad
@@ -330,6 +337,7 @@ planeación
 plurianuales
 plurianualidad
 pluricultural
+pluriculturalidad
 plurinominal
 plurinominales
 ponérsele
@@ -338,6 +346,7 @@ postería
 postularse
 precampaña
 precampañas
+precoloniales
 presupuestal
 presupuestales
 privacía

@@ -2320,3 +2320,12 @@ DECRETO por el que se reforman y adicionan los artículos 13, 16, 21, 32, 55, 73
 Mexicanos, en materia de Guardia Nacional.
 
 .. include:: T259.rst
+
+Artículos Transitorios de Decretos de Reforma (260)
+---------------------------------------------------
+
+DECRETO por el que se reforman, adicionan y derogan diversas disposiciones del
+artículo 2o. de la Constitución Política de los Estados Unidos Mexicanos, en
+materia de Pueblos y Comunidades Indígenas y Afromexicanos.
+
+.. include:: T260.rst
