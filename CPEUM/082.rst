@@ -14,8 +14,9 @@ III. Haber residido en el país durante todo el año anterior al día de la
 
 IV. No pertenecer al estado eclesiástico ni ser ministro de algún culto.
 
-V.  No estar en servicio activo, en caso de pertenecer al Ejército,
-    seis meses antes del día de la elección.
+V. No estar en servicio activo, en caso de pertenecer al Ejército,
+   Fuerza Aérea, Armada y Guardia Nacional, seis meses antes del día de
+   la elección.
 
 VI. No ser Secretario o subsecretario de Estado, Fiscal General de la
     República, ni titular del poder ejecutivo de alguna entidad

@@ -21,9 +21,10 @@ III. Ser originario de la entidad federativa en que se haga la elección
      La vecindad no se pierde por ausencia en el desempeño de cargos
      púbicos de elección popular.
 
-IV. No estar en servicio activo en el Ejército Federal ni tener mando en
-    la policía o gendarmería rural en el Distrito donde se haga la
-    elección, cuando menos noventa días antes de ella.
+IV. No estar en servicio activo en el Ejército, Fuerza Aérea, Armada o
+    Guardia Nacional, ni tener mando en la policía o gendarmería rural
+    en el Distrito donde se haga la elección, cuando menos noventa días
+    antes de ella.
 
 V. No ser titular de alguno de los organismos a los que esta
    Constitución otorga autonomía, ni ser Secretario o Subsecretario de
