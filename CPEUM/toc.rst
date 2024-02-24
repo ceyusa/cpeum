@@ -2378,3 +2378,12 @@ Constitución Política de los Estados Unidos Mexicanos, en materia de
 bienestar.
 
 .. include:: T265.rst
+
+Artículos Transitorios de Decretos de Reforma (266)
+---------------------------------------------------
+
+DECRETO por el que se reforma y adiciona la fracción XII del Apartado A
+del artículo 123 de la Constitución Política de los Estados Unidos
+Mexicanos, en materia de vivienda para las personas trabajadoras.
+
+.. include:: T266.rst
