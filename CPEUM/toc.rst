@@ -2405,3 +2405,12 @@ Constitución Política de los Estados Unidos Mexicanos, en materia de
 simplificación orgánica.
 
 .. include:: T268.rst
+
+Artículos Transitorios de Decretos de Reforma (269)
+---------------------------------------------------
+
+DECRETO por el que se reforma el párrafo segundo del artículo 19 de la
+Constitución Política de los Estados Unidos Mexicanos, en materia de
+prisión preventiva oficiosa.
+
+.. include:: T269.rst
