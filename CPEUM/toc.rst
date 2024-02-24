@@ -2329,3 +2329,12 @@ artículo 2o. de la Constitución Política de los Estados Unidos Mexicanos, en
 materia de Pueblos y Comunidades Indígenas y Afromexicanos.
 
 .. include:: T260.rst
+
+Artículos Transitorios de Decretos de Reforma (261)
+---------------------------------------------------
+
+DECRETO por el que se reforma el párrafo cuarto y se adiciona un párrafo
+quinto al artículo 28 de la Constitución Política de los Estados Unidos
+Mexicanos, en materia de vías y transporte ferroviario.
+
+.. include:: T261.rst
