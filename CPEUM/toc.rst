@@ -2369,3 +2369,12 @@ derecho de las mujeres a una vida libre de violencia y erradicación de
 la brecha salarial por razones de género.
 
 .. include:: T264.rst
+
+Artículos Transitorios de Decretos de Reforma (265)
+---------------------------------------------------
+
+DECRETO por el que se reforman y adicionan los artículos 4o. y 27 de la
+Constitución Política de los Estados Unidos Mexicanos, en materia de
+bienestar.
+
+.. include:: T265.rst
