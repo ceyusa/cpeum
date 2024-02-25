@@ -2461,3 +2461,12 @@ DECRETO por el que se reforman y adicionan los artículos 55, 59, 82,
 Mexicanos, en materia de no reelección y nepotismo electoral.
 
 .. include:: T274.rst
+
+Artículos Transitorios de Decretos de Reforma (275)
+---------------------------------------------------
+
+DECRETO por el que se adiciona un segundo párrafo al artículo 123 de la
+Constitución Política de los Estados Unidos Mexicanos, en materia de
+apoyo a jóvenes.
+
+.. include:: T275.rst
