@@ -13,9 +13,11 @@ toda índole por cualquier medio de expresión.
 
 El Estado garantizará el derecho de acceso a las tecnologías de la
 información y comunicación, así como a los servicios de radiodifusión y
-telecomunicaciones, incluido el de banda ancha e internet. Para tales
-efectos, el Estado establecerá condiciones de competencia efectiva en la
-prestación de dichos servicios.
+telecomunicaciones, incluido el de banda ancha e Internet. Para tales
+efectos, el Ejecutivo Federal a través de la dependencia encargada de
+elaborar y conducir las políticas de telecomunicaciones y radiodifusión,
+establecerá condiciones de competencia efectiva en la prestación de
+dichos servicios.
 
 Para efectos de lo dispuesto en el presente artículo se observará lo
 siguiente:
@@ -42,17 +44,24 @@ A. Para el ejercicio del derecho de acceso a la información, la
 
    II. La información que se refiere a la vida privada y los datos
        personales será protegida en los términos y con las excepciones
-       que fijen las leyes.
+       que fijen las leyes. Para tal efecto, los sujetos obligados
+       contarán con las facultades suficientes para su atención.
+
+       Por lo que hace a la información relacionada con los datos
+       personales en posesión de particulares, la ley a la que se
+       refiere el artículo 90 de esta Constitución determinará la
+       competencia para conocer de los procedimientos relativos a su
+       protección, verificación e imposición de sanciones.
 
    III. Toda persona, sin necesidad de acreditar interés alguno o
         justificar su utilización, tendrá acceso gratuito a la
         información pública, a sus datos personales o a la rectificación
         de éstos.
 
-   IV. Se establecerán mecanismos de acceso a la información y
-       procedimientos de revisión expeditos que se sustanciarán ante los
-       organismos autónomos especializados e imparciales que establece
-       esta Constitución.
+   IV. Se establecerán mecanismos de acceso a la información pública y
+       procedimientos de revisión expeditos que se sustanciarán ante las
+       instancias competentes en los términos que fija esta Constitución
+       y las leyes.
 
    V. Los sujetos obligados deberán preservar sus documentos en archivos
       administrativos actualizados y publicarán, a través de los medios
@@ -69,124 +78,52 @@ A. Para el ejercicio del derecho de acceso a la información, la
         información pública será sancionada en los términos que
         dispongan las leyes.
 
-   VIII. La Federación contará con un organismo autónomo, especializado,
-         imparcial, colegiado, con personalidad jurídica y patrimonio
-         propio, con plena autonomía técnica, de gestión, capacidad para
-         decidir sobre el ejercicio de su presupuesto y determinar su
-         organización interna, responsable de garantizar el cumplimiento
-         del derecho de acceso a la información pública y a la
-         protección de datos personales en posesión de los sujetos
-         obligados en los términos que establezca la ley.
+   VIII. Los sujetos obligados deberán promover, respetar, proteger y
+         garantizar los derechos de acceso a la información pública y a
+         la protección de datos personales. Las leyes en la materia
+         determinarán las bases, principios generales y procedimientos
+         del ejercicio de estos derechos, así como la competencia de las
+         autoridades de control interno y vigilancia u homólogos en el
+         ámbito federal y local para conocer de los procedimientos de
+         revisión contra los actos que emitan los sujetos obligados.
 
-         El organismo autónomo previsto en esta fracción, se regirá por
-         la ley en materia de transparencia y acceso a la información
-         pública y protección de datos personales en posesión de sujetos
-         obligados, en los términos que establezca la ley general que
-         emita el Congreso de la Unión para establecer las bases,
-         principios generales y procedimientos del ejercicio de este
-         derecho.
+         Los sujetos obligados se regirán por la ley general en materia
+         de transparencia y acceso a la información pública y protección
+         de datos personales, en los términos que ésta se emita por el
+         Congreso de la Unión para establecer las bases, principios
+         generales y procedimientos del ejercicio de este derecho.
 
-         En su funcionamiento se regirá por los principios de certeza,
-         legalidad, independencia, imparcialidad, eficacia, objetividad,
-         profesionalismo, transparencia y máxima publicidad.
+         El ejercicio de este derecho se regirá por los principios de
+         certeza, legalidad, independencia, imparcialidad, eficacia,
+         objetividad, profesionalismo, transparencia y máxima
+         publicidad.
 
-         El organismo garante tiene competencia para conocer de los
-         asuntos relacionados con el acceso a la información pública y
-         la protección de datos personales de cualquier autoridad,
-         entidad, órgano u organismo que forme parte de alguno de los
-         Poderes Legislativo, Ejecutivo y Judicial, órganos autónomos,
-         partidos políticos, fideicomisos y fondos públicos, así como de
-         cualquier persona física, moral o sindicatos que reciba y
-         ejerza recursos públicos o realice actos de autoridad en el
-         ámbito federal; con excepción de aquellos asuntos
-         jurisdiccionales que correspondan a la Suprema Corte de
-         Justicia de la Nación, en cuyo caso resolverá un comité
-         integrado por tres ministros. También conocerá de los recursos
-         que interpongan los particulares respecto de las resoluciones
-         de los organismos autónomos especializados de las entidades
-         federativas que determinen la reserva, confidencialidad,
-         inexistencia o negativa de la información, en los términos que
-         establezca la ley.
+         Se deroga párrafo
 
-         El organismo garante federal, de oficio o a petición fundada
-         del organismo garante equivalente de las entidades federativas,
-         podrá conocer de los recursos de revisión que por su interés y
-         trascendencia así lo ameriten.
+         Se deroga párrafo
 
          La ley establecerá aquella información que se considere
          reservada o confidencial.
 
-         Las resoluciones del organismo garante son vinculatorias,
-         definitivas e inatacables para los sujetos obligados. El
-         Consejero Jurídico del Gobierno podrá interponer recurso de
-         revisión ante la Suprema Corte de Justicia de la Nación en los
-         términos que establezca la ley, sólo en el caso que dichas
-         resoluciones puedan poner en peligro la seguridad nacional
-         conforme a la ley de la materia.
+         Se deroga párrafo
 
-         El organismo garante se integra por siete comisionados. Para su
-         nombramiento, la Cámara de Senadores, previa realización de una
-         amplia consulta a la sociedad, a propuesta de los grupos
-         parlamentarios, con el voto de las dos terceras partes de los
-         miembros presentes, nombrará al comisionado que deba cubrir la
-         vacante, siguiendo el proceso establecido en la ley. El
-         nombramiento podrá ser objetado por el Presidente de la
-         República en un plazo de diez días hábiles. Si el Presidente de
-         la República no objetara el nombramiento dentro de dicho plazo,
-         ocupará el cargo de comisionado la persona nombrada por el
-         Senado de la República.
+         Se deroga párrafo
 
-         En caso de que el Presidente de la República objetara el
-         nombramiento, la Cámara de Senadores nombrará una nueva
-         propuesta, en los términos del párrafo anterior, pero con una
-         votación de las tres quintas partes de los miembros
-         presentes. Si este segundo nombramiento fuera objetado, la
-         Cámara de Senadores, en los términos del párrafo anterior, con
-         la votación de las tres quintas partes de los miembros
-         presentes, designará al comisionado que ocupará la vacante.
+         Se deroga párrafo
 
-         Los comisionados durarán en su encargo siete años y deberán
-         cumplir con los requisitos previstos en las fracciones I, II,
-         IV, V y VI del artículo 95 de esta Constitución, no podrán
-         tener otro empleo, cargo o comisión, con excepción de los no
-         remunerados en instituciones docentes, científicas o de
-         beneficencia, sólo podrán ser removidos de su cargo en los
-         términos del Título Cuarto de esta Constitución y serán sujetos
-         de juicio político.
+         Se deroga párrafo
 
-         En la conformación del organismo garante se procurará la
-         equidad de género.
+         Se deroga párrafo
 
-         El comisionado presidente será designado por los propios
-         comisionados, mediante voto secreto, por un periodo de tres
-         años, con posibilidad de ser reelecto por un periodo igual;
-         estará obligado a rendir un informe anual ante el Senado, en la
-         fecha y en los términos que disponga la ley.
+         Se deroga párrafo
 
-         El organismo garante tendrá un Consejo Consultivo, integrado
-         por diez consejeros, que serán elegidos por el voto de las dos
-         terceras partes de los miembros presentes de la Cámara de
-         Senadores. La ley determinará los procedimientos a seguir para
-         la presentación de las propuestas por la propia
-         Cámara. Anualmente serán sustituidos los dos consejeros de
-         mayor antigüedad en el cargo, salvo que fuesen propuestos y
-         ratificados para un segundo periodo.
+         Se deroga párrafo
 
-         La ley establecerá las medidas de apremio que podrá imponer el
-         organismo garante para asegurar el cumplimiento de sus
-         decisiones.
+         Se deroga párrafo
 
-         Toda autoridad y servidor público estará obligado a coadyuvar
-         con el organismo garante y sus integrantes para el buen
-         desempeño de sus funciones.
+         Se deroga párrafo
 
-         El organismo garante coordinará sus acciones con la Auditoría
-         Superior de la Federación, con la entidad especializada en
-         materia de archivos y con el organismo encargado de regular la
-         captación, procesamiento y publicación de la información
-         estadística y geográfica, así como con los organismos garantes
-         de las entidades federativas, con el objeto de fortalecer la
-         rendición de cuentas del Estado Mexicano.
+         Se deroga párrafo
 
 B. En materia de radiodifusión y telecomunicaciones:
 

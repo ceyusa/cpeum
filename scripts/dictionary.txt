@@ -262,6 +262,7 @@ consuetudinaria
 contents
 contrafianza
 contragarantía
+contraloría
 conurbadas
 conurbados
 coordinarse
@@ -308,6 +309,7 @@ insumos
 intercultural
 interculturalidad
 interinstitucional
+interinstitucionales
 interpósita
 intersindicales
 intervinientes
@@ -368,6 +370,7 @@ revertirse
 resolutora
 rigiéndose
 secrecía
+sectorizada
 sectorizado
 secuestrarse
 sesionar

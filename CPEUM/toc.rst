@@ -2396,3 +2396,12 @@ de la Constitución Política de los Estados Unidos Mexicanos, en materia
 de protección y cuidado animal.
 
 .. include:: T267.rst
+
+Artículos Transitorios de Decretos de Reforma (268)
+---------------------------------------------------
+
+DECRETO por el que se reforman, adicionan y derogan diversas disposiciones de la
+Constitución Política de los Estados Unidos Mexicanos, en materia de
+simplificación orgánica.
+
+.. include:: T268.rst

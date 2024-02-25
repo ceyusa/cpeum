@@ -50,6 +50,13 @@ I. Los partidos políticos son entidades de interés público; la ley
    que se celebren para la renovación del Poder Ejecutivo o de las
    Cámaras del Congreso de la Unión, le será cancelado el registro.
 
+   El Instituto Nacional Electoral tendrá competencia para conocer de
+   los asuntos relacionados con el acceso a la información pública y la
+   protección de datos personales a cargo de los partidos políticos;
+   también conocerá de los recursos de revisión que interpongan los
+   particulares respecto de las resoluciones de los partidos políticos
+   en los términos que establezca la ley.
+
 II. La ley garantizará que los partidos políticos nacionales cuenten de
     manera equitativa con elementos para llevar a cabo sus actividades y
     señalará las reglas a que se sujetará el financiamiento de los
@@ -319,12 +326,10 @@ V. La organización de las elecciones es una función estatal que se
          contendrá la convocatoria pública, las etapas completas para el
          procedimiento, sus fechas límites y plazos improrrogables, así
          como el proceso para la designación de un comité técnico de
-         evaluación, integrado por siete personas de reconocido
+         evaluación, integrado por cinco personas de reconocido
          prestigio, de las cuales tres serán nombradas por el órgano de
-         dirección política de la Cámara de Diputados, dos por la
-         Comisión Nacional de los Derechos Humanos y dos por el
-         organismo garante establecido en el artículo 6o. de esta
-         Constitución;
+         dirección política de la Cámara de Diputados y dos por la
+         Comisión Nacional de los Derechos Humanos;
 
       b. El comité recibirá la lista completa de los aspirantes que
          concurran a la convocatoria pública, evaluará el cumplimiento
