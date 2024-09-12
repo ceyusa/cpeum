@@ -2290,3 +2290,15 @@ DECRETO por el que se declara reformado el primer párrafo del artículo
 materia de periodos de sesiones ordinarias del Congreso de la Unión.
 
 .. include:: T256.rst
+
+Artículos Transitorios de Decretos de Reforma (257)
+---------------------------------------------------
+
+DECRETO por el que se declara aprobada la interpretación al alcance del
+Artículo Tercero Transitorio del "Decreto por el que se reforman,
+adicionan y derogan diversas disposiciones de la Constitución Política
+de los Estados Unidos Mexicanos, en materia de Guardia Nacional",
+publicado en el Diario Oficial de la Federación el 26 de marzo del
+año 2019.
+
+.. include:: T257.rst
