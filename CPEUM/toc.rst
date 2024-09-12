@@ -2281,3 +2281,12 @@ Política de los Estados Unidos Mexicanos, en materia de edad mínima para
 ocupar un cargo público.
 
 .. include:: T255.rst
+
+Artículos Transitorios de Decretos de Reforma (256)
+---------------------------------------------------
+
+DECRETO por el que se declara reformado el primer párrafo del artículo
+65 de la Constitución Política de los Estados Unidos Mexicanos, en
+materia de periodos de sesiones ordinarias del Congreso de la Unión.
+
+.. include:: T256.rst
