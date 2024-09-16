@@ -45,7 +45,7 @@ I. De las controversias constitucionales que, sobre la
    se refieren los incisos c), h), k) y l) anteriores, y la resolución
    de la Suprema Corte de Justicia de la Nación las declare inválidas,
    dicha resolución tendrá efectos generales cuando hubiere sido
-   aprobada por una mayoría de por lo menos ocho votos.
+   aprobada por una mayoría de por lo menos seis votos.
 
    En los demás casos, las resoluciones de la Suprema Corte de Justicia
    tendrán efectos únicamente respecto de las partes en la controversia.
@@ -122,7 +122,7 @@ II. De las acciones de inconstitucionalidad que tengan por objeto
 
     Las resoluciones de la Suprema Corte de Justicia sólo podrán
     declarar la invalidez de las normas impugnadas, siempre que fueren
-    aprobadas por una mayoría de cuando menos ocho votos.
+    aprobadas por una mayoría de cuando menos seis votos.
 
 III. De oficio o a petición fundada del correspondiente Tribunal
      Colegiado de Apelación o del Ejecutivo Federal, por conducto de la
@@ -142,3 +142,7 @@ En caso de incumplimiento de las resoluciones a que se refieren las
 fracciones I y II de este artículo se aplicarán, en lo conducente, los
 procedimientos establecidos en los dos primeros párrafos de la fracción
 XVI del artículo 107 de esta Constitución.
+
+Tratándose de controversias constitucionales o de acciones de
+inconstitucionalidad planteadas respecto de normas generales, en ningún
+caso su admisión dará lugar a la suspensión de la norma cuestionada.

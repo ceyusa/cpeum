@@ -111,34 +111,53 @@ II. El número de representantes en las legislaturas de los Estados será
 III. El Poder Judicial de los Estados se ejercerá por los tribunales que
      establezcan las Constituciones respectivas.
 
-     La independencia de los magistrados y jueces en el ejercicio de sus
-     funciones deberá estar garantizada por las Constituciones y la
-     Leyes Orgánicas de los Estados, las cuales establecerán las
-     condiciones para el ingreso, formación y permanencia de quienes
-     sirvan a los Poderes Judiciales de los Estados.
+     La independencia de las magistradas y los magistrados y juezas y
+     jueces en el ejercicio de sus funciones deberá estar garantizada
+     por las Constituciones y las Leyes Orgánicas de los Estados, las
+     cuales establecerán las condiciones para su elección por voto
+     directo y secreto de la ciudadanía; la creación de un Tribunal de
+     Disciplina Judicial y de un órgano de administración judicial con
+     independencia técnica, de gestión y para emitir sus resoluciones,
+     conforme a las bases establecidas en esta Constitución para el
+     Poder Judicial de la Federación; así como del ingreso, formación y
+     permanencia de quienes sirvan a los Poderes Judiciales de los
+     Estados.
 
-     Los Magistrados integrantes de los Poderes Judiciales Locales,
-     deberán reunir los requisitos señalados por las fracciones I a V
-     del artículo 95 de esta Constitución. No podrán ser Magistrados las
-     personas que hayan ocupado el cargo de Secretario o su equivalente,
-     Procurador de Justicia o Diputado Local, en sus respectivos
-     Estados, durante el año previo al día de la designación.
+     Las Magistradas y los Magistrados y las juezas y los jueces
+     integrantes de los Poderes Judiciales Locales, deberán reunir los
+     requisitos señalados por las fracciones I a IV del párrafo segundo
+     del artículo 97 de esta Constitución y los demás que establezcan
+     las Constituciones y las Leyes Orgánicas de los Estados. No podrán
+     ser Magistradas o Magistrados las personas que hayan ocupado el
+     cargo de titular de Secretaría o su equivalente, Fiscal o Diputada
+     o Diputado Local, en sus respectivos Estados, durante el año previo
+     al día de la publicación de la convocatoria respectiva por el
+     Congreso local.
 
-     Los nombramientos de los magistrados y jueces integrantes de los
-     Poderes Judiciales Locales serán hechos preferentemente entre
-     aquellas personas que hayan prestado sus servicios con eficiencia y
-     probidad en la administración de justicia o que lo merezcan por su
-     honorabilidad, competencia y antecedentes en otras ramas de la
-     profesión jurídica.
+     Las propuestas de candidaturas y la elección de los magistrados y
+     jueces integrantes de los Poderes Judiciales Locales se realizarán
+     conforme a las bases, procedimientos, términos, modalidades y
+     requisitos que señala esta Constitución para el Poder Judicial de
+     la Federación en lo que resulte aplicable, estableciendo mecanismos
+     públicos, abiertos, transparentes, inclusivos, accesibles y
+     paritarios de evaluación y selección que garanticen la
+     participación de personas que cuenten con los conocimientos
+     técnicos necesarios para el desempeño del cargo y se hayan
+     distinguido por su honestidad, buena fama pública, competencia y
+     antecedentes profesionales y académicos en el ejercicio de la
+     actividad jurídica.
 
-     Los magistrados durarán en el ejercicio de su encargado el tiempo
-     que señalen las Constituciones Locales, podrán ser reelectos, y si
-     lo fueren, sólo podrán ser privados de sus puestos en los términos
-     que determinen las Constituciones y las Leyes de Responsabilidades
-     de los Servidores Públicos de los Estados.
+     Las y los magistrados y las y los jueces durarán en el ejercicio de
+     su encargo nueve años, podrán ser reelectos y, si lo fueren, sólo
+     podrán ser privados de sus puestos en los términos que determinen
+     las Constituciones y las Leyes de Responsabilidades de los
+     Servidores Públicos de los Estados.
 
-     los magistrados y los jueces percibirán una remuneración adecuada e
-     irrenunciable, la cual no podrá ser disminuida durante su encargo.
+     Las magistradas y los magistrados y las juezas y los jueces
+     percibirán una remuneración adecuada e irrenunciable, la cual no
+     podrá ser mayor a la establecida para la persona titular de la
+     Presidencia de la República en el presupuesto correspondiente y no
+     será disminuida durante su encargo.
 
 IV. De conformidad con las bases establecidas en esta Constitución y las
     leyes generales en la materia, las Constituciones y leyes de los
@@ -355,3 +374,7 @@ X. Las Legislaturas de las entidades federativas, observando en todo
    materia de símbolos estatales, como son: himno, escudo y bandera, a
    fin de fomentar el patrimonio cultural, la historia y la identidad
    local.
+
+En el ámbito de los Poderes Judiciales de los Estados, no podrán crearse
+ni mantenerse en operación fondos, fideicomisos, mandatos o contratos
+análogos que no estén previstos en la ley.

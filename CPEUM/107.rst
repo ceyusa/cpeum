@@ -19,9 +19,11 @@ I. El juicio de amparo se seguirá siempre a instancia de parte
    y directa;
 
 II. Las sentencias que se pronuncien en los juicios de amparo sólo se
-    ocuparán de los quejosos que lo hubieren solicitado, limitándose a
-    ampararlos y protegerlos, si procediere, en el caso especial sobre
-    el que verse la demanda.
+    ocuparán de personas quejosas que lo hubieren solicitado,
+    limitándose a ampararlas y protegerlas, si procediere, en el caso
+    especial sobre el que verse la demanda. Tratándose de juicios de
+    amparo que resuelvan la inconstitucionalidad de normas generales, en
+    ningún caso las sentencias que se dicten fijarán efectos generales.
 
     Cuando en los juicios de amparo indirecto en revisión se resuelva la
     inconstitucionalidad de una norma general, la Suprema Corte de
@@ -35,9 +37,10 @@ II. Las sentencias que se pronuncien en los juicios de amparo sólo se
     notificará a la autoridad emisora. Transcurrido el plazo de 90 días
     naturales sin que se supere el problema de inconstitucionalidad, la
     Suprema Corte de Justicia de la Nación emitirá, siempre que fuere
-    aprobada por una mayoría de cuando menos ocho votos, la declaratoria
-    general de inconstitucionalidad, en la cual se fijarán sus alcances
-    y condiciones en los términos de la ley reglamentaria.
+    aprobada por una mayoría de cuando menos seis votos, la declaratoria
+    general de inconstitucionalidad, con efectos generales, en la cual
+    se fijarán sus alcances y condiciones en los términos de la ley
+    reglamentaria.
 
     Lo dispuesto en los dos párrafos anteriores no será aplicable a
     normas generales en materia tributaria.
@@ -225,7 +228,10 @@ X. Los actos reclamados podrán ser objeto de suspensión en los casos y
    mediante las condiciones que determine la ley reglamentaria, para lo
    cual el órgano jurisdiccional de amparo, cuando la naturaleza del
    acto lo permita, deberá realizar un análisis ponderado de la
-   apariencia del buen derecho y del interés social.
+   apariencia del buen derecho y del interés social. Tratándose de
+   juicios de amparo en los que se reclame la inconstitucionalidad de
+   normas generales, en ningún caso la suspensión podrá concederse con
+   efectos generales.
 
    Dicha suspensión deberá otorgarse respecto de las sentencias
    definitivas en materia penal al comunicarse la promoción del amparo,
@@ -274,11 +280,11 @@ XIII. Cuando los Tribunales Colegiados de Circuito de la misma región
       Corte de Justicia de la Nación, los mismos Plenos Regionales, así
       como los órganos a que se refiere el párrafo anterior podrán
       denunciar la contradicción ante la Suprema Corte de Justicia, con
-      el objeto de que el Pleno o la Sala respectiva decida el criterio
-      que deberá prevalecer.
+      el objeto de que el Pleno decida el criterio que deberá
+      prevalecer.
 
-      Cuando las Salas de la Suprema Corte de Justicia de la Nación
-      sustenten criterios contradictorios en los juicios de amparo cuyo
+      Cuando la Suprema Corte de Justicia de la Nación sustente
+      criterios contradictorios en los juicios de amparo cuyo
       conocimiento les competa, los ministros, los Tribunales Colegiados
       de Circuito y sus integrantes, las y los Jueces de Distrito, el o
       la Fiscal General de la República, en asuntos en materia penal y
@@ -289,12 +295,12 @@ XIII. Cuando los Tribunales Colegiados de Circuito de la misma región
       Suprema Corte, conforme a la ley reglamentaria, para que éste
       resuelva la contradicción.
 
-      Las resoluciones que pronuncien el Pleno o las Salas de la Suprema
-      Corte de Justicia así como los Plenos Regionales conforme a los
-      párrafos anteriores, sólo tendrán el efecto de fijar la
-      jurisprudencia y no afectarán las situaciones jurídicas concretas
-      derivadas de las sentencias dictadas en los juicios en que hubiese
-      ocurrido la contradicción;
+      Las resoluciones que pronuncie el Pleno de la Suprema Corte de
+      Justicia así como los Plenos Regionales conforme a los párrafos
+      anteriores, sólo tendrán el efecto de fijar la jurisprudencia y no
+      afectarán las situaciones jurídicas concretas derivadas de las
+      sentencias dictadas en los juicios en que hubiese ocurrido la
+      contradicción;
 
 XIV. Se deroga;
 

@@ -2302,3 +2302,12 @@ publicado en el Diario Oficial de la Federación el 26 de marzo del
 año 2019.
 
 .. include:: T257.rst
+
+Artículos Transitorios de Decretos de Reforma (258)
+---------------------------------------------------
+
+DECRETO por el que se reforman, adicionan y derogan diversas disposiciones de la
+Constitución Política de los Estados Unidos Mexicanos, en materia de reforma del
+Poder Judicial.
+
+.. include:: T258.rst

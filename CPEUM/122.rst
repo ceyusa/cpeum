@@ -103,13 +103,30 @@ A. El gobierno de la Ciudad de México está a cargo de sus poderes
         Jefe de Gobierno.
 
    IV. El ejercicio del Poder Judicial se deposita en el Tribunal
-       Superior de Justicia, el Consejo de la Judicatura y los juzgados
-       y tribunales que establezca la Constitución Política de la Ciudad
-       de México, la que garantizará la independencia de los magistrados
-       y jueces en el ejercicio de sus funciones. Las leyes locales
-       establecerán las condiciones para el ingreso, formación,
-       permanencia y especialización de quienes integren el poder
-       Judicial.
+       Superior de Justicia, el Tribunal de Disciplina Judicial local,
+       el órgano de administración judicial y los juzgados y tribunales
+       que establezca la Constitución Política de la Ciudad de México,
+       la que garantizará la independencia de los magistrados y jueces
+       en el ejercicio de sus funciones. Las leyes locales establecerán
+       las condiciones para su elección por voto libre, directo y
+       secreto de la ciudadanía conforme a las bases, procedimientos,
+       términos, modalidades y requisitos que señala esta Constitución
+       para el Poder Judicial de la Federación en lo que resulte
+       aplicable y los demás que establezca la Constitución Política de
+       la Ciudad de México y las leyes correspondientes, estableciendo
+       mediante mecanismos públicos, abiertos, transparentes,
+       inclusivos, accesibles y paritarios de evaluación y selección que
+       garanticen la participación de personas que cuenten con los
+       conocimientos técnicos necesarios para el desempeño del cargo y
+       se hayan distinguido por su honestidad, buena fama pública,
+       competencia y antecedentes profesionales y académicos en el
+       ejercicio de la actividad jurídica. Las leyes también
+       establecerán las condiciones para el funcionamiento de órganos de
+       administración y disciplina con independencia técnica, de gestión
+       y para emitir sus resoluciones, conforme a las bases establecidas
+       en esta Constitución para el Poder Judicial de la Federación; así
+       como del ingreso, formación, permanencia y especialización de
+       quienes integren el poder Judicial.
 
        Los magistrados integrantes del Tribunal Superior de Justicia de
        la Ciudad de México deberán reunir como mínimo los requisitos
@@ -120,14 +137,18 @@ A. El gobierno de la Ciudad de México está a cargo de sus poderes
        de integrante del Poder Legislativo local, durante el año previo
        al día de la designación.
 
-       Los magistrados durarán en el ejercicio de su encargo el tiempo
-       que establezca la Constitución Política de la Ciudad de México;
-       podrán ser reelectos y, si lo fueren, sólo podrán ser privados de
-       sus puestos en los términos que establecen esta Constitución, así
-       como la Constitución y las leyes de la Ciudad de México. Los
-       magistrados y los jueces percibirán una remuneración adecuada e
-       irrenunciable, la cual no podrá ser disminuida durante su
-       encargo.
+       Las y los magistrados y las y los jueces durarán en el ejercicio
+       de su encargo nueve años; podrán ser reelectas y reelectos y, si
+       lo fueren, sólo podrán ser privados de sus puestos en los
+       términos que establecen esta Constitución, así como la
+       Constitución y las leyes de la Ciudad de México. Las magistradas
+       y los magistrados y las juezas y jueces percibirán una
+       remuneración adecuada e irrenunciable, la cual no podrá ser mayor
+       a la establecida para la persona titular de la Presidencia de la
+       República en el presupuesto correspondiente y no será disminuida
+       durante su encargo. En el ámbito del Poder Judicial, no podrán
+       crearse ni mantenerse en operación fondos, fideicomisos, mandatos
+       o contratos análogos que no estén previstos en la ley.
 
    V. La Administración Pública de la Ciudad de México será centralizada
       y paraestatal. La hacienda pública de la Ciudad y su
@@ -283,9 +304,9 @@ A. El gobierno de la Ciudad de México está a cargo de sus poderes
 
          La investigación, substanciación y sanción de las
          responsabilidades administrativas de los miembros del Tribunal
-         Superior de Justicia, corresponderá al Consejo de la Judicatura
-         local, sin perjuicio de las atribuciones de la entidad de
-         fiscalización sobre el manejo, la custodia y aplicación de
+         Superior de Justicia, corresponderá al Tribunal de Disciplina
+         Judicial local, sin perjuicio de las atribuciones de la entidad
+         de fiscalización sobre el manejo, la custodia y aplicación de
          recursos públicos.
 
    IX. La Constitución y las leyes de la Ciudad de México deberán

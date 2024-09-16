@@ -269,6 +269,7 @@ decimoprimero
 decimosegundo
 decretarse
 definitividad
+desempeñarse
 desincorporación
 diferendo
 distrital
@@ -285,6 +286,7 @@ extractivas
 feminicidio
 fungir
 fungirá
+fungirán
 fungía
 funjan
 geotérmicos
@@ -294,12 +296,15 @@ hacendaria
 hónrome
 impues
 impugnarse
+inaplicar
 include
 inspeccionarse
 insumos
 intercultural
 interinstitucional
+interpósita
 intersindicales
+intervinientes
 intrapartidaria
 intraprocesales
 irrestricto
@@ -313,6 +318,7 @@ normarán
 normatividad
 normen
 normándose
+nugatorios
 nulificada
 oralidad
 organizacionales
@@ -328,6 +334,7 @@ plurinominales
 ponérsele
 portación
 postería
+postularse
 precampaña
 precampañas
 presupuestal
@@ -338,6 +345,7 @@ prohiban
 prorrogarse
 psicosexual
 readscriban
+readscritos
 reasignación
 referencien
 refinanciar
@@ -347,6 +355,7 @@ regulatoria
 regulatorias
 retroalimentado
 revertirse
+resolutora
 rigiéndose
 secrecía
 sectorizado
@@ -356,6 +365,8 @@ sesionará
 sexenales
 sobreseerse
 sostenibilidad
+substanciadora
+supletoriamente
 sustentabilidad
 tarifaria
 telemedicina
