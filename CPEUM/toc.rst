@@ -2311,3 +2311,12 @@ Constitución Política de los Estados Unidos Mexicanos, en materia de reforma d
 Poder Judicial.
 
 .. include:: T258.rst
+
+Artículos Transitorios de Decretos de Reforma (259)
+---------------------------------------------------
+
+DECRETO por el que se reforman y adicionan los artículos 13, 16, 21, 32, 55, 73,
+76, 78, 82, 89, 123 y 129 de la Constitución Política de los Estados Unidos
+Mexicanos, en materia de Guardia Nacional.
+
+.. include:: T259.rst
