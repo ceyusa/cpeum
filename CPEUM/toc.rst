@@ -2348,3 +2348,13 @@ artículo 28 de la Constitución Política de los Estados Unidos Mexicanos,
 en materia de áreas y empresas estratégicas.
 
 .. include:: T262.rst
+
+Artículos Transitorios de Decretos de Reforma (263)
+---------------------------------------------------
+
+DECRETO por el que se reforma el primer párrafo de la fracción II del
+artículo 107, y se adiciona un quinto párrafo al artículo 105, de la
+Constitución Política de los Estados Unidos Mexicanos, en materia de
+inimpugnabilidad de las adiciones o reformas a la Constitución Federal.
+
+.. include:: T263.rst

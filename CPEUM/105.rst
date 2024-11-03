@@ -146,3 +146,7 @@ XVI del artículo 107 de esta Constitución.
 Tratándose de controversias constitucionales o de acciones de
 inconstitucionalidad planteadas respecto de normas generales, en ningún
 caso su admisión dará lugar a la suspensión de la norma cuestionada.
+
+Son improcedentes las controversias constitucionales o acciones de
+inconstitucionalidad que tengan por objeto controvertir las adiciones o
+reformas a esta Constitución.
