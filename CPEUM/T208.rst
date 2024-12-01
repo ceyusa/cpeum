@@ -498,10 +498,10 @@ VII. Promoverá que la política tarifaria de la red compartida fomente la
      competencia y que asegure la reinversión de utilidades para la
      actualización, el crecimiento y la cobertura universal.
 
-     El Ejecutivo Federal, en el marco del Sistema Nacional de Planeación
-     Democrática, incluirá en los instrumentos programáticos respectivos, las
-     acciones necesarias para el desarrollo de la red a que se refiere este
-     artículo.
+     El Ejecutivo Federal, en el marco del Sistema Nacional de
+     Planeación Democrática, incluirá en los instrumentos programáticos
+     respectivos, las acciones necesarias para el desarrollo de la red a
+     que se refiere este artículo.
 
 **Décimo Séptimo**
 
@@ -522,13 +522,14 @@ II. Un programa de banda ancha en sitios públicos que identifique el
 III. Un estudio pormenorizado que identifique el mayor número posible de
      sitios públicos federales, ductos, postería y derechos de vía que
      deberán ser puestos a disposición de los operadores de
-     telecomunicaciones y radiodifusión para agilizar el despliegue de sus
-     redes. El programa deberá incluir la contraprestación que los
-     concesionarios deberán pagar por el aprovechamiento correspondiente,
-     bajo principios de acceso no discriminatorio y precios que promuevan el
-     cumplimiento del derecho a que se refiere el artículo 6o., párrafo
-     tercero, de la Constitución, siempre y cuando el concesionario ofrezca
-     las mismas condiciones en el acceso a su propia infraestructura;
+     telecomunicaciones y radiodifusión para agilizar el despliegue de
+     sus redes. El programa deberá incluir la contraprestación que los
+     concesionarios deberán pagar por el aprovechamiento
+     correspondiente, bajo principios de acceso no discriminatorio y
+     precios que promuevan el cumplimiento del derecho a que se refiere
+     el artículo 6o., párrafo tercero, de la Constitución, siempre y
+     cuando el concesionario ofrezca las mismas condiciones en el acceso
+     a su propia infraestructura;
 
 IV. Un programa de trabajo para dar cabal cumplimiento a la política
     para la transición a la Televisión Digital Terrestre y los recursos

@@ -99,10 +99,10 @@ II. El número de representantes en las legislaturas de los Estados será
     siete años y deberá contar con experiencia de cinco años en materia
     de control, auditoría financiera y de responsabilidades.
 
-    La cuenta pública del año anterior deberá ser enviada a la Legislatura
-    del Estado, a más tardar el 30 de abril. Sólo se podrá ampliar el plazo
-    de presentación cuando medie solicitud del Gobernador, suficientemente
-    justificada a juicio de la Legislatura.
+    La cuenta pública del año anterior deberá ser enviada a la
+    Legislatura del Estado, a más tardar el 30 de abril. Sólo se podrá
+    ampliar el plazo de presentación cuando medie solicitud del
+    Gobernador, suficientemente justificada a juicio de la Legislatura.
 
     Las Legislaturas de los Estados regularán los términos para que los
     ciudadanos puedan presentar iniciativas de ley ante el respectivo
@@ -243,8 +243,9 @@ IV. De conformidad con las bases establecidas en esta Constitución y las
           ley.
 
     d. Las autoridades electorales competentes de carácter
-       administrativo puedan convenir con el Instituto Nacional Electoral se
-       haga cargo de la organización de los procesos electorales locales;
+       administrativo puedan convenir con el Instituto Nacional
+       Electoral se haga cargo de la organización de los procesos
+       electorales locales;
 
     e. Los partidos políticos sólo se constituyan por ciudadanos sin
        intervención de organizaciones gremiales, o con objeto social
@@ -265,11 +266,12 @@ IV. De conformidad con las bases establecidas en esta Constitución y las
        registro. Esta disposición no será aplicable para los partidos
        políticos nacionales que participen en las elecciones locales;
 
-    g. Los partidos políticos reciban, en forma equitativa, financiamiento
-       público para sus actividades ordinarias permanentes y las tendientes a
-       la obtención del voto durante los procesos electorales. Del mismo modo
-       se establezca el procedimiento para la liquidación de los partidos que
-       pierdan su registro y el destino de sus bienes y remanentes;
+    g. Los partidos políticos reciban, en forma equitativa,
+       financiamiento público para sus actividades ordinarias
+       permanentes y las tendientes a la obtención del voto durante los
+       procesos electorales. Del mismo modo se establezca el
+       procedimiento para la liquidación de los partidos que pierdan su
+       registro y el destino de sus bienes y remanentes;
 
     h. Se fijen los criterios para establecer los límites a las
        erogaciones de los partidos políticos en sus precampañas y

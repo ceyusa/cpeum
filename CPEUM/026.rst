@@ -51,8 +51,8 @@ B. El Estado contará con un Sistema Nacional de Información Estadística
    de la Unión.
 
    La ley establecerá las bases de organización y funcionamiento del
-   Sistema Nacional de Información Estadística y Geográfica, de acuerdo con
-   los principios de accesibilidad a la información, transparencia,
+   Sistema Nacional de Información Estadística y Geográfica, de acuerdo
+   con los principios de accesibilidad a la información, transparencia,
    objetividad e independencia; los requisitos que deberán cumplir los
    miembros de la Junta de Gobierno, la duración y escalonamiento de su
    encargo.
