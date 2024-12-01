@@ -2358,3 +2358,14 @@ Constitución Política de los Estados Unidos Mexicanos, en materia de
 inimpugnabilidad de las adiciones o reformas a la Constitución Federal.
 
 .. include:: T263.rst
+
+Artículos Transitorios de Decretos de Reforma (264)
+---------------------------------------------------
+
+DECRETO por el que se reforman y adicionan los artículos 4o., 21, 41,
+73, 116, 122 y 123 de la Constitución Política de los Estados Unidos
+Mexicanos, en materia de igualdad sustantiva, perspectiva de género,
+derecho de las mujeres a una vida libre de violencia y erradicación de
+la brecha salarial por razones de género.
+
+.. include:: T264.rst
