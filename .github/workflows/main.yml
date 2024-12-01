@@ -29,6 +29,10 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
 
+      - name: Maximum line length
+        run: |
+          awk '{ if (length($0) > 72) { print FILENAME " " FNR; exit 255 } }' CPEUM/[T0-9]*.rst
+
       - name: Install python
         uses: actions/setup-python@v5
         with:
