@@ -1,0 +1,15 @@
+matrix:
+  - name: ortografia
+    sources:
+      - CPEUM/*.rst
+    aspell:
+      lang: es
+      mode: markdown
+      ignore-case: true
+      ignore: 3
+      d: es
+    dictionary:
+      wordlists:
+      - es-local.dic
+      output: cpeum.dic
+    default_encoding: utf-8
