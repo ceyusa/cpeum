@@ -35,5 +35,3 @@ clean:
 	rm -f CPEUM_orig_05feb1917.txt .sed.stamp .pandoc.stamp cpeum.html $(files)
 
 .PHONY: format split clean
-
-
