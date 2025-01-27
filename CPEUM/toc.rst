@@ -2414,3 +2414,12 @@ Constitución Política de los Estados Unidos Mexicanos, en materia de
 prisión preventiva oficiosa.
 
 .. include:: T269.rst
+
+Artículos Transitorios de Decretos de Reforma (270)
+---------------------------------------------------
+
+DECRETO por el que se reforma y adiciona el artículo 21 de la
+Constitución Política de los Estados Unidos Mexicanos, en materia de
+seguridad pública.
+
+.. include:: T270.rst

@@ -1,7 +1,8 @@
 **Artículo 21**
 
-La investigación de los delitos corresponde al Ministerio Público, a las
-policías y a la Guardia Nacional, en el ámbito de su competencia, las
+La investigación de los delitos corresponde al Ministerio Público, a la
+secretaría del ramo de seguridad pública del Ejecutivo Federal, a la
+Guardia Nacional y a las policías, en el ámbito de su competencia, las
 cuales actuarán bajo la conducción y mando de aquél en el ejercicio de
 esta función.
 
@@ -86,7 +87,18 @@ d. Se determinará la participación de la comunidad que coadyuvará, entre
 
 e. Los fondos de ayuda federal para la seguridad pública, a nivel
    nacional serán aportados a las entidades federativas y municipios
-   para ser destinados exclusivamente a estos fines.
+   para ser destinados exclusivamente a estos fines. Estos fondos serán
+   auditados y su debido ejercicio vigilado por el Sistema a través de
+   su Secretariado Ejecutivo.
+
+f. El Sistema contará con un Secretariado Ejecutivo, el cual podrá
+   ampliar las bases, emitir acuerdos y lineamientos, así como realizar
+   las acciones necesarias para lograr la homologación de estándares y
+   criterios, así como una coordinación eficiente, transparente y
+   responsable, en el ejercicio de las atribuciones concurrentes de los
+   tres órdenes de gobierno; en todo momento en atención a los fines del
+   Sistema y los objetivos de la Estrategia Nacional de Seguridad
+   Pública.
 
 La Federación contará con la Guardia Nacional, fuerza de seguridad
 pública, profesional, de carácter permanente e integrada por personal
@@ -98,9 +110,19 @@ y colaboración con las entidades federativas y Municipios, así como la
 salvaguarda de los bienes y recursos de la Nación. La ley determinará la
 estructura orgánica y de dirección de la Guardia Nacional.
 
-La secretaría del ramo de seguridad pública formulará la Estrategia
-Nacional de Seguridad Pública, y los programas, políticas y acciones
-respectivos.
+La secretaría del ramo de seguridad pública formulará, coordinará y
+dirigirá la Estrategia Nacional de Seguridad Pública, así como los
+programas, las políticas y acciones respectivos; auxiliará a la persona
+titular de la Presidencia de la República en el ejercicio de las
+funciones en materia de seguridad nacional; le corresponderá la
+coordinación del Sistema Nacional de Inteligencia en materia de
+seguridad pública, en los términos que señale la ley, y podrá coordinar
+las acciones de colaboración de los tres órdenes de gobierno, a través
+de las instituciones de seguridad pública, los cuales además deberán de
+proporcionar la información de que dispongan o que recaben en la materia
+conforme a la ley. Podrá solicitar información a las instituciones y
+dependencias del Estado para la identificación y esclarecimiento de los
+hechos presuntamente constitutivos de delitos.
 
 La formación y el desempeño de los integrantes de la Guardia Nacional y
 de las demás instituciones policiales se regirán por una doctrina
