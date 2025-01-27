@@ -2423,3 +2423,12 @@ Constitución Política de los Estados Unidos Mexicanos, en materia de
 seguridad pública.
 
 .. include:: T270.rst
+
+Artículos Transitorios de Decretos de Reforma (271)
+---------------------------------------------------
+
+DECRETO por el que se adicionan un párrafo quinto al artículo 4o. y un
+párrafo segundo al artículo 5o., de la Constitución Política de los
+Estados Unidos Mexicanos, en materia de protección a la salud.
+
+.. include:: T271.rst
