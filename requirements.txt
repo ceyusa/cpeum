@@ -1,3 +1,4 @@
 docutils
 restructuredtext-lint
 pyspelling
+pre-commit
