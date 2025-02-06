@@ -2432,3 +2432,13 @@ párrafo segundo al artículo 5o., de la Constitución Política de los
 Estados Unidos Mexicanos, en materia de protección a la salud.
 
 .. include:: T271.rst
+
+Artículos Transitorios de Decretos de Reforma (272)
+---------------------------------------------------
+
+DECRETO por el que se reforman y adicionan diversas disposiciones de los
+artículos 4o. y 27 de la Constitución Política de los Estados Unidos
+Mexicanos, en materia de conservación y protección de los maíces
+nativos.
+
+.. include:: T272.rst
