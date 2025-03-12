@@ -33,6 +33,13 @@ I. Los gobernadores de los Estados no podrán durar en su encargo
       gobernador, siempre que desempeñe el cargo los dos últimos años
       del periodo.
 
+   c. La persona que tenga o haya tenido en los últimos tres años
+      anteriores al día de la elección un vínculo de matrimonio o
+      concubinato o unión de hecho, o de parentesco por consanguinidad o
+      civil en línea recta sin limitación de grado y en línea colateral
+      hasta el cuarto grado o de afinidad hasta el segundo grado, con la
+      persona que está ejerciendo la titularidad de la gubernatura.
+
    Sólo podrá ser gobernador constitucional de un Estado un ciudadano
    mexicano por nacimiento y nativo de él, o con residencia efectiva no
    menor de cinco años inmediatamente anteriores al día de los comicios,
@@ -46,13 +53,21 @@ II. El número de representantes en las legislaturas de los Estados será
     exceda de este número y no llegue a 800 mil habitantes, y de 11 en
     los Estados cuya población sea superior a esta última cifra.
 
-    Las Constituciones estatales deberán establecer la elección
-    consecutiva de los diputados a las legislaturas de los Estados,
-    hasta por cuatro periodos consecutivos. La postulación sólo podrá
-    ser realizada por el mismo partido o por cualquiera de los partidos
-    integrantes de la coalición que los hubieren postulado, salvo que
-    hayan renunciado o perdido su militancia antes de la mitad de su
-    mandato.
+    Las Constituciones estatales deberán establecer la prohibición de la
+    reelección de las personas diputadas a las legislaturas de los
+    Estados para el periodo inmediato posterior al ejercicio de su
+    mandato. Las personas diputadas suplentes podrán ser electas para el
+    periodo inmediato con el carácter de propietarias, siempre que no
+    hubieren estado en ejercicio, pero las personas diputadas
+    propietarias no podrán ser electas para el período inmediato con el
+    carácter de suplentes. En ningún caso, podrá participar en la
+    elección de una diputación la persona que tenga o haya tenido en los
+    últimos tres años anteriores al día de la elección un vínculo de
+    matrimonio o concubinato o unión de hecho, o de parentesco por
+    consanguinidad o civil en línea recta sin limitación de grado y en
+    línea colateral hasta el cuarto grado o de afinidad hasta el segundo
+    grado, con la persona que está ejerciendo la titularidad de la
+    diputación.
 
     Las legislaturas de los Estados se integrarán con diputados electos,
     según los principios de mayoría relativa y de representación

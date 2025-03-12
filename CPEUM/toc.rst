@@ -2452,3 +2452,12 @@ Constitución Política de los Estados Unidos Mexicanos, en materia de
 fortalecimiento de la soberanía nacional.
 
 .. include:: T273.rst
+
+Artículos Transitorios de Decretos de Reforma (274)
+---------------------------------------------------
+
+DECRETO por el que se reforman y adicionan los artículos 55, 59, 82,
+115, 116 y 122 de la Constitución Política de los Estados Unidos
+Mexicanos, en materia de no reelección y nepotismo electoral.
+
+.. include:: T274.rst

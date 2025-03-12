@@ -27,7 +27,14 @@ A. El gobierno de la Ciudad de México está a cargo de sus poderes
        integrantes deberán cumplir los requisitos que la misma
        establezca y serán electos mediante sufragio universal, libre,
        secreto y directo, según los principios de mayoría relativa y de
-       representación proporcional, por un periodo de tres años.
+       representación proporcional, por un periodo de tres años. En
+       ningún caso, podrá participar en la elección de una diputación la
+       persona que tenga o haya tenido en los últimos tres años
+       anteriores al día de la elección un vínculo de matrimonio o
+       concubinato o unión de hecho, o de parentesco por consanguinidad
+       o civil en línea recta sin limitación de grado y en línea
+       colateral hasta el cuarto grado o de afinidad hasta el segundo
+       grado, con la persona que está ejerciendo la diputación.
 
        En ningún caso, un partido político podrá contar con un número de
        diputados por ambos principios que representen un porcentaje del
@@ -42,12 +49,13 @@ A. El gobierno de la Ciudad de México está a cargo de sus poderes
        puntos porcentuales.
 
        En la Constitución Política de la Ciudad de México se establecerá
-       que los diputados a la Legislatura podrán ser electos hasta por
-       cuatro periodos consecutivos. La postulación deberá ser realizada
-       por el mismo partido o por cualquiera de los partidos integrantes
-       de la coalición que los hubieren postulado, salvo que hayan
-       renunciado o perdido su militancia antes de la mitad de su
-       mandato.
+       que las personas diputadas a la Legislatura no podrán ser
+       reelectas para el periodo inmediato posterior al ejercicio de su
+       mandato. Las personas diputadas suplentes podrán ser electas para
+       el periodo inmediato con el carácter de propietarias, siempre que
+       no hubieren estado en ejercicio, pero las personas diputadas
+       propietarias no podrán ser electas para el periodo inmediato con
+       el carácter de suplentes.
 
        La Constitución Política de la entidad establecerá las normas
        para garantizar el acceso de todos los grupos parlamentarios a
@@ -84,15 +92,22 @@ A. El gobierno de la Ciudad de México está a cargo de sus poderes
        contar con experiencia de cinco años en materia de control,
        auditoría financiera y de responsabilidades.
 
-   III. El titular del Poder Ejecutivo se denominará Jefe de Gobierno de
-        la Ciudad de México y tendrá a su cargo la administración
-        pública de la entidad; será electo por votación universal,
-        libre, secreta y directa, no podrá durar en su encargo más de
-        seis años y su mandato podrá ser revocado. Quien haya ocupado la
-        titularidad del Ejecutivo local designado o electo, en ningún
-        caso y por ningún motivo podrá volver a ocupar ese cargo, ni con
-        el carácter de interino, provisional, sustituto o encargado del
-        despacho.
+   III. La persona titular del Poder Ejecutivo se denominará Jefa o Jefe
+        de Gobierno de la Ciudad de México y tendrá a su cargo la
+        administración pública de la entidad; será electa por votación
+        universal, libre, secreta y directa, no podrá durar en su
+        encargo más de seis años y su mandato podrá ser revocado. Quien
+        haya ocupado la titularidad del Ejecutivo local designado o
+        electo, en ningún caso y por ningún motivo podrá volver a ocupar
+        ese cargo, ni con el carácter de interino, provisional,
+        sustituto o encargado del despacho. Tampoco podrá participar en
+        la elección de este cargo, la persona que tenga o haya tenido en
+        los últimos tres años anteriores al día de la elección un
+        vínculo de matrimonio o concubinato o unión de hecho, o de
+        parentesco por consanguinidad o civil en línea recta sin
+        limitación de grado y en línea colateral hasta el cuarto grado o
+        de afinidad hasta el segundo grado, con la persona que está
+        ejerciendo la titularidad del Poder Ejecutivo.
 
         La Constitución Política de la Ciudad de México establecerá las
         facultades del Jefe de Gobierno y los requisitos que deberá
@@ -230,12 +245,13 @@ A. El gobierno de la Ciudad de México está a cargo de sus poderes
           del sesenta por ciento de los concejales.
 
        b. La Constitución Política de la Ciudad de México deberá
-          establecer la elección consecutiva para el mismo cargo de
-          Alcalde y Concejales por un periodo adicional. La postulación
-          sólo podrá ser realizada por el mismo partido o por cualquiera
-          de los partidos integrantes de la coalición que los hubieren
-          postulado, salvo que hayan renunciado o perdido su militancia
-          antes de la mitad de su mandato.
+          establecer la prohibición de la reelección consecutiva para el
+          mismo cargo de personas Alcaldes y Concejales. Las personas
+          funcionarias antes mencionadas, cuando tengan el carácter de
+          propietarias, no podrán ser electas para el periodo inmediato
+          con el carácter de suplentes, pero las que tengan el carácter
+          de suplentes sí podrán ser electas para el periodo inmediato
+          como propietarias a menos que hayan estado en ejercicio.
 
        c. La administración pública de las demarcaciones territoriales
           corresponde a los Alcaldes.
@@ -274,8 +290,16 @@ A. El gobierno de la Ciudad de México está a cargo de sus poderes
        e. Las demarcaciones territoriales no podrán, en ningún caso,
           contraer directa o indirectamente obligaciones o empréstitos.
 
-       f. Los Alcaldes y Concejales deberán reunir los requisitos que
-          establezca la Constitución Política de la Ciudad de México.
+       f. Las personas Alcaldes y Concejales deberán reunir los
+          requisitos que establezca la Constitución Política de la
+          Ciudad de México. En ningún caso, podrán participar en la
+          elección de estos cargos la persona que tenga o haya tenido en
+          los últimos tres años anteriores al día de la elección un
+          vínculo de matrimonio o concubinato o unión de hecho, o de
+          parentesco por consanguinidad o civil en línea recta sin
+          limitación de grado y en línea colateral hasta el cuarto grado
+          o de afinidad hasta el segundo grado, con la persona que está
+          ejerciendo la titularidad del cargo para el que se postula.
 
    VII. La Ciudad de México contará con los organismos constitucionales
         autónomos que esta Constitución prevé para las entidades
