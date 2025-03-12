@@ -2442,3 +2442,13 @@ Mexicanos, en materia de conservación y protección de los maíces
 nativos.
 
 .. include:: T272.rst
+
+Artículos Transitorios de Decretos de Reforma (273)
+---------------------------------------------------
+
+DECRETO por el que se reforma el segundo párrafo del artículo 19 y se
+adicionan los párrafos segundo y tercero al artículo 40 de la
+Constitución Política de los Estados Unidos Mexicanos, en materia de
+fortalecimiento de la soberanía nacional.
+
+.. include:: T273.rst
