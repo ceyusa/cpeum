@@ -2470,3 +2470,13 @@ Constitución Política de los Estados Unidos Mexicanos, en materia de
 apoyo a jóvenes.
 
 .. include:: T275.rst
+
+Artículos Transitorios de Decretos de Reforma (276)
+---------------------------------------------------
+
+DECRETO por el que se reforman el párrafo décimo del artículo 25 y la
+fracción XXIX-Y del artículo 73 de la Constitución Política de los
+Estados Unidos Mexicanos, en materia de simplificación administrativa y
+digitalización.
+
+.. include:: T276.rst
