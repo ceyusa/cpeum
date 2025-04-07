@@ -92,11 +92,11 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
-          ref: ${{ github.event.before }}
+          ref: ${{ github.event.after }}
 
       - name: Check if last commit in PR contains document changes
         env:
-          SHA: ${{ github.event.before }}
+          SHA: ${{ github.event.after }}
         run: |
           git show --name-only --oneline "$SHA" | head -1 | grep -i -e "artículo" -e "articulo"
           git show --name-only --oneline "$SHA" | tail -n +2 | grep "^CPEUM/.*\.rst$"
@@ -105,7 +105,7 @@ jobs:
         if: success()
         id: desc
         env:
-          SHA: ${{ github.event.before }}
+          SHA: ${{ github.event.after }}
         run: |
           git show --summary --format=%B "$SHA" | awk -v RS='(\r?\n){2,}' 'NR == 2 { print "desc=" $RS }' | sed ':a;N;$!ba;s/\n/ /g' >> "$GITHUB_OUTPUT"
 
