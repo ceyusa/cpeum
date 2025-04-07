@@ -13,7 +13,7 @@ on:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
-  # This workflow contains a single job called "build"
+  # This workflow contains two jobs "build" and "bluesky"
   build:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
@@ -69,3 +69,55 @@ jobs:
           keep_history: true
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+  bluesky:
+
+    needs: build
+
+    runs-on: ubuntu-latest
+
+    if: github.ref == 'refs/heads/main'
+
+    environment:
+      name: BlueSky
+
+    steps:
+
+      # - name: Dump pull_request
+      #   env:
+      #     GITHUB_CONTEXT: ${{ toJson(github) }}
+      #   run: echo "$GITHUB_CONTEXT"
+
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.before }}
+
+      - name: Check if last commit in PR contains document changes
+        env:
+          SHA: ${{ github.event.before }}
+        run: |
+          git show --name-only --oneline "$SHA" | head -1 | grep -i -e "artículo" -e "articulo"
+          git show --name-only --oneline "$SHA" | tail -n +2 | grep "^CPEUM/.*\.rst$"
+
+      - name: Extract second paragraph of commit log if previous step was successful
+        if: success()
+        id: desc
+        env:
+          SHA: ${{ github.event.before }}
+        run: |
+          git show --summary --format=%B "$SHA" | awk -v RS='(\r?\n){2,}' 'NR == 2 { print "desc=" $RS }' | sed ':a;N;$!ba;s/\n/ /g' >> "$GITHUB_OUTPUT"
+
+      # Announce merge of the pull request in BlueSky
+      - name: Post in BlueSky
+        #if: success()
+        uses: zentered/bluesky-post-action@v0.2.0
+        with:
+          post: |
+            ${{ steps.desc.outputs.desc }}
+
+            ${{ github.event.pull_request._links.html.href }}
+        env:
+          BSKY_IDENTIFIER: ${{ secrets.BSKY_IDENTIFIER }}
+          BSKY_PASSWORD: ${{ secrets.BSKY_PASSWORD }}
