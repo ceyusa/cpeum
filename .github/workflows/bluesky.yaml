@@ -2,13 +2,13 @@ name: BlueSky
 
 on:
   pull_request:
-    type:
-      - closed
+    types: [closed]
+    branches: [main]
 
 jobs:
   bluesky:
 
-    if: github.event.pull_request.merged == true && github.ref == 'refs/heads/main'
+    if: github.event.pull_request.merged == true
 
     runs-on: ubuntu-latests
 
