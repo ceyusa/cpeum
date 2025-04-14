@@ -2,30 +2,33 @@
 
 name: CI
 on:
-  # Triggers the workflow on push or pull request events but only for the master branch
+  # Triggers the workflow on push or pull request events but only for
+  # the master branch
   push:
-    branches: [ main ]
+    branches: [main]
   pull_request:
-    branches: [ main ]
+    branches: [main]
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+# A workflow run is made up of one or more jobs that can run
+# sequentially or in parallel
 jobs:
-  # This workflow contains two jobs "build" and "bluesky"
   build:
     # The type of runner that the job will run on
     runs-on: ubuntu-latest
 
-    # Steps represent a sequence of tasks that will be executed as part of the job
+    # Steps represent a sequence of tasks that will be executed as part
+    # of the job
     steps:
       - name: Install dependencies
         run: |
           sudo apt-get update
           sudo apt-get install aspell aspell-es
 
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job
+      # can access it
       - name: Checkout
         uses: actions/checkout@v4
 
@@ -38,7 +41,7 @@ jobs:
         with:
           python-version: '3.12'
 
-        # Runs a single command using the runners shell
+      # Runs a single command using the runners shell
       - name: Install python dependencies
         run: |
           python -m pip install --upgrade pip setuptools
