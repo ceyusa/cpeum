@@ -2,18 +2,18 @@
 # See https://pre-commit.com/hooks.html for more hooks
 repos:
 -   repo: https://github.com/pre-commit/pre-commit-hooks
-    rev: v5.0.0
+    rev: v6.0.0
     hooks:
     -   id: trailing-whitespace
     -   id: end-of-file-fixer
 -   repo: https://github.com/facelessuser/pyspelling
-    rev: f6ae60bf
+    rev: '2.11'
     hooks:
     -   id: pyspelling
         verbose: true
         pass_filenames: false
         args: ['-n', 'ortografia']
 -   repo: https://github.com/rstcheck/rstcheck
-    rev: 'v6.2.4'
+    rev: 'v6.2.5'
     hooks:
     -   id: rstcheck
