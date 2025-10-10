@@ -2480,3 +2480,12 @@ Estados Unidos Mexicanos, en materia de simplificación administrativa y
 digitalización.
 
 .. include:: T276.rst
+
+Artículos Transitorios de Decretos de Reforma (277)
+---------------------------------------------------
+
+DECRETO por el que se declara reformado el inciso a) de la fracción XXI
+del artículo 73 de la Constitución Política de los Estados Unidos
+Mexicanos, en materia de extorsión.
+
+.. include:: T277.rst
