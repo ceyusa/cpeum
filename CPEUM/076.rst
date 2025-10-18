@@ -2,24 +2,26 @@
 
 Son facultades exclusivas del Senado:
 
-I. Analizar la política exterior desarrollada por el Ejecutivo Federal
-   con base en los informes anuales que el Presidente de la República y
-   el Secretario del Despacho correspondiente rindan al Congreso.
+I. Analizar la política exterior desarrollada por la persona titular del
+   Ejecutivo Federal con base en los informes anuales que las personas
+   titulares de la Presidencia de la República y de la Secretaría del
+   Despacho correspondiente rindan al Congreso.
 
    Además, aprobar los tratados internacionales y convenciones
    diplomáticas que el Ejecutivo Federal suscriba, así como su decisión
    de terminar, denunciar, suspender, modificar, enmendar, retirar
    reservas y formular declaraciones interpretativas sobre los mismos;
 
-II. Ratificar los nombramientos que el mismo funcionario haga de los
-    Secretarios de Estado, en caso de que éste opte por un gobierno de
-    coalición, con excepción de los titulares de los ramos de Defensa
-    Nacional y Marina; del Secretario responsable del control interno
-    del Ejecutivo Federal; del Secretario de Relaciones Exteriores; de
-    los embajadores y cónsules generales; de los empleados superiores
-    del ramo de Relaciones Exteriores, y coroneles y demás jefes
-    superiores del Ejército, Armada y Fuerza Aérea Nacionales, en los
-    términos que la ley disponga;
+II. Ratificar los nombramientos que la persona titular de la Presidencia
+    de la República haga de las personas titulares de las Secretarías de
+    Estado, en caso de que ésta opte por un gobierno de coalición, con
+    excepción de las correspondientes a los ramos de Defensa Nacional y
+    Marina; de las nombradas como Secretario responsable del control
+    interno del Ejecutivo Federal; de la Secretaría de Relaciones
+    Exteriores; de las embajadas y de los consulados generales;
+    empleadas superiores del ramo de Relaciones Exteriores, y Coroneles
+    y demás jefes superiores del Ejército, Armada, Fuerza Aérea
+    Nacionales y Guardia Nacional, en los términos que la ley disponga;
 
 III. Autorizarlo también para que pueda permitir la salida de tropas
      nacionales fuera de los límites del País, el paso de tropas
@@ -33,17 +35,17 @@ IV. Analizar y aprobar la Estrategia Nacional de Seguridad Pública, en
 
 V. Declarar, cuando hayan desaparecido todos los poderes
    constitucionales de una entidad federativa, que es llegado el caso de
-   nombrarle un titular del poder ejecutivo provisional, quien convocará
-   a elecciones conforme a las leyes constitucionales de la entidad
-   federativa. El nombramiento del titular del poder ejecutivo local se
-   hará por el Senado a propuesta en terna del Presidente de la
-   República con aprobación de las dos terceras partes de los miembros
-   presentes, y en los recesos, por la Comisión Permanente, conforme a
-   las mismas reglas. El funcionario así nombrado, no podrá ser electo
-   titular del poder ejecutivo en las elecciones que se verifiquen en
-   virtud de la convocatoria que él expidiere. Esta disposición regirá
-   siempre que las constituciones de las entidades federativas no
-   prevean el caso.
+   nombrarle una persona titular del poder ejecutivo provisional, quien
+   convocará a elecciones conforme a las leyes constitucionales de la
+   entidad federativa. El nombramiento de la persona titular del poder
+   ejecutivo local se hará por el Senado a propuesta en terna de la
+   persona titular de la Presidencia de la República con aprobación de
+   las dos terceras partes de las personas integrantes presentes, y en
+   los recesos, por la Comisión Permanente, conforme a las mismas
+   reglas. Quien fuere así nombrado, no podrá ser electa persona titular
+   del poder ejecutivo en las elecciones que se verifiquen en virtud de
+   la convocatoria que él expidiere. Esta disposición regirá siempre que
+   las constituciones de las entidades federativas no prevean el caso;
 
 VI. Resolver las cuestiones políticas que surjan entre los poderes de
     una entidad federativa cuando alguno de ellos ocurra con ese fin al
@@ -54,10 +56,10 @@ VI. Resolver las cuestiones políticas que surjan entre los poderes de
     federativa.
 
 VII. Erigirse en Jurado de sentencia para conocer en juicio político de
-     las faltas u omisiones que cometan los servidores públicos y que
-     redunden en perjuicio de los intereses públicos fundamentales y de
-     su buen despacho, en los términos del artículo 110 de esta
-     Constitución.
+     las faltas u omisiones que cometan las personas servidoras públicas
+     y que redunden en perjuicio de los intereses públicos fundamentales
+     y de su buen despacho, en los términos del artículo 110 de esta
+     Constitución;
 
 VIII. Otorgar o negar las solicitudes de licencia o renuncia de las
       personas servidoras públicas del Poder Judicial de la Federación
@@ -67,18 +69,20 @@ VIII. Otorgar o negar las solicitudes de licencia o renuncia de las
 IX. Derogada.
 
 X. Autorizar mediante decreto aprobado por el voto de las dos terceras
-   partes de los individuos presentes, los convenios amistosos que sobre
-   sus respectivos límites celebren las entidades federativas;
+   partes de las personas integrantes presentes, los convenios amistosos
+   que sobre sus respectivos límites celebren las entidades federativas;
 
-XI. Aprobar la Estrategia Nacional de Seguridad Pública en el plazo que
-    disponga la ley. En caso de que el Senado no se pronuncie en dicho
-    plazo, ésta se entenderá aprobada;
+XI. Analizar y aprobar la Estrategia Nacional de Seguridad Pública, en
+    el plazo que disponga la ley, previa comparecencia de la persona
+    titular de la secretaría del ramo. En caso de que el Senado no se
+    pronuncie en dicho plazo, ésta se entenderá aprobada;
 
 XII. Se deroga
 
-XIII. Integrar la lista de candidatos a Fiscal General de la República;
-      nombrar a dicho servidor público, y formular objeción a la
-      remoción que del mismo haga el Ejecutivo Federal, de conformidad
-      con el artículo 102, Apartado A, de esta Constitución, y
+XIII. Integrar la lista de personas candidatas a ocupar la titularidad
+      de la Fiscalía General de la República; nombrar a dicha persona
+      servidora pública, y formular objeción a la remoción que de la
+      misma haga el Ejecutivo Federal, de conformidad con el artículo
+      102, Apartado A, de esta Constitución, y
 
 XIV. Las demás que la misma Constitución le atribuya.

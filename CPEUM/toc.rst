@@ -2489,3 +2489,12 @@ del artículo 73 de la Constitución Política de los Estados Unidos
 Mexicanos, en materia de extorsión.
 
 .. include:: T277.rst
+
+Artículos Transitorios de Decretos de Reforma (278)
+---------------------------------------------------
+
+DECRETO por el que se reforman los artículos 76 y 78 de la Constitución
+Política de los Estados Unidos Mexicanos, en materia de ratificación de
+grados superiores de la Guardia Nacional.
+
+.. include:: T278.rst
