@@ -30,16 +30,18 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job
       # can access it
       - name: Checkout
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
 
       - name: Maximum line length
         run: |
           awk '{ if (length($0) > 72) { print FILENAME " " FNR; exit 255 } }' CPEUM/[T0-9]*.rst
 
       - name: Install python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
-          python-version: '3.12'
+          python-version: '3.13'
 
       # Runs a single command using the runners shell
       - name: Install python dependencies
@@ -59,8 +61,7 @@ jobs:
       - name: Generate document
         run: |
           mkdir html
-          cd CPEUM
-          rst2html5 toc.rst ../html/index.html
+          python scripts/rst2html5.py CPEUM/toc.rst html/index.html
 
       # Install generated document in Pages
       - name: Deploy to GitHub Pages
