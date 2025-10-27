@@ -61,7 +61,8 @@ jobs:
       - name: Generate document
         run: |
           mkdir html
-          python scripts/rst2html5.py CPEUM/toc.rst html/index.html
+          cd CPEUM
+          python ../scripts/rst2html5.py toc.rst ../html/index.html
 
       # Install generated document in Pages
       - name: Deploy to GitHub Pages
