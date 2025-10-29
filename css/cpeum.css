@@ -26,16 +26,6 @@ nav.contents {
     z-index: 100;
 }
 
-/* Hide all articles by default */
-section.articulo {
-    display: none;
-}
-
-/* Show only the targeted article */
-section.articulo:target {
-    display: block;
-}
-
 /* Main content area */
 main {
     margin-left: 300px;
@@ -149,6 +139,9 @@ main:not(:has(section:is(.articulo, [id^="articulos-transitorios"]):target)) sec
 /* Show all articles when none are targeted */
 section.articulo, section[id^="articulos-transitorios"] {
     display: none;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    border-bottom: thin solid;
 }
 
 /* When an article is targeted, show it and hide others */
