@@ -14,19 +14,24 @@ A minimal front end to the Docutils Publisher, producing HTML 5
 documents.
 """
 
+import os
+import re
+import sys
+import subprocess
+
 from docutils.core import publish_cmdline, default_description
 from docutils.writers.html5_polyglot import HTMLTranslator, Writer
 from docutils.parsers.rst import directives, Parser
 from docutils.parsers.rst.directives import misc
 from docutils import nodes
 
-import os
-import re
-import subprocess
+GITHUB_URL = "https://github.com/ceyusa/constitucion-mexicana"
 
 
 class IncludeWithSection(misc.Include):
+    """Custom include directive handler"""
     def run(self):
+        """Function called by the parser"""
         # Get the source directory to resolve relative paths
         source_dir = os.path.dirname(self.state.document.current_source)
         filename = self.arguments[0]
@@ -69,7 +74,7 @@ class IncludeWithSection(misc.Include):
         return [section]
 
     def _get_git_root(self, filename):
-        # Make sure we're always in the git repository root to find files
+        """Make sure we're always in the git repository root to find files"""
         # Get the absolute path of the file
         file_dir = os.path.dirname(filename)
         # Get the git root directory
@@ -82,11 +87,10 @@ class IncludeWithSection(misc.Include):
             ).strip()
         except (subprocess.CalledProcessError, FileNotFoundError):
             git_root = file_dir
-        finally:
-            return git_root
+        return git_root
 
-    def _parse_git_history(self, filename):
-        """Parse git log to extract relevant commit information."""
+    def _get_commit_blocks(self, filename):
+        """Extract a list of commits logs"""
         # Make sure we're always in the git repository root to find files
         # Get the absolute path of the file
         abs_filename = os.path.abspath(filename)
@@ -106,16 +110,18 @@ class IncludeWithSection(misc.Include):
                 FileNotFoundError,
                 subprocess.TimeoutExpired) as e:
             # Log the error but don't break the build
-            import sys
             print(f"Warning: Could not get git history for {filename}: {e}",
                   file=sys.stderr)
-            return None
+            return []
 
-        commits = []
         # Split by our custom delimiter
-        commit_blocks = git_log.split('---END-COMMIT---')
+        return git_log.split('---END-COMMIT---')
 
-        for block in commit_blocks:
+    def _parse_git_history(self, filename):
+        """Parse git log to extract relevant commit information."""
+        commits = []
+
+        for block in self._get_commit_blocks(filename):
             lines = [i.replace('\n', ' ') for i in block.strip().split('\n\n')]
             if not lines:
                 continue
@@ -139,13 +145,14 @@ class IncludeWithSection(misc.Include):
                 match = re.search(pub_pattern, body, re.IGNORECASE)
                 if match:
                     pub_date = match.group(1).strip()
-                    # Clean up the date - remove any trailing punctuation or URLs
+                    # Clean up the date - remove any trailing
+                    # punctuation or URLs
                     pub_date = re.sub(r'[,\s\.]*$', '', pub_date)
                     # Remove any http links that might have been captured
                     pub_date = re.sub(r'\s*https?://\S*$', '', pub_date)
 
-                # If no specific publication date found in patterns, try to
-                # find any date in the body
+                # If no specific publication date found in patterns, try
+                # to find any date in the body
                 if not pub_date:
                     # Look for common date patterns in the body
                     date_pattern = r'(\d{1,2}\s+de\s+[A-Za-z]+\s+de\s+\d{4})'
@@ -173,32 +180,32 @@ class IncludeWithSection(misc.Include):
                 commits.append(commit_info)
             except (IndexError, AttributeError) as e:
                 # Skip malformed commit blocks
-                import sys
                 print(f"Warning: Skipping malformed commit block: {e}",
                       file=sys.stderr)
                 continue
-
         return commits
 
 
 class CustomHTMLTranslator(HTMLTranslator):
+    """Custom HTML translator"""
     def visit_section(self, node):
-        # Ensure sections use <section> tag in HTML5
+        """Ensure sections use <section> tag in HTML5"""
         self.section_level += 1
         # Generate the opening tag
         self.body.append(self.starttag(node, 'section'))
 
-    def depart_section(self, node):
+    def depart_section(self, _):
+        """Visitor out"""
         self.section_level -= 1
         self.body.append('</section>\n')
 
     def visit_container(self, node):
+        """Generate the commit history in HTML"""
         # Check if this is a git-history container
-        if (
-                'git-history' in node.attributes
-                and 'classes' in node.attributes
-                and 'git-history' in node['classes']
-                and node.get('git-history')):
+        if 'git-history' in node.attributes \
+           and 'classes' in node.attributes \
+           and 'git-history' in node['classes'] \
+           and node.get('git-history'):
 
             # Start the aside tag
             self.body.append('<aside class="sidebar">\n')
@@ -207,9 +214,10 @@ class CustomHTMLTranslator(HTMLTranslator):
             if commits:
                 self.body.append('<ul>\n')
                 for commit in commits:
-                    url = f'https://github.com/ceyusa/constitucion-mexicana/commit/{commit["hash"]}'
+                    url = f'{GITHUB_URL}/commit/{commit["hash"]}'
                     self.body.append(
-                        f'<li><a href="{url}" title="{commit["decreto"]}">'
+                        f'<li><a href="{url}" title="{commit["decreto"]}"'
+                        f'rel="external noreferrer" target="_blank">'
                         f'{commit["pub_date"]}</a></li>\n'
                     )
                 self.body.append('</ul>\n')
@@ -218,6 +226,7 @@ class CustomHTMLTranslator(HTMLTranslator):
             HTMLTranslator.visit_container(self, node)
 
     def depart_container(self, node):
+        """Call the HTML generator"""
         if (
                 'git-history' in node.attributes
                 and 'classes' in node.attributes
@@ -229,12 +238,13 @@ class CustomHTMLTranslator(HTMLTranslator):
 
 
 class CustomHTML5Writer(Writer):
+    """Custom HTML5 Writer"""
     def __init__(self):
         Writer.__init__(self)
         self.translator_class = CustomHTMLTranslator
 
 
-description = ('Generador HTML5 de la CPEUM' + default_description)
+description = 'Generador HTML5 de la CPEUM' + default_description
 
 # Register our custom directive
 directives.register_directive('include', IncludeWithSection)
