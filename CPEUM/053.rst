@@ -9,9 +9,20 @@ representación de una entidad federativa pueda ser menor de dos
 diputados o diputadas de mayoría.
 
 Para la elección de los 200 diputados y diputadas según el principio de
-representación proporcional y el Sistema de Listas Regionales, se
-constituirán cinco circunscripciones electorales plurinominales en el
-país conformadas de acuerdo con el principio de paridad, y encabezadas
-alternadamente entre mujeres y hombres cada periodo electivo. La Ley
-determinará la forma de establecer la demarcación territorial de estas
-circunscripciones.
+representación proporcional, se constituirán cinco circunscripciones
+electorales plurinominales en el país conformadas de acuerdo con el
+principio de paridad, y encabezadas alternadamente entre mujeres y
+hombres cada periodo electivo. La Ley determinará la forma de establecer
+la demarcación territorial de estas circunscripciones.
+
+La elección de las 200 diputaciones según el principio de representación
+proporcional se ajustará a lo siguiente:
+
+a. 100 que no obtuvieron el triunfo en el distrito en el que
+   participaron, ordenados porcentualmente de manera decreciente
+   conforme a la votación distrital válida emitida de su propio partido
+   en esta misma elección, y
+
+b. 100 por votación directa en cinco circunscripciones regionales, en
+   donde se integrarán las diputaciones electas por las ciudadanas y
+   ciudadanos mexicanos residentes en el extranjero.

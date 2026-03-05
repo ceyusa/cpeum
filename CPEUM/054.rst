@@ -18,10 +18,24 @@ III. Al partido político que cumpla con las dos bases anteriores,
      independiente y adicionalmente a las constancias de mayoría
      relativa que hubiesen obtenido sus candidatos, le serán asignados
      por el principio de representación proporcional, de acuerdo con su
-     votación nacional emitida, el número de diputados de su lista
-     regional que le corresponda en cada circunscripción
-     plurinominal. En la asignación se seguirá el orden que tuviesen los
-     candidatos en las listas correspondientes.
+     votación nacional emitida, el número de diputados de sus listas que
+     le corresponda.
+
+     La asignación de las 200 diputaciones será alternada de acuerdo al
+     inciso a) y b) anteriores.
+
+     Iniciará con la relación del sistema de personas que no habiendo
+     obtenido el triunfo, obtuvieron los mejores porcentajes de votación
+     distrital emitida de su partido político, por circunscripción,
+     alternada con el sistema de mayor porcentaje de votación individual
+     correspondiente. Las diputaciones elegidas por las ciudadanas y los
+     ciudadanos que residen fuera del territorio nacional se asignará al
+     partido político que corresponda, en cada circunscripción,
+     iniciando por aquella en la que el partido haya obtenido un mayor
+     porcentaje de votación.
+
+     La ley establecerá las reglas a observar para realizar los ajustes
+     necesario en la asignación que corresponda a los partidos.
 
 IV. Ningún partido político podrá contar con más de 300 diputados por
     ambos principios.

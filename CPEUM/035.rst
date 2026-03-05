@@ -86,15 +86,10 @@ VIII. Votar en las consultas populares sobre temas de trascendencia
          resultados.
 
          El Instituto promoverá la participación de los ciudadanos en
-         las consultas populares y será la única instancia a cargo de la
-         difusión de las mismas. La promoción deberá ser imparcial y de
-         ninguna manera podrá estar dirigida a influir en las
-         preferencias de la ciudadanía, sino que deberá enfocarse en
-         promover la discusión informada y la reflexión de los
-         ciudadanos. Ninguna otra persona física o moral, sea a título
-         propio o por cuenta de terceros, podrá contratar propaganda en
-         radio y televisión dirigida a influir en la opinión de los
-         ciudadanos sobre las consultas populares.
+         las consultas populares a través de medios físicos y
+         electrónicos, así como la discusión pública informada. No se
+         podrá contratar propaganda en radio, televisión y otros medios
+         o plataformas de difusión masiva sobre las consultas populares.
 
          Durante el tiempo que comprende el proceso de consulta popular,
          desde la convocatoria y hasta la conclusión de la jornada,
@@ -111,9 +106,12 @@ VIII. Votar en las consultas populares sobre temas de trascendencia
       6. Las resoluciones del Instituto Nacional Electoral podrán ser
          impugnadas en los términos de lo dispuesto en la fracción VI
          del artículo 41, así como de la fracción III del artículo 99 de
-         esta Constitución; y
+         esta Constitución;
 
-      7. Las leyes establecerán lo conducente para hacer efectivo lo
+      7. Se podrá incluir el uso de tecnologías de la información y
+         comunicación en la emisión del voto en consultas populares, y
+
+      8. Las leyes establecerán lo conducente para hacer efectivo lo
          dispuesto en la presente fracción.
 
 IX. Participar en los procesos de revocación de mandato.
