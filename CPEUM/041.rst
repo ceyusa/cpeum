@@ -73,13 +73,13 @@ II. La ley garantizará que los partidos políticos nacionales cuenten de
     a. El financiamiento público para el sostenimiento de sus
        actividades ordinarias permanentes se fijará anualmente,
        multiplicando el número total de ciudadanos inscritos en el
-       padrón electoral por el sesenta y cinco por ciento del valor
-       diario de la Unidad de Medida y Actualización. El treinta por
-       ciento de la cantidad que resulte de acuerdo a lo señalado
-       anteriormente, se distribuirá entre los partidos políticos en
-       forma igualitaria y el setenta por ciento restante de acuerdo con
-       el porcentaje de votos que hubieren obtenido en la elección de
-       diputados inmediata anterior.
+       padrón electoral por el cuarenta y ocho punto setenta y cinco por
+       ciento del valor diario de la Unidad de Medida y Actualización.
+       El treinta por ciento de la cantidad que resulte de acuerdo a lo
+       señalado anteriormente, se distribuirá entre los partidos
+       políticos en forma igualitaria y el setenta por ciento restante
+       de acuerdo con el porcentaje de votos que hubieren obtenido en la
+       elección de diputados inmediata anterior.
 
     b. El financiamiento público para las actividades tendientes a la
        obtención del voto durante el año en que se elijan Presidente de
@@ -110,6 +110,13 @@ II. La ley garantizará que los partidos políticos nacionales cuenten de
     dispondrá las sanciones que deban imponerse por el incumplimiento de
     estas disposiciones.
 
+    Los partidos políticos y las personas precandidatas o candidatas
+    tienen prohibido recibir o ejercer para sus actividades o campañas
+    electorales, gastos, aportaciones, donaciones o cualquier otro
+    recurso en dinero o especie que provenga de algún gobierno, fondo de
+    inversión u organismo extranjero, persona física o moral extranjera,
+    o de personas que residan fuera del territorio nacional.
+
     De igual manera, la ley establecerá el procedimiento para la
     liquidación de las obligaciones de los partidos que pierdan su
     registro y los supuestos en los que sus bienes y remanentes serán
@@ -128,12 +135,12 @@ III. Los partidos políticos nacionales tendrán derecho al uso de manera
 
         a. A partir del inicio de las precampañas y hasta el día de la
            jornada electoral quedarán a disposición del Instituto
-           Nacional Electoral cuarenta y ocho minutos diarios, que serán
+           Nacional Electoral treinta y cinco minutos diarios, que serán
            distribuidos en dos y hasta tres minutos por cada hora de
            transmisión en cada estación de radio y canal de televisión,
            en el horario referido en el inciso d) de este apartado. En
-           el período comprendido entre el fin de las precampañas y el
-           inicio de las campañas, el cincuenta por ciento de los
+           el periodo comprendido entre el fin de las precampañas y el
+           inicio de las campañas, el cincuenta por cierto de los
            tiempos en radio y televisión se destinará a los fines
            propios de las autoridades electorales, y el resto a la
            difusión de mensajes genéricos de los partidos políticos,
@@ -237,6 +244,16 @@ III. Los partidos políticos nacionales tendrán derecho al uso de manera
         y candidatos deberán abstenerse de expresiones que calumnien a
         las personas.
 
+        Todo contenido relacionado a los procesos electorales que sea
+        modificado o alterado mediante el uso de inteligencia artificial
+        o cualquier otra tecnología, deberá ser etiquetado por su emisor
+        para su identificación en los términos que establezca la ley.
+        Las personas concesionarias de radio o televisión, así como las
+        plataformas de servicios digitales, serán responsables de
+        identificar, evitar la difusión y advertir sobre contenido no
+        etiquetado. La ley establecerá las responsabilidades, medidas y
+        sanciones aplicables.
+
         Durante el tiempo que comprendan las campañas electorales
         federales y locales y hasta la conclusión de la respectiva
         jornada comicial, deberá suspenderse la difusión en los medios
@@ -264,6 +281,12 @@ IV. La ley establecerá los requisitos y las formas de realización de los
     elección popular, así como las reglas para las precampañas y las
     campañas electorales.
 
+    En la selección y postulación de candidaturas a cargos de elección
+    popular, los partidos políticos y autoridades electorales
+    garantizarán acciones afirmativas a favor de las personas, pueblos y
+    comunidades indígenas y afromexicanos así como grupos históricamente
+    subrepresentados.
+
     La duración de las campañas en el año de elecciones para Presidente
     de la República, senadores y diputados federales será de noventa
     días; en el año en que sólo se elijan diputados federales, las
@@ -273,6 +296,13 @@ IV. La ley establecerá los requisitos y las formas de realización de los
 
     La violación a estas disposiciones por los partidos o cualquier otra
     persona física o moral será sancionada conforme a la ley.
+
+    Las autoridades competentes en materia de seguridad, procuración de
+    justicia y de inteligencia financiera establecerán mecanismos de
+    coordinación institucional con las autoridades electoral nacional
+    para proporcionar información relacionada con el registro de las
+    candidaturas, que resulte relevante para salvaguardar la integridad
+    del proceso electoral.
 
 V. La organización de las elecciones es una función estatal que se
    realiza a través del Instituto Nacional Electoral y de los organismos
@@ -441,7 +471,9 @@ V. La organización de las elecciones es una función estatal que se
             electorales;
 
          4. Los escrutinios y cómputos en los términos que señale la
-            ley;
+            ley. Los cómputos de las elecciones federales iniciarán a
+            partir de la recepción del primer paquete electoral en cada
+            uno de los Consejos Distritales;
 
          5. La declaración de validez y el otorgamiento de constancias
             en las elecciones de diputados y senadores;
@@ -478,6 +510,46 @@ V. La organización de las elecciones es una función estatal que se
       fiduciario y fiscal, y contará con el apoyo de las autoridades
       federales y locales.
 
+      Los ingresos, egresos y demás operaciones financieras, incluyendo
+      valores, divisas y activos virtuales, así como de crédito, seguros
+      y fianzas, la compra o venta de bienes y demás activos de los
+      partidos políticos nacionales y locales, de las personas
+      precandidatas o candidatas, incluyendo a las independientes
+      deberán ser reportados o avisados cotidianamente, en exclusivo
+      para fines de fiscalización, por las instituciones, organismos y
+      organizaciones del sistema financiero o por las personas que
+      realizan actividades vulnerables, según corresponda, al Instituto
+      Nacional Electoral, a través de los respectivos órganos
+      supervisores, en los términos que establecen las leyes. Los
+      reportes y avisos de las operaciones de las personas precandidatas
+      y candidatas solo comprenderán los periodos de precampaña y
+      campaña.
+
+      La información recabada por el Instituto, en términos de los
+      párrafos anteriores, tendrá carácter confidencial y será reservada
+      sólo para su uso en los procedimientos legales de fiscalización y
+      sin que su alcance abarque los registros de candidaturas.
+
+      Queda prohibido a los partidos políticos, precandidaturas,
+      candidaturas y candidaturas independientes financiarse u operar
+      con recursos, bienes o servicios provenientes de actividades
+      ilícitas.
+
+      Toda aportación privada deberá realizarse por personas físicas
+      mexicanas y, atendiendo a las normas de debida diligencia e
+      identificación, no podrán hacerse aportaciones en efectivo. Las
+      aportaciones de recursos monetarios deberán realizarse a través
+      del sistema financiero nacional, mediante transferencia
+      electrónica, el Sistema de Pagos Electrónicos Interbancarios o
+      instrumentos financieros nominativo; estas aportaciones no son
+      deducibles para efectos fiscales. Las instituciones, organismos y
+      organizaciones del sistema financiero nacional deberán reportar
+      para fines de fiscalización estas transacciones al Instituto
+      Nacional Electoral a través de los órganos reguladores en los
+      términos que fije la ley. Las aportaciones en especie serán
+      siempre cuantificadas en moneda nacional y atenderán a lo que
+      disponga la ley.
+
       En caso de que el Instituto Nacional Electoral delegue la función
       de fiscalización, su órgano técnico será el conducto para superar
       la limitación a que se refiere el párrafo anterior.
@@ -491,14 +563,17 @@ V. La organización de las elecciones es una función estatal que se
       1. Derechos y el acceso a las prerrogativas de los candidatos y
          partidos políticos;
 
-      2. Educación cívica;
+      2. Derogado.
 
       3. Preparación de la jornada electoral;
 
       4. Impresión de documentos y la producción de materiales
          electorales;
 
-      5. Escrutinios y cómputos en los términos que señale la ley;
+      5. Escrutinios y cómputos en los términos que señale la ley. Los
+         cómputos de las elecciones iniciarán a partir de la recepción
+         del primer paquete electoral en cada uno de los Consejos
+         Distritales;
 
       6. Declaración de validez y el otorgamiento de constancias en las
          elecciones locales;
