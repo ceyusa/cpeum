@@ -9,37 +9,36 @@
 #
 # .. _2-Clause BSD license: https://opensource.org/licenses/BSD-2-Clause
 
-"""
-A minimal front end to the Docutils Publisher, producing HTML 5
-documents.
-"""
+"""A minimal front end to the Docutils Publisher, producing HTML5 documents."""
 
-import os
+import logging
 import re
-import sys
 import subprocess
+from pathlib import Path
 
-from docutils.core import publish_cmdline, default_description
-from docutils.writers.html5_polyglot import HTMLTranslator, Writer
-from docutils.parsers.rst import directives, Parser
-from docutils.parsers.rst.directives import misc
 from docutils import nodes
+from docutils.core import default_description, publish_cmdline
+from docutils.parsers.rst import Parser, directives
+from docutils.parsers.rst.directives import misc
+from docutils.writers.html5_polyglot import HTMLTranslator, Writer
 
-GITHUB_URL = "https://github.com/ceyusa/constitucion-mexicana"
+GITHUB_URL = "https://github.com/ceyusa/cpeum"
+DESCRIPTION = "Generador HTML5 de la CPEUM" + default_description
+
+logger = logging.getLogger(__name__)
 
 
 class IncludeWithSection(misc.Include):
-    """Custom include directive handler"""
-    def run(self):
-        """Function called by the parser"""
-        # Get the source directory to resolve relative paths
-        source_dir = os.path.dirname(self.state.document.current_source)
+    """Custom include directive handler."""
+
+    def run(self) -> list[nodes.Node]:
+        """Process the include directive with section wrapping."""
+        source_dir = Path(self.state.document.current_source).parent
         filename = self.arguments[0]
-        base_name = os.path.splitext(os.path.basename(filename))[0]
+        base_name = Path(filename).stem
 
         # if Transitorio go as normal include
-        if base_name.startswith('T'):
-            # Update the argument to use the resolved path
+        if base_name.startswith("T"):
             self.arguments[0] = filename
             return super().run()
 
@@ -47,22 +46,22 @@ class IncludeWithSection(misc.Include):
         self.arguments[0] = filename
 
         # custom parser
-        self.options['parser'] = Parser
+        self.options["parser"] = Parser
         # Get the result from the parent class
         result = super().run()
         # delete custom parser
-        del self.options['parser']
+        del self.options["parser"]
         # Create a section node to wrap the included content
-        section = nodes.section(classes=['articulo'])
-        section['ids'].append(base_name)
+        section = nodes.section(classes=["articulo"])
+        section["ids"].append(base_name)
 
         aside = None
         # Get git commit history for the included file
-        git_fn = os.path.join(source_dir, self.arguments[0])
-        git_history = self._parse_git_history(git_fn)
+        git_fn = source_dir / self.arguments[0]
+        git_history = self._parse_git_history(str(git_fn))
         if git_history:
-            aside = nodes.container(classes=['git-history'])
-            aside['git-history'] = git_history
+            aside = nodes.container(classes=["git-history"])
+            aside["git-history"] = git_history
 
         # Move all the result nodes into the section
         for index, node in enumerate(result):
@@ -73,180 +72,175 @@ class IncludeWithSection(misc.Include):
 
         return [section]
 
-    def _get_git_root(self, filename):
-        """Make sure we're always in the git repository root to find files"""
-        # Get the absolute path of the file
-        file_dir = os.path.dirname(filename)
-        # Get the git root directory
+    def _get_git_root(self, filename: str) -> str:
+        """Ensure we operate from the git repository root."""
+        file_dir = Path(filename).parent
         try:
             git_root = subprocess.check_output(
-                ['git', 'rev-parse', '--show-toplevel'],
+                ["git", "rev-parse", "--show-toplevel"],
                 stderr=subprocess.STDOUT,
                 text=True,
-                cwd=file_dir
+                cwd=str(file_dir),
             ).strip()
         except (subprocess.CalledProcessError, FileNotFoundError):
-            git_root = file_dir
+            git_root = str(file_dir)
         return git_root
 
-    def _get_commit_blocks(self, filename):
-        """Extract a list of commits logs"""
-        # Make sure we're always in the git repository root to find files
-        # Get the absolute path of the file
-        abs_filename = os.path.abspath(filename)
+    def _get_commit_blocks(self, filename: str) -> list[str]:
+        """Extract commit log blocks from git history."""
+        abs_filename = str(Path(filename).resolve())
         git_root = self._get_git_root(abs_filename)
-        rel_filename = os.path.relpath(abs_filename, git_root)
+        rel_filename = str(Path(abs_filename).relative_to(git_root))
 
         try:
             git_log = subprocess.check_output(
-                ['git', 'log', '--grep', 'Artículo',
-                 '--format=%H%n%n%b%n---END-COMMIT---', '--', rel_filename],
+                [
+                    "git",
+                    "log",
+                    "--grep",
+                    "Artículo",
+                    "--format=%H%n%n%b%n---END-COMMIT---",
+                    "--",
+                    rel_filename,
+                ],
                 stderr=subprocess.STDOUT,
                 text=True,
                 timeout=30,
-                cwd=git_root  # Run git commands from the repository root
+                cwd=git_root,
             )
-        except (subprocess.CalledProcessError,
-                FileNotFoundError,
-                subprocess.TimeoutExpired) as e:
-            # Log the error but don't break the build
-            print(f"Warning: Could not get git history for {filename}: {e}",
-                  file=sys.stderr)
+        except (
+            subprocess.CalledProcessError,
+            FileNotFoundError,
+            subprocess.TimeoutExpired,
+        ) as e:
+            logger.warning("Could not get git history for %s: %s", filename, e)
             return []
 
-        # Split by our custom delimiter
-        return git_log.split('---END-COMMIT---')
+        return git_log.split("---END-COMMIT---")
 
-    def _parse_git_history(self, filename):
+    def _parse_git_history(self, filename: str) -> list[dict[str, str]]:
         """Parse git log to extract relevant commit information."""
         commits = []
 
         for block in self._get_commit_blocks(filename):
-            lines = [i.replace('\n', ' ') for i in block.strip().split('\n\n')]
+            lines = [i.replace("\n", " ") for i in block.strip().split("\n\n")]
             if not lines:
                 continue
 
-            # Parse commit information
             try:
                 commit_hash = lines[0].strip()
 
                 # Validate commit hash
-                if not re.match(r'^[a-f0-9]{40}$', commit_hash):
-                    # Skip if the first line doesn't look like a commit hash
-                    # This might be due to parsing issues
+                if not re.match(r"^[a-f0-9]{40}$", commit_hash):
                     continue
 
-                body = '\n'.join(lines[1:]).strip()
+                body = "\n".join(lines[1:]).strip()
 
                 # Match "Publicado en el Diario Oficial de la Federación el [date]"
-                pub_pattern = r'Publicado\s+en\s+el\s+Diario\s+Oficial\s+de\s+la\s+Federación\s+el\s+([^\.\n\r\t]+?)\s*(?:\.|$|\n|http)'
+                pub_pattern = (
+                    r"Publicado\s+en\s+el\s+Diario\s+Oficial\s+de\s+la\s+"
+                    r"Federación\s+el\s+([^\.\n\r\t]+?)\s*(?:\.|$|\n|http)"
+                )
 
                 pub_date = None
                 match = re.search(pub_pattern, body, re.IGNORECASE)
                 if match:
                     pub_date = match.group(1).strip()
-                    # Clean up the date - remove any trailing
-                    # punctuation or URLs
-                    pub_date = re.sub(r'[,\s\.]*$', '', pub_date)
-                    # Remove any http links that might have been captured
-                    pub_date = re.sub(r'\s*https?://\S*$', '', pub_date)
+                    pub_date = re.sub(r"[,\s\.]*$", "", pub_date)
+                    pub_date = re.sub(r"\s*https?://\S*$", "", pub_date)
 
                 # If no specific publication date found in patterns, try
                 # to find any date in the body
                 if not pub_date:
-                    # Look for common date patterns in the body
-                    date_pattern = r'(\d{1,2}\s+de\s+[A-Za-z]+\s+de\s+\d{4})'
+                    date_pattern = r"(\d{1,2}\s+de\s+[A-Za-z]+\s+de\s+\d{4})"
                     match = re.search(date_pattern, body)
                     if match:
                         pub_date = match.group(1)
 
                 # Fallback to commit date if no publication date found
                 if not pub_date:
-                    pub_date = 'Sin fecha'
+                    pub_date = "Sin fecha"
 
-                decreto_pattern = r'(DECRETO\s+.+)\n'
+                decreto_pattern = r"(DECRETO\s+.+)\n"
                 match = re.search(decreto_pattern, body, re.IGNORECASE)
-                if match:
-                    decreto = match.group(1).strip()
-                else:
-                    decreto = ""
+                decreto = match.group(1).strip() if match else ""
 
-                # Store commit information
                 commit_info = {
-                    'hash': commit_hash[:8],  # Use short hash
-                    'pub_date': pub_date,
-                    'decreto': decreto,
+                    "hash": commit_hash[:8],
+                    "pub_date": pub_date,
+                    "decreto": decreto,
                 }
                 commits.append(commit_info)
             except (IndexError, AttributeError) as e:
-                # Skip malformed commit blocks
-                print(f"Warning: Skipping malformed commit block: {e}",
-                      file=sys.stderr)
+                logger.warning("Skipping malformed commit block: %s", e)
                 continue
         return commits
 
 
 class CustomHTMLTranslator(HTMLTranslator):
-    """Custom HTML translator"""
-    def visit_section(self, node):
-        """Ensure sections use <section> tag in HTML5"""
+    """Custom HTML translator with git-history sidebar support."""
+
+    def visit_section(self, node: nodes.section) -> None:
+        """Render sections as HTML5 <section> tags."""
         self.section_level += 1
-        # Generate the opening tag
-        self.body.append(self.starttag(node, 'section'))
+        self.body.append(self.starttag(node, "section"))
 
-    def depart_section(self, _):
-        """Visitor out"""
+    def depart_section(self, _: nodes.section) -> None:
+        """Close the <section> tag."""
         self.section_level -= 1
-        self.body.append('</section>\n')
+        self.body.append("</section>\n")
 
-    def visit_container(self, node):
-        """Generate the commit history in HTML"""
-        # Check if this is a git-history container
-        if 'git-history' in node.attributes \
-           and 'classes' in node.attributes \
-           and 'git-history' in node['classes'] \
-           and node.get('git-history'):
-
-            # Start the aside tag
+    def visit_container(self, node: nodes.container) -> None:
+        """Render git-history containers as HTML aside with commit list."""
+        if (
+            "git-history" in node.attributes
+            and "classes" in node.attributes
+            and "git-history" in node["classes"]
+            and node.get("git-history")
+        ):
             self.body.append('<aside class="sidebar">\n')
 
-            commits = node['git-history']
+            commits = node["git-history"]
             if commits:
-                self.body.append('<ul>\n')
+                self.body.append("<ul>\n")
                 for commit in commits:
-                    url = f'{GITHUB_URL}/commit/{commit["hash"]}'
+                    url = f"{GITHUB_URL}/commit/{commit['hash']}"
                     self.body.append(
                         f'<li><a href="{url}" title="{commit["decreto"]}"'
                         f'rel="external noreferrer" target="_blank">'
-                        f'{commit["pub_date"]}</a></li>\n'
+                        f"{commit['pub_date']}</a></li>\n",
                     )
-                self.body.append('</ul>\n')
+                self.body.append("</ul>\n")
         else:
-            # Default container handling
             HTMLTranslator.visit_container(self, node)
 
-    def depart_container(self, node):
-        """Call the HTML generator"""
+    def depart_container(self, node: nodes.container) -> None:
+        """Close the git-history aside or delegate to parent."""
         if (
-                'git-history' in node.attributes
-                and 'classes' in node.attributes
-                and 'git-history' in node['classes']
-                and node.get('git-history')):
-            self.body.append('</aside>\n')
+            "git-history" in node.attributes
+            and "classes" in node.attributes
+            and "git-history" in node["classes"]
+            and node.get("git-history")
+        ):
+            self.body.append("</aside>\n")
         else:
             HTMLTranslator.depart_container(self, node)
 
+    def unimplemented_visit(self, node):
+        raise NotImplementedError(f"visiting unimplemented node type: "
+                                  f"{node.__class__.__name__}")
+
 
 class CustomHTML5Writer(Writer):
-    """Custom HTML5 Writer"""
-    def __init__(self):
+    """Custom HTML5 writer using our translator."""
+
+    def __init__(self) -> None:
+        """Initialize writer with custom translator class."""
         Writer.__init__(self)
         self.translator_class = CustomHTMLTranslator
 
 
-description = 'Generador HTML5 de la CPEUM' + default_description
-
 # Register our custom directive
-directives.register_directive('include', IncludeWithSection)
+directives.register_directive("include", IncludeWithSection)
 
-publish_cmdline(writer=CustomHTML5Writer(), description=description)
+publish_cmdline(writer=CustomHTML5Writer(), description=DESCRIPTION)
