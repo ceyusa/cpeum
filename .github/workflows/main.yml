@@ -30,44 +30,42 @@ jobs:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job
       # can access it
       - name: Checkout
-        uses: actions/checkout@v5
+        uses: actions/checkout@v6
         with:
-          fetch-depth: 0
+          fetch-depth: 1
 
       - name: Maximum line length
-        run: |
-          awk '{ if (length($0) > 72) { print FILENAME " " FNR; exit 255 } }' CPEUM/[T0-9]*.rst
+        run: awk '{ if (length($0) > 72) { print FILENAME " " FNR; exit 255 } }' CPEUM/[T0-9]*.rst
 
-      - name: Install python
-        uses: actions/setup-python@v6
+      - name: Install uv
+        uses: astral-sh/setup-uv@v7
         with:
-          python-version: '3.13'
+          version: "latest"
+          enable-cache: true
 
-      # Runs a single command using the runners shell
+      - name: Install Python
+        run: uv python install '3.12'
+
       - name: Install python dependencies
-        run: |
-          python -m pip install --upgrade pip setuptools
-          python -m pip install -r requirements.txt
+        run: uv sync --frozen
 
       - name: Check spelling
-        run: |
-          python -m pyspelling -n ortografia
+        run: uv run pyspelling -n ortografia
 
       - name: Check reStructuredText syntax
-        run: |
-          python -m rstcheck -r CPEUM/
+        run: uv run rstcheck -r CPEUM/
 
       # Runs a set of commands using the runners shell
       - name: Generate document
         run: |
           mkdir html
           cd CPEUM
-          python ../scripts/rst2html5.py toc.rst ../html/index.html
+          uv run ../scripts/rst2html5.py toc.rst ../html/index.html
 
       # Install generated document in Pages
       - name: Deploy to GitHub Pages
         if: success() && github.ref == 'refs/heads/main'
-        uses: crazy-max/ghaction-github-pages@v4
+        uses: crazy-max/ghaction-github-pages@v5
         with:
           target_branch: gh-pages
           build_dir: html
