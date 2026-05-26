@@ -227,8 +227,9 @@ class CustomHTMLTranslator(HTMLTranslator):
             HTMLTranslator.depart_container(self, node)
 
     def unimplemented_visit(self, node):
-        raise NotImplementedError(f"visiting unimplemented node type: "
-                                  f"{node.__class__.__name__}")
+        raise NotImplementedError(
+            f"visiting unimplemented node type: {node.__class__.__name__}"
+        )
 
 
 class CustomHTML5Writer(Writer):
