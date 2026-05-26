@@ -2507,3 +2507,12 @@ Artículo 123 de la Constitución Política de los Estados Unidos
 Mexicanos, en Materia de Reducción de la Jornada Laboral.
 
 .. include:: T279.rst
+
+Artículos Transitorios de Decretos de Reforma (280)
+---------------------------------------------------
+
+DECRETO por el que se Reforma y Adiciona el Artículo 127 de la
+Constitución Política de los Estados Unidos Mexicanos, en Materia de
+Límite A las Jubilaciones y Pensiones de las Entidades Públicas.
+
+.. include:: T280.rst
