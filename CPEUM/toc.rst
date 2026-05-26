@@ -2498,3 +2498,12 @@ Política de los Estados Unidos Mexicanos, en materia de ratificación de
 grados superiores de la Guardia Nacional.
 
 .. include:: T278.rst
+
+Artículos Transitorios de Decretos de Reforma (279)
+---------------------------------------------------
+
+DECRETO por el que se Reforman las Fracciones IV y XI del Apartado A del
+Artículo 123 de la Constitución Política de los Estados Unidos
+Mexicanos, en Materia de Reducción de la Jornada Laboral.
+
+.. include:: T279.rst
