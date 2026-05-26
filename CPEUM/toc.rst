@@ -2526,3 +2526,12 @@ Primero, y 116, Fracción II, Párrafo Segundo, y se Adiciona al Artículo
 la Constitución Política de los Estados Unidos Mexicanos.
 
 .. include:: T281.rst
+
+Artículos Transitorios de Decretos de Reforma (282)
+---------------------------------------------------
+
+DECRETO por el que se Reforma el Artículo 73, Fracción XXI,
+Inciso A) de la Constitución Política de los Estados Unidos Mexicanos,
+en Materia de Feminicidio.
+
+.. include:: T282.rst
