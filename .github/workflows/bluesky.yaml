@@ -35,16 +35,33 @@ jobs:
         if: steps.check.outputs.document_changes == 'true'
         id: desc
         run: |
-          git log -1 --format=%B HEAD | awk -v RS='' 'NR == 2' | sed ':a;N;$!ba;s/\n/ /g' | awk '{print "desc=" $0}' >> "$GITHUB_OUTPUT"
+          DESC=$(git log -1 --format=%B HEAD | awk -v RS='' 'NR == 2' | sed ':a;N;$!ba;s/\n/ /g')
+          echo "raw_desc=$DESC" >> "$GITHUB_OUTPUT"
+
+      - name: Build Bluesky post
+        if: steps.check.outputs.document_changes == 'true'
+        id: post
+        run: |
+          URL="${{ github.event.pull_request._links.html.href }}"
+          RAW_DESC='${{ steps.desc.outputs.raw_desc }}'
+          MAX=300
+          URL_LEN=$(printf '%s' "$URL" | wc -m)
+          GAP=2
+          DESC_BUDGET=$((MAX - URL_LEN - GAP))
+          if [ "$DESC_BUDGET" -lt 1 ]; then
+            DESC_BUDGET=0
+          fi
+          TRUNCATED_DESC=$(printf '%s' "$RAW_DESC" | head -c "$DESC_BUDGET")
+          printf -v POST '%s\n\n%s' "$TRUNCATED_DESC" "$URL"
+          echo "post<<EOF" >> "$GITHUB_OUTPUT"
+          echo "$POST" >> "$GITHUB_OUTPUT"
+          echo "EOF" >> "$GITHUB_OUTPUT"
 
       - name: Post in BlueSky
         if: steps.check.outputs.document_changes == 'true'
         uses: zentered/bluesky-post-action@v0.2.0
         with:
-          post: |
-            ${{ steps.desc.outputs.desc }}
-
-            ${{ github.event.pull_request._links.html.href }}
+          post: ${{ steps.post.outputs.post }}
         env:
           BSKY_IDENTIFIER: ${{ secrets.BSKY_IDENTIFIER }}
           BSKY_PASSWORD: ${{ secrets.BSKY_PASSWORD }}
