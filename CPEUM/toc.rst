@@ -2516,3 +2516,13 @@ Constitución Política de los Estados Unidos Mexicanos, en Materia de
 Límite A las Jubilaciones y Pensiones de las Entidades Públicas.
 
 .. include:: T280.rst
+
+Artículos Transitorios de Decretos de Reforma (281)
+---------------------------------------------------
+
+DECRETO por el que se Reforman los Artículos 115, Fracción I, Párrafo
+Primero, y 116, Fracción II, Párrafo Segundo, y se Adiciona al Artículo
+134, un Párrafo Cuarto, Recorriéndose los Subsecuentes en su Orden, de
+la Constitución Política de los Estados Unidos Mexicanos.
+
+.. include:: T281.rst
