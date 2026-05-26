@@ -20,8 +20,21 @@ repos:
     hooks:
       - id: pylint
         entry: .venv/bin/pylint
+  - repo: https://github.com/facelessuser/pyspelling
+    rev: '2.12'
+    hooks:
+      - id: pyspelling
+        verbose: true
+        args: ['-n', 'ortografia']
   - repo: https://github.com/rstcheck/rstcheck
     rev: 'v6.2.5'
     hooks:
       - id: rstcheck
         entry: .venv/bin/rstcheck
+  - repo: local
+    hooks:
+      - id: diccionario
+        name: diccionario
+        entry: scripts/corregir_diccionario.py
+        language: python
+        files: es-local.dic
