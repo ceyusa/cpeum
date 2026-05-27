@@ -32,7 +32,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v6
         with:
-          fetch-depth: 1
+          fetch-depth: 0 # fetch all to generate the page
 
       - name: Maximum line length
         run: awk '{ if (length($0) > 72) { print FILENAME " " FNR; exit 255 } }' CPEUM/[T0-9]*.rst
