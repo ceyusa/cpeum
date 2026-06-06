@@ -10,14 +10,13 @@ las elecciones federales ordinarias del año que corresponda conforme al
 siguiente procedimiento:
 
 I. El Senado de la República publicará la convocatoria para la
-   integración del listado de candidaturas dentro de los treinta días
-   naturales siguientes a la instalación del primer periodo ordinario de
-   sesiones del año anterior al de la elección que corresponda, que
-   contendrá las etapas completas del procedimiento, sus fechas y plazos
-   improrrogables y los cargos a elegir. El órgano de administración
-   judicial hará del conocimiento del Senado los cargos sujetos a
-   elección, la especialización por materia, el circuito judicial
-   respectivo y demás información que requiera;
+   integración del listado de candidaturas a más tardar el treinta de
+   abril del año anterior al de la elección judicial que corresponda,
+   que contendrá las etapas completas del procedimiento, sus fechas y
+   plazos improrrogables y los cargos a elegir. El órgano de
+   administración judicial hará del conocimiento del Senado los cargos
+   sujetos a elección, la especialización por materia, el circuito
+   judicial respectivo y demás información que requiera;
 
 II. Los Poderes de la Unión postularán el número de candidaturas que
     corresponda a cada cargo conforme a los párrafos segundo y tercero
@@ -34,33 +33,46 @@ II. Los Poderes de la Unión postularán el número de candidaturas que
        desempeñar el cargo;
 
     b. Cada Poder integrará un Comité de Evaluación conformado por cinco
-       personas reconocidas en la actividad jurídica, que recibirá los
-       expedientes de las personas aspirantes, evaluará el cumplimiento
-       de los requisitos constitucionales y legales e identificará a las
-       personas mejor evaluadas que cuenten con los conocimientos
-       técnicos necesarios para el desempeño del cargo y se hayan
-       distinguido por su honestidad, buena fama pública, competencia y
-       antecedentes académicos y profesionales en el ejercicio de la
-       actividad jurídica, y
+       personas reconocidas en la actividad jurídica, quienes elegirán
+       de entre sus integrantes a la persona que coordine sus trabajos.
 
-    c. Los Comités de Evaluación integrarán un listado de las diez
-       personas mejor evaluadas para cada cargo en los casos de
-       Ministras y Ministros de la Suprema Corte de Justicia de la
-       Nación, Magistradas y Magistrados de la Sala Superior y salas
-       regionales del Tribunal Electoral e integrantes del Tribunal de
-       Disciplina Judicial, y de las seis personas mejor evaluadas para
-       cada cargo en los casos de Magistradas y Magistrados de Circuito
-       y Juezas y Jueces de Distrito. Posteriormente, depurarán dicho
-       listado mediante insaculación pública para ajustarlo al número de
-       postulaciones para cada cargo, observando la paridad de género.
-       Ajustados los listados, los Comités los remitirán a la autoridad
-       que represente a cada Poder de la Unión para su aprobación y
-       envío al Senado.
+       Las personas coordinadoras de los tres Comités integrarán una
+       Comisión Coordinadora, responsable de verificar el cumplimiento
+       de los requisitos constitucionales y legales de las personas
+       participantes, establecer criterios y metodologías homologadas de
+       evaluación, selección y exámenes de conocimientos, y emitir
+       acuerdos que regulen los trabajos de los tres Comités.
+
+       Cada Comité seleccionará, conforme a los criterios definidos por
+       la Comisión Coordinadora, a las personas mejor evaluadas que
+       cuenten con los conocimientos técnicos necesarios para el
+       desempeño del cargo y se hayan distinguido por su honestidad,
+       buena fama pública, competencia y antecedentes académicos y
+       profesionales en el ejercicio de la actividad jurídica, y
+
+    c. Los Comités de Evaluación integrarán un listado de las cuatro
+       personas mejor evaluadas para cada cargo. Posteriormente,
+       depurarán dicho listado mediante insaculación pública para
+       ajustarlo a dos personas para cada cargo. Los Comités
+       garantizarán la paridad de género en el listado de personas a
+       insacular por especialidad y circuito judicial, de ser aplicable.
+       Asimismo, observarán la paridad de género en el listado de
+       propuestas posterior a la insaculación. Ajustados los listados,
+       los Comités los remitirán a la autoridad que represente a cada
+       Poder de la Unión para su aprobación y envío al Senado.
+
+       Para los efectos del párrafo anterior, cada uno de los Poderes de
+       la Unión postulará dos personas para cada cargo: el Poder
+       Ejecutivo lo hará por conducto de la persona titular de la
+       Presidencia de la República; el Poder Legislativo postulará una
+       persona por cada Cámara mediante votación calificada de dos
+       tercios de sus integrantes presentes; y el Poder Judicial de la
+       Federación, por conducto del Pleno de la Suprema Corte de
+       Justicia de la Nación, por mayoría de seis votos.
 
 III. El Senado de la República recibirá las postulaciones y remitirá los
-     listados al Instituto Nacional Electoral a más tardar el 12 de
-     febrero del año de la elección que corresponda, a efecto de que
-     organice el proceso electivo.
+     listados al Instituto Nacional Electoral en los plazos que refiera
+     la convocatoria, a efecto de que organice el proceso electivo.
 
      Las personas candidatas podrán ser postuladas simultáneamente por
      uno o varios Poderes de la Unión, siempre que aspiren al mismo
@@ -70,40 +82,57 @@ III. El Senado de la República recibirá las postulaciones y remitirá los
 
 IV. El Instituto Nacional Electoral efectuará los cómputos de la
     elección, publicará los resultados y entregará las constancias de
-    mayoría a las candidaturas que obtengan el mayor número de votos,
-    asignando los cargos alternadamente entre mujeres y hombres. También
-    declarará la validez de la elección y enviará sus resultados a la
-    Sala Superior del Tribunal Electoral del Poder Judicial de la
+    mayoría a las candidaturas que obtengan el mayor número de votos.
+    También declarará la validez de la elección y enviará sus resultados
+    a la Sala Superior del Tribunal Electoral del Poder Judicial de la
     Federación o al Pleno de la Suprema Corte de Justicia de la Nación
     para el caso de magistraturas electorales, quienes resolverán las
     impugnaciones antes de que el Senado de la República instale el
-    primer periodo ordinario de sesiones del año de la elección que
-    corresponda, fecha en que las personas aspirantes electas tomarán
-    protesta de su encargo ante dicho órgano legislativo.
+    primer periodo ordinario de sesiones, fecha en que las personas
+    aspirantes electas tomarán protesta de su encargo ante dicho órgano
+    legislativo. Las autoridades electorales no podrán modificar los
+    resultados de la elección ni la asignación de cargos después de esa
+    fecha.
 
 Para el caso de Ministras y Ministros de la Suprema Corte de Justicia de
 la Nación, Magistradas y Magistrados de la Sala Superior del Tribunal
 Electoral del Poder Judicial de la Federación e integrantes del Tribunal
 de Disciplina Judicial, la elección se realizará a nivel nacional
 conforme al procedimiento anterior y en los términos que dispongan las
-leyes. El Poder Ejecutivo postulará por conducto de la persona titular
-de la Presidencia de la República hasta tres personas aspirantes; el
-Poder Legislativo postulará hasta tres personas, una por la Cámara de
-Diputados y dos por el Senado, mediante votación calificada de dos
-tercios de sus integrantes presentes, y el Poder Judicial de la
-Federación, por conducto del Pleno de la Suprema Corte de Justicia de la
-Nación, postulará hasta tres personas por mayoría de seis votos.
+leyes. Cada Poder postulará dos candidaturas por cargo a renovar en la
+elección de que se trate. La asignación de los cargos electos se
+realizará entre las candidaturas que obtengan mayor número de votos,
+observando la integración paritaria del órgano correspondiente.
 
 Para el caso de Magistradas y Magistrados de Circuito, así como Juezas y
-Jueces de Distrito, la elección se realizará por circuito judicial
-conforme al procedimiento establecido en este artículo y en los términos
-que dispongan las leyes. Cada uno de los Poderes de la Unión postulará
-hasta dos personas para cada cargo: el Poder Ejecutivo lo hará por
-conducto de su titular; el Poder Legislativo postulará una persona por
-cada Cámara mediante votación de dos terceras partes de sus integrantes
-presentes, y el Poder Judicial de la Federación, por conducto del Pleno
-de la Suprema Corte de Justicia de la Nación, postulará hasta dos
-personas por mayoría de seis votos.
+Jueces de Distrito, la elección se realizará por circuito y distrito
+judicial conforme a las siguientes bases y a lo que disponga la ley:
+
+I. El Instituto Nacional Electoral dividirá cada circuito judicial en
+   los distritos judiciales necesarios para que, en ese ámbito
+   territorial, la ciudadanía pueda elegir una candidatura por cada
+   especialidad que corresponda a su circuito judicial de entre las
+   propuestas que formule cada Poder y, en su caso, de las personas
+   juzgadoras en funciones en el cargo a elegir;
+
+II. El Instituto Nacional Electoral generará una lista de candidaturas
+    por especialidad en cada circuito judicial donde distinguirá el
+    Poder postulante y el género. Posteriormente, en acto público,
+    asignará aleatoriamente las candidaturas que correspondan a cada
+    distrito judicial, garantizando que los Poderes postulen en cada
+    distrito a dos personas del mismo género por especialidad;
+
+III. Cuando el número de cargos por especialidad sea inferior al número
+     de distritos judiciales en los que se divida un circuito, el
+     Instituto Nacional Electoral asignará los cargos restantes con sus
+     respectivas candidaturas en dos o más distritos de manera
+     aleatoria, a efecto de garantizar que las personas electoras de
+     cada distrito voten por todas las especialidades de su circuito, y
+
+IV. El Instituto Nacional Electoral realizará en cada elección judicial
+    las modificaciones necesarias al marco geográfico electoral para
+    adecuar los distritos judiciales al número de cargos y
+    especialidades a elegir por circuito.
 
 El Senado incorporará a los listados que remita al Instituto Nacional
 Electoral a las personas que se encuentren en funciones en los cargos
@@ -140,3 +169,20 @@ precampaña. La ley establecerá la forma de las campañas, así como las
 restricciones y sanciones aplicables a las personas candidatas o
 servidoras públicas cuyas manifestaciones o propuestas excedan o
 contravengan los parámetros constitucionales y legales.
+
+Las boletas electorales de la elección judicial distinguirán al Poder
+postulante y, cuando corresponda, a las personas juzgadoras en funciones
+en los cargos a elegir. Asimismo, distinguirán las especialidades que
+correspondan a cada ámbito territorial y contendrán los nombres
+completos de las personas candidatas. Las candidaturas se ubicarán en
+recuadros para que la ciudadanía señale su preferencia, debiendo elegir
+una sola candidatura por especialidad.
+
+La jornada electoral judicial se celebrará en la misma ubicación donde
+se realicen las elecciones ordinarias federales o locales de ese año.
+Las autoridades electorales adoptarán las medidas necesarias para
+garantizar que la jornada electoral judicial se desarrolle sin la
+intervención de personas representantes de partidos políticos.
+
+El escrutinio y cómputo de los votos se realizará en la casilla donde
+fueron sufragados.
