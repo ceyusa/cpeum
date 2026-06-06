@@ -60,11 +60,13 @@ II. Los Poderes de la Unión postularán el número de candidaturas que
 III. El Senado de la República recibirá las postulaciones y remitirá los
      listados al Instituto Nacional Electoral a más tardar el 12 de
      febrero del año de la elección que corresponda, a efecto de que
-     organice el proceso electivo. Las personas candidatas podrán ser
-     postuladas simultáneamente por uno o varios Poderes de la Unión,
-     siempre que aspiren al mismo cargo. Los Poderes que no remitan sus
-     postulaciones al término del plazo previsto en la convocatoria no
-     podrán hacerlo posteriormente, y
+     organice el proceso electivo.
+
+     Las personas candidatas podrán ser postuladas simultáneamente por
+     uno o varios Poderes de la Unión, siempre que aspiren al mismo
+     cargo. Los Poderes que no remitan sus postulaciones al término del
+     plazo previsto en la convocatoria no podrán hacerlo posteriormente,
+     y
 
 IV. El Instituto Nacional Electoral efectuará los cómputos de la
     elección, publicará los resultados y entregará las constancias de
@@ -115,13 +117,14 @@ candidaturas que obtengan el mayor número de votos.
 La etapa de preparación de la elección federal correspondiente iniciará
 con la primera sesión que el Consejo General del Instituto Nacional
 Electoral celebre en los primeros siete días del mes de septiembre del
-año anterior a la elección. Las personas candidatas tendrán derecho de
-acceso a radio y televisión de manera igualitaria, conforme a la
-distribución del tiempo que señale la ley y determine el Instituto
-Nacional Electoral. Podrán, además, participar en foros de debate
-organizados por el propio Instituto o en aquellos brindados
-gratuitamente por el sector público, privado o social en condiciones de
-equidad.
+año anterior a la elección.
+
+Las personas candidatas tendrán derecho de acceso a radio y televisión
+de manera igualitaria, conforme a la distribución del tiempo que señale
+la ley y determine el Instituto Nacional Electoral. Podrán, además,
+participar en foros de debate organizados por el propio Instituto o en
+aquellos brindados gratuitamente por el sector público, privado o social
+en condiciones de equidad.
 
 Para todos los cargos de elección dentro del Poder Judicial de la
 Federación estará prohibido el financiamiento público o privado de sus
