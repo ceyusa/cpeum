@@ -2535,3 +2535,12 @@ Inciso A) de la Constitución Política de los Estados Unidos Mexicanos,
 en Materia de Feminicidio.
 
 .. include:: T282.rst
+
+Artículos Transitorios de Decretos de Reforma (283)
+---------------------------------------------------
+
+DECRETO por el que se reforman y adicionan diversas disposiciones de la
+Constitución Política de los Estados Unidos Mexicanos, en materia de
+reforma al Poder Judicial.
+
+.. include:: T283.rst

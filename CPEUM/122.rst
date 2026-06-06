@@ -121,27 +121,50 @@ A. El gobierno de la Ciudad de México está a cargo de sus poderes
        Superior de Justicia, el Tribunal de Disciplina Judicial local,
        el órgano de administración judicial y los juzgados y tribunales
        que establezca la Constitución Política de la Ciudad de México,
-       la que garantizará la independencia de los magistrados y jueces
-       en el ejercicio de sus funciones. Las leyes locales establecerán
-       las condiciones para su elección por voto libre, directo y
-       secreto de la ciudadanía conforme a las bases, procedimientos,
-       términos, modalidades y requisitos que señala esta Constitución
-       para el Poder Judicial de la Federación en lo que resulte
-       aplicable y los demás que establezca la Constitución Política de
-       la Ciudad de México y las leyes correspondientes, estableciendo
-       mediante mecanismos públicos, abiertos, transparentes,
-       inclusivos, accesibles y paritarios de evaluación y selección que
-       garanticen la participación de personas que cuenten con los
-       conocimientos técnicos necesarios para el desempeño del cargo y
-       se hayan distinguido por su honestidad, buena fama pública,
-       competencia y antecedentes profesionales y académicos en el
-       ejercicio de la actividad jurídica. Las leyes también
-       establecerán las condiciones para el funcionamiento de órganos de
-       administración y disciplina con independencia técnica, de gestión
-       y para emitir sus resoluciones, conforme a las bases establecidas
-       en esta Constitución para el Poder Judicial de la Federación; así
-       como del ingreso, formación, permanencia y especialización de
-       quienes integren el poder Judicial.
+       la que garantizará la independencia de los magistrados,
+       magistradas, juezas y jueces en el ejercicio de sus funciones.
+       Las leyes locales establecerán las condiciones para su elección
+       por voto libre, directo y secreto de la ciudadanía sujetándose
+       estrictamente a las bases, etapas, procedimientos, términos,
+       modalidades, requisitos, duración de los cargos y demás
+       disposiciones que señala esta Constitución para el Poder Judicial
+       de la Federación en todo lo que resulte aplicable, incluyendo de
+       manera enunciativa:
+
+       a. El establecimiento de mecanismos públicos, abiertos,
+          transparentes, inclusivos, accesibles y paritarios de
+          evaluación y selección que garanticen la participación de
+          todas las personas interesadas;
+
+       b. La integración por cada poder de la Ciudad de México de
+          Comités de Evaluación que, a través de criterios y
+          metodologías homologadas de evaluación y selección, verifiquen
+          el cumplimiento de los requisitos constitucionales y legales
+          de las personas participantes y seleccionen a las cuatro
+          personas mejor evaluadas para cada cargo que cuenten con los
+          conocimientos técnicos necesarios para el desempeño del cargo
+          y se hayan distinguido por su honestidad, buena fama pública,
+          competencia y antecedentes académicos y profesionales en el
+          ejercicio de la actividad jurídica;
+
+       c. La depuración por parte de cada Comité de Evaluación del
+          listado de las personas mejor evaluadas mediante insaculación
+          pública, así como la postulación por cada poder de la Ciudad
+          de México de dos candidaturas para cada especialidad sujeta a
+          elección, observando la paridad de género, y
+
+       d. La evaluación del desempeño de las personas juzgadoras que
+          resulten electas durante su primer año de ejercicio, así como
+          de su capacitación y actualización permanente por parte del
+          Tribunal de Disciplina Judicial de la Ciudad de México.
+
+	     Las leyes también establecerán las condiciones para el
+	     funcionamiento de órganos de administración y disciplina con
+	     independencia técnica, de gestión y para emitir sus resoluciones,
+	     conforme a las bases establecidas en esta Constitución para el
+	     Poder Judicial de la Federación, así como del ingreso, formación,
+	     permanencia y especialización de quienes integren el Poder
+	     Judicial.
 
        Los magistrados integrantes del Tribunal Superior de Justicia de
        la Ciudad de México deberán reunir como mínimo los requisitos
