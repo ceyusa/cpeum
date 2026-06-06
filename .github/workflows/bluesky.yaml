@@ -59,7 +59,7 @@ jobs:
 
       - name: Post in BlueSky
         if: steps.check.outputs.document_changes == 'true'
-        uses: zentered/bluesky-post-action@v0.2.0
+        uses: zentered/bluesky-post-action@v0.4.0
         with:
           post: ${{ steps.post.outputs.post }}
         env:
