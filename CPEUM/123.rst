@@ -51,7 +51,10 @@ A. Entre los obreros, jornaleros, empleados, domésticos, artesanos y de
        determinadas de la actividad económica o en profesiones, oficios
        o trabajos especiales. El salario mínimo no podrá ser utilizado
        como índice, unidad, base, medida o referencia para fines ajenos
-       a su naturaleza.
+       a su naturaleza. La fijación anual de los salarios mínimos
+       generales o profesionales, o la revisión de los mismos, nunca
+       estará por debajo de la inflación observada durante el periodo de
+       su vigencia.
 
        Los salarios mínimos generales deberán ser suficientes para
        satisfacer las necesidades normales de un jefe de familia, en el
@@ -532,6 +535,12 @@ B. Entre los Poderes de la Unión y sus trabajadores:
 
        En ningún caso los salarios podrán ser inferiores al mínimo para
        los trabajadores en general en las entidades federativas.
+
+       Las maestras y los maestros de nivel básico de tiempo completo,
+       policías, guardias nacionales, integrantes de la Fuerza Armada
+       permanente, así como médicos y enfermeros, percibirán un salario
+       mensual que no podrá ser inferior al salario promedio registrado
+       ante el Instituto Mexicano del Seguro Social.
 
    V. A trabajo igual corresponderá salario igual, sin tener en cuenta
       el sexo ni género. Las leyes establecerán los mecanismos
