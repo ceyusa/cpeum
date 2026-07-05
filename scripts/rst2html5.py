@@ -31,6 +31,8 @@ logger = logging.getLogger(__name__)
 class IncludeWithSection(misc.Include):
     """Custom include directive handler."""
 
+    _git_root_cache: str | None = None
+
     def run(self) -> list[nodes.Node]:
         """Process the include directive with section wrapping."""
         source_dir = Path(self.state.document.current_source).parent
@@ -73,7 +75,9 @@ class IncludeWithSection(misc.Include):
         return [section]
 
     def _get_git_root(self, filename: str) -> str:
-        """Ensure we operate from the git repository root."""
+        """Ensure we operate from the git repository root. Result is cached."""
+        if self._git_root_cache is not None:
+            return self._git_root_cache
         file_dir = Path(filename).parent
         try:
             result = subprocess.run(
@@ -83,10 +87,15 @@ class IncludeWithSection(misc.Include):
                 cwd=str(file_dir),
                 check=True,
             )
-            git_root = result.stdout.strip()
-        except (subprocess.CalledProcessError, FileNotFoundError):
-            git_root = str(file_dir)
-        return git_root
+            IncludeWithSection._git_root_cache = result.stdout.strip()
+        except (
+            subprocess.CalledProcessError,
+            FileNotFoundError,
+            subprocess.TimeoutExpired,
+        ) as e:
+            logger.warning("Could not determine git root from %s: %s", filename, e)
+            IncludeWithSection._git_root_cache = str(file_dir)
+        return self._git_root_cache
 
     def _get_commit_blocks(self, git_root: str, rel_filename: str) -> list[str]:
         """Run git log filtered by 'Artículo' and return raw commit blocks."""
