@@ -88,12 +88,8 @@ class IncludeWithSection(misc.Include):
             git_root = str(file_dir)
         return git_root
 
-    def _get_commit_blocks(self, filename: str) -> list[str]:
-        """Extract commit log blocks from git history."""
-        abs_filename = str(Path(filename).resolve())
-        git_root = self._get_git_root(abs_filename)
-        rel_filename = str(Path(abs_filename).relative_to(git_root))
-
+    def _get_commit_blocks(self, git_root: str, rel_filename: str) -> list[str]:
+        """Execute git log and return commit blocks for the given file."""
         try:
             result = subprocess.run(
                 [
@@ -116,68 +112,78 @@ class IncludeWithSection(misc.Include):
             FileNotFoundError,
             subprocess.TimeoutExpired,
         ) as e:
-            logger.warning("Could not get git history for %s: %s", filename, e)
+            logger.warning("Could not get git history for %s: %s", rel_filename, e)
             return []
 
         return result.stdout.split("---END-COMMIT---")
 
     def _parse_git_history(self, filename: str) -> list[dict[str, str]]:
         """Parse git log to extract relevant commit information."""
+        abs_filename = str(Path(filename).resolve())
+        git_root = self._get_git_root(abs_filename)
+        rel_filename = str(Path(abs_filename).relative_to(git_root))
+
         commits = []
 
-        for block in self._get_commit_blocks(filename):
-            lines = [i.replace("\n", " ") for i in block.strip().split("\n\n")]
-            if not lines:
-                continue
-
-            try:
-                commit_hash = lines[0].strip()
-
-                # Validate commit hash
-                if not re.match(r"^[a-f0-9]{40}$", commit_hash):
-                    continue
-
-                body = "\n".join(lines[1:]).strip()
-
-                # Match "Publicado en el Diario Oficial de la Federación el [date]"
-                pub_pattern = (
-                    r"Publicado\s+en\s+el\s+Diario\s+Oficial\s+de\s+la\s+"
-                    r"Federación\s+el\s+([^\.\n\r\t]+?)\s*(?:\.|$|\n|http)"
-                )
-
-                pub_date = None
-                match = re.search(pub_pattern, body, re.IGNORECASE)
-                if match:
-                    pub_date = match.group(1).strip()
-                    pub_date = re.sub(r"[,\s\.]*$", "", pub_date)
-                    pub_date = re.sub(r"\s*https?://\S*$", "", pub_date)
-
-                # If no specific publication date found in patterns, try
-                # to find any date in the body
-                if not pub_date:
-                    date_pattern = r"(\d{1,2}\s+de\s+[A-Za-z]+\s+de\s+\d{4})"
-                    match = re.search(date_pattern, body)
-                    if match:
-                        pub_date = match.group(1)
-
-                # Fallback to commit date if no publication date found
-                if not pub_date:
-                    pub_date = "Sin fecha"
-
-                decreto_pattern = r"(DECRETO\s+.+)\n"
-                match = re.search(decreto_pattern, body, re.IGNORECASE)
-                decreto = match.group(1).strip() if match else ""
-
-                commit_info = {
-                    "hash": commit_hash[:8],
-                    "pub_date": pub_date,
-                    "decreto": decreto,
-                }
+        for block in self._get_commit_blocks(git_root, rel_filename):
+            commit_info = self._parse_commit_block(block)
+            if commit_info:
                 commits.append(commit_info)
-            except (IndexError, AttributeError) as e:
-                logger.warning("Skipping malformed commit block: %s", e)
-                continue
         return commits
+
+    @staticmethod
+    def _parse_commit_block(block: str) -> dict[str, str] | None:
+        """Parse a single commit block into a structured dict."""
+        lines = [i.replace("\n", " ") for i in block.strip().split("\n\n")]
+        if not lines:
+            return None
+
+        try:
+            commit_hash = lines[0].strip()
+
+            # Validate commit hash
+            if not re.match(r"^[a-f0-9]{40}$", commit_hash):
+                return None
+
+            body = "\n".join(lines[1:]).strip()
+
+            # Match "Publicado en el Diario Oficial de la Federación el [date]"
+            pub_pattern = (
+                r"Publicado\s+en\s+el\s+Diario\s+Oficial\s+de\s+la\s+"
+                r"Federación\s+el\s+([^\.\n\r\t]+?)\s*(?:\.|$|\n|http)"
+            )
+
+            pub_date = None
+            match = re.search(pub_pattern, body, re.IGNORECASE)
+            if match:
+                pub_date = match.group(1).strip()
+                pub_date = re.sub(r"[,\s\.]*$", "", pub_date)
+                pub_date = re.sub(r"\s*https?://\S*$", "", pub_date)
+
+            # If no specific publication date found in patterns, try
+            # to find any date in the body
+            if not pub_date:
+                date_pattern = r"(\d{1,2}\s+de\s+[A-Za-z]+\s+de\s+\d{4})"
+                match = re.search(date_pattern, body)
+                if match:
+                    pub_date = match.group(1)
+
+            # Fallback to commit date if no publication date found
+            if not pub_date:
+                pub_date = "Sin fecha"
+
+            decreto_pattern = r"(DECRETO\s+.+)\n"
+            match = re.search(decreto_pattern, body, re.IGNORECASE)
+            decreto = match.group(1).strip() if match else ""
+
+            return {
+                "hash": commit_hash[:8],
+                "pub_date": pub_date,
+                "decreto": decreto,
+            }
+        except (IndexError, AttributeError) as e:
+            logger.warning("Skipping malformed commit block: %s", e)
+            return None
 
 
 class CustomHTMLTranslator(HTMLTranslator):
