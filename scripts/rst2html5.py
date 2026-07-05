@@ -251,4 +251,6 @@ class CustomHTML5Writer(Writer):
 # Register our custom directive
 directives.register_directive("include", IncludeWithSection)
 
+logging.basicConfig(level=logging.WARNING, format="%(levelname)s: %(message)s")
+
 publish_cmdline(writer=CustomHTML5Writer(), description=DESCRIPTION)
