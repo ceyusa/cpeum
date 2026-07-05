@@ -4,7 +4,8 @@ body {
 	padding: 0;
 	display: flex;
 	min-height: 100vh;
-	font-family: serif;
+	font-family: Georgia, "Noto Serif", "DejaVu Serif", serif;
+	line-height: 1.6;
 }
 
 /* Table of contents sidebar */
