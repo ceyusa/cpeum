@@ -141,8 +141,8 @@ class IncludeWithSection(misc.Include):
         try:
             commit_hash = lines[0].strip()
 
-            # Validate commit hash
-            if not re.match(r"^[a-f0-9]{40}$", commit_hash):
+            # Validate commit hash (supports SHA-1 and SHA-256)
+            if not re.match(r"^[a-f0-9]{40,}$", commit_hash):
                 return None
 
             body = "\n".join(lines[1:]).strip()
