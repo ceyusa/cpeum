@@ -89,7 +89,7 @@ class IncludeWithSection(misc.Include):
         return git_root
 
     def _get_commit_blocks(self, git_root: str, rel_filename: str) -> list[str]:
-        """Execute git log and return commit blocks for the given file."""
+        """Run git log filtered by 'Artículo' and return raw commit blocks."""
         try:
             result = subprocess.run(
                 [
