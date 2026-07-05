@@ -139,16 +139,15 @@ main > section:target ~ section:target {
 main:not(:has(section:is(.articulo, [id^="articulos-transitorios"]):target))
 section:is(.articulo, [id^="articulos-transitorios"]) {
 	display: block;
+	padding-bottom: 1em;
+	margin-bottom: 1em;
+	border-bottom: thin solid;
 }
 
-/* Fallback for browsers that don't support :has() */
 /* Show all articles when none are targeted */
 section.articulo,
 section[id^="articulos-transitorios"] {
 	display: none;
-	padding-bottom: 1em;
-	margin-bottom: 1em;
-	border-bottom: thin solid;
 }
 
 /* When an article is targeted, show it and hide others */
