@@ -29,6 +29,13 @@ main {
 	flex: 1;
 	min-width: 0;
 	box-sizing: border-box;
+	scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+	main {
+		scroll-behavior: auto;
+	}
 }
 
 /* Style for the aside sidebar */
