@@ -76,12 +76,14 @@ class IncludeWithSection(misc.Include):
         """Ensure we operate from the git repository root."""
         file_dir = Path(filename).parent
         try:
-            git_root = subprocess.check_output(
+            result = subprocess.run(
                 ["git", "rev-parse", "--show-toplevel"],
-                stderr=subprocess.STDOUT,
+                capture_output=True,
                 text=True,
                 cwd=str(file_dir),
-            ).strip()
+                check=True,
+            )
+            git_root = result.stdout.strip()
         except (subprocess.CalledProcessError, FileNotFoundError):
             git_root = str(file_dir)
         return git_root
@@ -93,7 +95,7 @@ class IncludeWithSection(misc.Include):
         rel_filename = str(Path(abs_filename).relative_to(git_root))
 
         try:
-            git_log = subprocess.check_output(
+            result = subprocess.run(
                 [
                     "git",
                     "log",
@@ -103,10 +105,11 @@ class IncludeWithSection(misc.Include):
                     "--",
                     rel_filename,
                 ],
-                stderr=subprocess.STDOUT,
+                capture_output=True,
                 text=True,
                 timeout=30,
                 cwd=git_root,
+                check=True,
             )
         except (
             subprocess.CalledProcessError,
@@ -116,7 +119,7 @@ class IncludeWithSection(misc.Include):
             logger.warning("Could not get git history for %s: %s", filename, e)
             return []
 
-        return git_log.split("---END-COMMIT---")
+        return result.stdout.split("---END-COMMIT---")
 
     def _parse_git_history(self, filename: str) -> list[dict[str, str]]:
         """Parse git log to extract relevant commit information."""
