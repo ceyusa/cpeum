@@ -236,7 +236,7 @@ class CustomHTMLTranslator(HTMLTranslator):
             HTMLTranslator.depart_container(self, node)
 
     def unimplemented_visit(self, node):
-        pass
+        logger.warning("Unimplemented visit for node type: %s", type(node).__name__)
 
 
 class CustomHTML5Writer(Writer):
