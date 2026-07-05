@@ -199,14 +199,19 @@ class CustomHTMLTranslator(HTMLTranslator):
         self.section_level -= 1
         self.body.append("</section>\n")
 
-    def visit_container(self, node: nodes.container) -> None:
-        """Render git-history containers as HTML aside with commit list."""
-        if (
+    @staticmethod
+    def _is_git_history(node: nodes.container) -> bool:
+        """Check if a container node holds git-history data."""
+        return (
             "git-history" in node.attributes
             and "classes" in node.attributes
             and "git-history" in node["classes"]
             and node.get("git-history")
-        ):
+        )
+
+    def visit_container(self, node: nodes.container) -> None:
+        """Render git-history containers as HTML aside with commit list."""
+        if self._is_git_history(node):
             self.body.append('<aside class="sidebar">\n')
 
             commits = node["git-history"]
@@ -225,12 +230,7 @@ class CustomHTMLTranslator(HTMLTranslator):
 
     def depart_container(self, node: nodes.container) -> None:
         """Close the git-history aside or delegate to parent."""
-        if (
-            "git-history" in node.attributes
-            and "classes" in node.attributes
-            and "git-history" in node["classes"]
-            and node.get("git-history")
-        ):
+        if self._is_git_history(node):
             self.body.append("</aside>\n")
         else:
             HTMLTranslator.depart_container(self, node)
