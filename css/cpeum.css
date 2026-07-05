@@ -7,10 +7,6 @@ body {
 	font-family: serif;
 }
 
-nav.contents li.has-children > a {
-	cursor: pointer;
-}
-
 /* Table of contents sidebar */
 nav.contents {
 	position: fixed;
