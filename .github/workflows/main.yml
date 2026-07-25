@@ -53,6 +53,9 @@ jobs:
       - name: Check reStructuredText syntax
         run: uv run rstcheck -r CPEUM/
 
+      - name: Check CSS syntax
+        run: npx --package @biomejs/biome@latest biome check css/
+
   build:
     needs: lint
     runs-on: ubuntu-latest
