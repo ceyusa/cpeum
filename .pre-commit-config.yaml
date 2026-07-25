@@ -31,6 +31,10 @@ repos:
     hooks:
       - id: rstcheck
         entry: .venv/bin/rstcheck
+  - repo: https://github.com/biomejs/pre-commit
+    rev: v2.5.5
+    hooks:
+      - id: biome-check
   - repo: local
     hooks:
       - id: diccionario
