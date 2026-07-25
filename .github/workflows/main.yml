@@ -102,8 +102,7 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     permissions:
-      pages: write
-      id-token: write
+      contents: write
     steps:
       - name: Download build artifact
         uses: actions/download-artifact@v4
