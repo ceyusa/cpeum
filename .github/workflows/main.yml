@@ -2,8 +2,22 @@ name: CI
 on:
   push:
     branches: [main]
+    paths:
+      - 'CPEUM/**'
+      - 'scripts/**'
+      - 'css/**'
+      - '.github/workflows/main.yml'
+      - 'pyproject.toml'
+      - 'uv.lock'
   pull_request:
     branches: [main]
+    paths:
+      - 'CPEUM/**'
+      - 'scripts/**'
+      - 'css/**'
+      - '.github/workflows/main.yml'
+      - 'pyproject.toml'
+      - 'uv.lock'
   workflow_dispatch:
 
 jobs:
