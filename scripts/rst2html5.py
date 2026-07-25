@@ -229,7 +229,7 @@ class CustomHTMLTranslator(HTMLTranslator):
                 for commit in commits:
                     url = f"{GITHUB_URL}/commit/{commit['hash']}"
                     self.body.append(
-                        f'<li><a href="{url}" title="{commit["decreto"]}"'
+                        f"<li><a href=\"{url}\" title='{commit['decreto']}' "
                         f'rel="external noreferrer" target="_blank">'
                         f"{commit['pub_date']}</a></li>\n",
                     )

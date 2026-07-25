@@ -68,6 +68,9 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: Install system dependencies
+        run: sudo apt-get update && sudo apt-get install tidy
+
       - name: Install uv
         uses: astral-sh/setup-uv@v7
         with:
@@ -85,6 +88,9 @@ jobs:
           mkdir html
           cd CPEUM
           uv run ../scripts/rst2html5.py toc.rst ../html/index.html
+
+      - name: Validate generated HTML
+        run: tidy -e -q html/index.html
 
       - name: Upload build artifact
         uses: actions/upload-pages-artifact@v5
