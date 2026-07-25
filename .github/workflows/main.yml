@@ -115,3 +115,33 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: html
+
+  deploy-rsync:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: despliegue
+    steps:
+      - name: Download build artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: github-pages
+          path: html
+
+      - name: Install SSH key
+        uses: shimataro/ssh-key-action@v2
+        with:
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          known_hosts: ${{ secrets.SSH_KNOWN_HOSTS }}
+
+      - name: Extract artifact
+        run: |
+          cd html
+          tar xf artifact.tar
+          rm -f artifact.tar
+
+      - name: Deploy via rsync over SSH
+        run: |
+          rsync -P -rvzc --delete -e 'ssh -p ${{ secrets.SSH_PORT }}' html/ \
+            ${{ secrets.SSH_USER }}@${{ secrets.SERVER_HOST }}:/public_html
