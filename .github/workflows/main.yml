@@ -56,6 +56,9 @@ jobs:
       - name: Check CSS syntax
         run: npx --package @biomejs/biome@latest biome check css/
 
+      - name: Lint Python scripts
+        run: uv run ruff check scripts/
+
   build:
     needs: lint
     runs-on: ubuntu-latest
