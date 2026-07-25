@@ -205,8 +205,7 @@ def main() -> None:
     nuevo_header = f"personal_ws-1.1 es {len(palabras_finales)} utf-8"
     with open(DICT_PATH, "w", encoding="utf-8") as fh:
         fh.write(nuevo_header + "\n")
-        for palabra in palabras_finales:
-            fh.write(palabra + "\n")
+        fh.writelines(palabra + "\n" for palabra in palabras_finales)
 
     print(f"Listo. Diccionario actualizado: {len(palabras_finales)} palabras.")
 
