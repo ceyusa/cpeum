@@ -1,38 +1,36 @@
-# This is a basic workflow to help you get started with Actions
-
 name: CI
 on:
-  # Triggers the workflow on push or pull request events but only for
-  # the master branch
   push:
     branches: [main]
+    paths:
+      - 'CPEUM/**'
+      - 'scripts/**'
+      - 'css/**'
+      - '.github/workflows/main.yml'
+      - 'pyproject.toml'
+      - 'uv.lock'
   pull_request:
     branches: [main]
-
-  # Allows you to run this workflow manually from the Actions tab
+    paths:
+      - 'CPEUM/**'
+      - 'scripts/**'
+      - 'css/**'
+      - '.github/workflows/main.yml'
+      - 'pyproject.toml'
+      - 'uv.lock'
   workflow_dispatch:
 
-# A workflow run is made up of one or more jobs that can run
-# sequentially or in parallel
 jobs:
-  build:
-    # The type of runner that the job will run on
+  lint:
     runs-on: ubuntu-latest
-
-    # Steps represent a sequence of tasks that will be executed as part
-    # of the job
     steps:
-      - name: Install dependencies
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Install system dependencies
         run: |
           sudo apt-get update
           sudo apt-get install aspell aspell-es
-
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job
-      # can access it
-      - name: Checkout
-        uses: actions/checkout@v6
-        with:
-          fetch-depth: 0 # fetch all to generate the page
 
       - name: Maximum line length
         run: awk '{ if (length($0) > 72) { print FILENAME " " FNR; exit 255 } }' CPEUM/[T0-9]*.rst
@@ -46,7 +44,7 @@ jobs:
       - name: Install Python
         run: uv python install '3.12'
 
-      - name: Install python dependencies
+      - name: Install Python dependencies
         run: uv sync --frozen
 
       - name: Check spelling
@@ -55,20 +53,95 @@ jobs:
       - name: Check reStructuredText syntax
         run: uv run rstcheck -r CPEUM/
 
-      # Runs a set of commands using the runners shell
+      - name: Check CSS syntax
+        run: npx --package @biomejs/biome@latest biome check css/
+
+      - name: Lint Python scripts
+        run: uv run ruff check scripts/
+
+  build:
+    needs: lint
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+
+      - name: Install system dependencies
+        run: sudo apt-get update && sudo apt-get install tidy
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v7
+        with:
+          version: "latest"
+          enable-cache: true
+
+      - name: Install Python
+        run: uv python install '3.12'
+
+      - name: Install Python dependencies
+        run: uv sync --frozen
+
       - name: Generate document
         run: |
           mkdir html
           cd CPEUM
           uv run ../scripts/rst2html5.py toc.rst ../html/index.html
 
-      # Install generated document in Pages
-      - name: Deploy to GitHub Pages
-        if: success() && github.ref == 'refs/heads/main'
-        uses: crazy-max/ghaction-github-pages@v5
+      - name: Validate generated HTML
+        run: tidy -e -q html/index.html
+
+      - name: Upload build artifact
+        uses: actions/upload-pages-artifact@v5
         with:
-          target_branch: gh-pages
-          build_dir: html
-          keep_history: true
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          path: html
+
+  deploy:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Download build artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: github-pages
+          path: html
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v4
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: html
+
+  deploy-rsync:
+    if: github.ref == 'refs/heads/main' && github.event_name != 'pull_request'
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: despliegue
+    steps:
+      - name: Download build artifact
+        uses: actions/download-artifact@v4
+        with:
+          name: github-pages
+          path: html
+
+      - name: Install SSH key
+        uses: shimataro/ssh-key-action@v2
+        with:
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          known_hosts: ${{ secrets.SSH_KNOWN_HOSTS }}
+
+      - name: Extract artifact
+        run: |
+          cd html
+          tar xf artifact.tar
+          rm -f artifact.tar
+
+      - name: Deploy via rsync over SSH
+        run: |
+          rsync -P -rvzc --delete -e 'ssh -p ${{ secrets.SSH_PORT }}' html/ \
+            ${{ secrets.SSH_USER }}@${{ secrets.SERVER_HOST }}:/public_html

@@ -9,4 +9,5 @@ dependencies = [
     "pylint",
     "pyspelling",
     "pre-commit",
+    "ruff",
 ]
