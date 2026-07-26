@@ -85,7 +85,7 @@ jobs:
 
       - name: Generate document
         run: |
-          mkdir html
+          mkdir -p html
           cd CPEUM
           uv run ../scripts/rst2html5.py toc.rst ../html/index.html
 
