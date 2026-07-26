@@ -192,3 +192,106 @@ section[id^="articulos-transitorios"] {
 section:is(.articulo, [id^="articulos-transitorios"]):target {
 	display: block;
 }
+
+/* Print styles — compactar para ahorrar hojas */
+@media print {
+	/* Ocultar sidebar */
+	nav.contents {
+		display: none;
+	}
+
+	/* Mostrar todos los artículos */
+	main > section {
+		display: block;
+	}
+
+	section.articulo,
+	section[id^="articulos-transitorios"] {
+		display: block;
+		padding-bottom: 0.25em;
+		margin-bottom: 0.25em;
+		border-bottom: none;
+	}
+
+	/* Compactar layout */
+	body {
+		font-size: 8pt;
+		line-height: 1.35;
+		color: #000;
+		background: #fff;
+		display: block;
+	}
+
+	main {
+		margin-left: 0;
+		padding: 0;
+		max-width: none;
+	}
+
+	footer {
+		margin-left: 0;
+		padding: 4pt 0;
+	}
+
+	/* Reducir espaciado vertical */
+	p {
+		margin: 0.15em 0;
+	}
+
+	h1,
+	h2,
+	h3,
+	h4 {
+		margin: 0.3em 0 0.1em;
+		page-break-after: avoid;
+	}
+
+	h1 {
+		font-size: 1.3em;
+	}
+	h2 {
+		font-size: 1.15em;
+	}
+	h3 {
+		font-size: 1.05em;
+	}
+	h4 {
+		font-size: 1em;
+	}
+
+	/* Evitar viudas y huérfanas */
+	p,
+	li,
+	blockquote,
+	pre {
+		orphans: 2;
+		widows: 2;
+	}
+
+	/* Evitar saltos de página dentro de artículos */
+	section.articulo,
+	section[id^="articulos-transitorios"] {
+		page-break-inside: avoid;
+	}
+
+	/* Mostrar URLs de enlaces */
+	a[href^="http"]:after {
+		content: " (" attr(href) ")";
+		font-size: 0.7em;
+		font-weight: normal;
+	}
+
+	/* Ocultar elementos decorativos */
+	header,
+	.backrefs,
+	.header,
+	aside.sidebar {
+		display: none;
+	}
+
+	/* Footer compacto */
+	footer p {
+		font-size: 0.8em;
+		text-align: center;
+	}
+}
