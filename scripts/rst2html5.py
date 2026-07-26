@@ -244,6 +244,15 @@ class CustomHTMLTranslator(HTMLTranslator):
         else:
             HTMLTranslator.depart_container(self, node)
 
+    def visit_document(self, node) -> None:
+        """Add a fixed top banner right after <body>."""
+        super().visit_document(node)
+        self.body_prefix.append(
+            '<div id="top-banner">\n'
+            '<a class="banner-link" href="index.html">CPEUM</a>\n'
+            "</div>\n"
+        )
+
     def depart_document(self, node) -> None:
         """Add favicon links and translate footer to Spanish."""
         super().depart_document(node)
