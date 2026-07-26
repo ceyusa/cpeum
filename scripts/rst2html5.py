@@ -245,8 +245,11 @@ class CustomHTMLTranslator(HTMLTranslator):
             HTMLTranslator.depart_container(self, node)
 
     def depart_document(self, node) -> None:
-        """Add favicon links to the document head."""
+        """Add favicon links and translate footer to Spanish."""
         super().depart_document(node)
+        self.body_suffix = [
+            line.replace("Generated on:", "Generado el") for line in self.body_suffix
+        ]
         self.head.extend(
             [
                 '<link rel="icon" href="img/cpeum.ico" sizes="48x48" />\n',
