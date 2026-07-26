@@ -382,6 +382,9 @@ header {
 footer {
 	border-top: 1px solid black;
 }
+footer p {
+	text-align: right;
+}
 
 /* Images are block-level by default in Docutils */
 /* New HTML5 block elements: set display for older browsers */
