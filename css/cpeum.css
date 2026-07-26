@@ -24,6 +24,10 @@ nav.contents {
 	z-index: 100;
 }
 
+nav.contents > .topic-title {
+	display: none;
+}
+
 /* Main content area */
 main {
 	margin-left: 300px;
