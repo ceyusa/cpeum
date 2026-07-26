@@ -244,6 +244,27 @@ class CustomHTMLTranslator(HTMLTranslator):
         else:
             HTMLTranslator.depart_container(self, node)
 
+    def depart_document(self, node) -> None:
+        """Add favicon links to the document head."""
+        super().depart_document(node)
+        self.head.extend(
+            [
+                '<link rel="icon" href="img/cpeum.ico" sizes="48x48" />\n',
+                (
+                    '<link rel="icon" href="img/cpeum-32x32.png" sizes="32x32"'
+                    ' type="image/png" />\n'
+                ),
+                (
+                    '<link rel="icon" href="img/cpeum-16x16.png" sizes="16x16"'
+                    ' type="image/png" />\n'
+                ),
+                (
+                    '<link rel="apple-touch-icon" href="img/apple-touch-icon.png"'
+                    ' type="image/png" />\n'
+                ),
+            ]
+        )
+
     def unimplemented_visit(self, node):
         logger.warning("Unimplemented visit for node type: %s", type(node).__name__)
 
