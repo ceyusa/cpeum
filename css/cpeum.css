@@ -3,6 +3,7 @@ body {
 	margin: 0;
 	padding: 0;
 	display: flex;
+	flex-direction: column;
 	min-height: 100vh;
 	font-family: Georgia, "Noto Serif", "DejaVu Serif", serif;
 	line-height: 1.6;
@@ -90,6 +91,13 @@ nav.contents a:hover {
 	background: #e0e0e0;
 }
 
+/* Footer */
+footer {
+	margin-left: 300px;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
 /* Mobile responsive styles */
 @media (max-width: 768px) {
 	body {
@@ -106,7 +114,8 @@ nav.contents a:hover {
 		border-bottom: 1px solid #ddd;
 	}
 
-	main {
+	main,
+	footer {
 		margin-left: 0;
 		padding: 20px;
 	}
