@@ -70,6 +70,11 @@ span.problematic {
 	white-space: pre-wrap;
 }
 
+/* Footer text is right-aligned */
+footer p {
+	text-align: right;
+}
+
 /* Lists */
 
 /* compact and simple lists: no margin between items */
@@ -381,9 +386,6 @@ header {
 }
 footer {
 	border-top: 1px solid black;
-}
-footer p {
-	text-align: right;
 }
 
 /* Images are block-level by default in Docutils */
