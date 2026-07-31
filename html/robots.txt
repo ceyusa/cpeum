@@ -1,0 +1,7 @@
+# robots.txt para cpeum.mx
+# Reconstrucción de la Constitución Política de los Estados Unidos Mexicanos
+
+User-agent: *
+Allow: /
+
+Sitemap: https://cpeum.mx/sitemap.xml
