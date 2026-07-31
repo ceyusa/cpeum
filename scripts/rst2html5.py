@@ -257,6 +257,13 @@ class CustomHTMLTranslator(HTMLTranslator):
         super().visit_document(node)
         self.body_prefix.append(
             '<div id="top-banner">\n'
+            '<button id="menu-toggle" class="menu-toggle" type="button" '
+            'aria-label="Abrir menú" aria-expanded="false" aria-controls="contenido">\n'
+            '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" '
+            'width="22" height="22" aria-hidden="true">\n'
+            '<path d="M3 6h18v2H3zM3 11h18v2H3zM3 16h18v2H3z"/>\n'
+            "</svg>\n"
+            "</button>\n"
             '<a class="banner-link" href="index.html">CPEUM</a>\n'
             '<div class="banner-links">\n'
             '<a class="banner-link" href="acercade.html" title="Acerca del sitio">&#x1F6C8;</a>\n'
@@ -279,6 +286,39 @@ class CustomHTMLTranslator(HTMLTranslator):
         self.body_suffix = [
             line.replace("Generated on:", "Generado el") for line in self.body_suffix
         ]
+        # Add responsive hamburger menu script
+        script = (
+            "<script>\n"
+            "(function () {\n"
+            "  var toggle = document.getElementById('menu-toggle');\n"
+            "  var contents = document.querySelector('nav.contents');\n"
+            "  if (!toggle || !contents) { return; }\n"
+            "  function setOpen(open) {\n"
+            "    document.body.classList.toggle('menu-open', open);\n"
+            "    toggle.setAttribute('aria-expanded', open);\n"
+            "    toggle.setAttribute('aria-label', open ? 'Cerrar menú' : 'Abrir menú');\n"
+            "  }\n"
+            "  toggle.addEventListener('click', function () {\n"
+            "    setOpen(!document.body.classList.contains('menu-open'));\n"
+            "  });\n"
+            "  contents.addEventListener('click', function (e) {\n"
+            "    if (e.target.closest('a')) { setOpen(false); }\n"
+            "  });\n"
+            "  document.addEventListener('keydown', function (e) {\n"
+            "    if (e.key === 'Escape') { setOpen(false); }\n"
+            "  });\n"
+            "  window.addEventListener('resize', function () {\n"
+            "    if (window.innerWidth > 768) { setOpen(false); }\n"
+            "  });\n"
+            "})();\n"
+            "</script>\n"
+        )
+        # Insert before the closing </body></html> tags so the script stays
+        # inside the document body.
+        for index, line in enumerate(self.body_suffix):
+            if "</body>" in line:
+                self.body_suffix.insert(index, script)
+                break
         # Add resource links and metadata to <head>
         self.head.extend(
             [
