@@ -69,7 +69,7 @@ jobs:
           fetch-depth: 0
 
       - name: Install system dependencies
-        run: sudo apt-get update && sudo apt-get install tidy
+        run: sudo apt-get update && sudo apt-get install tidy libxml2-utils
 
       - name: Install uv
         uses: astral-sh/setup-uv@v7
@@ -91,6 +91,12 @@ jobs:
 
       - name: Validate generated HTML
         run: tidy -e -q html/index.html
+
+      - name: Generate sitemap
+        run: uv run scripts/sitemap.py html
+
+      - name: Validate sitemap
+        run: xmllint --noout html/sitemap.xml
 
       - name: Upload build artifact
         uses: actions/upload-pages-artifact@v5
