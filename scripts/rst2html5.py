@@ -250,6 +250,7 @@ class CustomHTMLTranslator(HTMLTranslator):
         self.body_prefix.append(
             '<div id="top-banner">\n'
             '<a class="banner-link" href="index.html">CPEUM</a>\n'
+            '<a class="banner-link" href="acercade.html" title="Acerca del sitio">&#x1F6C8;</a>\n'
             "</div>\n"
         )
 

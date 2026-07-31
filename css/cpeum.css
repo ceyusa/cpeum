@@ -38,6 +38,10 @@ body {
 	letter-spacing: 0.05em;
 }
 
+#top-banner .banner-link ~ .banner-link {
+	margin-left: auto;
+}
+
 #top-banner .banner-link:hover {
 	text-decoration: underline;
 }
@@ -187,9 +191,14 @@ main > section:first-of-type {
 	display: block;
 }
 
-/* Hide all other sections by default */
+/* Hide all other sections by default (single-page article viewer) */
 main > section {
 	display: none;
+}
+
+/* Always show sections in the "Acerca de" page */
+main#acerca-de > section {
+	display: block;
 }
 
 /* Show the targeted section */

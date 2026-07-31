@@ -13,6 +13,7 @@ HTML_DIR="${SCRIPT_DIR}/html"
 echo "==> Compilando sitio..."
 cd "${SCRIPT_DIR}/CPEUM"
 uv run "${SCRIPTS_DIR}/rst2html5.py" toc.rst "${HTML_DIR}/index.html"
+uv run "${SCRIPTS_DIR}/rst2html5.py" acercade.rst "${HTML_DIR}/acercade.html"
 
 # Paso 2: Iniciar servidor HTTP en segundo plano
 echo "==> Iniciando servidor HTTP en puerto 8000..."
