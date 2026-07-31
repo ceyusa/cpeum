@@ -88,9 +88,12 @@ jobs:
           mkdir -p html
           cd CPEUM
           uv run ../scripts/rst2html5.py toc.rst ../html/index.html
+          uv run ../scripts/rst2html5.py acercade.rst ../html/acercade.html
 
       - name: Validate generated HTML
-        run: tidy -e -q html/index.html
+        run: |
+          tidy -e -q html/index.html
+          tidy -e -q html/acercade.html
 
       - name: Generate sitemap
         run: uv run scripts/sitemap.py html
