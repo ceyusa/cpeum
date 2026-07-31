@@ -113,7 +113,7 @@ aside.sidebar ul {
 	padding-left: 15px;
 }
 
-aside.sidebar li {
+aside.sidebar :where(li) {
 	margin-bottom: 5px;
 }
 
@@ -131,7 +131,7 @@ nav.contents ul {
 	padding-left: 20px;
 }
 
-nav.contents li {
+nav.contents :where(li) {
 	margin-bottom: 5px;
 }
 
@@ -182,13 +182,6 @@ footer {
 		margin-left: 0;
 		padding: 16px;
 	}
-}
-
-/* Show the main title and initial content */
-main > h1.title,
-main > p,
-main > section:first-of-type {
-	display: block;
 }
 
 /* Hide all other sections by default (single-page article viewer) */
@@ -333,4 +326,11 @@ section:is(.articulo, [id^="articulos-transitorios"]):target {
 		font-size: 0.8em;
 		text-align: center;
 	}
+}
+
+/* Show the main title and initial content */
+main > h1.title,
+main > p,
+main > section:first-of-type {
+	display: block;
 }
