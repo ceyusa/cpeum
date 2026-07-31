@@ -1,0 +1,27 @@
+/* TEAM */
+    Maintainer: Víctor M. Jáquez L. <admin@cpeum.mx>
+    Site: cpeum.mx
+    Bluesky: @cpeum.mx
+    GitHub: @ceyusa
+
+/* THANKS */
+    Cámara de Diputados — https://www.diputados.gob.mx/
+    Docutils project — https://docutils.sourceforge.io/
+
+/* SITE */
+    Language: Español (México)
+    Encoding: UTF-8
+    Standards: HTML5, CSS3, RFC 2119
+
+/* SITE DESCRIPTION */
+    Constitución Política de los Estados Unidos Mexicanos (CPEUM)
+    reconstruida a partir de decretos constitucionales desde 1917.
+
+    Cada cambio constitucional está representado como un commit en git,
+    permitiendo rastrear la evolución histórica de la Constitución
+    mexicana a lo largo del tiempo.
+
+/* SOFTWARE */
+    Generator: Docutils 0.22.4
+    Version control: git
+    CI/CD: pre-commit, shellcheck, ruff, pylint, rstcheck, pyspelling
