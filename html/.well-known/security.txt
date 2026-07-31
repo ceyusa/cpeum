@@ -1,0 +1,27 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+# security.txt para cpeum.mx
+# Reconstrucción de la Constitución Política de los Estados Unidos Mexicanos
+
+# Prefer to contact us via email:
+Contact: mailto:security@cpeum.mx
+
+# Our OpenPGP key:
+Encryption: https://cpeum.mx/.well-known/pgp-key.txt
+
+# The canonical URI for this file:
+Canonical: https://cpeum.mx/.well-known/security.txt
+
+# Project URL:
+Project: https://github.com/ceyusa/cpeum
+
+# Languages:
+Preferred-Languages: es, en
+-----BEGIN PGP SIGNATURE-----
+
+iIgEARYKADAWIQRgSUof6GjbS31k2kxYovl9RADbrwUCamx6pBIcc2VjdXJpdHlA
+Y3BldW0ubXgACgkQWKL5fUQA26/2aQEAgwqJ5/I93jrU508fVrb1exf7OHrNnZde
+sDDvCHCgXNEA/32PsRzkw52S3MClmurzvbS1cX4FYrHBoD+2D3hxvmUN
+=by1K
+-----END PGP SIGNATURE-----
