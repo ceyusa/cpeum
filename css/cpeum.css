@@ -38,12 +38,24 @@ body {
 	letter-spacing: 0.05em;
 }
 
-#top-banner .banner-link ~ .banner-link {
+#top-banner .banner-links {
 	margin-left: auto;
+	display: flex;
+	align-items: center;
+	gap: 0.9em;
+}
+
+#top-banner .banner-icon {
+	display: block;
+	fill: currentColor;
 }
 
 #top-banner .banner-link:hover {
 	text-decoration: underline;
+}
+
+#top-banner .banner-link:hover .banner-icon {
+	opacity: 0.8;
 }
 
 /* Table of contents sidebar */
