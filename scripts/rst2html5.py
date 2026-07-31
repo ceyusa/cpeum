@@ -255,13 +255,27 @@ class CustomHTMLTranslator(HTMLTranslator):
         )
 
     def depart_document(self, node) -> None:
-        """Add favicon links and translate footer to Spanish."""
+        """Inject site header, metadata, and translate footer to Spanish."""
         super().depart_document(node)
+        # Translate footer
         self.body_suffix = [
             line.replace("Generated on:", "Generado el") for line in self.body_suffix
         ]
+        # Add resource links and metadata to <head>
         self.head.extend(
             [
+                (
+                    '<meta name="description" content="Constitución Política '
+                    "de los Estados Unidos Mexicanos — texto reconstruido a "
+                    'partir de decretos constitucionales desde 1917" />\n'
+                ),
+                (
+                    '<meta name="keywords" content="constitución, méxico, cpeum, '
+                    'derechos humanos, legislación, historia constitucional" />\n'
+                ),
+                '<meta name="author" content="Víctor Jáquez" />\n',
+                '<link rel="canonical" href="https://cpeum.mx/" />\n',
+                '<link rel="author" href="humans.txt" />\n',
                 '<link rel="icon" href="img/cpeum.ico" sizes="48x48" />\n',
                 (
                     '<link rel="icon" href="img/cpeum-32x32.png" sizes="32x32"'
