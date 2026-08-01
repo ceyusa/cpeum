@@ -35,6 +35,9 @@ repos:
     rev: v2.5.5
     hooks:
       - id: biome-check
+      - id: biome-check
+        name: biome-check-javascript
+        files: '\.(js)$'
   - repo: local
     hooks:
       - id: diccionario
