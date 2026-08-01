@@ -425,7 +425,7 @@ class CustomHTMLTranslator(HTMLTranslator):
             "</button>\n"
             '<a class="banner-link" href="index.html">CPEUM</a>\n'
             '<div class="banner-links">\n'
-            '<a class="banner-link" href="reformas/index.html">Reformas</a>\n'
+            '<a class="banner-link" href="decretos/index.html">Reformas</a>\n'
             '<a class="banner-link" href="acercade.html" title="Acerca del sitio">&#x1F6C8;</a>\n'
             f'<a class="banner-link" href="{GITHUB_URL}" '
             'title="Código fuente en GitHub">\n'
