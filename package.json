@@ -1,0 +1,15 @@
+{
+	"name": "cpeum-diffs",
+	"version": "0.1.0",
+	"private": true,
+	"description": "Genera un diff HTML (estilo diff2html/github) por cada reforma constitucional",
+	"type": "commonjs",
+	"scripts": {
+		"reformas": "node scripts/generar_reformas.js"
+	},
+	"dependencies": {
+		"diff": "^7.0.0",
+		"diff2html": "^3.4.56"
+	},
+	"devDependencies": {}
+}
