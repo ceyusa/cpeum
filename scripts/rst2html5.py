@@ -208,12 +208,16 @@ class IncludeWithSection(misc.Include):
                     f"No se encontró fecha de publicación en el commit {commit_hash[:8]}: {body}"
                 )
 
-            match = re.search(r"(DECRETO\s+.+)\n", body, re.IGNORECASE)
+            summary_pattern = (
+                r"(?m)^(?:DECRETO|REFORMA|REFORMAS|DECLARATORIA|LEY)[ ]+.+"
+            )
+            match = re.search(summary_pattern, body, re.IGNORECASE)
             if not match:
                 raise ValueError(
-                    f"No se encontró el patrón DECRETO en el commit {commit_hash[:8]}: {body}"
+                    "No se encontró el resumen del decreto (DECRETO, REFORMA, "
+                    f"REFORMAS, DECLARATORIA o LEY) en el commit {commit_hash[:8]}: {body}"
                 )
-            decreto = match.group(1).strip()
+            decreto = match.group(0).strip()
 
             return {
                 "hash": commit_hash[:8],
