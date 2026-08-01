@@ -137,9 +137,7 @@ main {
 
 /* Style for the aside sidebar */
 aside.sidebar {
-	float: right;
-	width: 200px;
-	margin: 0 0 10px 15px;
+	margin: 1em 0 0;
 	padding: 10px;
 	background-color: #f9f9f9;
 	border: 1px solid #e0e0e0;
@@ -150,11 +148,33 @@ aside.sidebar {
 
 aside.sidebar ul {
 	margin: 0;
-	padding-left: 15px;
+	padding: 0;
+	list-style: none;
+}
+
+aside.sidebar ul > li {
+	border-bottom: thin solid #e0e0e0;
+}
+
+aside.sidebar ul > li:last-child {
+	border-bottom: none;
 }
 
 aside.sidebar :where(li) {
-	margin-bottom: 5px;
+	margin-bottom: 0;
+	padding: 6px 0;
+}
+
+aside.sidebar a time {
+	font-weight: bold;
+}
+
+aside.sidebar :where(li) p.decreto {
+	margin: 4px 0 0;
+	font-size: 0.8rem;
+	line-height: 1.35;
+	color: #333;
+	overflow-wrap: anywhere;
 }
 
 aside.sidebar a {
