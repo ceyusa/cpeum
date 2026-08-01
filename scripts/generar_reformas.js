@@ -667,6 +667,23 @@ function generate() {
 	const decretos = loadDecretos();
 	const commits = getReformaCommits();
 	const reformas = buildReformas(decretos, commits);
+
+	// Modo "url": busca el número de decreto del commit dado y escribe en
+	// stdout la URL de su página de diff (usada por el CI de BlueSky).
+	const hashArg = process.argv.indexOf("--url");
+	if (hashArg !== -1 && process.argv.length > hashArg + 1) {
+		const target = process.argv[hashArg + 1];
+		const commit = commits.find((c) => c.hash === target);
+		if (!commit || commit.numero === undefined) {
+			console.error(
+				`Error: no se encontró un decreto para el commit ${target}.`,
+			);
+			process.exit(1);
+		}
+		console.log(`https://cpeum.mx/decretos/${commit.numero}.html`);
+		return;
+	}
+
 	const conCommit = reformas.filter((r) => r.commits.length > 0);
 	const sinCommit = reformas.filter((r) => r.commits.length === 0);
 
