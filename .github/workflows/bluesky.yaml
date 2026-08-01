@@ -18,6 +18,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v7
+        with:
+          fetch-depth: 0
 
       - name: Check if PR contains document changes
         id: check
@@ -30,6 +32,7 @@ jobs:
           else
             echo "document_changes=false" >> "$GITHUB_OUTPUT"
           fi
+          echo "commit_hash=$(git log -1 --format=%H HEAD)" >> "$GITHUB_OUTPUT"
 
       - name: Extract commit description
         if: steps.check.outputs.document_changes == 'true'
@@ -38,11 +41,20 @@ jobs:
           DESC=$(git log -1 --format=%B HEAD | awk -v RS='' 'NR == 2' | sed ':a;N;$!ba;s/\n/ /g')
           echo "raw_desc=$DESC" >> "$GITHUB_OUTPUT"
 
+      - name: Compute decree URL
+        if: steps.check.outputs.document_changes == 'true'
+        id: decree_url
+        run: |
+          # La página del decreto se genera con scripts/generar_reformas.js.
+          npm ci
+          DECREE_URL=$(node scripts/generar_reformas.js --url "${{ steps.check.outputs.commit_hash }}")
+          echo "url=$DECREE_URL" >> "$GITHUB_OUTPUT"
+
       - name: Build Bluesky post
         if: steps.check.outputs.document_changes == 'true'
         id: post
         run: |
-          URL="${{ github.event.pull_request._links.html.href }}"
+          URL="${{ steps.decree_url.outputs.url }}"
           RAW_DESC='${{ steps.desc.outputs.raw_desc }}'
           MAX=300
           URL_LEN=$(printf '%s' "$URL" | wc -m)
