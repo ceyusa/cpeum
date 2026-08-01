@@ -153,20 +153,6 @@ aside.sidebar .sidebar-title {
 	color: #222;
 }
 
-aside.sidebar ul {
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-
-aside.sidebar ul > li {
-	border-bottom: thin solid #e0e0e0;
-}
-
-aside.sidebar ul > li:last-child {
-	border-bottom: none;
-}
-
 aside.sidebar :where(li) {
 	margin-bottom: 0;
 	padding: 6px 0;
@@ -430,4 +416,18 @@ main > h1.title,
 main > p,
 main > section:first-of-type {
 	display: block;
+}
+
+aside.sidebar ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+aside.sidebar ul > li {
+	border-bottom: thin solid #e0e0e0;
+}
+
+aside.sidebar ul > li:last-child {
+	border-bottom: none;
 }
