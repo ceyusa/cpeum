@@ -35,6 +35,23 @@ OCTOCAT_PATH = (
 
 logger = logging.getLogger(__name__)
 
+# Spanish month names (lowercase) mapped to their ISO 8601 numeric value.
+SPANISH_MONTHS = {
+    "enero": 1,
+    "febrero": 2,
+    "marzo": 3,
+    "abril": 4,
+    "mayo": 5,
+    "junio": 6,
+    "julio": 7,
+    "agosto": 8,
+    "septiembre": 9,
+    "setiembre": 9,
+    "octubre": 10,
+    "noviembre": 11,
+    "diciembre": 12,
+}
+
 
 class IncludeWithSection(misc.Include):
     """Custom include directive handler."""
@@ -74,11 +91,12 @@ class IncludeWithSection(misc.Include):
             aside["git-history"] = git_history
 
         # Move all the result nodes into the section
-        for index, node in enumerate(result):
-            if aside is not None and index == 1:
-                # Add the aside to the section after the title
-                section.append(aside)
+        for node in result:
             section.append(node)
+
+        # Add the git-history aside at the end of the section
+        if aside is not None:
+            section.append(aside)
 
         return [section]
 
@@ -164,10 +182,10 @@ class IncludeWithSection(misc.Include):
 
             body = "\n".join(lines[1:]).strip()
 
-            # Match "Publicado en el Diario Oficial de la Federación el [date]"
+            # Match "Publicado en el Diario Oficial de la Federación [el] [date]"
             pub_pattern = (
                 r"Publicado\s+en\s+el\s+Diario\s+Oficial\s+de\s+la\s+"
-                r"Federación\s+el\s+([^\.\n\r\t]+?)\s*(?:\.|$|\n|http)"
+                r"Federación\s+(?:el\s+)?([^\.\n\r\t]+?)\s*(?:\.|$|\n|http)"
             )
 
             pub_date = None
@@ -180,7 +198,7 @@ class IncludeWithSection(misc.Include):
             # If no specific publication date found in patterns, try
             # to find any date in the body
             if not pub_date:
-                date_pattern = r"(\d{1,2}\s+de\s+[A-Za-z]+\s+de\s+\d{4})"
+                date_pattern = r"(\d{1,2}\s+de\s+[A-Za-z]+\s+(?:de|del)\s+\d{4})"
                 match = re.search(date_pattern, body)
                 if match:
                     pub_date = match.group(1)
@@ -201,6 +219,40 @@ class IncludeWithSection(misc.Include):
         except (IndexError, AttributeError) as e:
             logger.warning("Skipping malformed commit block: %s", e)
             return None
+
+
+def pub_date_to_iso(pub_date: str) -> str | None:
+    """Convert a Spanish pub_date to an ISO 8601 date string.
+
+    Handles the inconsistent wording found in the federal register, for
+    example "10 de junio del 2011", "1ro de julio de 1994",
+    "13 septiembre de 1999", "10 de julio 2015" or
+    "26 de marzo del año 2019". Returns None when it cannot be parsed.
+    """
+    if not pub_date or pub_date == "Sin fecha":
+        return None
+
+    match = re.fullmatch(
+        r"(\d{1,2})(?:[roº]+)?\.?"
+        r"(?:\s+de)?\s+([A-Za-záéíóúñü]+)"
+        r"\s+(?:(?:de|del)\s+)?(?:año\s+)?(\d{3,4})",
+        pub_date.strip(),
+        re.IGNORECASE,
+    )
+    if not match:
+        return None
+
+    day, month_name, year = match.group(1), match.group(2), match.group(3)
+    month = SPANISH_MONTHS.get(month_name.lower())
+    if month is None:
+        return None
+
+    year = int(year)
+    day = int(day)
+    if not (1 <= day <= 31) or year < 1900:
+        return None
+
+    return f"{year:04d}-{month:02d}-{day:02d}"
 
 
 class CustomHTMLTranslator(HTMLTranslator):
@@ -229,17 +281,21 @@ class CustomHTMLTranslator(HTMLTranslator):
     def visit_container(self, node: nodes.container) -> None:
         """Render git-history containers as HTML aside with commit list."""
         if self._is_git_history(node):
-            self.body.append('<aside class="sidebar">\n')
+            self.body.append('<aside class="sidebar git-history">\n')
 
             commits = node["git-history"]
             if commits:
                 self.body.append("<ul>\n")
                 for commit in commits:
                     url = f"{GITHUB_URL}/commit/{commit['hash']}"
+                    decreto = commit["decreto"].strip()
+                    datetime = pub_date_to_iso(commit["pub_date"])
+                    time_attr = f' datetime="{datetime}"' if datetime else ""
                     self.body.append(
-                        f"<li><a href=\"{url}\" title='{commit['decreto']}' "
+                        f'<li class="git-commit"><a href="{url}" '
                         f'rel="external noreferrer" target="_blank">'
-                        f"{commit['pub_date']}</a></li>\n",
+                        f"<time{time_attr}>{commit['pub_date']}</time></a>"
+                        f'<p class="decreto">{decreto}</p></li>\n',
                     )
                 self.body.append("</ul>\n")
         else:
