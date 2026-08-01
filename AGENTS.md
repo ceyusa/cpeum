@@ -39,6 +39,18 @@ partir de los decretos y otros cambios Constitucionales registrados en
   uv run ../scripts/rst2html5.py toc.rst ../html/index.html
   ```
 
+- `scripts/generar_reformas.js`: es un script en JavaScript que, usando
+  el paquete [`diff2html`](https://www.npmjs.com/package/diff2html),
+  genera una página HTML con el diff de cada reforma constitucional
+  (con una apariencia similar a la de GitHub) y un índice de todas las
+  reformas en `html/reformas/`.
+
+  Para ejecutar el script:
+
+  ```bash
+  node scripts/generar_reformas.js
+  ```
+
 ### Uso de Python
 
 Python se usa a través de un entorno virtual controlado con `uv`. El
@@ -61,6 +73,26 @@ Usar `biome` para validar y corregir formato de archivos CSS.
 
 ```bash
 npx @biomejs/biome lint --write css/
+```
+
+### JavaScript
+
+Usar `biome` para validar y corregir formato de los scripts en
+JavaScript.
+
+```bash
+npx @biomejs/biome check scripts/*.js
+npx @biomejs/biome lint --write scripts/*.js
+npx @biomejs/biome format --write scripts/*.js
+```
+
+Las dependencias de los scripts en JavaScript se gestionan con `npm` y
+se describen en `package.json`. Para instalar las dependencias y
+generar los diffs de reformas se ejecuta:
+
+```bash
+npm install
+node scripts/generar_reformas.js
 ```
 
 ## pre-commit
