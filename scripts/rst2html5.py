@@ -402,6 +402,24 @@ class CustomHTMLTranslator(HTMLTranslator):
                     'partir de decretos constitucionales desde 1917" />\n'
                 ),
                 (
+                    '<meta property="og:title" content="Constitución Política '
+                    'de los Estados Unidos Mexicanos" />\n'
+                ),
+                (
+                    '<meta property="og:description" content="Constitución '
+                    "Política de los Estados Unidos Mexicanos — texto "
+                    "reconstruido a partir de decretos constitucionales desde "
+                    '1917" />\n'
+                ),
+                '<meta property="og:image" content="https://cpeum.mx/img/cpeum.png" />\n',
+                '<meta property="og:type" content="website" />\n',
+                '<meta property="og:url" content="https://cpeum.mx/" />\n',
+                (
+                    '<meta name="twitter:card" content="summary" />\n'
+                    '<meta name="twitter:title" content="Constitución Política '
+                    'de los Estados Unidos Mexicanos" />\n'
+                ),
+                (
                     '<meta name="keywords" content="constitución, méxico, cpeum, '
                     'derechos humanos, legislación, historia constitucional" />\n'
                 ),
