@@ -125,7 +125,7 @@ class IncludeWithSection(misc.Include):
         return self._git_root_cache
 
     def _get_commit_blocks(self, git_root: str, rel_filename: str) -> list[str]:
-        """Run git log filtered by 'Artículo' and return raw commit blocks."""
+        """Run git log filtered by 'Artículo' (y variantes) and return raw commit blocks."""
         try:
             result = subprocess.run(
                 [
@@ -133,6 +133,8 @@ class IncludeWithSection(misc.Include):
                     "log",
                     "--grep",
                     "Artículo",
+                    "--grep",
+                    "Articulo",
                     "--format=%H%n%n%b%n---END-COMMIT---",
                     "--",
                     rel_filename,
