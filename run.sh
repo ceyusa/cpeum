@@ -29,7 +29,12 @@ cd "${SCRIPT_DIR}/CPEUM"
 uv run "${SCRIPTS_DIR}/rst2html5.py" toc.rst "${HTML_DIR}/index.html"
 uv run "${SCRIPTS_DIR}/rst2html5.py" acercade.rst "${HTML_DIR}/acercade.html"
 
-# Paso 3: Iniciar servidor HTTP en segundo plano
+# Paso 3: Generar los diffs de las reformas y su índice
+echo "==> Generando reformas..."
+cd "${SCRIPT_DIR}"
+node "${SCRIPTS_DIR}/generar_reformas.js"
+
+# Paso 4: Iniciar servidor HTTP en segundo plano
 echo "==> Iniciando servidor HTTP en puerto 8000..."
 cd "${HTML_DIR}"
 python3 -m http.server 8000 &
@@ -39,7 +44,7 @@ echo "==> PID del servidor: ${SERVER_PID}"
 # Limpiar al salir
 trap 'echo "==> Deteniendo servidor..."; kill ${SERVER_PID} 2>/dev/null' EXIT
 
-# Paso 3: Abrir navegador
+# Paso 5: Abrir navegador
 sleep 0.5
 xdg-open http://127.0.0.1:8000
 
