@@ -89,6 +89,7 @@ class IncludeWithSection(misc.Include):
         if git_history:
             aside = nodes.container(classes=["git-history"])
             aside["git-history"] = git_history
+            aside["git-article"] = base_name
 
         # Move all the result nodes into the section
         for node in result:
@@ -205,7 +206,7 @@ class IncludeWithSection(misc.Include):
 
             if not pub_date:
                 raise ValueError(
-                    f"No se encontró fecha de publicación en el commit {commit_hash[:8]}: {body}"
+                    f"No se encontró fecha de publicación en el commit {commit_hash[:8]}"
                 )
 
             summary_pattern = (
@@ -215,7 +216,7 @@ class IncludeWithSection(misc.Include):
             if not match:
                 raise ValueError(
                     "No se encontró el resumen del decreto (DECRETO, REFORMA, "
-                    f"REFORMAS, DECLARATORIA o LEY) en el commit {commit_hash[:8]}: {body}"
+                    f"REFORMAS, DECLARATORIA o LEY) en el commit {commit_hash[:8]}"
                 )
             decreto = match.group(0).strip()
 
@@ -290,6 +291,13 @@ class CustomHTMLTranslator(HTMLTranslator):
         """Render git-history containers as HTML aside with commit list."""
         if self._is_git_history(node):
             self.body.append('<aside class="sidebar git-history">\n')
+
+            article = node.get("git-article")
+            if article:
+                number = article.lstrip("0") or "0"
+                self.body.append(
+                    f'<p class="sidebar-title">Reformas al artículo {number}</p>\n'
+                )
 
             commits = node["git-history"]
             if commits:
