@@ -11,9 +11,11 @@
 
 """A minimal front end to the Docutils Publisher, producing HTML5 documents."""
 
+import json
 import logging
 import re
 import subprocess
+import unicodedata
 from pathlib import Path
 
 from docutils import nodes
@@ -51,6 +53,84 @@ SPANISH_MONTHS = {
     "noviembre": 11,
     "diciembre": 12,
 }
+
+# Ruta del catálogo de decretos, relativa a este script, usado por
+# scripts/generar_reformas.js para generar las páginas de diffs.
+_DECRETOS_JSON = Path(__file__).resolve().parent.parent / "html" / "decretos.json"
+
+
+def _normalize_text(text: str) -> str:
+    """Normaliza un texto para comparar títulos de decretos (ignora
+    mayúsculas, acentos y espacios/puntuación). Imita normalizeText()."""
+    return (
+        unicodedata.normalize("NFD", text or "")
+        .encode("ascii", "ignore")
+        .decode("ascii")
+        .lower()
+        .replace(" ", "")
+    )
+
+
+def _load_decretos() -> list[dict]:
+    """Carga decretos.json y devuelve la lista ordenada por número.
+
+    Devuelve una lista vacía si el archivo no existe o no es válido.
+    """
+    try:
+        with _DECRETOS_JSON.open(encoding="utf-8") as handle:
+            raw = json.load(handle)
+    except (OSError, ValueError) as exc:
+        logger.warning("No se pudo cargar %s: %s", _DECRETOS_JSON, exc)
+        return []
+    return sorted(raw, key=lambda d: d.get("numero", 0))
+
+
+def _build_decreto_index() -> tuple[dict[str, list[dict]], dict[str, dict]]:
+    """Construye los índices de decretos por fecha y por título.
+
+    Devuelve una tupla ((por_fecha, por_titulo)) para el emparejamiento
+    de los commits con su decreto correspondiente.
+    """
+    por_fecha: dict[str, list[dict]] = {}
+    por_titulo: dict[str, dict] = {}
+    for decreto in _load_decretos():
+        publicacion = decreto.get("publicacion")
+        if publicacion:
+            if publicacion not in por_fecha:
+                por_fecha[publicacion] = []
+            por_fecha[publicacion].append(decreto)
+        titulo = _normalize_text(decreto.get("decreto", ""))
+        if titulo and titulo not in por_titulo:
+            por_titulo[titulo] = decreto
+    return por_fecha, por_titulo
+
+
+_DECRETO_INDEX: dict = {}
+
+
+def _match_decreto_numero(iso: str | None, decreto: str) -> int | None:
+    """Devuelve el número del decreto al que corresponde un commit.
+
+    El emparejamiento imita a generar_reformas.js: primero por fecha de
+    publicación (DOF) y, si no coincide, por el título del decreto.
+    """
+    if "_value" not in _DECRETO_INDEX:
+        _DECRETO_INDEX["_value"] = _build_decreto_index()
+    por_fecha, por_titulo = _DECRETO_INDEX["_value"]
+
+    titulo = _normalize_text(decreto)
+
+    if iso and iso in por_fecha:
+        grupo = por_fecha[iso]
+        if grupo:
+            coincidencia = next(
+                (d for d in grupo if _normalize_text(d.get("decreto", "")) == titulo),
+                None,
+            )
+            return (coincidencia or grupo[0]).get("numero")
+
+    d = por_titulo.get(titulo)
+    return d.get("numero") if d else None
 
 
 class IncludeWithSection(misc.Include):
@@ -221,10 +301,12 @@ class IncludeWithSection(misc.Include):
                     f"REFORMAS, DECLARATORIA o LEY) en el commit {commit_hash[:8]}"
                 )
             decreto = match.group(0).strip()
+            iso = pub_date_to_iso(pub_date)
 
             return {
                 "hash": commit_hash[:8],
                 "pub_date": pub_date,
+                "iso": iso,
                 "decreto": decreto,
             }
         except (IndexError, AttributeError, ValueError) as e:
@@ -305,13 +387,16 @@ class CustomHTMLTranslator(HTMLTranslator):
             if commits:
                 self.body.append("<ul>\n")
                 for commit in commits:
-                    url = f"{GITHUB_URL}/commit/{commit['hash']}"
+                    numero = _match_decreto_numero(commit.get("iso"), commit["decreto"])
+                    if numero is not None:
+                        url = f"decretos/{numero}.html"
+                    else:
+                        url = f"{GITHUB_URL}/commit/{commit['hash']}"
                     decreto = commit["decreto"].strip()
                     datetime = pub_date_to_iso(commit["pub_date"])
                     time_attr = f' datetime="{datetime}"' if datetime else ""
                     self.body.append(
-                        f'<li class="git-commit"><a href="{url}" '
-                        f'rel="external noreferrer" target="_blank">'
+                        f'<li class="git-commit"><a href="{url}">'
                         f"<time{time_attr}>{commit['pub_date']}</time></a>"
                         f'<p class="decreto">{decreto}</p></li>\n',
                     )
