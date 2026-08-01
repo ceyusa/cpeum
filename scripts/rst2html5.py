@@ -203,20 +203,24 @@ class IncludeWithSection(misc.Include):
                 if match:
                     pub_date = match.group(1)
 
-            # Fallback to commit date if no publication date found
             if not pub_date:
-                pub_date = "Sin fecha"
+                raise ValueError(
+                    f"No se encontró fecha de publicación en el commit {commit_hash[:8]}: {body}"
+                )
 
-            decreto_pattern = r"(DECRETO\s+.+)\n"
-            match = re.search(decreto_pattern, body, re.IGNORECASE)
-            decreto = match.group(1).strip() if match else ""
+            match = re.search(r"(DECRETO\s+.+)\n", body, re.IGNORECASE)
+            if not match:
+                raise ValueError(
+                    f"No se encontró el patrón DECRETO en el commit {commit_hash[:8]}: {body}"
+                )
+            decreto = match.group(1).strip()
 
             return {
                 "hash": commit_hash[:8],
                 "pub_date": pub_date,
                 "decreto": decreto,
             }
-        except (IndexError, AttributeError) as e:
+        except (IndexError, AttributeError, ValueError) as e:
             logger.warning("Skipping malformed commit block: %s", e)
             return None
 
