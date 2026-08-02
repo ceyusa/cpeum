@@ -226,6 +226,7 @@ const BANNER = `\
 <a class="banner-link" href="../index.html">CPEUM</a>
 <div class="banner-links">
 <a class="banner-link" rel="bookmark" href="index.html">Decretos</a>
+<a class="banner-link" href="../estadisticas.html" title="Estadísticas de las reformas">Estadísticas</a>
 <a class="banner-link" href="../acercade.html" title="Acerca del sitio">&#x1F6C8;</a>
 <a class="banner-link" rel="external noreferrer" target="_blank" href="${GITHUB_URL}" title="Código fuente en GitHub">
 <svg class="banner-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
