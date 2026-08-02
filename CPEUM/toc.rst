@@ -1,11 +1,12 @@
+"""""""""""""""""""""""""""""""""""""""""""""""""""""
+CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS
+"""""""""""""""""""""""""""""""""""""""""""""""""""""
+
 .. warning::
 
    Este texto no tiene validez jurídica. Más `información sobre este
    proyecto <acercade.html>`_.
 
-"""""""""""""""""""""""""""""""""""""""""""""""""""""
-CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS
-"""""""""""""""""""""""""""""""""""""""""""""""""""""
 
 **Constitución publicada en el Diario Oficial de la Federación el 5 de
 febrero de 1917**
