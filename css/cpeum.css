@@ -277,6 +277,11 @@ main#acerca-de > section {
 	display: block;
 }
 
+/* Always show sections in the "Estadísticas" page */
+main#estadisticas > section {
+	display: block;
+}
+
 /* Show the targeted section */
 main > section:target,
 main > section:target ~ section:target {
