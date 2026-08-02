@@ -389,14 +389,18 @@ class CustomHTMLTranslator(HTMLTranslator):
                 for commit in commits:
                     numero = _match_decreto_numero(commit.get("iso"), commit["decreto"])
                     if numero is not None:
-                        url = f"decretos/{numero}.html"
+                        url = f'href="decretos/{numero}.html"'
                     else:
-                        url = f"{GITHUB_URL}/commit/{commit['hash']}"
+                        commit_hash = commit["hash"]
+                        url = (
+                            f'rel="external noreferrer" target="_blank"'
+                            f'href="{GITHUB_URL}/commit/{commit_hash}"'
+                        )
                     decreto = commit["decreto"].strip()
                     datetime = pub_date_to_iso(commit["pub_date"])
                     time_attr = f' datetime="{datetime}"' if datetime else ""
                     self.body.append(
-                        f'<li class="git-commit"><a href="{url}">'
+                        f'<li class="git-commit"><a {url}>'
                         f"<time{time_attr}>{commit['pub_date']}</time></a>"
                         f'<p class="decreto">{decreto}</p></li>\n',
                     )
@@ -423,11 +427,12 @@ class CustomHTMLTranslator(HTMLTranslator):
             '<path d="M3 6h18v2H3zM3 11h18v2H3zM3 16h18v2H3z"/>\n'
             "</svg>\n"
             "</button>\n"
-            '<a class="banner-link" href="index.html">CPEUM</a>\n'
+            '<a class="banner-link" rel="bookmark" href="index.html">CPEUM</a>\n'
             '<div class="banner-links">\n'
-            '<a class="banner-link" href="decretos/index.html">Decretos</a>\n'
-            '<a class="banner-link" href="acercade.html" title="Acerca del sitio">&#x1F6C8;</a>\n'
-            f'<a class="banner-link" href="{GITHUB_URL}" '
+            '<a class="banner-link" rel="bookmark" href="decretos/index.html">Decretos</a>\n'
+            '<a class="banner-link" rel="bookmark" href="acercade.html" '
+            'title="Acerca del sitio">&#x1F6C8;</a>\n'
+            f'<a class="banner-link" rel="external noreferrer" target="_blank" href="{GITHUB_URL}" '
             'title="Código fuente en GitHub">\n'
             '<svg class="banner-icon" xmlns="http://www.w3.org/2000/svg" '
             'viewBox="0 0 24 24" width="20" height="20" '
