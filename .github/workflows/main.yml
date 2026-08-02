@@ -96,6 +96,7 @@ jobs:
           cd CPEUM
           uv run ../scripts/rst2html5.py toc.rst ../html/index.html
           uv run ../scripts/rst2html5.py acercade.rst ../html/acercade.html
+          uv run ../scripts/rst2html5.py estadisticas.rst ../html/estadisticas.html
 
       - name: Setup Node.js
         uses: actions/setup-node@v7
@@ -109,10 +110,17 @@ jobs:
       - name: Generate reformas diff
         run: node scripts/generar_reformas.js
 
+      - name: Generate statistics charts
+        run: uv run scripts/generar_graficos.py
+
+      - name: Validate generated SVG charts
+        run: xmllint --noout html/graficos/*.svg
+
       - name: Validate generated HTML
         run: |
           tidy -e -q html/index.html
           tidy -e -q html/acercade.html
+          tidy -e -q html/estadisticas.html
 
       - name: Generate sitemap
         run: uv run scripts/sitemap.py html
