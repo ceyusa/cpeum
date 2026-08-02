@@ -1,3 +1,8 @@
+.. warning::
+
+   Este texto no tiene validez jurídica. Más `información sobre este
+   proyecto <acercade.html>`_.
+
 """""""""""""""""""""""""""""""""""""""""""""""""""""
 CONSTITUCIÓN POLÍTICA DE LOS ESTADOS UNIDOS MEXICANOS
 """""""""""""""""""""""""""""""""""""""""""""""""""""
