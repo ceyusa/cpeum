@@ -430,6 +430,8 @@ class CustomHTMLTranslator(HTMLTranslator):
             '<a class="banner-link" rel="bookmark" href="index.html">CPEUM</a>\n'
             '<div class="banner-links">\n'
             '<a class="banner-link" rel="bookmark" href="decretos/index.html">Decretos</a>\n'
+            '<a class="banner-link" rel="bookmark" href="estadisticas.html" '
+            'title="Estadísticas de los decretos">Estadísticas</a>\n'
             '<a class="banner-link" rel="bookmark" href="acercade.html" '
             'title="Acerca del sitio">&#x1F6C8;</a>\n'
             f'<a class="banner-link" rel="external noreferrer" target="_blank" href="{GITHUB_URL}" '
