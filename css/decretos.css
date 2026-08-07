@@ -1,0 +1,125 @@
+/* CSS específico de las páginas de decretos generadas por
+   scripts/generar_reformas.js. Este fichero se agrega a css/sitio.css (que
+   aporta el chrome: body, banner y hamburguesa) y al CSS de diff2html. El
+   cuerpo se marca con la clase "decretos" para recuperar la columna de
+   lectura centrada que necesitan estas páginas. */
+
+h1 {
+	font-size: 1.3em;
+	border-bottom: 2px solid #333;
+	padding-bottom: 0.3em;
+}
+h2 {
+	font-size: 1.1em;
+	margin-top: 1.5em;
+}
+
+/* Columna de lectura centrada para estas páginas (el chrome de sitio.css
+   deja el body a ancho completo). */
+body.decretos {
+	max-width: 100ch;
+	margin: 0 auto;
+	padding: 40px 1.5em 1.5em;
+	line-height: 1.8;
+	font-size: 1.05em;
+	display: block;
+	min-height: auto;
+}
+
+.reforma-nav {
+	display: flex;
+	justify-content: space-between;
+	gap: 1em;
+	margin: 0.5em 0 1em;
+	font-size: 0.9em;
+}
+.reforma-nav a {
+	color: #0066cc;
+	text-decoration: none;
+}
+.reforma-nav a:hover {
+	text-decoration: underline;
+}
+.reforma-nav .nav-disabled {
+	color: #999;
+}
+.reforma-nav .nav-prev {
+	max-width: 45%;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.reforma-nav .nav-next {
+	text-align: right;
+}
+.commit-meta {
+	color: #666;
+	font-size: 0.9em;
+	margin-bottom: 0.5em;
+}
+.reforma-numero {
+	color: #0066cc;
+	font-size: 0.85em;
+	margin: 0.1em 0 0.5em;
+}
+.commit-meta a {
+	color: #0066cc;
+	text-decoration: none;
+}
+.commit-meta a:hover {
+	text-decoration: underline;
+}
+.commit-body {
+	white-space: pre-wrap;
+	font-size: 0.9em;
+	margin: 0.5em 0 1.5em 0;
+	padding: 0.75em 1em;
+	background: #f9f9f9;
+	border-left: 3px solid #ccc;
+	line-height: 1.5;
+	font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+.commit-body a,
+.reforma-resumen a {
+	color: #0066cc;
+	text-decoration: none;
+}
+.commit-body a:hover,
+.reforma-resumen a:hover {
+	text-decoration: underline;
+}
+.reforma {
+	margin-bottom: 1.2em;
+}
+.reforma-titulo {
+	font-size: 1em;
+	margin: 0.1em 0;
+}
+.reforma-titulo a {
+	color: #0066cc;
+	text-decoration: none;
+}
+.reforma-titulo a:hover {
+	text-decoration: underline;
+}
+.reforma-nav .nav-next a {
+	display: inline-block;
+	max-width: 45vw;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.reforma-fecha {
+	color: #666;
+	font-size: 0.9em;
+}
+.reforma-resumen {
+	font-size: 1em;
+	color: #555;
+	margin: 0.2em 0 0 0;
+}
+.reforma-sep {
+	border: none;
+	border-top: 1px solid #d0d7de;
+	margin: 1.2em 0 0 0;
+}
