@@ -12,4 +12,5 @@ dependencies = [
     "pyspelling",
     "pre-commit",
     "ruff",
+    "chevron>=0.14.0",
 ]
