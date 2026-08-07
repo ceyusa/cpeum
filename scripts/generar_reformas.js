@@ -18,6 +18,7 @@
 const { execSync } = require("node:child_process");
 const fs = require("node:fs");
 const path = require("node:path");
+const mustache = require("mustache");
 const { createPatch } = require("diff");
 const { html: diff2html } = require("diff2html");
 
@@ -58,142 +59,34 @@ const DIFF2HTML_CSS_PATH = require.resolve(
 );
 const DIFF2HTML_CSS = fs.readFileSync(DIFF2HTML_CSS_PATH, "utf-8");
 
-const GLOBAL_CSS = `\
-body {
-    font-family: Georgia, "Noto Serif", "DejaVu Serif", serif;
-    max-width: 100ch;
-    margin: 0 auto;
-    padding: 40px 1.5em 1.5em;
-    line-height: 1.8;
-    font-size: 1.05em;
-    color: #1a1a1a;
-    background: #fafafa;
-}
-h1 { font-size: 1.3em; border-bottom: 2px solid #333; padding-bottom: 0.3em; }
-h2 { font-size: 1.1em; margin-top: 1.5em; }
-.reforma-nav {
-    display: flex;
-    justify-content: space-between;
-    gap: 1em;
-    margin: 0.5em 0 1em;
-    font-size: 0.9em;
-}
-.reforma-nav a { color: #0066cc; text-decoration: none; }
-.reforma-nav a:hover { text-decoration: underline; }
-.reforma-nav .nav-disabled { color: #999; }
-.reforma-nav .nav-prev { max-width: 45%; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-.reforma-nav .nav-next { text-align: right; }
-.reforma-nav .nav-next a {
-    display: inline-block;
-    max-width: 45vw;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
-}
-.commit-meta { color: #666; font-size: 0.9em; margin-bottom: 0.5em; }
-.reforma-numero { color: #0066cc; font-size: 0.85em; margin: 0.1em 0 0.5em; }
-.commit-meta a { color: #0066cc; text-decoration: none; }
-.commit-meta a:hover { text-decoration: underline; }
-.commit-body {
-    white-space: pre-wrap;
-    font-size: 0.9em;
-    margin: 0.5em 0 1.5em 0;
-    padding: 0.75em 1em;
-    background: #f9f9f9;
-    border-left: 3px solid #ccc;
-    line-height: 1.5;
-    font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-}
-.commit-body a, .reforma-resumen a {
-    color: #0066cc;
-    text-decoration: none;
-}
-.commit-body a:hover, .reforma-resumen a:hover {
-    text-decoration: underline;
-}
-.reforma { margin-bottom: 1.2em; }
-.reforma-titulo { font-size: 1em; margin: 0.1em 0; }
-.reforma-titulo a { color: #0066cc; text-decoration: none; }
-.reforma-titulo a:hover { text-decoration: underline; }
-.reforma-fecha { color: #666; font-size: 0.9em; }
-.reforma-resumen {
-    font-size: 1em;
-    color: #555;
-    margin: 0.2em 0 0 0;
-}
-.reforma-sep {
-    border: none;
-    border-top: 1px solid #d0d7de;
-    margin: 1.2em 0 0 0;
-}
-/* Banner superior fijo, igual que en las páginas del sitio */
-#top-banner {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 40px;
-    background: #1a3a5c;
-    color: #ffffff;
-    display: flex;
-    align-items: center;
-    padding: 0 20px;
-    box-sizing: border-box;
-    z-index: 200;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-}
-#top-banner .banner-link {
-    color: #ffffff;
-    text-decoration: none;
-    font-size: 1.1em;
-    font-weight: bold;
-    letter-spacing: 0.05em;
-}
-#top-banner .banner-links {
-    margin-left: auto;
-    display: flex;
-    align-items: center;
-    gap: 0.9em;
-}
-#top-banner .banner-icon {
-    display: block;
-    fill: currentColor;
-}
-#top-banner .banner-link:hover {
-    text-decoration: underline;
-}
-#top-banner .banner-link:hover .banner-icon {
-    opacity: 0.8;
-}
-.menu-toggle {
-    display: none;
-    align-items: center;
-    justify-content: center;
-    background: transparent;
-    border: none;
-    color: #ffffff;
-    cursor: pointer;
-    padding: 4px;
-    margin-right: 8px;
-    line-height: 0;
-}
-.menu-toggle:hover {
-    opacity: 0.8;
-}
-@media (max-width: 768px) {
-    #top-banner {
-        padding: 0 12px;
-        gap: 4px;
-    }
-    #top-banner .banner-link {
-        font-size: 1em;
-    }
-    /* Sin tabla de contenidos, la hamburguesa no se muestra */
-    body:not(:has(nav.contents)) .menu-toggle {
-        display: none;
-    }
-}
-`;
+/* Chrome del sitio compartido con scripts/rst2html5.py: datos
+   (templates/site.json), plantillas Mustache (templates/*.mustache) y hojas
+   de estilo css/*.css. Estas páginas se generan bajo html/decretos/, por lo
+   que los enlaces del banner llevan prefijo "../". */
+const REPO_ROOT = path.resolve(__dirname, "..");
+const CSS_DIR = path.join(REPO_ROOT, "css");
+const TEMPLATES_DIR = path.join(REPO_ROOT, "templates");
+
+const SITE = JSON.parse(
+	fs.readFileSync(path.join(TEMPLATES_DIR, "site.json"), "utf-8"),
+);
+const GITHUB_URL = SITE.github_url;
+
+const SITIO_CSS = fs.readFileSync(path.join(CSS_DIR, "sitio.css"), "utf-8");
+const DECRETOS_CSS = fs.readFileSync(
+	path.join(CSS_DIR, "decretos.css"),
+	"utf-8",
+);
+const GLOBAL_CSS = `${SITIO_CSS}\n${DECRETOS_CSS}`;
+
+const BANNER_TEMPLATE = fs.readFileSync(
+	path.join(TEMPLATES_DIR, "banner.mustache"),
+	"utf-8",
+);
+const HEAD_META_TEMPLATE = fs.readFileSync(
+	path.join(TEMPLATES_DIR, "head_meta.mustache"),
+	"utf-8",
+);
 
 const HTML_HEADER = `\
 <!DOCTYPE html>
@@ -212,32 +105,64 @@ const FOOTER = `\
 </html>
 `;
 
-const GITHUB_URL = "https://github.com/ceyusa/cpeum-decretos";
+/* Escape Mustache compatible con chevron (el motor de scripts/rst2html5.py):
+   escapa `& < > "`, que es lo que espera el estándar, pero NO `/` ni `'`
+   (el paquete `mustache` npm escapa también `/` y `'`). Así ambas
+   plantillas compartidas se renderizan de forma idéntica, incluidas las
+   URLs. */
+function sharedEscape(text) {
+	return String(text).replace(/[&<>"]/g, (char) => {
+		switch (char) {
+			case "&":
+				return "&amp;";
+			case "<":
+				return "&lt;";
+			case ">":
+				return "&gt;";
+			default:
+				return "&quot;";
+		}
+	});
+}
 
-/* Banner superior, igual que el de index.html y acercade.html.
-   Rutas relativas a html/decretos/index.html. */
-const BANNER = `\
-<div id="top-banner">
-<button id="menu-toggle" class="menu-toggle" type="button" aria-label="Abrir menú" aria-expanded="false" aria-controls="contenido">
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
-<path d="M3 6h18v2H3zM3 11h18v2H3zM3 16h18v2H3z"/>
-</svg>
-</button>
-<a class="banner-link" href="../index.html">CPEUM</a>
-<div class="banner-links">
-<a class="banner-link" rel="bookmark" href="index.html">Decretos</a>
-<a class="banner-link" href="../estadisticas.html" title="Estadísticas de las reformas">Estadísticas</a>
-<a class="banner-link" href="../acercade.html" title="Acerca del sitio">&#x1F6C8;</a>
-<a class="banner-link" rel="external noreferrer" target="_blank" href="${GITHUB_URL}" title="Código fuente en GitHub">
-<svg class="banner-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
-<path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
-</svg>
-</a>
-</div>
-</div>
-`;
+const MUSTACHE_OPTS = { escape: sharedEscape };
 
-// ---------------------------------------------------------------------------
+/* Banner renderizado desde la plantilla compartida; enlaces relativos a
+   html/decretos/. */
+function renderBanner() {
+	return mustache.render(
+		BANNER_TEMPLATE,
+		{
+			...SITE,
+			cpeum_href: "../index.html",
+			decretos_href: "index.html",
+			estadisticas_href: "../estadisticas.html",
+			acerca_href: "../acercade.html",
+		},
+		undefined,
+		MUSTACHE_OPTS,
+	);
+}
+
+/* Metadatos <head> compartidos. Toma el contexto de cada página; los enlaces
+   a iconos/humans.txt usan prefijo "../" (html/decretos/). */
+function renderHeadMeta({ ogTitle, ogDescription, ogType, ogUrl, canonical }) {
+	return mustache.render(
+		HEAD_META_TEMPLATE,
+		{
+			...SITE,
+			og_title: ogTitle,
+			og_description: ogDescription,
+			og_type: ogType,
+			og_url: ogUrl,
+			twitter_title: ogTitle,
+			canonical,
+			icon_base: "../",
+		},
+		undefined,
+		MUSTACHE_OPTS,
+	);
+}
 // Git helpers
 // ---------------------------------------------------------------------------
 
@@ -516,16 +441,18 @@ function writeIndex(reformas) {
 		'<meta charset="utf-8">\n',
 		'<meta name="viewport" content="width=device-width, initial-scale=1">\n',
 		`<title>CPEUM — Índice de ${TITLE}</title>\n`,
-		'<meta property="og:title" content="CPEUM — Índice de Decretos" />\n',
-		'<meta property="og:description" content="Índice de las decretos constitucionales de la CPEUM desde 1917" />\n',
-		'<meta property="og:type" content="website" />\n',
-		'<meta property="og:url" content="https://cpeum.mx/decretos/" />\n',
-		'<meta property="og:image" content="https://cpeum.mx/img/cpeum.png" />\n',
-		'<meta name="twitter:card" content="summary" />\n',
+		renderHeadMeta({
+			ogTitle: "CPEUM — Índice de Decretos",
+			ogDescription:
+				"Índice de las decretos constitucionales de la CPEUM desde 1917",
+			ogType: "website",
+			ogUrl: "https://cpeum.mx/decretos/",
+			canonical: "https://cpeum.mx/decretos/",
+		}),
 		"<style>\n",
 		GLOBAL_CSS,
-		"</style>\n</head>\n<body>\n",
-		BANNER,
+		'</style>\n</head>\n<body class="decretos">\n',
+		renderBanner(),
 		`<h1>Índice de ${TITLE}</h1>\n`,
 	];
 
@@ -576,24 +503,16 @@ function writeReformaFile(reforma, prev, next) {
 	parts.push(HTML_HEADER);
 	parts.push(`<title>${htmlEscape(title)}</title>\n`);
 	parts.push(
-		`<meta property="og:title" content="${htmlEscape(first.subject)}" />\n`,
+		renderHeadMeta({
+			ogTitle: title,
+			ogDescription: `Decreto ${reforma.numero}: ${reforma.decreto || ""}`,
+			ogType: "article",
+			ogUrl: `https://cpeum.mx/decretos/${filename}`,
+			canonical: `https://cpeum.mx/decretos/${filename}`,
+		}),
 	);
-	parts.push(
-		'<meta property="og:description" content="',
-		htmlEscape(`Decreto ${reforma.numero}: ${reforma.decreto || ""}`),
-		'" />\n',
-	);
-	parts.push('<meta property="og:type" content="article" />\n');
-	parts.push(
-		`<meta property="og:url" content="https://cpeum.mx/decretos/${filename}" />\n`,
-	);
-	parts.push(
-		'<meta property="og:image" content="https://cpeum.mx/img/cpeum.png" />\n',
-	);
-	parts.push(
-		'<meta name="twitter:card" content="summary" />\n</head>\n<body>\n',
-	);
-	parts.push(BANNER);
+	parts.push('</head>\n<body class="decretos">\n');
+	parts.push(renderBanner());
 
 	// Navegación cronológica: anterior / siguiente (solo decretos con commit).
 	parts.push('<nav class="reforma-nav">\n');
