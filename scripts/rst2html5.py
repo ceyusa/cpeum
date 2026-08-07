@@ -18,24 +18,36 @@ import subprocess
 import unicodedata
 from pathlib import Path
 
+from chevron import render
 from docutils import nodes
 from docutils.core import default_description, publish_cmdline
 from docutils.parsers.rst import Parser, directives
 from docutils.parsers.rst.directives import misc
 from docutils.writers.html5_polyglot import HTMLTranslator, Writer
 
-GITHUB_URL = "https://github.com/ceyusa/cpeum"
 DESCRIPTION = "Generador HTML5 de la CPEUM" + default_description
 
-# pylint: disable=line-too-long
-OCTOCAT_PATH = (
-    "M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 "
-    "11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 "
-    "1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"
-)
-# pylint: enable=line-too-long
-
 logger = logging.getLogger(__name__)
+
+# Datos y plantillas del "chrome" del sitio, compartidos con
+# scripts/generar_reformas.js (véase templates/site.json). El render se hace
+# con Mustache (chevron) usando el contexto de cada página.
+_TEMPLATES_DIR = Path(__file__).resolve().parent.parent / "templates"
+
+
+def _load_site_data() -> dict:
+    """Carga templates/site.json con los datos del sitio."""
+    with (_TEMPLATES_DIR / "site.json").open(encoding="utf-8") as handle:
+        return json.load(handle)
+
+
+SITE = _load_site_data()
+GITHUB_URL = SITE["github_url"]
+
+_BANNER_TEMPLATE = (_TEMPLATES_DIR / "banner.mustache").read_text(encoding="utf-8")
+_HEAD_META_TEMPLATE = (_TEMPLATES_DIR / "head_meta.mustache").read_text(
+    encoding="utf-8"
+)
 
 # Spanish month names (lowercase) mapped to their ISO 8601 numeric value.
 
@@ -423,31 +435,16 @@ class CustomHTMLTranslator(HTMLTranslator):
         """Add a fixed top banner right after <body>."""
         super().visit_document(node)
         self.body_prefix.append(
-            '<div id="top-banner">\n'
-            '<button id="menu-toggle" class="menu-toggle" type="button" '
-            'aria-label="Abrir menú" aria-expanded="false" aria-controls="contenido">\n'
-            '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" '
-            'width="22" height="22" aria-hidden="true">\n'
-            '<path d="M3 6h18v2H3zM3 11h18v2H3zM3 16h18v2H3z"/>\n'
-            "</svg>\n"
-            "</button>\n"
-            '<a class="banner-link" rel="bookmark" href="index.html">CPEUM</a>\n'
-            '<div class="banner-links">\n'
-            '<a class="banner-link" rel="bookmark" href="decretos/index.html">Decretos</a>\n'
-            '<a class="banner-link" rel="bookmark" href="estadisticas.html" '
-            'title="Estadísticas de los decretos">Estadísticas</a>\n'
-            '<a class="banner-link" rel="bookmark" href="acercade.html" '
-            'title="Acerca del sitio">&#x1F6C8;</a>\n'
-            f'<a class="banner-link" rel="external noreferrer" target="_blank" href="{GITHUB_URL}" '
-            'title="Código fuente en GitHub">\n'
-            '<svg class="banner-icon" xmlns="http://www.w3.org/2000/svg" '
-            'viewBox="0 0 24 24" width="20" height="20" '
-            'aria-hidden="true">\n'
-            f'<path d="{OCTOCAT_PATH}"/>\n'
-            "</svg>\n"
-            "</a>\n"
-            "</div>\n"
-            "</div>\n"
+            render(
+                _BANNER_TEMPLATE,
+                {
+                    **SITE,
+                    "cpeum_href": "index.html",
+                    "decretos_href": "decretos/index.html",
+                    "estadisticas_href": "estadisticas.html",
+                    "acerca_href": "acercade.html",
+                },
+            )
         )
 
     def depart_document(self, node) -> None:
@@ -490,52 +487,24 @@ class CustomHTMLTranslator(HTMLTranslator):
             if "</body>" in line:
                 self.body_suffix.insert(index, script)
                 break
-        # Add resource links and metadata to <head>
+        # Add resource links and metadata to <head> from the shared template.
         self.head.extend(
             [
-                (
-                    '<meta name="description" content="Constitución Política '
-                    "de los Estados Unidos Mexicanos — texto reconstruido a "
-                    'partir de decretos constitucionales desde 1917" />\n'
-                ),
-                (
-                    '<meta property="og:title" content="Constitución Política '
-                    'de los Estados Unidos Mexicanos" />\n'
-                ),
-                (
-                    '<meta property="og:description" content="Constitución '
-                    "Política de los Estados Unidos Mexicanos — texto "
-                    "reconstruido a partir de decretos constitucionales desde "
-                    '1917" />\n'
-                ),
-                '<meta property="og:image" content="https://cpeum.mx/img/cpeum.png" />\n',
-                '<meta property="og:type" content="website" />\n',
-                '<meta property="og:url" content="https://cpeum.mx/" />\n',
-                (
-                    '<meta name="twitter:card" content="summary" />\n'
-                    '<meta name="twitter:title" content="Constitución Política '
-                    'de los Estados Unidos Mexicanos" />\n'
-                ),
-                (
-                    '<meta name="keywords" content="constitución, méxico, cpeum, '
-                    'derechos humanos, legislación, historia constitucional" />\n'
-                ),
-                '<meta name="author" content="Víctor Jáquez" />\n',
-                '<link rel="canonical" href="https://cpeum.mx/" />\n',
-                '<link rel="author" href="humans.txt" />\n',
-                '<link rel="icon" href="img/cpeum.ico" sizes="48x48" />\n',
-                (
-                    '<link rel="icon" href="img/cpeum-32x32.png" sizes="32x32"'
-                    ' type="image/png" />\n'
-                ),
-                (
-                    '<link rel="icon" href="img/cpeum-16x16.png" sizes="16x16"'
-                    ' type="image/png" />\n'
-                ),
-                (
-                    '<link rel="apple-touch-icon" href="img/apple-touch-icon.png"'
-                    ' type="image/png" />\n'
-                ),
+                render(
+                    _HEAD_META_TEMPLATE,
+                    {
+                        **SITE,
+                        "og_title": "Constitución Política de los Estados "
+                        "Unidos Mexicanos",
+                        "og_description": SITE["description"],
+                        "og_type": "website",
+                        "og_url": SITE["site_url"],
+                        "twitter_title": "Constitución Política de los Estados "
+                        "Unidos Mexicanos",
+                        "canonical": SITE["site_url"],
+                        "icon_base": "",
+                    },
+                )
             ]
         )
 
