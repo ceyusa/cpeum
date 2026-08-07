@@ -1,0 +1,122 @@
+/* CSS compartido del "chrome" del sitio: base tipográfica del cuerpo,
+   banner superior fijo y botón hamburguesa. Estas reglas son idénticas en
+   todas las páginas del sitio (artículos de la CPEUM y páginas de decretos),
+   por lo que aquí viven una sola vez y las consumen tanto
+   scripts/rst2html5.py (vía CPEUM/docutils.conf) como
+   scripts/generar_reformas.js. */
+
+/* Basic reset and layout */
+body {
+	margin: 0;
+	padding: 0;
+	padding-top: 40px;
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	font-family: Georgia, "Noto Serif", "DejaVu Serif", serif;
+	line-height: 1.8;
+	font-size: 1.05em;
+	color: #1a1a1a;
+	background: #fafafa;
+}
+
+/* Fixed top banner */
+#top-banner {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 40px;
+	background: #1a3a5c;
+	color: #ffffff;
+	display: flex;
+	align-items: center;
+	padding: 0 20px;
+	box-sizing: border-box;
+	z-index: 200;
+	box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+}
+
+#top-banner .banner-link {
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 1.1em;
+	font-weight: bold;
+	letter-spacing: 0.05em;
+}
+
+#top-banner .banner-links {
+	margin-left: auto;
+	display: flex;
+	align-items: center;
+	gap: 0.9em;
+}
+
+#top-banner .banner-icon {
+	display: block;
+	fill: currentColor;
+}
+
+#top-banner .banner-link:hover {
+	text-decoration: underline;
+}
+
+#top-banner .banner-link:hover .banner-icon {
+	opacity: 0.8;
+}
+
+/* Hamburguesa del banner (sólo móvil) */
+.menu-toggle {
+	display: none;
+	align-items: center;
+	justify-content: center;
+	background: transparent;
+	border: none;
+	color: #ffffff;
+	cursor: pointer;
+	padding: 4px;
+	margin-right: 8px;
+	line-height: 0;
+}
+
+.menu-toggle:hover {
+	opacity: 0.8;
+}
+
+.menu-toggle:focus-visible {
+	outline: 2px solid #ffffff;
+	outline-offset: 2px;
+}
+
+.menu-toggle svg {
+	display: block;
+	fill: currentColor;
+}
+
+/* Mobile responsive styles del chrome */
+@media (max-width: 768px) {
+	body {
+		display: block;
+		padding-top: 40px;
+		font-size: 1em;
+	}
+
+	#top-banner {
+		padding: 0 12px;
+		gap: 4px;
+	}
+
+	#top-banner .banner-link {
+		font-size: 1em;
+	}
+
+	/* Botón hamburguesa visible en móvil */
+	.menu-toggle {
+		display: inline-flex;
+	}
+
+	/* Ocultar hamburguesa si la página no tiene tabla de contenidos */
+	body:not(:has(nav.contents)) .menu-toggle {
+		display: none;
+	}
+}
