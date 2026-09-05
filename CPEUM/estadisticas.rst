@@ -31,7 +31,7 @@ publicaron durante cada presidencia, desde Venustiano Carranza hasta la
 actualidad. Cada barra equivale a un decreto de reforma registrado en el
 repositorio.
 
-.. image:: graficos/reformas_por_presidente.svg
+.. imagen:: graficos/reformas_por_presidente.svg
    :align: center
    :alt: Número de reformas constitucionales por presidencia
 
@@ -48,7 +48,7 @@ varias ocasiones (incluso dentro de la misma presidencia) se cuenta una
 sola vez por cada decreto. Los artículos transitorios no se incluyen en
 este conteo.
 
-.. image:: graficos/articulos_por_presidente.svg
+.. imagen:: graficos/articulos_por_presidente.svg
    :align: center
    :alt: Número de artículos modificados por presidencia
 
@@ -61,7 +61,7 @@ líneas de texto. Para ello se suman las líneas añadidas o modificadas
 intervenía cada decreto. Es una aproximación a la extensión y alcance de
 la actividad reformadora de cada presidencia.
 
-.. image:: graficos/lineas_por_presidente.svg
+.. imagen:: graficos/lineas_por_presidente.svg
    :align: center
    :alt: Líneas nuevas o modificadas por presidencia
 
@@ -73,6 +73,6 @@ artículo de la Constitución, de mayor a menor. Ofrece una visión clara
 de cuáles son los artículos con mayor actividad reformadora a lo largo
 de más de un siglo. Los artículos transitorios no se incluyen.
 
-.. image:: graficos/reformas_por_articulo.svg
+.. imagen:: graficos/reformas_por_articulo.svg
    :align: center
    :alt: Número de veces que ha sido reformado cada artículo

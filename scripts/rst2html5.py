@@ -38,6 +38,14 @@ OCTOCAT_PATH = (
 logger = logging.getLogger(__name__)
 
 # Spanish month names (lowercase) mapped to their ISO 8601 numeric value.
+
+# Path to the decretos directory
+_DECRETOS_ROOT = Path(__file__).resolve().parent.parent
+
+# Ruta del catálogo de decretos, relativa a este script, usado por
+# scripts/generar_reformas.js para generar las páginas de diffs.
+_DECRETOS_JSON = _DECRETOS_ROOT / "html" / "decretos.json"
+
 SPANISH_MONTHS = {
     "enero": 1,
     "febrero": 2,
@@ -53,10 +61,6 @@ SPANISH_MONTHS = {
     "noviembre": 11,
     "diciembre": 12,
 }
-
-# Ruta del catálogo de decretos, relativa a este script, usado por
-# scripts/generar_reformas.js para generar las páginas de diffs.
-_DECRETOS_JSON = Path(__file__).resolve().parent.parent / "html" / "decretos.json"
 
 
 def _normalize_text(text: str) -> str:
@@ -292,13 +296,13 @@ class IncludeWithSection(misc.Include):
                 )
 
             summary_pattern = (
-                r"(?m)^(?:DECRETO|REFORMA|REFORMAS|DECLARATORIA|LEY)[ ]+.+"
+                r"(?m)(?:DECRETO|REFORMA|REFORMAS|DECLARATORIA|LEY|)[ ]+.+"
             )
             match = re.search(summary_pattern, body, re.IGNORECASE)
             if not match:
                 raise ValueError(
                     "No se encontró el resumen del decreto (DECRETO, REFORMA, "
-                    f"REFORMAS, DECLARATORIA o LEY) en el commit {commit_hash[:8]}"
+                    f"REFORMAS, DECLARATORIA o LEY) en el commit {commit_hash[:8]}: {body}"
                 )
             decreto = match.group(0).strip()
             iso = pub_date_to_iso(pub_date)
@@ -553,4 +557,10 @@ directives.register_directive("include", IncludeWithSection)
 
 logging.basicConfig(level=logging.WARNING, format="%(levelname)s: %(message)s")
 
-publish_cmdline(writer=CustomHTML5Writer(), description=DESCRIPTION)
+overrides = {
+    "stylesheet_dirs": [str(_DECRETOS_ROOT)],
+}
+
+publish_cmdline(
+    writer=CustomHTML5Writer(), description=DESCRIPTION, settings_overrides=overrides
+)

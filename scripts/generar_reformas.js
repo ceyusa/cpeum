@@ -242,7 +242,7 @@ const BANNER = `\
 // ---------------------------------------------------------------------------
 
 function runGit(args) {
-	return execSync(["git", ...args].join(" "), {
+	return execSync(["git", "-C cpeum-decretos", ...args].join(" "), {
 		encoding: "utf-8",
 		timeout: 30000,
 		stdio: ["ignore", "pipe", "pipe"],
@@ -255,8 +255,6 @@ function getReformaCommits() {
 		"log",
 		"--reverse",
 		"--grep=Artículo",
-		"--grep=Articulo",
-		"--grep=Artíclos",
 		`--format=${GIT_LOG_FORMAT}`,
 	]);
 	const commits = [];

@@ -4,8 +4,10 @@ on:
     branches: [main]
     paths:
       - 'CPEUM/**'
+      - 'cpeum-decretos/**'
       - 'scripts/**'
       - 'css/**'
+      - 'run.sh'
       - '.github/workflows/main.yml'
       - 'pyproject.toml'
       - 'uv.lock'
@@ -15,8 +17,10 @@ on:
     branches: [main]
     paths:
       - 'CPEUM/**'
+      - 'cpeum-decretos/**'
       - 'scripts/**'
       - 'css/**'
+      - 'run.sh'
       - '.github/workflows/main.yml'
       - 'pyproject.toml'
       - 'uv.lock'
@@ -34,13 +38,10 @@ jobs:
       - name: Install system dependencies
         run: |
           sudo apt-get update
-          sudo apt-get install aspell aspell-es
-
-      - name: Maximum line length
-        run: awk '{ if (length($0) > 72) { print FILENAME " " FNR; exit 255 } }' CPEUM/[T0-9]*.rst
+          sudo apt-get install aspell aspell-es shellcheck
 
       - name: Install uv
-        uses: astral-sh/setup-uv@v7
+        uses: astral-sh/setup-uv@v10.0.1
         with:
           version: "latest"
           enable-cache: true
@@ -63,8 +64,14 @@ jobs:
       - name: Check JavaScript syntax
         run: npx --package @biomejs/biome@latest biome check scripts/*.js
 
-      - name: Lint Python scripts
+      - name: Lint Python scripts (ruff)
         run: uv run ruff check scripts/
+
+      - name: Lint Python scripts (pylint)
+        run: uv run pylint scripts/
+
+      - name: Lint shell scripts
+        run: shellcheck run.sh
 
   build:
     needs: lint
@@ -73,13 +80,13 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v7
         with:
-          fetch-depth: 0
+          submodules: recursive
 
       - name: Install system dependencies
         run: sudo apt-get update && sudo apt-get install tidy libxml2-utils
 
       - name: Install uv
-        uses: astral-sh/setup-uv@c771a70e6277c0a99b617c7a806ffedaca235ff9 # v9.0.0
+        uses: astral-sh/setup-uv@v10.0.1
         with:
           version: "latest"
           enable-cache: true
@@ -90,14 +97,6 @@ jobs:
       - name: Install Python dependencies
         run: uv sync --frozen
 
-      - name: Generate document
-        run: |
-          mkdir -p html
-          cd CPEUM
-          uv run ../scripts/rst2html5.py toc.rst ../html/index.html
-          uv run ../scripts/rst2html5.py acercade.rst ../html/acercade.html
-          uv run ../scripts/rst2html5.py estadisticas.rst ../html/estadisticas.html
-
       - name: Setup Node.js
         uses: actions/setup-node@v7
         with:
@@ -106,6 +105,13 @@ jobs:
 
       - name: Install Node dependencies
         run: npm ci
+
+      - name: Generate document
+        run: |
+          mkdir -p html
+          uv run scripts/rst2html5.py cpeum-decretos/CPEUM/cpeum.rst html/index.html
+          uv run scripts/rst2html5.py CPEUM/acercade.rst html/acercade.html
+          uv run scripts/rst2html5.py CPEUM/estadisticas.rst html/estadisticas.html
 
       - name: Generate reformas diff
         run: node scripts/generar_reformas.js

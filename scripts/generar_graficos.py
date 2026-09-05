@@ -69,7 +69,7 @@ BACKGROUND = "#ffffff"
 def run_git(args: list[str]) -> str:
     """Ejecuta un comando ``git`` en la raíz del repositorio y devuelve su salida."""
     return subprocess.run(
-        ["git", *args],
+        ["git", "-C", "cpeum-decretos", *args],
         capture_output=True,
         text=True,
         check=True,
