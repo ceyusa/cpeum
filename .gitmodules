@@ -1,0 +1,3 @@
+[submodule "cpeum-decretos"]
+	path = cpeum-decretos
+	url = https://github.com/ceyusa/cpeum-decretos.git

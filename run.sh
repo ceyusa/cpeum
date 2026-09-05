@@ -8,6 +8,10 @@ set -euo pipefail
 SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 SCRIPTS_DIR="${SCRIPT_DIR}/scripts"
 HTML_DIR="${SCRIPT_DIR}/html"
+DECRETOS_DIR="${SCRIPT_DIR}/cpeum-decretos"
+DECRETOS_SCRIPT_DIR="${DECRETOS_DIR}/scripts"
+
+export DOCUTILSCONFIG="${SCRIPT_DIR}/docutils.conf"
 
 # Paso 1: Regenerar el JSON de decretos si tiene más de un mes
 DECRETOS_JSON="${HTML_DIR}/decretos.json"
@@ -16,19 +20,21 @@ if [ -f "${DECRETOS_JSON}" ]; then
     CREACION=$(stat -c %W "${DECRETOS_JSON}")
     if [ "${CREACION}" -le "${LIMITE}" ]; then
         echo "==> Regenerando decretos.json (tiene más de un mes)..."
-        uv run "${SCRIPTS_DIR}/extraer_decretos.py" "${DECRETOS_JSON}"
+        uv run "${DECRETOS_SCRIPT_DIR}/extraer_decretos.py" "${DECRETOS_JSON}"
     fi
 else
     echo "==> Generando decretos.json (no existe)..."
-    uv run "${SCRIPTS_DIR}/extraer_decretos.py" "${DECRETOS_JSON}"
+    uv run "${DECRETOS_SCRIPT_DIR}/extraer_decretos.py" "${DECRETOS_JSON}"
 fi
 
 # Paso 2: Compilar el sitio
 echo "==> Compilando sitio..."
-cd "${SCRIPT_DIR}/CPEUM"
-uv run "${SCRIPTS_DIR}/rst2html5.py" toc.rst "${HTML_DIR}/index.html"
-uv run "${SCRIPTS_DIR}/rst2html5.py" acercade.rst "${HTML_DIR}/acercade.html"
-uv run "${SCRIPTS_DIR}/rst2html5.py" estadisticas.rst "${HTML_DIR}/estadisticas.html"
+
+cd "${DECRETOS_DIR}/CPEUM"
+uv run "${SCRIPTS_DIR}/rst2html5.py" cpeum.rst "${HTML_DIR}/index.html"
+
+uv run "${SCRIPTS_DIR}/rst2html5.py" "${SCRIPT_DIR}/CPEUM/acercade.rst" "${HTML_DIR}/acercade.html"
+uv run "${SCRIPTS_DIR}/rst2html5.py" "${SCRIPT_DIR}/CPEUM/estadisticas.rst" "${HTML_DIR}/estadisticas.html"
 
 # Paso 3: Generar los diffs de las reformas y su índice
 echo "==> Generando reformas..."

@@ -20,38 +20,64 @@ jobs:
         uses: actions/checkout@v7
         with:
           fetch-depth: 0
+          submodules: recursive
 
-      - name: Check if PR contains document changes
+      - name: Check submodule was updated in the merged PR
         id: check
         run: |
-          SUBJECT=$(git log -1 --format=%s HEAD)
-          FILES=$(git show --name-only --format='' HEAD | grep "^CPEUM/.*\.rst$" || true)
+          # Commit de `main` antes del merge (base del PR).
+          BASE_SHA="${{ github.event.pull_request.base.sha }}"
+          if [ -z "${BASE_SHA:-}" ]; then
+            BASE_SHA="HEAD^1"
+          fi
 
-          if echo "$SUBJECT" | grep -qi -e "artículo" -e "articulo" && [ -n "$FILES" ]; then
+          # Puntero del submódulo antes y después del merge.
+          OLD_SUB=$(git ls-tree "$BASE_SHA" cpeum-decretos 2>/dev/null | awk '{print $3}')
+          NEW_SUB=$(git ls-tree HEAD cpeum-decretos | awk '{print $3}')
+
+          echo "old_sub=$OLD_SUB" >> "$GITHUB_OUTPUT"
+          echo "new_sub=$NEW_SUB" >> "$GITHUB_OUTPUT"
+
+          # El PR fusionado actualizó el submódulo si el puntero cambió.
+          if [ -n "$NEW_SUB" ] && [ "$OLD_SUB" != "$NEW_SUB" ]; then
+            echo "submodule_updated=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "submodule_updated=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Check for a new decree commit
+        id: check_decree
+        if: steps.check.outputs.submodule_updated == 'true'
+        run: |
+          NEW_SUB="${{ steps.check.outputs.new_sub }}"
+          SUBJECT=$(git -C cpeum-decretos show -s --format=%s "$NEW_SUB")
+
+          if echo "$SUBJECT" | grep -qi -e "artículo" -e "fe"; then
             echo "document_changes=true" >> "$GITHUB_OUTPUT"
           else
             echo "document_changes=false" >> "$GITHUB_OUTPUT"
           fi
-          echo "commit_hash=$(git log -1 --format=%H HEAD)" >> "$GITHUB_OUTPUT"
+          echo "commit_hash=$NEW_SUB" >> "$GITHUB_OUTPUT"
 
-      - name: Extract commit description
-        if: steps.check.outputs.document_changes == 'true'
+      - name: Extract decree description
+        if: steps.check_decree.outputs.document_changes == 'true'
         id: desc
         run: |
-          DESC=$(git log -1 --format=%B HEAD | awk -v RS='' 'NR == 2' | sed ':a;N;$!ba;s/\n/ /g')
+          NEW_SUB="${{ steps.check_decree.outputs.commit_hash }}"
+          DESC=$(git -C cpeum-decretos show -s --format=%B "$NEW_SUB" | awk -v RS='' 'NR == 2' | sed ':a;N;$!ba;s/\n/ /g')
           echo "raw_desc=$DESC" >> "$GITHUB_OUTPUT"
 
       - name: Compute decree URL
-        if: steps.check.outputs.document_changes == 'true'
+        if: steps.check_decree.outputs.document_changes == 'true'
         id: decree_url
         run: |
           # La página del decreto se genera con scripts/generar_reformas.js.
           npm ci
-          DECREE_URL=$(node scripts/generar_reformas.js --url "${{ steps.check.outputs.commit_hash }}")
+          DECREE_URL=$(node scripts/generar_reformas.js --url "${{ steps.check_decree.outputs.commit_hash }}")
           echo "url=$DECREE_URL" >> "$GITHUB_OUTPUT"
 
       - name: Build Bluesky post
-        if: steps.check.outputs.document_changes == 'true'
+        if: steps.check_decree.outputs.document_changes == 'true'
         id: post
         run: |
           URL="${{ steps.decree_url.outputs.url }}"
@@ -70,7 +96,7 @@ jobs:
           echo "EOF" >> "$GITHUB_OUTPUT"
 
       - name: Post in BlueSky
-        if: steps.check.outputs.document_changes == 'true'
+        if: steps.check_decree.outputs.document_changes == 'true'
         uses: zentered/bluesky-post-action@v0.4.0
         with:
           post: ${{ steps.post.outputs.post }}
