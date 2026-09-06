@@ -123,3 +123,20 @@ body.decretos {
 	border-top: 1px solid #d0d7de;
 	margin: 1.2em 0 0 0;
 }
+
+/* Cada diff de un artículo dentro de la página de un decreto. El id de la
+   sección es el ancla al que apuntan los enlaces desde index.html; el margen
+   de scroll compensa el banner superior fijo. */
+.diff-articulo {
+	scroll-margin-top: 52px;
+}
+.diff-articulo > h2 {
+	font-size: 1em;
+	margin: 1.6em 0 0.4em;
+	padding-bottom: 0.2em;
+	border-bottom: 1px solid #c8c8c8;
+}
+.diff-articulo:target > h2 {
+	background: #fff3cd;
+	border-color: #b8a45a;
+}
