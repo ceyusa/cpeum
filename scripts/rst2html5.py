@@ -404,7 +404,11 @@ class CustomHTMLTranslator(HTMLTranslator):
                 self.body.append("<ul>\n")
                 for commit in commits:
                     numero = _match_decreto_numero(commit.get("iso"), commit["decreto"])
-                    if numero is not None:
+                    if numero is not None and article:
+                        # Enlazamos directo al diff de este artículo dentro de la
+                        # página del decreto (el ancla es el nombre del .rst).
+                        url = f'href="decretos/{numero}.html#{article}"'
+                    elif numero is not None:
                         url = f'href="decretos/{numero}.html"'
                     else:
                         commit_hash = commit["hash"]
