@@ -1,7 +1,7 @@
 repos:
   - repo: https://github.com/astral-sh/uv-pre-commit
     # uv version.
-    rev: 0.11.7
+    rev: 0.12.10
     hooks:
       - id: uv-lock
   - repo: https://github.com/pre-commit/pre-commit-hooks
@@ -11,33 +11,32 @@ repos:
       - id: trailing-whitespace
       - id: end-of-file-fixer
   - repo: https://github.com/astral-sh/ruff-pre-commit
-    rev: v0.15.11
+    rev: v0.16.6
     hooks:
       - id: ruff-check
       - id: ruff-format
   - repo: https://github.com/pycqa/pylint
-    rev: v4.0.5
+    rev: v4.0.8
     hooks:
       - id: pylint
         entry: .venv/bin/pylint
   - repo: https://github.com/facelessuser/pyspelling
-    rev: '2.12'
+    rev: '2.12.1'
     hooks:
       - id: pyspelling
         verbose: true
         args: ['-n', 'ortografia']
   - repo: https://github.com/rstcheck/rstcheck
-    rev: 'v6.2.5'
+    rev: 'v6.3.0'
     hooks:
       - id: rstcheck
         entry: .venv/bin/rstcheck
   - repo: https://github.com/biomejs/pre-commit
-    rev: v2.5.5
+    rev: v2.5.12
     hooks:
       - id: biome-check
-      - id: biome-check
-        name: biome-check-javascript
-        files: '\.(js)$'
+        name: biome-check
+        files: '\.(js|css)$'
   - repo: local
     hooks:
       - id: diccionario
