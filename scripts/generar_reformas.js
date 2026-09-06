@@ -212,7 +212,7 @@ const FOOTER = `\
 </html>
 `;
 
-const GITHUB_URL = "https://github.com/ceyusa/cpeum";
+const GITHUB_URL = "https://github.com/ceyusa/cpeum-decretos";
 
 /* Banner superior, igual que el de index.html y acercade.html.
    Rutas relativas a html/decretos/index.html. */
