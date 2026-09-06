@@ -48,6 +48,25 @@ function linkifyDof(text) {
 	);
 }
 
+/* Identificador de ancla asociado a un archivo .rst de un artículo. Usa el
+   nombre de archivo sin ruta ni sufijo: "CPEUM/041.rst" → "041",
+   "CPEUM/T258.rst" → "T258", "CPEUM/cpeum.rst" → "cpeum". */
+function articuloAnchor(rstFile) {
+	return path.basename(rstFile, ".rst");
+}
+
+/* Título legible para la sección de diff de un .rst. */
+function articuloLabel(rstFile) {
+	const anchor = articuloAnchor(rstFile);
+	if (/^\d+$/.test(anchor)) {
+		return `Artículo ${Number(anchor)}`;
+	}
+	if (/^T/i.test(anchor)) {
+		return `Artículo transitorio (${anchor})`;
+	}
+	return anchor;
+}
+
 const OUTDIR = path.resolve(__dirname, "..", "html", "decretos");
 const DECRETOS_PATH = path.resolve(__dirname, "..", "html", "decretos.json");
 const GIT_LOG_FORMAT = "%H%n%ci%n%s%n%b%n---END---";
@@ -560,13 +579,22 @@ function writeReformaFile(reforma, prev, next) {
 		const parent = `${commit.hash}~1`;
 
 		for (const rstFile of rstFiles) {
+			const anchor = articuloAnchor(rstFile);
 			const diffHtml = buildDiff(parent, commit.hash, rstFile);
+			// Envolvemos cada diff en una sección anclada por el artículo para
+			// que desde index.html se pueda enlazar el diff de un artículo
+			// concreto dentro de esta página.
+			parts.push(
+				`<section id="${htmlEscape(anchor)}" class="diff-articulo">\n`,
+			);
+			parts.push(`<h2>${articuloLabel(rstFile)}</h2>\n`);
 			if (diffHtml) {
 				parts.push(diffHtml);
 				parts.push("\n");
 			} else {
 				parts.push(`<p>Sin cambios en ${htmlEscape(rstFile)}.</p>\n`);
 			}
+			parts.push("</section>\n");
 		}
 	}
 
