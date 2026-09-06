@@ -178,6 +178,14 @@ main > section:target ~ section:target {
 	display: block;
 }
 
+/* When the target is nested (capítulo, sección o articulo), also reveal
+   the <section> ancestor that groups it, or its content stays hidden below
+   `main > section { display: none }`. This keeps any título readable when
+   navigating straight to one of its inner entries. */
+main > section:has(:target) {
+	display: block;
+}
+
 /* Ensure the table of contents section is always visible */
 #constitucion-politica-de-los-estados-unidos-mexicanos-que-reforma-la-de-5-de-febrero-de-1857 {
 	display: block;
