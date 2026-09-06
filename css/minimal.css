@@ -177,9 +177,6 @@ dl.docinfo pre.address {
 	font: inherit;
 	margin: 0;
 }
-dl.docinfo > dd.authors > p {
-	margin: 0;
-}
 
 /* Option Lists */
 dl.option-list > dt {
@@ -425,4 +422,9 @@ h4 svg,
 h5 svg,
 h6 svg {
 	display: inline;
+}
+
+/* Bibliographic: reset paragraph margins within the authors field */
+dl.docinfo > dd.authors > p {
+	margin: 0;
 }
