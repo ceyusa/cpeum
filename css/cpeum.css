@@ -157,9 +157,9 @@ footer {
 	}
 }
 
-/* Hide all other sections by default (single-page article viewer) */
+/* Estado por defecto: todos los títulos visibles */
 main > section {
-	display: none;
+	display: block;
 }
 
 /* Always show sections in the "Acerca de" page */
@@ -184,6 +184,13 @@ main > section:target ~ section:target {
    navigating straight to one of its inner entries. */
 main > section:has(:target) {
 	display: block;
+}
+
+/* When a título is targeted (or holds a nested target), hide the sibling
+   títulos so only the relevant block remains visible (isolates selección). */
+main:has(> section:target, > section:has(:target))
+> section:not(:target):not(:has(:target)) {
+	display: none;
 }
 
 /* Ensure the table of contents section is always visible */
@@ -312,13 +319,6 @@ section:is(.articulo, [id^="articulos-transitorios"]):target {
 		font-size: 0.8em;
 		text-align: center;
 	}
-}
-
-/* Show the main title and initial content */
-main > h1.title,
-main > p,
-main > section:first-of-type {
-	display: block;
 }
 
 aside.sidebar ul {
