@@ -90,7 +90,7 @@ jobs:
             DESC_BUDGET=0
           fi
           TRUNCATED_DESC=$(printf '%s' "$RAW_DESC" | head -c "$DESC_BUDGET")
-          printf -v POST '%s\n\n%s' "$TRUNCATED_DESC" "$URL"
+          printf -v POST '%s\n\n%s\n' "$TRUNCATED_DESC" "$URL"
           echo "post<<EOF" >> "$GITHUB_OUTPUT"
           echo "$POST" >> "$GITHUB_OUTPUT"
           echo "EOF" >> "$GITHUB_OUTPUT"
