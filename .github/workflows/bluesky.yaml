@@ -82,7 +82,7 @@ jobs:
         run: |
           URL="${{ steps.decree_url.outputs.url }}"
           RAW_DESC='${{ steps.desc.outputs.raw_desc }}'
-          MAX=300
+          MAX=270
           URL_LEN=$(printf '%s' "$URL" | wc -m)
           GAP=2
           DESC_BUDGET=$((MAX - URL_LEN - GAP))
@@ -90,7 +90,7 @@ jobs:
             DESC_BUDGET=0
           fi
           TRUNCATED_DESC=$(printf '%s' "$RAW_DESC" | head -c "$DESC_BUDGET")
-          printf -v POST '%s\n\n%s\n' "$TRUNCATED_DESC" "$URL"
+          printf -v POST '%s\n\n%s\n\#cpeum \#méxico \#constitución' "$TRUNCATED_DESC" "$URL"
           echo "post<<EOF" >> "$GITHUB_OUTPUT"
           echo "$POST" >> "$GITHUB_OUTPUT"
           echo "EOF" >> "$GITHUB_OUTPUT"
