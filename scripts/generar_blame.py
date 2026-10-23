@@ -34,6 +34,7 @@ import re
 import subprocess
 import sys
 from collections import Counter
+from collections.abc import Callable, Iterator
 from dataclasses import dataclass, field
 from datetime import date
 from pathlib import Path
@@ -46,7 +47,7 @@ from decreto_index import (
     normalizar,
     numero_decreto,
 )
-from rst2html5 import pub_date_to_iso
+from rst2html5 import MESES, pub_date_to_iso
 
 # -----------------------------------------------------------------------------
 # Configuración
@@ -70,22 +71,7 @@ PUBLICADO_RE = re.compile(
 )
 DOF_RE = re.compile(r"https?://(?:www\.)?dof\.gob\.mx\S+", re.IGNORECASE)
 PRESIDENTE_RE = re.compile(r"^President[ea]\s+(.+)$", re.MULTILINE)
-
-MESES_LARGOS = [
-    "",
-    "enero",
-    "febrero",
-    "marzo",
-    "abril",
-    "mayo",
-    "junio",
-    "julio",
-    "agosto",
-    "septiembre",
-    "octubre",
-    "noviembre",
-    "diciembre",
-]
+_STRONG_RE = re.compile(r"\*\*([^*]+)\*\*")
 
 # Paleta para distinguir los bloques. El color se elige por número de decreto.
 PALETA = [
@@ -107,6 +93,17 @@ HEAD_META_TEMPLATE = (TEMPLATES_DIR / "head_meta.mustache").read_text(encoding="
 SITIO_CSS = (CSS_DIR / "sitio.css").read_text(encoding="utf-8")
 BLAME_CSS = (CSS_DIR / "blame.css").read_text(encoding="utf-8")
 
+BANNER = render(
+    BANNER_TEMPLATE,
+    {
+        **SITIO,
+        "cpeum_href": "../index.html",
+        "decretos_href": "../decretos/index.html",
+        "estadisticas_href": "../estadisticas.html",
+        "acerca_href": "../acercade.html",
+    },
+)
+
 
 # -----------------------------------------------------------------------------
 # Utilidades
@@ -123,7 +120,7 @@ def fecha_larga(iso: str | None) -> str:
     if not iso:
         return ""
     dia = date.fromisoformat(iso)
-    return f"{dia.day} de {MESES_LARGOS[dia.month]} de {dia.year}"
+    return f"{dia.day} de {MESES[dia.month - 1]} de {dia.year}"
 
 
 def iso_de_fecha(texto: str) -> str | None:
@@ -204,42 +201,7 @@ def _primer_parrafo(cuerpo: str, asunto: str) -> str:
     return asunto
 
 
-def _clasificar(
-    commit: str,
-    asunto: str,
-    cuerpo: str,
-    raices: set[str],
-    indice: Indice,
-) -> tuple[str, int | None, str, str | None, str | None, str | None]:
-    """Clasifica un commit y extrae sus datos de decreto."""
-    asunto_normalizado = normalizar(asunto)
-    texto_plano = " ".join(cuerpo.split())
-    fecha = iso_de_fecha(texto_plano)
-    coincidencia = DOF_RE.search(cuerpo)
-    url_dof = coincidencia.group(0).rstrip(".,;:)") if coincidencia else None
-
-    if commit in raices or asunto_normalizado.startswith("constitucion"):
-        resumen = (
-            "Constitución Política de los Estados Unidos Mexicanos "
-            "(texto original de 1917)"
-        )
-        return "original", None, resumen, fecha, None, url_dof
-
-    resumen = _primer_parrafo(cuerpo, asunto)
-    coincidencia = PRESIDENTE_RE.search(cuerpo)
-    presidente = " ".join(coincidencia.group(1).split()) if coincidencia else None
-
-    if asunto_normalizado.startswith("fedeerratas"):
-        return "errata", None, resumen, fecha, presidente, url_dof
-    if asunto_normalizado.startswith("aclaracion"):
-        return "aclaracion", None, resumen, fecha, presidente, url_dof
-    if asunto_normalizado.startswith("articulo"):
-        numero = numero_decreto(fecha, resumen, indice)
-        return "decreto", numero, resumen, fecha, presidente, url_dof
-    return "otro", None, resumen, fecha, presidente, url_dof
-
-
-def _crear_fuente(
+def _fuente(
     commit: str,
     asunto: str,
     cuerpo: str,
@@ -247,16 +209,42 @@ def _crear_fuente(
     indice: Indice,
 ) -> Fuente:
     """Construye la Fuente de un commit a partir de su mensaje."""
-    tipo, numero, resumen, fecha, presidente, url_dof = _clasificar(
-        commit, asunto, cuerpo, raices, indice
-    )
+    asunto_normalizado = normalizar(asunto)
+    texto_plano = " ".join(cuerpo.split())
+    fecha = iso_de_fecha(texto_plano)
+    coincidencia = DOF_RE.search(cuerpo)
+    url_dof = coincidencia.group(0).rstrip(".,;:)") if coincidencia else None
+    comunes = {"hash": commit, "asunto": asunto, "fecha": fecha, "url_dof": url_dof}
+
+    if commit in raices or asunto_normalizado.startswith("constitucion"):
+        return Fuente(
+            **comunes,
+            resumen=(
+                "Constitución Política de los Estados Unidos Mexicanos "
+                "(texto original de 1917)"
+            ),
+            presidente=None,
+            numero=None,
+            tipo="original",
+        )
+
+    resumen = _primer_parrafo(cuerpo, asunto)
+    coincidencia = PRESIDENTE_RE.search(cuerpo)
+    presidente = " ".join(coincidencia.group(1).split()) if coincidencia else None
+
+    tipo, numero = "otro", None
+    if asunto_normalizado.startswith("fedeerratas"):
+        tipo = "errata"
+    elif asunto_normalizado.startswith("aclaracion"):
+        tipo = "aclaracion"
+    elif asunto_normalizado.startswith("articulo"):
+        tipo = "decreto"
+        numero = numero_decreto(fecha, resumen, indice)
+
     return Fuente(
-        hash=commit,
-        asunto=asunto,
+        **comunes,
         resumen=resumen,
-        fecha=fecha,
         presidente=presidente,
-        url_dof=url_dof,
         numero=numero,
         tipo=tipo,
     )
@@ -265,18 +253,18 @@ def _crear_fuente(
 def cargar_fuentes(indice: Indice) -> dict[str, Fuente]:
     """Lee el historial completo y devuelve un mapa hash → Fuente."""
     raices = set(run_git("rev-list", "--max-parents=0", "HEAD").split())
-    salida = run_git("log", "--format=%H%x1f%as%x1f%s%x1f%b%x1e", "HEAD")
+    salida = run_git("log", "--format=%H%x1f%s%x1f%b%x1e", "HEAD")
     fuentes: dict[str, Fuente] = {}
 
     for bloque in salida.split("\x1e"):
         bloque = bloque.strip("\n")
         if not bloque:
             continue
-        partes = bloque.split("\x1f", 3)
-        if len(partes) != 4:
+        partes = bloque.split("\x1f", 2)
+        if len(partes) != 3:
             continue
-        commit, _fecha_commit, asunto, cuerpo = partes
-        fuentes[commit] = _crear_fuente(commit, asunto, cuerpo, raices, indice)
+        commit, asunto, cuerpo = partes
+        fuentes[commit] = _fuente(commit, asunto, cuerpo, raices, indice)
 
     return fuentes
 
@@ -316,18 +304,26 @@ def clave_bloque(bloque: list[str]) -> str:
     return f"{sangria}:{cuerpo}"
 
 
+def _bloques_con_clave(
+    bloques: list[list[str]],
+) -> Iterator[tuple[list[str], str, int]]:
+    """Recorre los bloques con su clave y número de ocurrencia."""
+    contador: Counter[str] = Counter()
+    for bloque in bloques:
+        clave = clave_bloque(bloque)
+        ocurrencia = contador[clave]
+        contador[clave] += 1
+        yield bloque, clave, ocurrencia
+
+
 def _siguiente_estado(
     estado: dict[tuple[str, int], str], texto: str, commit: str
 ) -> dict[tuple[str, int], str]:
     """Actualiza la atribución con el contenido de un commit."""
-    contador: Counter[str] = Counter()
-    nuevo: dict[tuple[str, int], str] = {}
-    for bloque in bloques_de_texto(texto):
-        clave = clave_bloque(bloque)
-        ocurrencia = contador[clave]
-        contador[clave] += 1
-        nuevo[(clave, ocurrencia)] = estado.get((clave, ocurrencia), commit)
-    return nuevo
+    return {
+        (clave, ocurrencia): estado.get((clave, ocurrencia), commit)
+        for _bloque, clave, ocurrencia in _bloques_con_clave(bloques_de_texto(texto))
+    }
 
 
 def atribuir_historial(
@@ -370,15 +366,11 @@ def procesar_archivo(
     commits = run_git("log", "--reverse", "--format=%H", "--", ruta_relativa).split()
     estado = atribuir_historial(commits, ruta_relativa)
     lineas = ruta.read_text(encoding="utf-8").splitlines()
-    titulo = titulo_seccion(ruta.stem, titulo_de_archivo(ruta))
+    titulo = titulo_seccion(ruta.stem, titulo_de_archivo(lineas, ruta.stem))
 
-    contador: Counter[str] = Counter()
     bloques: list[Bloque] = []
     inicio = 0
-    for grupo in agrupar_lineas(lineas):
-        clave = clave_bloque(grupo)
-        ocurrencia = contador[clave]
-        contador[clave] += 1
+    for grupo, clave, ocurrencia in _bloques_con_clave(agrupar_lineas(lineas)):
         commit = estado.get((clave, ocurrencia))
         if commit is None and commits:
             commit = commits[-1]
@@ -396,8 +388,7 @@ def procesar_archivo(
 
 def formatear_linea(linea: str) -> str:
     """Escapa una línea y convierte el énfasis reST más común."""
-    texto = escapar(linea)
-    texto = re.sub(r"\*\*([^*]+)\*\*", r"<strong>\1</strong>", texto)
+    texto = _STRONG_RE.sub(r"<strong>\1</strong>", escapar(linea))
     return texto or "&nbsp;"
 
 
@@ -416,16 +407,6 @@ def _documento(*, titulo: str, ruta: str, cuerpo: str) -> str:
             "icon_base": "../",
         },
     )
-    banner = render(
-        BANNER_TEMPLATE,
-        {
-            **SITIO,
-            "cpeum_href": "../index.html",
-            "decretos_href": "../decretos/index.html",
-            "estadisticas_href": "../estadisticas.html",
-            "acerca_href": "../acercade.html",
-        },
-    )
     return (
         "<!DOCTYPE html>\n"
         '<html lang="es">\n'
@@ -439,24 +420,25 @@ def _documento(*, titulo: str, ruta: str, cuerpo: str) -> str:
         "</style>\n"
         "</head>\n"
         '<body class="blame">\n'
-        f"{banner}\n"
+        f"{BANNER}\n"
         f"{cuerpo}\n"
         "</body>\n"
         "</html>\n"
     )
 
 
+ETIQUETAS_FUENTE = {
+    "errata": "Fe de erratas",
+    "aclaracion": "Aclaración",
+    "original": "Texto original",
+}
+
+
 def etiqueta_fuente(fuente: Fuente) -> str:
     """Devuelve la etiqueta visible de una fuente."""
     if fuente.tipo == "decreto":
         return f"Decreto {fuente.numero}" if fuente.numero else "Decreto"
-    if fuente.tipo == "errata":
-        return "Fe de erratas"
-    if fuente.tipo == "aclaracion":
-        return "Aclaración"
-    if fuente.tipo == "original":
-        return "Texto original"
-    return f"Commit {fuente.hash[:7]}"
+    return ETIQUETAS_FUENTE.get(fuente.tipo, f"Commit {fuente.hash[:7]}")
 
 
 def url_fuente(fuente: Fuente, stem: str) -> tuple[str, bool]:
@@ -571,6 +553,27 @@ def _render_bloques(bloques: list[Bloque], stem: str) -> str:
     return "".join(partes)
 
 
+def _escribir_pagina(
+    salida: Path,
+    nombre: str,
+    *,
+    titulo: str,
+    cuerpo: str,
+    ruta: str | None = None,
+) -> None:
+    """Escribe una página HTML y anuncia su ruta."""
+    destino = salida / nombre
+    destino.write_text(
+        _documento(
+            titulo=titulo,
+            ruta=nombre if ruta is None else ruta,
+            cuerpo=cuerpo,
+        ),
+        encoding="utf-8",
+    )
+    print(f"Generado {destino}")
+
+
 def escribir_articulo(
     stem: str, titulo: str, bloques: list[Bloque], salida: Path
 ) -> None:
@@ -594,16 +597,12 @@ def escribir_articulo(
         "</p>\n"
     )
 
-    destino = salida / f"{stem}.html"
-    destino.write_text(
-        _documento(
-            titulo=f"CPEUM — {titulo} — trazabilidad",
-            ruta=f"{stem}.html",
-            cuerpo="".join(partes),
-        ),
-        encoding="utf-8",
+    _escribir_pagina(
+        salida,
+        f"{stem}.html",
+        titulo=f"CPEUM — {titulo} — trazabilidad",
+        cuerpo="".join(partes),
     )
-    print(f"Generado {destino}")
 
 
 def titulo_seccion(stem: str, titulo: str) -> str:
@@ -615,15 +614,15 @@ def titulo_seccion(stem: str, titulo: str) -> str:
     return titulo
 
 
-def titulo_de_archivo(ruta: Path) -> str:
+def titulo_de_archivo(lineas: list[str], stem: str) -> str:
     """Obtiene el título de un artículo a partir de su primera línea."""
-    for linea in ruta.read_text(encoding="utf-8").splitlines():
+    for linea in lineas:
         texto = linea.strip().strip("*").strip()
         if texto:
             return texto
-    if ruta.stem.isdigit():
-        return f"Artículo {int(ruta.stem)}"
-    return f"Transitorio {ruta.stem}"
+    if stem.isdigit():
+        return f"Artículo {int(stem)}"
+    return f"Transitorio {stem}"
 
 
 def _orden_archivo(ruta: Path) -> tuple[int, int]:
@@ -641,17 +640,13 @@ def todos_los_archivos() -> list[Path]:
     )
 
 
-def _indice_lista(rutas: list[Path], *, transitorios: bool) -> list[str]:
+def _indice_lista(rutas: list[Path], etiqueta: Callable[[Path], str]) -> str:
     """Genera una lista de enlaces del índice."""
-    partes = ['<ul class="blame-indice">\n']
-    for ruta in rutas:
-        if transitorios:
-            etiqueta = titulo_seccion(ruta.stem, "")
-        else:
-            etiqueta = f"Artículo {int(ruta.stem)}"
-        partes.append(f'<li><a href="{ruta.stem}.html">{escapar(etiqueta)}</a></li>\n')
-    partes.append("</ul>\n")
-    return partes
+    enlaces = "".join(
+        f'<li><a href="{ruta.stem}.html">{escapar(etiqueta(ruta))}</a></li>\n'
+        for ruta in rutas
+    )
+    return f'<ul class="blame-indice">\n{enlaces}</ul>\n'
 
 
 def escribir_indice(salida: Path) -> None:
@@ -678,9 +673,11 @@ def escribir_indice(salida: Path) -> None:
             "<h2>Artículos</h2>\n"
         )
     ]
-    partes.extend(_indice_lista(articulos, transitorios=False))
+    partes.append(_indice_lista(articulos, lambda ruta: f"Artículo {int(ruta.stem)}"))
     partes.append("<h2>Artículos transitorios</h2>\n")
-    partes.extend(_indice_lista(transitorios, transitorios=True))
+    partes.append(
+        _indice_lista(transitorios, lambda ruta: titulo_seccion(ruta.stem, ""))
+    )
     partes.append(
         '<p class="blame-nota">'
         "Los artículos transitorios se agrupan por decreto (un archivo por "
@@ -691,16 +688,13 @@ def escribir_indice(salida: Path) -> None:
         "</p>\n"
     )
 
-    destino = salida / "index.html"
-    destino.write_text(
-        _documento(
-            titulo="CPEUM — Trazabilidad de los artículos",
-            ruta="",
-            cuerpo="".join(partes),
-        ),
-        encoding="utf-8",
+    _escribir_pagina(
+        salida,
+        "index.html",
+        titulo="CPEUM — Trazabilidad de los artículos",
+        cuerpo="".join(partes),
+        ruta="",
     )
-    print(f"Generado {destino}")
 
 
 # -----------------------------------------------------------------------------
