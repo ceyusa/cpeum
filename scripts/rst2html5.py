@@ -16,6 +16,7 @@ import logging
 import re
 import subprocess
 import unicodedata
+from datetime import date
 from pathlib import Path
 
 from chevron import render
@@ -359,10 +360,14 @@ def pub_date_to_iso(pub_date: str) -> str | None:
 
     year = int(year)
     day = int(day)
-    if not (1 <= day <= 31) or year < 1900:
+    if year < 1900:
+        return None
+    try:
+        fecha = date(year, month, day)
+    except ValueError:
         return None
 
-    return f"{year:04d}-{month:02d}-{day:02d}"
+    return fecha.isoformat()
 
 
 class CustomHTMLTranslator(HTMLTranslator):
