@@ -1,0 +1,184 @@
+/* CSS específico de las páginas de trazabilidad (git blame) por artículo,
+   generadas por scripts/generar_blame.py. Se agrega a css/sitio.css, que
+   aporta el chrome del sitio (banner y botón hamburguesa). */
+
+body.blame {
+	max-width: 115ch;
+	margin: 0 auto;
+	padding: 40px 1.5em 1.5em;
+	display: block;
+	min-height: auto;
+}
+
+h1 {
+	font-size: 1.35em;
+	border-bottom: 2px solid #333;
+	padding-bottom: 0.3em;
+	margin-bottom: 0.4em;
+}
+
+h2 {
+	font-size: 1.1em;
+	margin-top: 1.8em;
+}
+
+a {
+	color: #0066cc;
+}
+
+.blame-nav {
+	display: flex;
+	justify-content: space-between;
+	gap: 1em;
+	font-size: 0.9em;
+	margin-bottom: 1em;
+}
+
+.blame-nav a {
+	text-decoration: none;
+}
+
+.blame-nav a:hover {
+	text-decoration: underline;
+}
+
+.blame-intro {
+	color: #444;
+	font-size: 0.95em;
+	margin: 0.5em 0 1.5em;
+}
+
+.blame-intro code {
+	font-size: 0.95em;
+}
+
+.blame-bloque {
+	border-left: 4px solid var(--blame-color, #888);
+	margin: 1em 0;
+	background: #fff;
+	box-shadow: 0 1px 2px rgb(0 0 0 / 6%);
+}
+
+.blame-anotacion {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: baseline;
+	gap: 0.25em 0.75em;
+	padding: 0.4em 0.75em;
+	background: #f2f4f7;
+	border-bottom: 1px solid #e1e5ea;
+	font-size: 0.85em;
+	line-height: 1.5;
+}
+
+.blame-insignia {
+	background: var(--blame-color, #666);
+	color: #fff;
+	padding: 0.1em 0.5em;
+	border-radius: 3px;
+	font-weight: bold;
+	white-space: nowrap;
+}
+
+.blame-titulo {
+	color: #1a1a1a;
+	font-weight: 600;
+	text-decoration: none;
+}
+
+.blame-titulo:hover {
+	text-decoration: underline;
+}
+
+.blame-presidente {
+	color: #555;
+}
+
+.blame-enlace {
+	font-size: 0.95em;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+.blame-enlace:hover {
+	text-decoration: underline;
+}
+
+.blame-codigo {
+	padding: 0.35em 0;
+}
+
+.blame-linea {
+	display: flex;
+	gap: 0.75em;
+	padding: 0 0.75em;
+	line-height: 1.65;
+}
+
+.blame-linea:hover {
+	background: #fffbe6;
+}
+
+.blame-num {
+	flex: 0 0 3.5em;
+	text-align: right;
+	color: #999;
+	font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+	font-size: 0.75em;
+	user-select: none;
+}
+
+.blame-texto {
+	flex: 1;
+	min-width: 0;
+	white-space: pre-wrap;
+	overflow-wrap: anywhere;
+	font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+	font-size: 0.85em;
+}
+
+.blame-vacia .blame-texto {
+	min-height: 1.65em;
+}
+
+.blame-indice {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(20ch, 1fr));
+	gap: 0.25em 1em;
+	list-style: none;
+	padding: 0;
+	margin: 0.5em 0 1.5em;
+}
+
+.blame-indice li {
+	min-width: 0;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.blame-indice a {
+	text-decoration: none;
+}
+
+.blame-indice a:hover {
+	text-decoration: underline;
+}
+
+.blame-nota {
+	color: #555;
+	font-size: 0.85em;
+	margin-top: 2em;
+	border-top: 1px solid #ddd;
+	padding-top: 0.75em;
+}
+
+@media (max-width: 600px) {
+	body.blame {
+		padding: 40px 0.75em 1.5em;
+	}
+
+	.blame-num {
+		flex-basis: 2.5em;
+	}
+}
