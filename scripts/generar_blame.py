@@ -456,43 +456,46 @@ def _enlace(texto: str, url: str, *, externo: bool, clase: str) -> str:
     return f"<a {atributos}>{texto}</a>"
 
 
-def render_anotacion(fuente: Fuente | None, stem: str) -> str:
-    """Genera la anotación (cabecera) de un bloque."""
+def _detalle_fuente(fuente: Fuente) -> str:
+    """Resume los metadatos de una fuente para mostrarlos en un tooltip."""
+    partes = [fuente.resumen or fuente.asunto]
+    if fuente.fecha:
+        partes.append(fecha_larga(fuente.fecha))
+    if fuente.presidente:
+        partes.append(fuente.presidente)
+    return " · ".join(parte for parte in partes if parte)
+
+
+def _fecha_corta(iso: str) -> str:
+    """Devuelve una fecha breve como ``15 ene 2019``."""
+    dia = date.fromisoformat(iso)
+    return f"{dia.day} {MESES[dia.month - 1][:3]} {dia.year}"
+
+
+def render_fuente(fuente: Fuente | None, stem: str) -> str:
+    """Genera la columna izquierda de un bloque con su decreto."""
     if fuente is None:
-        return '<div class="blame-anotacion">Origen desconocido</div>\n'
+        return (
+            '<div class="blame-fuente">\n'
+            '<span class="blame-insignia">Sin origen</span>\n'
+            "</div>\n"
+        )
 
     url, externo = url_fuente(fuente, stem)
-    partes = [
-        f'<span class="blame-insignia">{escapar(etiqueta_fuente(fuente))}</span>',
-        _enlace(
-            escapar(fuente.resumen or fuente.asunto),
-            url,
-            externo=externo,
-            clase="blame-titulo",
-        ),
-    ]
+    insignia = _enlace(
+        escapar(etiqueta_fuente(fuente)),
+        url,
+        externo=externo,
+        clase="blame-insignia",
+    )
+    detalle = escapar(_detalle_fuente(fuente), atributo=True)
+    fecha = ""
     if fuente.fecha:
-        partes.append(
-            f'<time datetime="{fuente.fecha}">{fecha_larga(fuente.fecha)}</time>'
+        fecha = (
+            f'<time class="blame-fecha" datetime="{fuente.fecha}">'
+            f"{_fecha_corta(fuente.fecha)}</time>\n"
         )
-    if fuente.presidente:
-        partes.append(
-            f'<span class="blame-presidente">{escapar(fuente.presidente)}</span>'
-        )
-    if fuente.url_dof:
-        partes.append(
-            _enlace("DOF ↗", fuente.url_dof, externo=True, clase="blame-enlace")
-        )
-    if not externo:
-        partes.append(
-            _enlace(
-                f"commit {fuente.hash[:7]}",
-                f"{SITIO['github_url']}/commit/{fuente.hash}",
-                externo=True,
-                clase="blame-enlace",
-            )
-        )
-    return f'<div class="blame-anotacion">{"".join(partes)}</div>\n'
+    return f'<div class="blame-fuente" title="{detalle}">\n{insignia}\n{fecha}</div>\n'
 
 
 def _color_bloque(fuente: Fuente | None, anterior: int | None) -> tuple[str, int]:
@@ -521,35 +524,49 @@ def _resumen_articulo(bloques: list[Bloque]) -> str:
         '<p class="blame-intro">'
         f"{lineas} líneas en {len(bloques)} bloques; "
         f"{len(decretos)} decretos y {len(fuentes)} fuentes. "
-        "Cada bloque corresponde a un párrafo y apunta al decreto que "
-        "modificó su texto por última vez (git blame a nivel de párrafo, "
-        "insensible al reflujo de líneas). "
+        "El decreto que modificó por última vez cada bloque aparece a la "
+        "izquierda de su texto (git blame a nivel de párrafo, insensible al "
+        "reflujo de líneas). "
         '<a href="../decretos/index.html">Índice de decretos ↗</a>'
         "</p>\n"
     )
 
 
+def _agrupar_por_fuente(bloques: list[Bloque]) -> list[list[Bloque]]:
+    """Une bloques consecutivos con la misma fuente en una sola fila."""
+    grupos: list[list[Bloque]] = []
+    for bloque in bloques:
+        if grupos and grupos[-1][0].fuente == bloque.fuente:
+            grupos[-1].append(bloque)
+        else:
+            grupos.append([bloque])
+    return grupos
+
+
 def _render_bloques(bloques: list[Bloque], stem: str) -> str:
     """Genera el HTML de todos los bloques de un artículo."""
-    partes: list[str] = []
+    partes = ['<div class="blame-tabla">\n']
     anterior: int | None = None
-    for bloque in bloques:
-        color, anterior = _color_bloque(bloque.fuente, anterior)
+    for grupo in _agrupar_por_fuente(bloques):
+        fuente = grupo[0].fuente
+        color, anterior = _color_bloque(fuente, anterior)
         partes.append(f'<section class="blame-bloque" style="--blame-color:{color}">\n')
-        partes.append(render_anotacion(bloque.fuente, stem))
+        partes.append(render_fuente(fuente, stem))
         partes.append('<div class="blame-codigo">\n')
-        for desplazamiento, linea in enumerate(bloque.lineas):
-            numero = bloque.inicio + desplazamiento + 1
-            clase = "blame-linea"
-            if not linea.strip():
-                clase += " blame-vacia"
-            partes.append(
-                f'<div class="{clase}">'
-                f'<span class="blame-num">{numero}</span>'
-                f'<span class="blame-texto">{formatear_linea(linea)}</span>'
-                "</div>\n"
-            )
+        for bloque in grupo:
+            for desplazamiento, linea in enumerate(bloque.lineas):
+                numero = bloque.inicio + desplazamiento + 1
+                clase = "blame-linea"
+                if not linea.strip():
+                    clase += " blame-vacia"
+                partes.append(
+                    f'<div class="{clase}">'
+                    f'<span class="blame-num">{numero}</span>'
+                    f'<span class="blame-texto">{formatear_linea(linea)}</span>'
+                    "</div>\n"
+                )
         partes.append("</div>\n</section>\n")
+    partes.append("</div>\n")
     return "".join(partes)
 
 

@@ -52,67 +52,65 @@ a {
 	font-size: 0.95em;
 }
 
-.blame-bloque {
-	border-left: 4px solid var(--blame-color, #888);
-	margin: 1em 0;
-	background: #fff;
-	box-shadow: 0 1px 2px rgb(0 0 0 / 6%);
+.blame-tabla {
+	border: 1px solid #e1e5ea;
+	border-radius: 4px;
+	overflow: hidden;
 }
 
-.blame-anotacion {
+.blame-bloque {
+	display: grid;
+	grid-template-columns: 10.5em minmax(0, 1fr);
+	border-top: 1px solid #e8ebef;
+}
+
+.blame-bloque:first-child {
+	border-top: 0;
+}
+
+.blame-fuente {
 	display: flex;
-	flex-wrap: wrap;
-	align-items: baseline;
-	gap: 0.25em 0.75em;
-	padding: 0.4em 0.75em;
-	background: #f2f4f7;
-	border-bottom: 1px solid #e1e5ea;
-	font-size: 0.85em;
-	line-height: 1.5;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 0.15em;
+	padding: 0.3em 0.5em;
+	background: #f6f8fa;
+	border-left: 4px solid var(--blame-color, #888);
+	font-size: 0.72em;
+	line-height: 1.35;
+	overflow: hidden;
 }
 
 .blame-insignia {
 	background: var(--blame-color, #666);
 	color: #fff;
-	padding: 0.1em 0.5em;
+	padding: 0.05em 0.4em;
 	border-radius: 3px;
-	font-weight: bold;
-	white-space: nowrap;
-}
-
-.blame-titulo {
-	color: #1a1a1a;
 	font-weight: 600;
 	text-decoration: none;
+	max-width: 100%;
+	overflow-wrap: anywhere;
 }
 
-.blame-titulo:hover {
+.blame-insignia:hover {
 	text-decoration: underline;
 }
 
-.blame-presidente {
-	color: #555;
-}
-
-.blame-enlace {
+.blame-fecha {
+	color: #666;
 	font-size: 0.95em;
-	text-decoration: none;
-	white-space: nowrap;
-}
-
-.blame-enlace:hover {
-	text-decoration: underline;
 }
 
 .blame-codigo {
-	padding: 0.35em 0;
+	padding: 0.2em 0;
+	min-width: 0;
 }
 
 .blame-linea {
 	display: flex;
-	gap: 0.75em;
-	padding: 0 0.75em;
-	line-height: 1.65;
+	gap: 0.6em;
+	padding: 0 0.6em;
+	line-height: 1.55;
 }
 
 .blame-linea:hover {
@@ -120,11 +118,11 @@ a {
 }
 
 .blame-num {
-	flex: 0 0 3.5em;
+	flex: 0 0 2.8em;
 	text-align: right;
 	color: #999;
 	font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
-	font-size: 0.75em;
+	font-size: 0.7em;
 	user-select: none;
 }
 
@@ -138,7 +136,7 @@ a {
 }
 
 .blame-vacia .blame-texto {
-	min-height: 1.65em;
+	min-height: 1.55em;
 }
 
 .blame-indice {
@@ -176,6 +174,15 @@ a {
 @media (max-width: 600px) {
 	body.blame {
 		padding: 40px 0.75em 1.5em;
+	}
+
+	.blame-bloque {
+		grid-template-columns: 7.5em minmax(0, 1fr);
+	}
+
+	.blame-fuente {
+		padding: 0.25em 0.35em;
+		font-size: 0.66em;
 	}
 
 	.blame-num {
