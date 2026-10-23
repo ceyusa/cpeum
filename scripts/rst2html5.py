@@ -425,6 +425,12 @@ class CustomHTMLTranslator(HTMLTranslator):
                         f'<p class="decreto">{decreto}</p></li>\n',
                     )
                 self.body.append("</ul>\n")
+            if article:
+                self.body.append(
+                    '<p class="blame-link">'
+                    f'<a href="blame/{article}.html">'
+                    "Trazabilidad por párrafo ↗</a></p>\n"
+                )
         else:
             HTMLTranslator.visit_container(self, node)
 
