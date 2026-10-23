@@ -308,15 +308,16 @@ class IncludeWithSection(misc.Include):
                 )
 
             summary_pattern = (
-                r"(?m)(?:DECRETO|REFORMA|REFORMAS|DECLARATORIA|LEY|)[ ]+.+"
+                r"(?im)^(?:(?:a|al)\s+)?(?:la\s+)?"
+                r"((?:DECRETO|REFORMAS|REFORMA|DECLARATORIA|LEY)\b.*)"
             )
-            match = re.search(summary_pattern, body, re.IGNORECASE)
+            match = re.search(summary_pattern, body)
             if not match:
                 raise ValueError(
                     "No se encontró el resumen del decreto (DECRETO, REFORMA, "
                     f"REFORMAS, DECLARATORIA o LEY) en el commit {commit_hash[:8]}: {body}"
                 )
-            decreto = match.group(0).strip()
+            decreto = match.group(1).strip()
             iso = pub_date_to_iso(pub_date)
 
             return {
