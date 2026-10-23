@@ -528,12 +528,21 @@ class CustomHTML5Writer(Writer):
 # Register our custom directive
 directives.register_directive("include", IncludeWithSection)
 
-logging.basicConfig(level=logging.WARNING, format="%(levelname)s: %(message)s")
 
-overrides = {
-    "stylesheet_dirs": [str(_DECRETOS_ROOT)],
-}
+def main() -> None:
+    """Ejecuta la conversión de reStructuredText a HTML5."""
+    logging.basicConfig(level=logging.WARNING, format="%(levelname)s: %(message)s")
 
-publish_cmdline(
-    writer=CustomHTML5Writer(), description=DESCRIPTION, settings_overrides=overrides
-)
+    overrides = {
+        "stylesheet_dirs": [str(_DECRETOS_ROOT)],
+    }
+
+    publish_cmdline(
+        writer=CustomHTML5Writer(),
+        description=DESCRIPTION,
+        settings_overrides=overrides,
+    )
+
+
+if __name__ == "__main__":
+    main()
