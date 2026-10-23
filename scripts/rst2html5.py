@@ -31,10 +31,12 @@ DESCRIPTION = "Generador HTML5 de la CPEUM" + default_description
 
 logger = logging.getLogger(__name__)
 
+REPO_ROOT = Path(__file__).resolve().parent.parent
+
 # Datos y plantillas del "chrome" del sitio, compartidos con
 # scripts/generar_reformas.js (véase templates/site.json). El render se hace
 # con Mustache (chevron) usando el contexto de cada página.
-_TEMPLATES_DIR = Path(__file__).resolve().parent.parent / "templates"
+_TEMPLATES_DIR = REPO_ROOT / "templates"
 
 
 def _load_site_data() -> dict:
@@ -51,30 +53,51 @@ _HEAD_META_TEMPLATE = (_TEMPLATES_DIR / "head_meta.mustache").read_text(
     encoding="utf-8"
 )
 
-# Spanish month names (lowercase) mapped to their ISO 8601 numeric value.
+# Nombres de los meses en español, en minúsculas.
+MESES = (
+    "enero",
+    "febrero",
+    "marzo",
+    "abril",
+    "mayo",
+    "junio",
+    "julio",
+    "agosto",
+    "septiembre",
+    "octubre",
+    "noviembre",
+    "diciembre",
+)
 
-# Path to the decretos directory
-_DECRETOS_ROOT = Path(__file__).resolve().parent.parent
+# Nombre de mes (en minúsculas) a su valor ISO 8601 numérico.
+SPANISH_MONTHS = {nombre: numero for numero, nombre in enumerate(MESES, 1)}
+SPANISH_MONTHS["setiembre"] = 9
 
-# Ruta del catálogo de decretos, relativa a este script, usado por
-# scripts/generar_reformas.js para generar las páginas de diffs.
-_DECRETOS_JSON = _DECRETOS_ROOT / "html" / "decretos.json"
+# Ruta del catálogo de decretos, usado por scripts/generar_reformas.js para
+# generar las páginas de diffs.
+_DECRETOS_JSON = REPO_ROOT / "html" / "decretos.json"
 
-SPANISH_MONTHS = {
-    "enero": 1,
-    "febrero": 2,
-    "marzo": 3,
-    "abril": 4,
-    "mayo": 5,
-    "junio": 6,
-    "julio": 7,
-    "agosto": 8,
-    "septiembre": 9,
-    "setiembre": 9,
-    "octubre": 10,
-    "noviembre": 11,
-    "diciembre": 12,
-}
+
+def _commit_li(commit: dict[str, str], article: str | None, indice: Indice) -> str:
+    """Devuelve el ``<li>`` de un commit en el sidebar de reformas."""
+    numero = numero_decreto(commit.get("iso"), commit["decreto"], indice)
+    if numero is not None and article:
+        # Enlazamos directo al diff de este artículo dentro de la página del
+        # decreto (el ancla es el nombre del .rst).
+        enlace = f'href="decretos/{numero}.html#{article}"'
+    elif numero is not None:
+        enlace = f'href="decretos/{numero}.html"'
+    else:
+        enlace = (
+            'rel="external noreferrer" target="_blank" '
+            f'href="{GITHUB_URL}/commit/{commit["hash"]}"'
+        )
+    time_attr = f' datetime="{commit["iso"]}"' if commit["iso"] else ""
+    return (
+        f'<li class="git-commit"><a {enlace}>'
+        f"<time{time_attr}>{commit['pub_date']}</time></a>"
+        f'<p class="decreto">{commit["decreto"].strip()}</p></li>\n'
+    )
 
 
 @cache
@@ -100,16 +123,11 @@ class IncludeWithSection(misc.Include):
     def run(self) -> list[nodes.Node]:
         """Process the include directive with section wrapping."""
         source_dir = Path(self.state.document.current_source).parent
-        filename = self.arguments[0]
-        base_name = Path(filename).stem
+        base_name = Path(self.arguments[0]).stem
 
         # if Transitorio go as normal include
         if base_name.startswith("T"):
-            self.arguments[0] = filename
             return super().run()
-
-        # Update the argument to use the resolved path
-        self.arguments[0] = filename
 
         # custom parser
         self.options["parser"] = Parser
@@ -211,67 +229,55 @@ class IncludeWithSection(misc.Include):
     @staticmethod
     def _parse_commit_block(block: str) -> dict[str, str] | None:
         """Parse a single commit block into a structured dict."""
-        lines = [i.replace("\n", " ") for i in block.strip().split("\n\n")]
-        if not lines:
+        lines = [line.replace("\n", " ") for line in block.strip().split("\n\n")]
+        commit_hash = lines[0].strip()
+
+        # Validate commit hash (supports SHA-1 and SHA-256)
+        if not re.match(r"^[a-f0-9]{40,}$", commit_hash):
             return None
 
-        try:
-            commit_hash = lines[0].strip()
+        body = "\n".join(lines[1:]).strip()
 
-            # Validate commit hash (supports SHA-1 and SHA-256)
-            if not re.match(r"^[a-f0-9]{40,}$", commit_hash):
-                return None
+        # Match "Publicado en el Diario Oficial de la Federación [el] [date]"
+        pub_pattern = (
+            r"Publicado\s+en\s+el\s+Diario\s+Oficial\s+de\s+la\s+"
+            r"Federación\s+(?:el\s+)?([^\.\n\r\t]+?)\s*(?:\.|$|\n|http)"
+        )
 
-            body = "\n".join(lines[1:]).strip()
+        pub_date = None
+        match = re.search(pub_pattern, body, re.IGNORECASE)
+        if match:
+            pub_date = match.group(1).strip()
+            pub_date = re.sub(r"[,\s\.]*$", "", pub_date)
+            pub_date = re.sub(r"\s*https?://\S*$", "", pub_date)
 
-            # Match "Publicado en el Diario Oficial de la Federación [el] [date]"
-            pub_pattern = (
-                r"Publicado\s+en\s+el\s+Diario\s+Oficial\s+de\s+la\s+"
-                r"Federación\s+(?:el\s+)?([^\.\n\r\t]+?)\s*(?:\.|$|\n|http)"
-            )
-
-            pub_date = None
-            match = re.search(pub_pattern, body, re.IGNORECASE)
+        # If no specific publication date found in patterns, try
+        # to find any date in the body
+        if not pub_date:
+            date_pattern = r"(\d{1,2}\s+de\s+[A-Za-z]+\s+(?:de|del)\s+\d{4})"
+            match = re.search(date_pattern, body)
             if match:
-                pub_date = match.group(1).strip()
-                pub_date = re.sub(r"[,\s\.]*$", "", pub_date)
-                pub_date = re.sub(r"\s*https?://\S*$", "", pub_date)
+                pub_date = match.group(1)
 
-            # If no specific publication date found in patterns, try
-            # to find any date in the body
-            if not pub_date:
-                date_pattern = r"(\d{1,2}\s+de\s+[A-Za-z]+\s+(?:de|del)\s+\d{4})"
-                match = re.search(date_pattern, body)
-                if match:
-                    pub_date = match.group(1)
-
-            if not pub_date:
-                raise ValueError(
-                    f"No se encontró fecha de publicación en el commit {commit_hash[:8]}"
-                )
-
-            summary_pattern = (
-                r"(?im)^(?:(?:a|al)\s+)?(?:la\s+)?"
-                r"((?:DECRETO|REFORMAS|REFORMA|DECLARATORIA|LEY)\b.*)"
-            )
-            match = re.search(summary_pattern, body)
-            if not match:
-                raise ValueError(
-                    "No se encontró el resumen del decreto (DECRETO, REFORMA, "
-                    f"REFORMAS, DECLARATORIA o LEY) en el commit {commit_hash[:8]}: {body}"
-                )
-            decreto = match.group(1).strip()
-            iso = pub_date_to_iso(pub_date)
-
-            return {
-                "hash": commit_hash[:8],
-                "pub_date": pub_date,
-                "iso": iso,
-                "decreto": decreto,
-            }
-        except (IndexError, AttributeError, ValueError) as e:
-            logger.warning("Skipping malformed commit block: %s", e)
+        if not pub_date:
+            logger.warning("Skipping commit %s: no publication date", commit_hash[:8])
             return None
+
+        summary_pattern = (
+            r"(?im)^(?:(?:a|al)\s+)?(?:la\s+)?"
+            r"((?:DECRETO|REFORMAS|REFORMA|DECLARATORIA|LEY)\b.*)"
+        )
+        match = re.search(summary_pattern, body)
+        if not match:
+            logger.warning("Skipping commit %s: no decree summary", commit_hash[:8])
+            return None
+
+        return {
+            "hash": commit_hash[:8],
+            "pub_date": pub_date,
+            "iso": pub_date_to_iso(pub_date),
+            "decreto": match.group(1).strip(),
+        }
 
 
 def pub_date_to_iso(pub_date: str) -> str | None:
@@ -337,53 +343,31 @@ class CustomHTMLTranslator(HTMLTranslator):
 
     def visit_container(self, node: nodes.container) -> None:
         """Render git-history containers as HTML aside with commit list."""
-        if self._is_git_history(node):
-            self.body.append('<aside class="sidebar git-history">\n')
-
-            article = node.get("git-article")
-            if article:
-                number = article.lstrip("0") or "0"
-                self.body.append(
-                    f'<p class="sidebar-title">Reformas al artículo {number}</p>\n'
-                )
-
-            commits = node["git-history"]
-            if commits:
-                indice = _build_decreto_index()
-                self.body.append("<ul>\n")
-                for commit in commits:
-                    numero = numero_decreto(
-                        commit.get("iso"), commit["decreto"], indice
-                    )
-                    if numero is not None and article:
-                        # Enlazamos directo al diff de este artículo dentro de la
-                        # página del decreto (el ancla es el nombre del .rst).
-                        url = f'href="decretos/{numero}.html#{article}"'
-                    elif numero is not None:
-                        url = f'href="decretos/{numero}.html"'
-                    else:
-                        commit_hash = commit["hash"]
-                        url = (
-                            f'rel="external noreferrer" target="_blank"'
-                            f'href="{GITHUB_URL}/commit/{commit_hash}"'
-                        )
-                    decreto = commit["decreto"].strip()
-                    datetime = pub_date_to_iso(commit["pub_date"])
-                    time_attr = f' datetime="{datetime}"' if datetime else ""
-                    self.body.append(
-                        f'<li class="git-commit"><a {url}>'
-                        f"<time{time_attr}>{commit['pub_date']}</time></a>"
-                        f'<p class="decreto">{decreto}</p></li>\n',
-                    )
-                self.body.append("</ul>\n")
-            if article:
-                self.body.append(
-                    '<p class="blame-link">'
-                    f'<a href="blame/{article}.html">'
-                    "Trazabilidad por párrafo ↗</a></p>\n"
-                )
-        else:
+        if not self._is_git_history(node):
             HTMLTranslator.visit_container(self, node)
+            return
+
+        self.body.append('<aside class="sidebar git-history">\n')
+
+        article = node.get("git-article")
+        if article:
+            number = article.lstrip("0") or "0"
+            self.body.append(
+                f'<p class="sidebar-title">Reformas al artículo {number}</p>\n'
+            )
+
+        commits = node["git-history"]
+        if commits:
+            indice = _build_decreto_index()
+            self.body.append("<ul>\n")
+            self.body.extend(_commit_li(commit, article, indice) for commit in commits)
+            self.body.append("</ul>\n")
+        if article:
+            self.body.append(
+                '<p class="blame-link">'
+                f'<a href="blame/{article}.html">'
+                "Trazabilidad por párrafo ↗</a></p>\n"
+            )
 
     def depart_container(self, node: nodes.container) -> None:
         """Close the git-history aside or delegate to parent."""
@@ -491,7 +475,7 @@ def main() -> None:
     logging.basicConfig(level=logging.WARNING, format="%(levelname)s: %(message)s")
 
     overrides = {
-        "stylesheet_dirs": [str(_DECRETOS_ROOT)],
+        "stylesheet_dirs": [str(REPO_ROOT)],
     }
 
     publish_cmdline(
