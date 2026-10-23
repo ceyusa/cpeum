@@ -37,9 +37,9 @@ git clone --recurse-submodules https://github.com/ceyusa/cpeum
 
 El flujo completo de compilación está documentado y ejecutable localmente
 en `run.sh` (compila el `cpeum.rst` del submódulo en `html/index.html`,
-junto con las páginas de soporte, los diffs de reformas y las gráficas
-estadísticas). El CI en `.github/workflows/main.yml` replica esos pasos
-sin el servidor HTTP.
+junto con las páginas de soporte, los diffs de reformas, la trazabilidad
+por párrafo de cada artículo y las gráficas estadísticas). El CI en
+`.github/workflows/main.yml` replica esos pasos sin el servidor HTTP.
 
 ## Scripts
 
@@ -72,6 +72,16 @@ sin el servidor HTTP.
 
   ```bash
   node scripts/generar_reformas.js
+  ```
+
+- `scripts/generar_blame.py`: genera en `html/blame/` una página HTML por
+  artículo con la trazabilidad de cada párrafo (a qué decreto o commit
+  corresponde), además de un índice. La atribución se calcula a partir del
+  historial de git del submódulo (`git blame` a nivel de párrafo) y no se
+  ve afectada por el reflujo de líneas.
+
+  ```bash
+  uv run scripts/generar_blame.py
   ```
 
 - `scripts/generar_graficos.py`: genera las gráficas (SVG) de estadísticas
