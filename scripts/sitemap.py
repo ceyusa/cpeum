@@ -12,30 +12,76 @@
 """Genera el `sitemap.xml` del sitio web de la CPEUM en un directorio dado."""
 
 import argparse
-from datetime import datetime, timezone
+import subprocess
+from datetime import date, datetime, timezone
 from pathlib import Path
+from xml.sax.saxutils import escape
 
+REPO_ROOT = Path(__file__).resolve().parent.parent
 SITEMAP_URL = "https://cpeum.mx/"
 SITEMAP_FILENAME = "sitemap.xml"
-SITEMAP_TEMPLATE = (
+SITEMAP_HEADER = (
     '<?xml version="1.0" encoding="UTF-8"?>\n'
     '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
-    "  <url>\n"
-    f"    <loc>{SITEMAP_URL}</loc>\n"
-    "    <lastmod>{lastmod}</lastmod>\n"
-    "    <changefreq>monthly</changefreq>\n"
-    "    <priority>1.0</priority>\n"
-    "  </url>\n"
-    "</urlset>\n"
 )
+SITEMAP_FOOTER = "</urlset>\n"
+
+
+def _last_modified() -> str:
+    """Devuelve la fecha del último cambio del sitio o de sus datos."""
+    fechas: list[date] = []
+    for repositorio in (REPO_ROOT, REPO_ROOT / "cpeum-decretos"):
+        try:
+            salida = subprocess.run(
+                ["git", "-C", str(repositorio), "log", "-1", "--format=%cI"],
+                capture_output=True,
+                text=True,
+                check=True,
+                timeout=30,
+            ).stdout.strip()
+            if salida:
+                fechas.append(datetime.fromisoformat(salida).date())
+        except (OSError, ValueError, subprocess.SubprocessError):
+            continue
+    if fechas:
+        return max(fechas).isoformat()
+    return datetime.now(timezone.utc).date().isoformat()
+
+
+def _urls(output_dir: Path) -> list[str]:
+    """Lista las URLs de las páginas HTML generadas, en orden estable."""
+    urls = []
+    for ruta in sorted(output_dir.rglob("*.html")):
+        relativa = ruta.relative_to(output_dir).as_posix()
+        if relativa == "index.html":
+            urls.append(SITEMAP_URL)
+        else:
+            urls.append(f"{SITEMAP_URL}{relativa}")
+    return urls or [SITEMAP_URL]
+
+
+def _entry(url: str, lastmod: str) -> str:
+    """Devuelve la entrada ``<url>`` de una página."""
+    return (
+        "  <url>\n"
+        f"    <loc>{escape(url)}</loc>\n"
+        f"    <lastmod>{lastmod}</lastmod>\n"
+        "    <changefreq>monthly</changefreq>\n"
+        "  </url>\n"
+    )
 
 
 def generate_sitemap(output_dir: Path) -> Path:
     """Escribe el sitemap en `output_dir` y devuelve la ruta generada."""
     output_dir.mkdir(parents=True, exist_ok=True)
     destination = output_dir / SITEMAP_FILENAME
-    lastmod = datetime.now(timezone.utc).date().isoformat()
-    destination.write_text(SITEMAP_TEMPLATE.format(lastmod=lastmod), encoding="utf-8")
+    lastmod = _last_modified()
+    contenido = (
+        SITEMAP_HEADER
+        + "".join(_entry(url, lastmod) for url in _urls(output_dir))
+        + SITEMAP_FOOTER
+    )
+    destination.write_text(contenido, encoding="utf-8")
     return destination
 
 
