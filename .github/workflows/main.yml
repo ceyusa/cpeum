@@ -117,6 +117,9 @@ jobs:
       - name: Generate reformas diff
         run: node scripts/generar_reformas.js
 
+      - name: Generate article blame pages
+        run: uv run scripts/generar_blame.py
+
       - name: Generate statistics charts
         run: uv run scripts/generar_graficos.py
 
@@ -128,6 +131,8 @@ jobs:
           tidy -e -q html/index.html
           tidy -e -q html/acercade.html
           tidy -e -q html/estadisticas.html
+          tidy -e -q html/blame/index.html
+          tidy -e -q html/blame/001.html
 
       - name: Generate sitemap
         run: uv run scripts/sitemap.py html
