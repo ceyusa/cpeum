@@ -21,8 +21,9 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 DICT_PATH = PROJECT_ROOT / "es-local.dic"
 CONTENT_GLOB = "CPEUM/*.rst"
 
-# Regex para extraer tokens alfanuméricos de los archivos rst
-WORD_RE = re.compile(r"\b\w+\b")
+# Regex para extraer tokens alfanuméricos (incluidos los que llevan guion)
+# de los archivos rst.
+WORD_RE = re.compile(r"\b[\w-]+\b")
 
 # Header esperado al inicio del diccionario
 HEADER_RE = re.compile(r"^personal_ws-1\.1 es (\d+) utf-8$")
@@ -129,8 +130,9 @@ def filtrar_palabras_usadas(palabras: list[str], palabras_rst: set[str]) -> list
     resultado: list[str] = []
     for palabra in palabras:
         # Si es puramente alfanumérica (posiblemente con guiones), verificar
-        # que aparezca como subcadena en algún token de los rst.
-        # Así 'pvfs' matchea con 'pvfs2', 'covid' con 'covid19', etc.
+        # que aparezca como subcadena en algún token de los rst. Los tokens
+        # conservan los guiones, de modo que 'video-vigilancia' también se
+        # encuentra. Así 'pvfs' matchea con 'pvfs2', 'covid' con 'covid19', etc.
         if palabra.replace("-", "").isalnum():
             # Solo filtrar palabras de 3+ caracteres para evitar falsos
             # positivos con subcadenas muy cortas ('a', 'in', 'er', etc.)
