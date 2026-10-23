@@ -94,6 +94,11 @@ aside.sidebar a:hover {
 	text-decoration: underline;
 }
 
+aside.sidebar .blame-link {
+	margin: 8px 0 0;
+	font-size: 0.85em;
+}
+
 /* Make sure the table of contents is readable */
 nav.contents ul {
 	padding-left: 20px;
