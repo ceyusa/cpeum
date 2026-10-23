@@ -53,10 +53,8 @@ def _urls(output_dir: Path) -> list[str]:
     urls = []
     for ruta in sorted(output_dir.rglob("*.html")):
         relativa = ruta.relative_to(output_dir).as_posix()
-        if relativa == "index.html":
-            urls.append(SITEMAP_URL)
-        else:
-            urls.append(f"{SITEMAP_URL}{relativa}")
+        sufijo = "" if relativa == "index.html" else relativa
+        urls.append(f"{SITEMAP_URL}{sufijo}")
     return urls or [SITEMAP_URL]
 
 
