@@ -28,6 +28,7 @@ from __future__ import annotations
 import re
 import subprocess
 from collections import Counter, defaultdict
+from html import escape
 from pathlib import Path
 
 # -----------------------------------------------------------------------------
@@ -38,7 +39,7 @@ REPO_ROOT = Path(__file__).resolve().parent.parent
 OUTPUT_DIR = REPO_ROOT / "html" / "graficos"
 
 ARTICLE_RE = re.compile(r"^CPEUM/(\d{3})\.rst$")
-TRANSTORIO_RE = re.compile(r"^CPEUM/T\d{3}\.rst$")
+ARTICLE_FILE_RE = re.compile(r"^CPEUM/(?:\d{3}|T\d{3})\.rst$")
 
 PRESIDENT_RE = re.compile(r"^President(a|e)\s+(.+)$")
 PRESIDENT_NAME_RE = re.compile(r"^[A-Z][A-Za-zÁÉÍÓÚÑáéíóúñü. º]*$")
@@ -156,9 +157,7 @@ def estadisticas_por_commit() -> dict[str, tuple[list[str], int]]:
             if not filename.endswith(".rst"):
                 continue
             archivos.append(filename)
-            if (
-                ARTICLE_RE.fullmatch(filename) or TRANSTORIO_RE.fullmatch(filename)
-            ) and parts[0].isdigit():
+            if ARTICLE_FILE_RE.fullmatch(filename) and parts[0].isdigit():
                 total += int(parts[0])
         estadisticas[commit_hash] = (archivos, total)
     return estadisticas
@@ -188,11 +187,11 @@ def collect_data() -> tuple[Counter, Counter, Counter, Counter]:
     for commit in reform_commits():
         president = extract_president(commit["body"])
         rst_files, lineas = estadisticas.get(commit["hash"], ([], 0))
+        articulos = [filename for filename in rst_files if is_article_file(filename)]
 
         # Conteo por artículo (independiente de la presidencia).
-        for filename in rst_files:
-            if is_article_file(filename):
-                reformas_por_articulo[filename] += 1
+        for filename in articulos:
+            reformas_por_articulo[filename] += 1
 
         if president is None:
             # Commits sin presidente identificable no aportan a las gráficas
@@ -201,9 +200,7 @@ def collect_data() -> tuple[Counter, Counter, Counter, Counter]:
 
         reformas_por_presidente[president] += 1
         lineas_por_presidente[president] += lineas
-        for filename in rst_files:
-            if is_article_file(filename):
-                articulos_por_presidente[president].add(filename)
+        articulos_por_presidente[president].update(articulos)
 
     articulos_por_presidente_count = Counter(
         {name: len(files) for name, files in articulos_por_presidente.items()}
@@ -256,8 +253,7 @@ def render_bar_chart(
     }
     lay["chart_y"] = lay["top"] + lay["bar"]
 
-    max_value = max((v for _, v in rows), default=0)
-    max_value = max(max_value, 1)
+    max_value = max(1, *(v for _, v in rows))
     plot_width = lay["width"] - lay["left"] - lay["right"]
 
     body = []
@@ -268,7 +264,7 @@ def render_bar_chart(
     body.append(
         f'<text x="{lay["width"] / 2:.0f}" y="40" text-anchor="middle" '
         f'font-family="Georgia, serif" font-size="26" font-weight="bold" '
-        f'fill="{TEXT_COLOR}">{_xml_escape(title)}</text>'
+        f'fill="{TEXT_COLOR}">{escape(title)}</text>'
     )
 
     body.append(
@@ -276,8 +272,6 @@ def render_bar_chart(
         f'y1="{lay["top"]}" y2="{lay["top"]}" stroke="{GRID_COLOR}" stroke-width="1"/>'
     )
     tick_step = _nice_step(max_value / 5)
-    if tick_step <= 0:
-        tick_step = 1
     tick = 0
     while tick <= max_value:
         x = lay["left"] + plot_width * (tick / max_value)
@@ -300,7 +294,7 @@ def render_bar_chart(
         body.append(
             f'<text x="{lay["left"] - 12}" y="{y + lay["bar"] - 6}" '
             f'text-anchor="end" font-family="Arial, sans-serif" font-size="15" '
-            f'fill="{TEXT_COLOR}">{_xml_escape(label)}</text>'
+            f'fill="{TEXT_COLOR}">{escape(label)}</text>'
         )
 
         color = COLORS[index % len(COLORS)]
@@ -321,7 +315,7 @@ def render_bar_chart(
     body_svg = "".join(body)
     return (
         f'<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {lay["width"]} {height}" '
-        f'width="100%" height="auto" role="img" aria-label="{_xml_escape(title)}">'
+        f'width="100%" height="auto" role="img" aria-label="{escape(title)}">'
         f"{body_svg}</svg>\n"
     )
 
@@ -334,24 +328,9 @@ def _nice_step(raw: float) -> int:
     return int(raw)
 
 
-def _xml_escape(text: str) -> str:
-    """Escapa caracteres especiales para texto XML."""
-    return (
-        text.replace("&", "&amp;")
-        .replace("<", "&lt;")
-        .replace(">", "&gt;")
-        .replace('"', "&quot;")
-    )
-
-
 # -----------------------------------------------------------------------------
 # Punto de entrada
 # -----------------------------------------------------------------------------
-
-
-def label_for_president(name: str) -> str:
-    """Etiqueta (nombre completo) del presidente en la gráfica."""
-    return name
 
 
 def main() -> None:
@@ -370,19 +349,19 @@ def main() -> None:
             "Reformas por presidencia",
             "reformas_por_presidente.svg",
             reformas_por_presidente,
-            label_for_president,
+            None,
         ),
         (
             "Artículos modificados por presidencia",
             "articulos_por_presidente.svg",
             articulos_por_presidente,
-            label_for_president,
+            None,
         ),
         (
             "Líneas nuevas o modificadas por presidencia",
             "lineas_por_presidente.svg",
             lineas_por_presidente,
-            label_for_president,
+            None,
         ),
         (
             "Veces que ha sido reformado cada artículo",
@@ -393,7 +372,7 @@ def main() -> None:
     ]
 
     for title, filename, counter, label_fn in charts:
-        labels = [label_fn(name) for name in counter]
+        labels = [label_fn(name) if label_fn else name for name in counter]
         values = list(counter.values())
         svg = render_bar_chart(title, labels, values)
         destination = OUTPUT_DIR / filename
