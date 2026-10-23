@@ -41,11 +41,15 @@ echo "==> Generando reformas..."
 cd "${SCRIPT_DIR}"
 node "${SCRIPTS_DIR}/generar_reformas.js"
 
-# Paso 4: Generar las gráficas estadísticas
+# Paso 4: Generar la trazabilidad (git blame por párrafo) de los artículos
+echo "==> Generando trazabilidad por artículo..."
+uv run "${SCRIPTS_DIR}/generar_blame.py"
+
+# Paso 5: Generar las gráficas estadísticas
 echo "==> Generando gráficas..."
 uv run "${SCRIPTS_DIR}/generar_graficos.py"
 
-# Paso 5: Iniciar servidor HTTP en segundo plano
+# Paso 6: Iniciar servidor HTTP en segundo plano
 echo "==> Iniciando servidor HTTP en puerto 8000..."
 cd "${HTML_DIR}"
 python3 -m http.server 8000 &
@@ -55,7 +59,7 @@ echo "==> PID del servidor: ${SERVER_PID}"
 # Limpiar al salir
 trap 'echo "==> Deteniendo servidor..."; kill ${SERVER_PID} 2>/dev/null' EXIT
 
-# Paso 6: Abrir navegador
+# Paso 7: Abrir navegador
 sleep 0.5
 xdg-open http://127.0.0.1:8000
 
