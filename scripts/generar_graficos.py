@@ -132,30 +132,36 @@ def extract_president(body: str) -> str | None:
     return None
 
 
-def rst_files_for_commit(commit_hash: str) -> list[str]:
-    """Lista de archivos ``.rst`` modificados por un commit."""
-    output = run_git(["diff-tree", "--no-commit-id", "-r", "--name-only", commit_hash])
-    return [f for f in output.split() if f.endswith(".rst")]
+def estadisticas_por_commit() -> dict[str, tuple[list[str], int]]:
+    """Archivos ``.rst`` y líneas añadidas de cada commit, en una sola pasada.
 
-
-def added_lines_for_commit(commit_hash: str) -> int:
-    """Número de líneas añadidas (nuevas o modificadas) por un commit.
-
-    Se suman las adiciones de ``git show --numstat`` de los archivos
-    ``.rst`` relacionados con artículos o transitorios (se descarta ``toc``).
+    Devuelve un mapa hash → (archivos ``.rst`` modificados, líneas añadidas
+    a artículos o transitorios). Se descarta ``cpeum.rst`` del conteo de
+    líneas por no ser un artículo.
     """
-    output = run_git(["show", "--numstat", "--format=", commit_hash])
-    total = 0
-    for line in output.splitlines():
-        parts = line.split("\t")
-        if len(parts) < 3:
+    output = run_git(["log", "--format=%x1e%H", "--numstat"])
+    estadisticas: dict[str, tuple[list[str], int]] = {}
+    for registro in output.split("\x1e"):
+        lineas = registro.strip().splitlines()
+        if not lineas:
             continue
-        filename = parts[2]
-        if not (ARTICLE_RE.fullmatch(filename) or TRANSTORIO_RE.fullmatch(filename)):
-            continue
-        if parts[0].isdigit():
-            total += int(parts[0])
-    return total
+        commit_hash = lineas[0].strip()
+        archivos: list[str] = []
+        total = 0
+        for linea in lineas[1:]:
+            parts = linea.split("\t")
+            if len(parts) != 3:
+                continue
+            filename = parts[2]
+            if not filename.endswith(".rst"):
+                continue
+            archivos.append(filename)
+            if (
+                ARTICLE_RE.fullmatch(filename) or TRANSTORIO_RE.fullmatch(filename)
+            ) and parts[0].isdigit():
+                total += int(parts[0])
+        estadisticas[commit_hash] = (archivos, total)
+    return estadisticas
 
 
 def is_article_file(filename: str) -> bool:
@@ -177,15 +183,11 @@ def collect_data() -> tuple[Counter, Counter, Counter, Counter]:
     reformas_por_articulo: Counter[str] = Counter()
 
     articulos_por_presidente: defaultdict[str, set[str]] = defaultdict(set)
+    estadisticas = estadisticas_por_commit()
 
     for commit in reform_commits():
         president = extract_president(commit["body"])
-        if president is None:
-            # Commits sin presidente identificable no aportan a las gráficas
-            # por presidencia, pero sí al conteo por artículo.
-            pass
-
-        rst_files = rst_files_for_commit(commit["hash"])
+        rst_files, lineas = estadisticas.get(commit["hash"], ([], 0))
 
         # Conteo por artículo (independiente de la presidencia).
         for filename in rst_files:
@@ -193,10 +195,12 @@ def collect_data() -> tuple[Counter, Counter, Counter, Counter]:
                 reformas_por_articulo[filename] += 1
 
         if president is None:
+            # Commits sin presidente identificable no aportan a las gráficas
+            # por presidencia, pero sí al conteo por artículo.
             continue
 
         reformas_por_presidente[president] += 1
-        lineas_por_presidente[president] += added_lines_for_commit(commit["hash"])
+        lineas_por_presidente[president] += lineas
         for filename in rst_files:
             if is_article_file(filename):
                 articulos_por_presidente[president].add(filename)
