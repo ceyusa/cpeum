@@ -15,11 +15,12 @@ import json
 import logging
 import re
 import subprocess
-import unicodedata
 from datetime import date
+from functools import cache
 from pathlib import Path
 
 from chevron import render
+from decreto_index import Indice, construir_indice, leer_decretos, numero_decreto
 from docutils import nodes
 from docutils.core import default_description, publish_cmdline
 from docutils.parsers.rst import Parser, directives
@@ -76,78 +77,19 @@ SPANISH_MONTHS = {
 }
 
 
-def _normalize_text(text: str) -> str:
-    """Normaliza un texto para comparar títulos de decretos (ignora
-    mayúsculas, acentos y espacios/puntuación). Imita normalizeText()."""
-    return (
-        unicodedata.normalize("NFD", text or "")
-        .encode("ascii", "ignore")
-        .decode("ascii")
-        .lower()
-        .replace(" ", "")
-    )
-
-
-def _load_decretos() -> list[dict]:
-    """Carga decretos.json y devuelve la lista ordenada por número.
-
-    Devuelve una lista vacía si el archivo no existe o no es válido.
-    """
-    try:
-        with _DECRETOS_JSON.open(encoding="utf-8") as handle:
-            raw = json.load(handle)
-    except (OSError, ValueError) as exc:
-        logger.warning("No se pudo cargar %s: %s", _DECRETOS_JSON, exc)
-        return []
-    return sorted(raw, key=lambda d: d.get("numero", 0))
-
-
-def _build_decreto_index() -> tuple[dict[str, list[dict]], dict[str, dict]]:
+@cache
+def _build_decreto_index() -> Indice:
     """Construye los índices de decretos por fecha y por título.
 
-    Devuelve una tupla ((por_fecha, por_titulo)) para el emparejamiento
+    Devuelve una tupla (por_fecha, por_titulo) para el emparejamiento
     de los commits con su decreto correspondiente.
     """
-    por_fecha: dict[str, list[dict]] = {}
-    por_titulo: dict[str, dict] = {}
-    for decreto in _load_decretos():
-        publicacion = decreto.get("publicacion")
-        if publicacion:
-            if publicacion not in por_fecha:
-                por_fecha[publicacion] = []
-            por_fecha[publicacion].append(decreto)
-        titulo = _normalize_text(decreto.get("decreto", ""))
-        if titulo and titulo not in por_titulo:
-            por_titulo[titulo] = decreto
-    return por_fecha, por_titulo
-
-
-_DECRETO_INDEX: dict = {}
-
-
-def _match_decreto_numero(iso: str | None, decreto: str) -> int | None:
-    """Devuelve el número del decreto al que corresponde un commit.
-
-    El emparejamiento imita a generar_reformas.js: primero por fecha de
-    publicación (DOF) y, si no coincide, por el título del decreto.
-    """
-    if "_value" not in _DECRETO_INDEX:
-        _DECRETO_INDEX["_value"] = _build_decreto_index()
-    por_fecha, por_titulo = _DECRETO_INDEX["_value"]
-
-    titulo = _normalize_text(decreto)
-
-    if iso and iso in por_fecha:
-        grupo = por_fecha[iso]
-        if grupo:
-            coincidencia = next(
-                (d for d in grupo if _normalize_text(d.get("decreto", "")) == titulo),
-                None,
-            )
-            return (coincidencia or grupo[0]).get("numero")
-
-    d = por_titulo.get(titulo)
-    return d.get("numero") if d else None
+    try:
+        decretos = leer_decretos(_DECRETOS_JSON)
+    except (OSError, ValueError) as exc:
+        logger.warning("No se pudo cargar %s: %s", _DECRETOS_JSON, exc)
+        decretos = []
+    return construir_indice(decretos)
 
 
 class IncludeWithSection(misc.Include):
@@ -407,9 +349,12 @@ class CustomHTMLTranslator(HTMLTranslator):
 
             commits = node["git-history"]
             if commits:
+                indice = _build_decreto_index()
                 self.body.append("<ul>\n")
                 for commit in commits:
-                    numero = _match_decreto_numero(commit.get("iso"), commit["decreto"])
+                    numero = numero_decreto(
+                        commit.get("iso"), commit["decreto"], indice
+                    )
                     if numero is not None and article:
                         # Enlazamos directo al diff de este artículo dentro de la
                         # página del decreto (el ancla es el nombre del .rst).

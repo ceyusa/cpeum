@@ -33,14 +33,19 @@ import json
 import re
 import subprocess
 import sys
-import unicodedata
 from collections import Counter
 from dataclasses import dataclass, field
 from datetime import date
-from difflib import SequenceMatcher
 from pathlib import Path
 
 from chevron import render
+from decreto_index import (
+    Indice,
+    construir_indice,
+    leer_decretos,
+    normalizar,
+    numero_decreto,
+)
 from rst2html5 import pub_date_to_iso
 
 # -----------------------------------------------------------------------------
@@ -113,16 +118,6 @@ def escapar(texto: str, *, atributo: bool = False) -> str:
     return html.escape(texto, quote=atributo)
 
 
-def normalizar(texto: str) -> str:
-    """Normaliza un título para compararlo (sin acentos ni puntuación)."""
-    sin_acentos = "".join(
-        caracter
-        for caracter in unicodedata.normalize("NFD", texto)
-        if unicodedata.category(caracter) != "Mn"
-    )
-    return re.sub(r"[^a-z0-9]+", "", sin_acentos.lower())
-
-
 def fecha_larga(iso: str | None) -> str:
     """Convierte una fecha ISO en una fecha legible en español."""
     if not iso:
@@ -157,67 +152,18 @@ def run_git(*args: str) -> str:
 # -----------------------------------------------------------------------------
 
 
-def cargar_indice_decretos() -> tuple[dict[str, list[dict]], dict[str, dict]]:
+def cargar_indice_decretos() -> Indice:
     """Carga html/decretos.json y lo indexa por fecha y por título."""
-    por_fecha: dict[str, list[dict]] = {}
-    por_titulo: dict[str, dict] = {}
     try:
-        decretos = json.loads(DECRETOS_JSON.read_text(encoding="utf-8"))
+        decretos = leer_decretos(DECRETOS_JSON)
     except (OSError, ValueError):
         print(
             f"AVISO: no se pudo leer {DECRETOS_JSON}; "
             "los commits se enlazarán a GitHub.",
             file=sys.stderr,
         )
-        return por_fecha, por_titulo
-    for decreto in decretos:
-        publicacion = decreto.get("publicacion")
-        if publicacion:
-            por_fecha.setdefault(publicacion, []).append(decreto)
-        clave = normalizar(decreto.get("decreto", ""))
-        if clave:
-            por_titulo.setdefault(clave, decreto)
-    return por_fecha, por_titulo
-
-
-def _mejor_coincidencia(clave: str, grupo: list[dict]) -> dict | None:
-    """Busca el título del grupo más parecido al normalizado dado."""
-    mejor: dict | None = None
-    mejor_ratio = 0.0
-    for decreto in grupo:
-        ratio = SequenceMatcher(
-            None, clave, normalizar(decreto.get("decreto", ""))
-        ).ratio()
-        if ratio > mejor_ratio:
-            mejor, mejor_ratio = decreto, ratio
-    return mejor if mejor_ratio >= 0.85 else None
-
-
-def numero_decreto(
-    iso: str | None,
-    titulo: str,
-    indice: tuple[dict[str, list[dict]], dict[str, dict]],
-) -> int | None:
-    """Devuelve el número del decreto que corresponde a un commit.
-
-    Busca por fecha de publicación y título exacto; si en esa fecha hay
-    varios decretos, acepta el título más parecido. Si hay ambigüedad
-    prefiere no asignar un número antes que asignar el decreto equivocado.
-    """
-    por_fecha, por_titulo = indice
-    clave = normalizar(titulo)
-    if iso and iso in por_fecha:
-        grupo = por_fecha[iso]
-        for decreto in grupo:
-            if normalizar(decreto.get("decreto", "")) == clave:
-                return decreto.get("numero")
-        if len(grupo) == 1:
-            return grupo[0].get("numero")
-        mejor = _mejor_coincidencia(clave, grupo)
-        if mejor is not None:
-            return mejor.get("numero")
-    decreto = por_titulo.get(clave)
-    return decreto.get("numero") if decreto else None
+        return {}, {}
+    return construir_indice(decretos)
 
 
 # -----------------------------------------------------------------------------
@@ -263,7 +209,7 @@ def _clasificar(
     asunto: str,
     cuerpo: str,
     raices: set[str],
-    indice: tuple[dict[str, list[dict]], dict[str, dict]],
+    indice: Indice,
 ) -> tuple[str, int | None, str, str | None, str | None, str | None]:
     """Clasifica un commit y extrae sus datos de decreto."""
     asunto_normalizado = normalizar(asunto)
@@ -298,7 +244,7 @@ def _crear_fuente(
     asunto: str,
     cuerpo: str,
     raices: set[str],
-    indice: tuple[dict[str, list[dict]], dict[str, dict]],
+    indice: Indice,
 ) -> Fuente:
     """Construye la Fuente de un commit a partir de su mensaje."""
     tipo, numero, resumen, fecha, presidente, url_dof = _clasificar(
@@ -316,9 +262,7 @@ def _crear_fuente(
     )
 
 
-def cargar_fuentes(
-    indice: tuple[dict[str, list[dict]], dict[str, dict]],
-) -> dict[str, Fuente]:
+def cargar_fuentes(indice: Indice) -> dict[str, Fuente]:
     """Lee el historial completo y devuelve un mapa hash → Fuente."""
     raices = set(run_git("rev-list", "--max-parents=0", "HEAD").split())
     salida = run_git("log", "--format=%H%x1f%as%x1f%s%x1f%b%x1e", "HEAD")
