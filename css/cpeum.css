@@ -194,7 +194,7 @@ main > section:has(:target) {
 /* When a título is targeted (or holds a nested target), hide the sibling
    títulos so only the relevant block remains visible (isolates selección). */
 main:has(> section:target, > section:has(:target))
-> section:not(:target):not(:has(:target)) {
+	> section:not(:target):not(:has(:target)) {
 	display: none;
 }
 
@@ -205,7 +205,7 @@ main:has(> section:target, > section:has(:target))
 
 /* When no specific article is targeted, show all articles */
 main:not(:has(section:is(.articulo, [id^="articulos-transitorios"]):target))
-section:is(.articulo, [id^="articulos-transitorios"]) {
+	section:is(.articulo, [id^="articulos-transitorios"]) {
 	display: block;
 	padding-bottom: 1em;
 	margin-bottom: 1em;

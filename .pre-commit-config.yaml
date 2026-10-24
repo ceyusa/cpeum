@@ -32,7 +32,7 @@ repos:
       - id: rstcheck
         entry: .venv/bin/rstcheck
   - repo: https://github.com/biomejs/pre-commit
-    rev: v2.5.12
+    rev: v2.6.2
     hooks:
       - id: biome-check
         name: biome-check
