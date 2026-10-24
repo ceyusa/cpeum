@@ -28,6 +28,7 @@ a {
 
 .blame-nav {
 	display: flex;
+	flex-wrap: wrap;
 	justify-content: space-between;
 	gap: 1em;
 	font-size: 0.9em;
@@ -176,16 +177,29 @@ a {
 		padding: 40px 0.75em 1.5em;
 	}
 
+	/* En pantallas angostas la columna del decreto apila el texto en una
+	   franja ilegible: la fuente pasa a encabezar el bloque y el texto
+	   ocupa todo el ancho. */
 	.blame-bloque {
-		grid-template-columns: 7.5em minmax(0, 1fr);
+		grid-template-columns: minmax(0, 1fr);
 	}
 
 	.blame-fuente {
-		padding: 0.25em 0.35em;
-		font-size: 0.66em;
+		flex-direction: row;
+		flex-wrap: wrap;
+		align-items: baseline;
+		gap: 0.5em;
+		padding: 0.35em 0.6em;
+		font-size: 0.72em;
+		border-left: none;
+		border-bottom: 3px solid var(--blame-color, #888);
 	}
 
 	.blame-num {
-		flex-basis: 2.5em;
+		display: none;
+	}
+
+	.blame-indice li {
+		white-space: normal;
 	}
 }
