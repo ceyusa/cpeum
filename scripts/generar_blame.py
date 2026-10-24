@@ -524,8 +524,8 @@ def _resumen_articulo(bloques: list[Bloque]) -> str:
         '<p class="blame-intro">'
         f"{lineas} líneas en {len(bloques)} bloques; "
         f"{len(decretos)} decretos y {len(fuentes)} fuentes. "
-        "El decreto que modificó por última vez cada bloque aparece a la "
-        "izquierda de su texto (git blame a nivel de párrafo, insensible al "
+        "El decreto que modificó por última vez cada bloque se muestra "
+        "junto a su texto (git blame a nivel de párrafo, insensible al "
         "reflujo de líneas). "
         '<a href="../decretos/index.html">Índice de decretos ↗</a>'
         "</p>\n"
