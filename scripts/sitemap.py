@@ -13,7 +13,7 @@
 
 import argparse
 import subprocess
-from datetime import date, datetime, timezone
+from datetime import UTC, date, datetime
 from pathlib import Path
 from xml.sax.saxutils import escape
 
@@ -45,7 +45,7 @@ def _last_modified() -> str:
             continue
     if fechas:
         return max(fechas).isoformat()
-    return datetime.now(timezone.utc).date().isoformat()
+    return datetime.now(UTC).date().isoformat()
 
 
 def _urls(output_dir: Path) -> list[str]:

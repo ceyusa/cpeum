@@ -18,7 +18,7 @@ import os
 import subprocess
 import sys
 import urllib.request
-from datetime import datetime, timezone
+from datetime import UTC, datetime
 
 BSKY_PDS_URL = "https://bsky.social"
 POST_CHAR_LIMIT = 300
@@ -115,7 +115,7 @@ def bsky_create_post(session: dict, text: str) -> dict:
             "record": {
                 "$type": "app.bsky.feed.post",
                 "text": text,
-                "createdAt": datetime.now(timezone.utc).isoformat(),
+                "createdAt": datetime.now(UTC).isoformat(),
             },
         },
         token=session["accessJwt"],
